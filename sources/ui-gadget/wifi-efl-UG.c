@@ -525,7 +525,7 @@ UG_MODULE_API void UG_MODULE_EXIT(struct ug_module_ops *ops)
 static bool setting_plugin_wifi_found_ap_cb(wifi_ap_h ap, void* user_data)
 {
 	bool favorite = false;
-
+	MIN_LOG("wifi_ap_is_favorite called");
 	wifi_ap_is_favorite(ap, &favorite);
 
 	if (true == favorite) {

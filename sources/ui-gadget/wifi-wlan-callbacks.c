@@ -43,6 +43,8 @@ void wlan_engine_callback(wlan_mgr_event_info_t *event_info, void *user_data)
 	ug_genlist_data_t *gdata = NULL;
 	int ug_state = 0;
 	wifi_device_info_t *wifi_device = NULL;
+	/*MINI*/
+	wifi_device_info_t *wifi_device_bt = tether_device_get_singleton();
 
 	int header_state = -1;
 	header_state = viewer_manager_header_mode_get();
@@ -70,9 +72,20 @@ void wlan_engine_callback(wlan_mgr_event_info_t *event_info, void *user_data)
 				event_info->event_type == WLAN_MANAGER_RESPONSE_TYPE_CONNECTION_OK) {
 				/* This situation comes during hidden AP connecting/connected event.
 				* Anyways its always better to add the connecting/connected AP */
+				
 				wifi_device = view_list_item_device_info_create(event_info->ap);
-
-				target_item = viewer_list_item_insert_after(wifi_device, NULL);
+				
+				if(g_strcmp0(wifi_device_bt->ssid, wifi_device->ssid) == 0)
+				{
+					wifi_device->is_bt_tethered_device = true;
+					MIN_LOG("Found Bluetooth Tethered WI-FI");
+					/* MINI */
+				  target_item = viewer_list_item_insert_after(wifi_device, NULL);		
+				}
+				else
+				{	
+					target_item = viewer_list_item_insert_after(wifi_device, NULL); 
+				}
 
 				if (!target_item ||
 					!(gdata = (ug_genlist_data_t *)elm_object_item_data_get(target_item))) {

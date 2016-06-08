@@ -622,6 +622,7 @@ int wlan_manager_connect(wifi_ap_h ap)
 	int ret;
 
 	if (ap == NULL) {
+		__COMMON_FUNC_EXIT__;
 		return WLAN_MANAGER_ERR_NOSERVICE;
 	}
 

@@ -199,6 +199,7 @@ char *common_utils_get_ap_security_type_info_txt(const char *pkg_name,
 	}
 
 	if (true == check_fav) {
+		//MIN_LOG("wifi_ap_is_favorite called");
 		wifi_ap_is_favorite(device_info->ap, &favorite);
 		if (favorite == true) {
 			if(status_txt != NULL) {

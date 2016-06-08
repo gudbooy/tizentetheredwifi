@@ -86,6 +86,8 @@ typedef enum {
 #define __COMMON_FUNC_EXIT__ \
 	FUNC_LOG(COMMON_NAME_FUNC, "[Quit/>]: %s() [%d]", __func__, __LINE__)
 
+#define MIN_LOG(format, args...) \
+	LOGI("\033[42m[%s:%d]\033[0m\033[32m " format "\033[0m", __func__, __LINE__, ##args)
 #define FUNC_LOG(MID, format, args...) \
 	LOGI("\033[2m[%s:%d]\033[2m " format "\033[0m", __func__, __LINE__, ##args)
 #define DEBUG_LOG(MID, format, args...) \

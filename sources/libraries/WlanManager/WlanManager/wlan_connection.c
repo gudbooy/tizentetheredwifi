@@ -86,7 +86,7 @@ static void wlan_go_fast_next(void)
 	if (current_item.ap == NULL || next_item.ap == NULL) {
 		return;
 	}
-
+	//MIN_LOG("wifi_ap_is_favorite called");
 	wifi_ap_is_favorite(current_item.ap, &favorite);
 	if (favorite == true) {
 		return;

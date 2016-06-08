@@ -119,9 +119,9 @@ void viewer_manager_update_item_favorite_status(wifi_ap_h ap)
 	gdata->radio_mode = VIEWER_ITEM_RADIO_MODE_OFF;
 	if (gdata->device_info->ap_status_txt) {
 		g_free(gdata->device_info->ap_status_txt);
+		/*MINI*/
 		gdata->device_info->ap_status_txt =
-			common_utils_get_ap_security_type_info_txt(PACKAGE,
-					gdata->device_info, false);
+		common_utils_get_ap_security_type_info_txt(PACKAGE, gdata->device_info, false);
 	}
 
 	elm_genlist_item_update(target_item);
@@ -565,7 +565,7 @@ static void __power_onoff_cb(void *data, Evas_Object *obj, void *event_info)
 	object_type = evas_object_type_get(obj);
 
 	current_mode = viewer_manager_header_mode_get();
-
+//is  Activating and Deactivating
 	if (current_mode == HEADER_MODE_ACTIVATING ||
 			current_mode == HEADER_MODE_DEACTIVATING) {
 		if (g_strcmp0(object_type, "elm_genlist") == 0) {
@@ -1937,6 +1937,7 @@ void viewer_manager_specific_scan_response_hlr(
 			ug_genlist_data_t* gdata = elm_object_item_data_get(item);
 
 			if (gdata != NULL && gdata->device_info != NULL) {
+				//MIN_LOG("wifi_ap_is_favorite called");
 				wifi_ap_is_favorite(gdata->device_info->ap, &favorite);
 				if (favorite == true) {
 					viewer_list_wifi_connect(gdata->device_info);

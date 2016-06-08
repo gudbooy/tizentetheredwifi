@@ -338,6 +338,7 @@ void view_main_wifi_reconnect(devpkr_gl_data_t *gdata)
 
 void view_main_wifi_connect(devpkr_gl_data_t *gdata)
 {
+	__COMMON_FUNC_ENTER__;
 	bool favorite = false;
 	wifi_device_info_t *device_info;
 	pswd_popup_create_req_data_t popup_info;
@@ -347,11 +348,12 @@ void view_main_wifi_connect(devpkr_gl_data_t *gdata)
 
 	device_info = gdata->dev_info;
 	retm_if(NULL == device_info);
-
+	MIN_LOG("wifi_ap_is_favorite called");
 	wifi_ap_is_favorite(device_info->ap, &favorite);
 
 	if (favorite == true) {
 		wlan_manager_connect(device_info->ap);
+		__COMMON_FUNC_EXIT__;
 		return;
 	}
 
@@ -399,6 +401,8 @@ void view_main_wifi_connect(devpkr_gl_data_t *gdata)
 		ERROR_LOG(SP_NAME_NORMAL, "Unknown security type [%d]", sec_type);
 		break;
 	}
+
+		__COMMON_FUNC_EXIT__;
 }
 
 Elm_Object_Item *view_main_item_get_for_ap(wifi_ap_h ap)
@@ -735,8 +739,9 @@ static wifi_device_info_t *view_main_item_device_info_create(wifi_ap_h ap)
 	}
 
 	wifi_device->security_mode = common_utils_get_sec_mode(sec_type);
+	/*MINI*/
 	wifi_device->ap_status_txt = common_utils_get_ap_security_type_info_txt(PACKAGE,
-		wifi_device, true);
+	wifi_device, true);
 	wifi_device->is_bt_tethered_device = false;
 	common_utils_get_device_icon(wifi_device, &wifi_device->ap_image_path);
 

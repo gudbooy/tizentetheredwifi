@@ -578,6 +578,7 @@ void view_detail(wifi_device_info_t *device_info, Evas_Object *win_main)
 	_detail_data->win = win_main;
 	_detail_data->nav = navi_frame;
 	_detail_data->ap = ap = device_info->ap;
+	//MIN_LOG("wifi_ap_is_favorite called");
 	wifi_ap_is_favorite(ap, &favorite);
 	_detail_data->ap_image_path = g_strdup(device_info->ap_image_path);
 

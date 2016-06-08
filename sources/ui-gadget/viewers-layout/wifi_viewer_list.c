@@ -391,6 +391,7 @@ static void __passwd_popup_ok_cb(void *data, Evas_Object *obj, void *event_info)
 	}
 
 	bool favorite = FALSE;
+	//MIN_LOG("wifi_ap_is_favorite called");
 	if(wifi_ap_is_favorite(ap, &favorite) == WIFI_ERROR_NONE
 		&& favorite == TRUE) {
 		wlan_manager_forget(ap);
@@ -631,23 +632,30 @@ void viewer_list_wifi_reconnect(wifi_device_info_t *device_info)
 
 void viewer_list_wifi_connect(wifi_device_info_t *device_info)
 {
+	__COMMON_FUNC_ENTER__;
 	bool favorite = false;
 	Evas_Object* navi_frame = NULL;
 	pswd_popup_create_req_data_t popup_info;
 	wifi_security_type_e sec_type = WIFI_SECURITY_TYPE_NONE;
 
-	if (device_info == NULL)
-		return;
-
-	wifi_ap_is_favorite(device_info->ap, &favorite);
-
-	if (favorite == true) {
-		wlan_manager_connect(device_info->ap);
+	if (device_info == NULL){
+		__COMMON_FUNC_EXIT__;
 		return;
 	}
 
-	wifi_ap_get_security_type(device_info->ap, &sec_type);
 
+	
+/*MINI*/
+	//	wifi_ap_is_favorite(device_info->ap, &favorite);
+
+//	if (favorite == true) {
+//		wlan_manager_connect(device_info->ap);
+//		__COMMON_FUNC_EXIT__;
+//		return;
+//	}
+
+	wifi_ap_get_security_type(device_info->ap, &sec_type);
+	MIN_LOG("sec_type : %d", sec_type);
 	switch (sec_type) {
 	case WIFI_SECURITY_TYPE_NONE:
 		wlan_manager_connect(device_info->ap);
@@ -696,18 +704,40 @@ void viewer_list_wifi_connect(wifi_device_info_t *device_info)
 		ERROR_LOG(UG_NAME_NORMAL, "Unknown security type[%d]", sec_type);
 		break;
 	}
-
+	__COMMON_FUNC_EXIT__;
 }
 //MINI
-/*static void __viewer_list_item_bt_tether_cb(void *data, Evas_Object, *obj, void *event_info)
+static void __viewer_list_item_bt_tether_cb(void *data, Evas_Object *obj, void *event_info)
 {
+	__COMMON_FUNC_ENTER__;
+	assertm_if(NULL == event_info, "event_info is NULL!!");
+	assertm_if(NULL == obj, "obj is NULL!!"); 
+//MINI Get Object From 
+	Elm_Object_Item *it = (Elm_Object_Item *)event_info;
+	ug_genlist_data_t* gdata = NULL;
+	wifi_device_info_t *device_info = NULL;
+
+	gdata = (ug_genlist_data_t *)elm_object_item_data_get(it);
+	retm_if(NULL == gdata);
+	device_info = gdata->device_info;
+	retm_if(NULL == device_info || NULL == device_info->ssid);
+	
+	if(!device_info->is_bt_tethered_device)
+	{
+		MIN_LOG("device_info->is_bt_tethered_device is not tethered device");
+		__COMMON_FUNC_EXIT__;	
+		return;
+	}
+	else
+	{
+		//send bluetooth message
+		MIN_LOG("Send message to host device over bluetooth");
+
+	}
 
 
-
-
-
-
-}*/
+	__COMMON_FUNC_EXIT__;
+}
 static void __viewer_list_item_clicked_cb(void *data, Evas_Object *obj,
 		void *event_info)
 {
@@ -787,7 +817,8 @@ static char *viewer_list_get_device_status_txt(wifi_device_info_t *wifi_device,
 			status_txt = g_strdup(sc(PACKAGE, I18N_TYPE_Connected));
 		}
 	} else if (VIEWER_ITEM_RADIO_MODE_OFF == mode) {
-		status_txt = common_utils_get_ap_security_type_info_txt(PACKAGE,
+	/*MINI*/
+				status_txt = common_utils_get_ap_security_type_info_txt(PACKAGE,
 			wifi_device, true);
 	} else {
 		status_txt = g_strdup(sc(PACKAGE, I18N_TYPE_Unknown));
@@ -1043,12 +1074,26 @@ Elm_Object_Item *viewer_list_item_insert_after(wifi_device_info_t *wifi_device,
 				NULL, 
 				grouptitle,
 				ELM_GENLIST_ITEM_NONE,
-				__viewer_list_item_clicked_cb, 
+				__viewer_list_item_bt_tether_cb, 
 				NULL);
 		elm_genlist_item_update(ret);	
 	}
 	
 	if (no_wifi_device == NULL) {
+		MIN_LOG("no_wifi_device == NULL");
+		if(gdata->device_info->is_bt_tethered_device){
+			MIN_LOG("BLUETOOTH ITEM INSERTED!!!!!!!!!");
+			ret = elm_genlist_item_insert_before(
+					viewer_list,
+					&itc,
+					gdata,
+					NULL,
+					after, 
+					ELM_GENLIST_ITEM_NONE,
+					NULL, 
+					NULL);
+					viewer_list_wifi_connect(gdata->device_info);
+		}else{
 		ret = elm_genlist_item_insert_after(
 				viewer_list, /*obj*/
 				&itc,/*itc*/
@@ -1058,7 +1103,9 @@ Elm_Object_Item *viewer_list_item_insert_after(wifi_device_info_t *wifi_device,
 				ELM_GENLIST_ITEM_NONE, /*flags*/
 				__viewer_list_item_clicked_cb,/*func*/
 				NULL);/*func_data*/
+		}
 	} else {
+		MIN_LOG("no_wifi_decice != NULL");
 		ret = elm_genlist_item_insert_after(
 				viewer_list, /*obj*/
 				&no_wifi_device_itc,/*itc*/

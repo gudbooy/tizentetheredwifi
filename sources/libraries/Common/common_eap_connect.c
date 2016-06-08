@@ -1330,7 +1330,9 @@ static void __common_eap_connect_done_cb(void *data,  Evas_Object *obj,
 
 	wifi_ap_get_eap_type(eap_data->ap, &eap_type);
 	wifi_ap_get_eap_auth_type(eap_data->ap, &eap_auth_type);
-
+	
+	
+	//MIN_LOG("wifi_ap_is_favorite called");
 	if(wifi_ap_is_favorite(eap_data->ap, &favorite) == WIFI_ERROR_NONE &&
 			favorite == TRUE) {
 		wlan_manager_forget(eap_data->ap);

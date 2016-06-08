@@ -1,51 +1,15 @@
-cscope 15 $HOME/success/ug-wifi-efl               0001626304
+cscope 15 $HOME/success/ug-wifi-efl               0001626345
 	@sources/libraries/Common/common_bt.c
 
 2 
-	~<sy¶og.h
->
+	~"comm⁄_bt.h
+"
 
-3 
-	~<f˙é.h
->
-
-4 
-	~<°dio.h
->
-
-5 
-	~<sys/ty≥s.h
->
-
-6 
-	~<sys/°©.h
->
-
-7 
-	~<uni°d.h
->
-
-8 
-	~<°rög.h
->
-
-9 
-	~<comm⁄.h
->
-
-10 
-	~<dlog.h
->
-
-11 
-	~<°d¨g.h
->
-
-13 #i‚de‡
+3 #i‚de‡
 EXTAPI
 
 
-14 
+4 
 	#EXTAPI
  
 	`__©åibuã__
@@ -55,29 +19,29 @@ EXTAPI
 
 	)
 
-17 
+7 
 	#RKF_SERVER_MSG_LOG_FILE
  "/v¨/log/mesßges"
 
 	)
 
-18 
+8 
 	#FILE_LENGTH
  255
 
 	)
 
-20 
+10 
 	grkf_debug_fûe_fd
 ;
 
-21 
+11 
 	grkf_debug_fûe_buf
 [
 FILE_LENGTH
 ];
 
-23 
+13 
 EXTAPI
  
 	$rkf_log
@@ -91,13 +55,13 @@ ty≥
 fmt
  , ...)
 
-25 
+15 
 va_li°
  
 ≠
 ;
 
-26 
+16 
 	`va_°¨t
 (
 ≠
@@ -105,15 +69,23 @@ va_li°
 fmt
 );
 
-28 
+17 
+ªt
+;
+
+18 
+sy¶og_¥io
+;
+
+19 
 ty≥
 ) {
 
-29 
+20 
 RKF_LOG_PRINT_FILE
 :
 
-30 
+21 
 rkf_debug_fûe_fd
  = 
 	`›í
@@ -127,11 +99,11 @@ O_CREAT
 O_APPEND
 , 0644);
 
-31 i‡(
+22 i‡(
 rkf_debug_fûe_fd
  != -1) {
 
-32 
+23 
 	`v¢¥ötf
 (
 rkf_debug_fûe_buf
@@ -141,7 +113,9 @@ fmt
 ≠
  );
 
-33 
+24 
+ªt
+ = 
 	`wrôe
 (
 rkf_debug_fûe_fd
@@ -151,29 +125,25 @@ rkf_debug_fûe_buf
 	`°æí
 (rkf_debug_file_buf));
 
-34 
+25 
 	`˛o£
 (
 rkf_debug_fûe_fd
 );
 
-38 
+29 
 RKF_LOG_SYSLOG
 :
 
-39 
-sy¶og_¥io
-;
-
-40 
+30 
 ¥i‹ôy
 ) {
 
-41 
+31 
 RKF_LOG_ERR
 :
 
-42 
+32 
 sy¶og_¥io
  = 
 LOG_ERR
@@ -181,11 +151,11 @@ LOG_ERR
 LOG_DAEMON
 ;
 
-45 
+35 
 RKF_LOG_DBG
 :
 
-46 
+36 
 sy¶og_¥io
  = 
 LOG_DEBUG
@@ -193,11 +163,11 @@ LOG_DEBUG
 LOG_DAEMON
 ;
 
-49 
+39 
 RKF_LOG_INFO
 :
 
-50 
+40 
 sy¶og_¥io
  = 
 LOG_INFO
@@ -205,13 +175,13 @@ LOG_INFO
 LOG_DAEMON
 ;
 
-54 
+44 
 sy¶og_¥io
  = 
 ¥i‹ôy
 ;
 
-58 
+48 
 	`vsy¶og
 (
 sy¶og_¥io
@@ -221,23 +191,23 @@ fmt
 ≠
 );
 
-61 
+51 
 RKF_LOG_DLOG
 :
 
-62 i‡(
+52 i‡(
 èg
 ) {
 
-63 
+53 
 ¥i‹ôy
 ) {
 
-64 
+54 
 RKF_LOG_ERR
 :
 
-65 
+55 
 	`SLOG_VA
 (
 LOG_ERROR
@@ -249,11 +219,11 @@ fmt
 ≠
 );
 
-68 
+58 
 RKF_LOG_DBG
 :
 
-69 
+59 
 	`SLOG_VA
 (
 LOG_DEBUG
@@ -265,11 +235,11 @@ fmt
 ≠
 );
 
-72 
+62 
 RKF_LOG_INFO
 :
 
-73 
+63 
 	`SLOG_VA
 (
 LOG_INFO
@@ -281,13 +251,13 @@ fmt
 ≠
 );
 
-80 
+70 
 	`va_íd
 (
 ≠
 );
 
-81 
+71 
 	}
 }
 
@@ -6287,7 +6257,11 @@ TRUE
 óp_auth_ty≥
 );
 
-1334 if(
+1335 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
+1336 if(
 	`wifi_≠_is_Áv‹ôe
 (
 óp_d©a
@@ -6299,13 +6273,13 @@ TRUE
 WIFI_ERROR_NONE
  &&
 
-1335 
+1337 
 Áv‹ôe
  =
 TRUE
 ) {
 
-1336 
+1338 
 	`wœn_m™agî_f‹gë
 (
 óp_d©a
@@ -6313,7 +6287,7 @@ TRUE
 ≠
 );
 
-1337 
+1339 
 	`wifi_≠_ª‰esh
 (
 óp_d©a
@@ -6321,7 +6295,7 @@ TRUE
 ≠
 );
 
-1340 
+1342 
 	`wifi_≠_£t_óp_ˇ_˚π_fûe
 (
 óp_d©a
@@ -6329,7 +6303,7 @@ TRUE
 ≠
 , "");
 
-1341 
+1343 
 	`wifi_≠_£t_óp_˛õ¡_˚π_fûe
 (
 óp_d©a
@@ -6337,7 +6311,7 @@ TRUE
 ≠
 , "");
 
-1342 
+1344 
 	`wifi_≠_£t_óp_¥iv©e_key_öfo
 (
 óp_d©a
@@ -6345,19 +6319,19 @@ TRUE
 ≠
 , "", "");
 
-1344 
+1346 
 óp_ty≥
 ) {
 
-1345 
+1347 
 WIFI_EAP_TYPE_PEAP
 :
 
-1346 
+1348 
 WIFI_EAP_TYPE_TTLS
 :
 
-1347 
+1349 
 °r_id
  = 
 	`comm⁄_utûs_gë_li°_ôem_íåy_txt
@@ -6367,13 +6341,13 @@ WIFI_EAP_TYPE_TTLS
 óp_id_ôem
 );
 
-1348 i‡(
+1350 i‡(
 °r_id
  =
 NULL
  || str_id[0] == '\0') {
 
-1349 
+1351 
 óp_d©a
 ->
 öfo_p›up
@@ -6381,7 +6355,7 @@ NULL
 	`comm⁄_utûs_show_öfo_ok_p›up
 (
 
-1350 
+1352 
 óp_d©a
 ->
 œyout
@@ -6389,7 +6363,7 @@ NULL
 °r_pkg_«me
 ,
 
-1351 
+1353 
 	`sc
 (
 óp_d©a
@@ -6399,13 +6373,13 @@ NULL
 I18N_TYPE_E¡î_Idítôy
 ),
 
-1352 
+1354 
 _öfo_p›up_ok_cb
 , 
 óp_d©a
 );
 
-1353 
+1355 
 óp_d©a
 ->
 óp_d⁄e_ok
@@ -6413,29 +6387,29 @@ _öfo_p›up_ok_cb
 FALSE
 ;
 
-1355 if(
+1357 if(
 °r_id
  !
 NULL
 ) {
 
-1356 
+1358 
 	`g_‰ì
 (
 °r_id
 );
 
-1357 
+1359 
 °r_id
  = 
 NULL
 ;
 
-1360 
+1362 
 __COMMON_FUNC_EXIT__
 ;
 
-1364 
+1366 
 °r_pw
  = 
 	`comm⁄_utûs_gë_li°_ôem_íåy_txt
@@ -6445,13 +6419,13 @@ __COMMON_FUNC_EXIT__
 óp_pw_ôem
 );
 
-1365 i‡(
+1367 i‡(
 °r_pw
  =
 NULL
  || str_pw[0] == '\0') {
 
-1366 
+1368 
 óp_d©a
 ->
 öfo_p›up
@@ -6459,7 +6433,7 @@ NULL
 	`comm⁄_utûs_show_öfo_ok_p›up
 (
 
-1367 
+1369 
 óp_d©a
 ->
 œyout
@@ -6467,7 +6441,7 @@ NULL
 °r_pkg_«me
 ,
 
-1368 
+1370 
 	`sc
 (
 óp_d©a
@@ -6477,13 +6451,13 @@ NULL
 I18N_TYPE_E¡î_∑ssw‹d
 ),
 
-1369 
+1371 
 _öfo_p›up_ok_cb
 , 
 óp_d©a
 );
 
-1370 
+1372 
 óp_d©a
 ->
 óp_d⁄e_ok
@@ -6491,47 +6465,47 @@ _öfo_p›up_ok_cb
 FALSE
 ;
 
-1372 if(
+1374 if(
 °r_id
  !
 NULL
 ) {
 
-1373 
+1375 
 	`g_‰ì
 (
 °r_id
 );
 
-1374 
+1376 
 °r_id
  = 
 NULL
 ;
 
-1376 if(
+1378 if(
 °r_pw
  !
 NULL
 ) {
 
-1377 
+1379 
 	`g_‰ì
 (
 °r_pw
 );
 
-1378 
+1380 
 °r_pw
  = 
 NULL
 ;
 
-1381 
+1383 
 __COMMON_FUNC_EXIT__
 ;
 
-1385 
+1387 
 	`wifi_≠_£t_óp_ty≥
 (
 óp_d©a
@@ -6541,7 +6515,7 @@ __COMMON_FUNC_EXIT__
 óp_ty≥
 );
 
-1386 
+1388 
 	`wifi_≠_£t_óp_auth_ty≥
 (
 óp_d©a
@@ -6551,7 +6525,7 @@ __COMMON_FUNC_EXIT__
 óp_auth_ty≥
 );
 
-1387 
+1389 
 	`wifi_≠_£t_óp_∑s•hø£
 (
 óp_d©a
@@ -6563,11 +6537,11 @@ __COMMON_FUNC_EXIT__
 °r_pw
 );
 
-1390 
+1392 
 WIFI_EAP_TYPE_TLS
 :
 
-1391 
+1393 
 °r_id
  = 
 	`comm⁄_utûs_gë_li°_ôem_íåy_txt
@@ -6577,7 +6551,7 @@ WIFI_EAP_TYPE_TLS
 óp_id_ôem
 );
 
-1392 
+1394 
 °r_pw
  = 
 	`comm⁄_utûs_gë_li°_ôem_íåy_txt
@@ -6587,7 +6561,7 @@ WIFI_EAP_TYPE_TLS
 óp_pw_ôem
 );
 
-1394 
+1396 
 	`wifi_≠_£t_óp_ty≥
 (
 óp_d©a
@@ -6597,7 +6571,7 @@ WIFI_EAP_TYPE_TLS
 óp_ty≥
 );
 
-1395 
+1397 
 	`wifi_≠_£t_óp_auth_ty≥
 (
 óp_d©a
@@ -6607,7 +6581,7 @@ WIFI_EAP_TYPE_TLS
 óp_auth_ty≥
 );
 
-1396 
+1398 
 	`wifi_≠_£t_óp_∑s•hø£
 (
 óp_d©a
@@ -6619,7 +6593,7 @@ WIFI_EAP_TYPE_TLS
 °r_pw
 );
 
-1397 
+1399 
 	`wifi_≠_£t_óp_ˇ_˚π_fûe
 (
 óp_d©a
@@ -6629,7 +6603,7 @@ WIFI_EAP_TYPE_TLS
 ˇ_˚π_∑th
 );
 
-1398 
+1400 
 	`wifi_≠_£t_óp_˛õ¡_˚π_fûe
 (
 óp_d©a
@@ -6639,7 +6613,7 @@ WIFI_EAP_TYPE_TLS
 u£r_˚π_∑th
 );
 
-1399 
+1401 
 	`wifi_≠_£t_óp_¥iv©e_key_öfo
 (
 óp_d©a
@@ -6651,15 +6625,15 @@ u£r_˚π_∑th
 NULL
 );
 
-1402 
+1404 
 WIFI_EAP_TYPE_SIM
 :
 
-1403 
+1405 
 WIFI_EAP_TYPE_AKA
 :
 
-1407 
+1409 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -6667,7 +6641,7 @@ UG_NAME_NORMAL
 óp_ty≥
 );
 
-1412 
+1414 
 	`ù_öfo_ßve_d©a
 (
 óp_d©a
@@ -6675,7 +6649,7 @@ UG_NAME_NORMAL
 ù_öfo_li°
 );
 
-1414 
+1416 
 	`wœn_m™agî_c⁄√˘
 (
 óp_d©a
@@ -6683,13 +6657,13 @@ UG_NAME_NORMAL
 ≠
 );
 
-1416 
+1418 
 	`__comm⁄_óp_c⁄√˘_˛ónup
 (
 óp_d©a
 );
 
-1418 
+1420 
 	`ñm_«vi‰ame_ôem_p›
 (
 óp_d©a
@@ -6697,51 +6671,51 @@ UG_NAME_NORMAL
 «vi_‰ame
 );
 
-1420 if(
+1422 if(
 °r_id
  !
 NULL
 ) {
 
-1421 
+1423 
 	`g_‰ì
 (
 °r_id
 );
 
-1422 
+1424 
 °r_id
  = 
 NULL
 ;
 
-1424 if(
+1426 if(
 °r_pw
  !
 NULL
 ) {
 
-1425 
+1427 
 	`g_‰ì
 (
 °r_pw
 );
 
-1426 
+1428 
 °r_pw
  = 
 NULL
-;
-
-1429 
-__COMMON_FUNC_EXIT__
 ;
 
 1431 
+__COMMON_FUNC_EXIT__
+;
+
+1433 
 	}
 }
 
-1433 
+1435 
 gboﬁón
  
 	$__comm⁄_óp_c⁄√˘_show_ime
@@ -6749,7 +6723,7 @@ gboﬁón
 d©a
 )
 
-1435 
+1437 
 Elm_Obje˘_Iãm
  *
 li°_íåy_ôem
@@ -6757,15 +6731,15 @@ li°_íåy_ôem
 d©a
 ;
 
-1436 i‡(!
+1438 i‡(!
 li°_íåy_ôem
 ) {
 
-1437  
+1439  
 FALSE
 ;
 
-1440 
+1442 
 Evas_Obje˘
  *
 íåy
@@ -6775,35 +6749,35 @@ Evas_Obje˘
 li°_íåy_ôem
 , "elm.icon.entry");
 
-1441 i‡(!
+1443 i‡(!
 íåy
 ) {
 
-1442  
+1444  
 FALSE
 ;
 
-1445 
+1447 
 g_óp_id_show_key∑d
  = 
 TRUE
 ;
 
-1446 
+1448 
 	`ñm_gíli°_ôem_upd©e
 (
 li°_íåy_ôem
 );
 
-1447  
+1449  
 FALSE
 ;
 
-1448 
+1450 
 	}
 }
 
-1450 
+1452 
 gboﬁón
  
 	$__comm⁄_óp_c⁄√˘_lﬂd_ù_öfo_li°_cb
@@ -6811,7 +6785,7 @@ gboﬁón
 d©a
 )
 
-1452 
+1454 
 óp_c⁄√˘_d©a_t
  *
 óp_d©a
@@ -6819,7 +6793,7 @@ d©a
 d©a
 ;
 
-1453 
+1455 
 Elm_Obje˘_Iãm
  *
 «vi_ô
@@ -6827,7 +6801,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-1454 
+1456 
 Evas_Obje˘
  *
 li°
@@ -6835,21 +6809,21 @@ li°
 NULL
 ;
 
-1456 i‡(!
+1458 i‡(!
 óp_d©a
 ) {
 
-1457  
+1459  
 FALSE
 ;
 
-1460 i‡(
+1462 i‡(
 óp_d©a
 ->
 «vi_‰ame
 ) {
 
-1461 
+1463 
 Evas_Obje˘
  *
 œyout
@@ -6857,7 +6831,7 @@ Evas_Obje˘
 NULL
 ;
 
-1462 
+1464 
 «vi_ô
  = 
 	`ñm_«vi‰ame_t›_ôem_gë
@@ -6867,7 +6841,7 @@ NULL
 «vi_‰ame
 );
 
-1463 
+1465 
 œyout
  = 
 	`ñm_obje˘_ôem_∑π_c⁄ã¡_gë
@@ -6875,7 +6849,7 @@ NULL
 «vi_ô
 , "elm.swallow.content");
 
-1464 
+1466 
 li°
  = 
 	`ñm_obje˘_∑π_c⁄ã¡_gë
@@ -6883,7 +6857,7 @@ li°
 œyout
 , "elm.swallow.content");
 
-1465 
+1467 
 óp_d©a
 ->
 ù_öfo_li°
@@ -6893,7 +6867,7 @@ li°
 ≠
 ,
 
-1466 
+1468 
 óp_d©a
 ->
 °r_pkg_«me
@@ -6901,13 +6875,13 @@ li°
 li°
 ,
 
-1467 
+1469 
 __comm⁄_óp_c⁄√˘_imf_˘xt_ev¡_cb
 , 
 «vi_ô
 );
 
-1469 
+1471 
 Evas_Obje˘
  *
 box
@@ -6919,7 +6893,7 @@ box
 p›up
 );
 
-1470 
+1472 
 Eöa_Li°
  *
 box_chûds
@@ -6929,7 +6903,7 @@ box_chûds
 box
 );
 
-1471 
+1473 
 li°
  = 
 	`eöa_li°_¡h
@@ -6937,7 +6911,7 @@ li°
 box_chûds
 , 0);
 
-1472 
+1474 
 óp_d©a
 ->
 ù_öfo_li°
@@ -6947,7 +6921,7 @@ box_chûds
 ≠
 ,
 
-1473 
+1475 
 óp_d©a
 ->
 °r_pkg_«me
@@ -6955,13 +6929,13 @@ box_chûds
 li°
 ,
 
-1474 
+1476 
 __comm⁄_óp_c⁄√˘_im_˘xt_ev¡_ªsize_cb
 , 
 óp_d©a
 );
 
-1477 
+1479 
 	`comm⁄_utû_m™aged_idÀ_add
 (
 __comm⁄_óp_c⁄√˘_show_ime
@@ -6971,15 +6945,15 @@ __comm⁄_óp_c⁄√˘_show_ime
 óp_id_ôem
 );
 
-1479  
+1481  
 FALSE
 ;
 
-1480 
+1482 
 	}
 }
 
-1482 
+1484 
 	$__ˇn˚l_cb
 (*
 d©a
@@ -6991,25 +6965,25 @@ obj
 evít_öfo
 )
 
-1484 
+1486 
 __COMMON_FUNC_ENTER__
 ;
 
-1486 
+1488 
 	`ñm_«vi‰ame_ôem_p›
 (
 d©a
 );
 
-1488 
+1490 
 __COMMON_FUNC_EXIT__
 ;
 
-1489 
+1491 
 	}
 }
 
-1491 
+1493 
 óp_c⁄√˘_d©a_t
  *
 	$¸óã_óp_võw
@@ -7017,7 +6991,7 @@ __COMMON_FUNC_EXIT__
 ug_ty≥
 ,
 
-1492 
+1494 
 Evas_Obje˘
  *
 œyout_maö
@@ -7025,7 +6999,7 @@ Evas_Obje˘
 «vi_‰ame
 ,
 
-1493 c⁄° *
+1495 c⁄° *
 pkg_«me
 , 
 wifi_devi˚_öfo_t
@@ -7033,17 +7007,17 @@ wifi_devi˚_öfo_t
 devi˚_öfo
 ,
 
-1494 
+1496 
 Evas_Obje˘
  *
 wö
 )
 
-1496 
+1498 
 __COMMON_FUNC_ENTER__
 ;
 
-1499 
+1501 
 Elm_Obje˘_Iãm
  *
 «vi_ô
@@ -7051,7 +7025,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-1500 
+1502 
 Evas_Obje˘
  *
 œyout
@@ -7059,7 +7033,7 @@ Evas_Obje˘
 NULL
 ;
 
-1501 
+1503 
 Evas_Obje˘
  *
 li°
@@ -7067,7 +7041,7 @@ li°
 NULL
 ;
 
-1502 
+1504 
 Evas_Obje˘
  *
 ãmp_∑ª¡
@@ -7075,7 +7049,7 @@ Evas_Obje˘
 NULL
 ;
 
-1503 
+1505 
 Evas_Obje˘
  *
 bŸtom_võw
@@ -7083,13 +7057,13 @@ bŸtom_võw
 NULL
 ;
 
-1504 
+1506 
 guöt
  
 id
 ;
 
-1506 i‡(
+1508 i‡(
 œyout_maö
  =
 NULL
@@ -7099,11 +7073,11 @@ devi˚_öfo
 pkg_«me
  == NULL) {
 
-1507  
+1509  
 NULL
 ;
 
-1510 
+1512 
 óp_c⁄√˘_d©a_t
  *
 óp_d©a
@@ -7111,17 +7085,17 @@ NULL
 	`g_åy_√w0
 (eap_connect_data_t, 1);
 
-1511 i‡(
+1513 i‡(
 óp_d©a
  =
 NULL
 ) {
 
-1512  
+1514  
 NULL
 ;
 
-1515 
+1517 
 óp_d©a
 ->
 °r_pkg_«me
@@ -7129,7 +7103,7 @@ NULL
 pkg_«me
 ;
 
-1516 
+1518 
 óp_d©a
 ->
 œyout
@@ -7137,13 +7111,13 @@ pkg_«me
 œyout_maö
 ;
 
-1517 
+1519 
 óp_d©a
 ->
 wö
  = win;
 
-1520 
+1522 
 	`wifi_≠_˛⁄e
 (&(
 óp_d©a
@@ -7153,19 +7127,19 @@ wö
 devi˚_öfo
 ->ap);
 
-1522 
+1524 
 óp_d©a
 ->
 «vi_‰ame
  =Çavi_frame;
 
-1524 i‡(
+1526 i‡(
 ug_ty≥
  =
 UG_VIEW_SETUP_WIZARD
 ) {
 
-1525 
+1527 
 œyout
  = 
 	`ñm_œyout_add
@@ -7173,7 +7147,7 @@ UG_VIEW_SETUP_WIZARD
 «vi_‰ame
 );
 
-1527 
+1529 
 	`ñm_œyout_fûe_£t
 (
 œyout
@@ -7181,19 +7155,19 @@ UG_VIEW_SETUP_WIZARD
 SETUP_WIZARD_EDJ_PATH
 , "pwlock");
 
-1528 
+1530 
 	`ñm_obje˘_∑π_ãxt_£t
 (
 œyout
 ,
 
-1529 "ãxt.tôÀ", 
+1531 "ãxt.tôÀ", 
 devi˚_öfo
 ->
 ssid
 );
 
-1531 
+1533 
 «vi_ô
  = 
 	`ñm_«vi‰ame_ôem_push
@@ -7203,13 +7177,13 @@ ssid
 NULL
 , NULL, NULL,
 
-1532 
+1534 
 œyout
 , 
 NULL
 );
 
-1533 
+1535 
 	`ñm_«vi‰ame_ôem_tôÀ_íabÀd_£t
 (
 «vi_ô
@@ -7217,7 +7191,7 @@ NULL
 EINA_FALSE
 , EINA_FALSE);
 
-1535 
+1537 
 ch™ge_™g
  = 
 	`ñm_wö_rŸ©i⁄_gë
@@ -7225,17 +7199,17 @@ ch™ge_™g
 wö
 );
 
-1536 i‡(
+1538 i‡(
 ch™ge_™g
  == 0 || change_ang == 180) {
 
-1537 
+1539 
 	`comm⁄_utûs_c⁄ã¡s_rŸ©i⁄_adju°
 (
 UG_EVENT_ROTATE_PORTRAIT
 );
 
-1538 
+1540 
 	`edje_obje˘_sig«l_emô
 ((
 Evas_Obje˘
@@ -7245,13 +7219,13 @@ Evas_Obje˘
 œyout
 )
 
-1541 
+1543 
 	`comm⁄_utûs_c⁄ã¡s_rŸ©i⁄_adju°
 (
 UG_EVENT_ROTATE_LANDSCAPE
 );
 
-1542 
+1544 
 	`edje_obje˘_sig«l_emô
 ((
 Evas_Obje˘
@@ -7261,7 +7235,7 @@ Evas_Obje˘
 œyout
 ),
 
-1546 
+1548 
 œyout
  = 
 	`comm⁄_utûs_¸óã_œyout
@@ -7269,7 +7243,7 @@ Evas_Obje˘
 «vi_‰ame
 );
 
-1548 
+1550 
 «vi_ô
  = 
 	`ñm_«vi‰ame_ôem_push
@@ -7283,13 +7257,13 @@ ssid
 NULL
 , NULL,
 
-1549 
+1551 
 œyout
 , 
 NULL
 );
 
-1553 
+1555 
 li°
  = 
 	`_¸óã_li°
@@ -7299,7 +7273,7 @@ li°
 óp_d©a
 );
 
-1554 
+1556 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 œyout
@@ -7307,7 +7281,7 @@ li°
 li°
 );
 
-1556 
+1558 
 	`evas_obje˘_d©a_£t
 (
 «vi_‰ame
@@ -7315,11 +7289,11 @@ li°
 SCREEN_TYPE_ID_KEY
 ,
 
-1557 (*)
+1559 (*)
 VIEW_MANAGER_VIEW_TYPE_EAP
 );
 
-1561 
+1563 
 Evas_Obje˘
  *
 toﬁb¨
@@ -7329,7 +7303,7 @@ toﬁb¨
 «vi_‰ame
 );
 
-1562 
+1564 
 	`ñm_toﬁb¨_shrök_mode_£t
 (
 toﬁb¨
@@ -7337,7 +7311,7 @@ toﬁb¨
 ELM_TOOLBAR_SHRINK_EXPAND
 );
 
-1563 
+1565 
 	`ñm_toﬁb¨_å™svî£_ex∑nded_£t
 (
 toﬁb¨
@@ -7345,7 +7319,7 @@ toﬁb¨
 EINA_TRUE
 );
 
-1564 
+1566 
 	`ñm_toﬁb¨_£À˘_mode_£t
 (
 toﬁb¨
@@ -7353,7 +7327,7 @@ toﬁb¨
 ELM_OBJECT_SELECT_MODE_NONE
 );
 
-1566 
+1568 
 	`ñm_toﬁb¨_ôem_≠≥nd
 (
 toﬁb¨
@@ -7361,7 +7335,7 @@ toﬁb¨
 NULL
 ,
 
-1567 
+1569 
 	`sc
 (
 pkg_«me
@@ -7369,13 +7343,13 @@ pkg_«me
 I18N_TYPE_C⁄√˘
 ),
 
-1568 
+1570 
 __comm⁄_óp_c⁄√˘_d⁄e_cb
 , 
 óp_d©a
 );
 
-1570 
+1572 
 	`ñm_obje˘_ôem_∑π_c⁄ã¡_£t
 (
 «vi_ô
@@ -7383,19 +7357,19 @@ __comm⁄_óp_c⁄√˘_d⁄e_cb
 toﬁb¨
 );
 
-1573 i‡(
+1575 i‡(
 ug_ty≥
  =
 UG_VIEW_SETUP_WIZARD
 ) {
 
-1574 
+1576 
 ãmp_∑ª¡
  = 
 œyout
 ;
 
-1576 
+1578 
 bŸtom_võw
  = 
 	`ñm_œyout_add
@@ -7403,7 +7377,7 @@ bŸtom_võw
 œyout
 );
 
-1577 
+1579 
 	`ñm_œyout_fûe_£t
 (
 bŸtom_võw
@@ -7411,13 +7385,13 @@ bŸtom_võw
 CUSTOM_EDITFIELD_PATH
 , "eap_bottom");
 
-1579 
+1581 
 ãmp_∑ª¡
  = 
 bŸtom_võw
 ;
 
-1582 
+1584 
 Evas_Obje˘
  *
 ˇn˚l_bä
@@ -7427,13 +7401,13 @@ Evas_Obje˘
 ãmp_∑ª¡
 );
 
-1583 
+1585 
 	`ñm_obje˘_°yÀ_£t
 (
 ˇn˚l_bä
 , "bottom");
 
-1584 
+1586 
 	`ñm_obje˘_ãxt_£t
 (
 ˇn˚l_bä
@@ -7445,13 +7419,13 @@ pkg_«me
 I18N_TYPE_C™˚l
 ));
 
-1585 
+1587 
 	`evas_obje˘_show
 (
 ˇn˚l_bä
 );
 
-1586 
+1588 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 ˇn˚l_bä
@@ -7463,7 +7437,7 @@ __ˇn˚l_cb
 «vi_‰ame
 );
 
-1588 
+1590 
 Evas_Obje˘
  *
 c⁄√˘_bä
@@ -7473,13 +7447,13 @@ c⁄√˘_bä
 ãmp_∑ª¡
 );
 
-1589 
+1591 
 	`ñm_obje˘_°yÀ_£t
 (
 c⁄√˘_bä
 , "bottom");
 
-1590 
+1592 
 	`ñm_obje˘_ãxt_£t
 (
 c⁄√˘_bä
@@ -7491,13 +7465,13 @@ pkg_«me
 I18N_TYPE_C⁄√˘
 ));
 
-1591 
+1593 
 	`evas_obje˘_show
 (
 c⁄√˘_bä
 );
 
-1592 
+1594 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 c⁄√˘_bä
@@ -7507,13 +7481,13 @@ __comm⁄_óp_c⁄√˘_d⁄e_cb
 óp_d©a
 );
 
-1594 i‡(
+1596 i‡(
 ug_ty≥
  =
 UG_VIEW_SETUP_WIZARD
 ) {
 
-1595 
+1597 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 œyout
@@ -7521,7 +7495,7 @@ UG_VIEW_SETUP_WIZARD
 ˇn˚l_bä
 );
 
-1596 
+1598 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 œyout
@@ -7529,7 +7503,7 @@ UG_VIEW_SETUP_WIZARD
 c⁄√˘_bä
 );
 
-1598 
+1600 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 bŸtom_võw
@@ -7537,7 +7511,7 @@ bŸtom_võw
 ˇn˚l_bä
 );
 
-1599 
+1601 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 bŸtom_võw
@@ -7545,7 +7519,7 @@ bŸtom_võw
 c⁄√˘_bä
 );
 
-1601 
+1603 
 	`ñm_obje˘_ôem_∑π_c⁄ã¡_£t
 (
 «vi_ô
@@ -7553,7 +7527,7 @@ c⁄√˘_bä
 bŸtom_võw
 );
 
-1605 
+1607 
 id
  = 
 	`comm⁄_utû_m™aged_idÀ_add
@@ -7563,21 +7537,21 @@ __comm⁄_óp_c⁄√˘_lﬂd_ù_öfo_li°_cb
 óp_d©a
 );
 
-1606 i‡(!
+1608 i‡(!
 id
 ) {
 
-1607 
+1609 
 	`g_‰ì
 (
 óp_d©a
 );
 
-1608  
+1610  
 NULL
 ;
 
-1612 
+1614 
 	`ñm_«vi‰ame_ôem_p›_cb_£t
 (
 «vi_ô
@@ -7587,25 +7561,25 @@ __comm⁄_óp_c⁄√˘_de°roy
 óp_d©a
 );
 
-1615 
+1617 
 	`__comm⁄_óp_võw_£t_imf_˘xt_ev¡_cb
 (
 óp_d©a
 );
 
-1617 
+1619 
 __COMMON_FUNC_EXIT__
 ;
 
-1618  
+1620  
 óp_d©a
 ;
 
-1619 
+1621 
 	}
 }
 
-1621 
+1623 
 óp_c⁄√˘_d©a_t
  *
 	$¸óã_óp_p›up
@@ -7617,7 +7591,7 @@ Evas_Obje˘
 wö
 ,
 
-1622 c⁄° *
+1624 c⁄° *
 pkg_«me
 , 
 wifi_devi˚_öfo_t
@@ -7625,17 +7599,17 @@ wifi_devi˚_öfo_t
 devi˚_öfo
 )
 
-1624 
+1626 
 __COMMON_FUNC_ENTER__
 ;
 
-1626 
+1628 
 guöt
  
 id
 ;
 
-1627 
+1629 
 Evas_Obje˘
  *
 li°
@@ -7643,7 +7617,7 @@ li°
 NULL
 ;
 
-1629 i‡(
+1631 i‡(
 œyout
  =
 NULL
@@ -7655,11 +7629,11 @@ devi˚_öfo
 pkg_«me
  == NULL) {
 
-1630  
+1632  
 NULL
 ;
 
-1633 
+1635 
 óp_c⁄√˘_d©a_t
  *
 óp_d©a
@@ -7667,17 +7641,17 @@ NULL
 	`g_åy_√w0
 (eap_connect_data_t, 1);
 
-1634 i‡(
+1636 i‡(
 óp_d©a
  =
 NULL
 ) {
 
-1635  
+1637  
 NULL
 ;
 
-1638 
+1640 
 óp_d©a
 ->
 °r_pkg_«me
@@ -7685,19 +7659,19 @@ NULL
 pkg_«me
 ;
 
-1639 
+1641 
 óp_d©a
 ->
 œyout
  =Üayout;
 
-1640 
+1642 
 óp_d©a
 ->
 wö
  = win;
 
-1643 
+1645 
 	`wifi_≠_˛⁄e
 (&(
 óp_d©a
@@ -7707,33 +7681,33 @@ wö
 devi˚_öfo
 ->ap);
 
-1646 
+1648 
 Evas_Obje˘
  *
 p›up
 ;
 
-1647 
+1649 
 Evas_Obje˘
  *
 box
 ;
 
-1648 
+1650 
 Evas_Obje˘
  *
 bä
 ;
 
-1649 
+1651 
 rŸ©e_™gÀ
 ;
 
-1652 
+1654 
 	`wœn_m™agî_dißbÀ_sˇn_ªsu…_upd©e
 ();
 
-1654 
+1656 
 óp_d©a
 ->
 p›up
@@ -7743,13 +7717,13 @@ p›up
 œyout
 );
 
-1655 
+1657 
 	`ñm_obje˘_°yÀ_£t
 (
 p›up
 , "default");
 
-1656 
+1658 
 	`ñm_obje˘_∑π_ãxt_£t
 (
 p›up
@@ -7759,7 +7733,7 @@ devi˚_öfo
 ssid
 );
 
-1657 
+1659 
 	`evas_obje˘_size_höt_weight_£t
 (
 p›up
@@ -7767,7 +7741,7 @@ p›up
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-1658 
+1660 
 	`evas_obje˘_size_höt_Æign_£t
 (
 p›up
@@ -7775,7 +7749,7 @@ p›up
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-1660 
+1662 
 bä
  = 
 	`ñm_buâ⁄_add
@@ -7783,13 +7757,13 @@ bä
 p›up
 );
 
-1661 
+1663 
 	`ñm_obje˘_°yÀ_£t
 (
 bä
 , "popup");
 
-1662 
+1664 
 	`ñm_obje˘_ãxt_£t
 (
 bä
@@ -7801,7 +7775,7 @@ pkg_«me
 I18N_TYPE_C™˚l
 ));
 
-1663 
+1665 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 p›up
@@ -7809,19 +7783,19 @@ p›up
 bä
 );
 
-1664 
+1666 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 bä
 , "clicked",
 
-1665 
+1667 
 __comm⁄_óp_c⁄√˘_de°roy_cb
 , 
 óp_d©a
 );
 
-1667 
+1669 
 bä
  = 
 	`ñm_buâ⁄_add
@@ -7829,13 +7803,13 @@ bä
 p›up
 );
 
-1668 
+1670 
 	`ñm_obje˘_°yÀ_£t
 (
 bä
 , "popup");
 
-1669 
+1671 
 	`ñm_obje˘_ãxt_£t
 (
 bä
@@ -7847,7 +7821,7 @@ pkg_«me
 I18N_TYPE_C⁄√˘
 ));
 
-1670 
+1672 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 p›up
@@ -7855,19 +7829,19 @@ p›up
 bä
 );
 
-1671 
+1673 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 bä
 , "clicked",
 
-1672 
+1674 
 __comm⁄_óp_c⁄√˘_d⁄e_cb
 , 
 óp_d©a
 );
 
-1675 
+1677 
 box
  = 
 	`ñm_box_add
@@ -7875,7 +7849,7 @@ box
 p›up
 );
 
-1676 
+1678 
 	`evas_obje˘_size_höt_weight_£t
 (
 box
@@ -7883,7 +7857,7 @@ box
 EVAS_HINT_EXPAND
 , 0.0);
 
-1677 
+1679 
 	`evas_obje˘_size_höt_Æign_£t
 (
 box
@@ -7891,7 +7865,7 @@ box
 EVAS_HINT_FILL
 , 0.0);
 
-1679 
+1681 
 rŸ©e_™gÀ
  = 
 	`comm⁄_utûs_gë_rŸ©e_™gÀ
@@ -7899,35 +7873,35 @@ rŸ©e_™gÀ
 APPCORE_RM_UNKNOWN
 );
 
-1680 i‡(0 =
+1682 i‡(0 =
 rŸ©e_™gÀ
  || 180 ==Ñotate_angle) {
 
-1681 
+1683 
 	`evas_obje˘_size_höt_mö_£t
 (
 box
 , -1,
 
-1682 
+1684 
 	`ELM_SCALE_SIZE
 (
 DEVICE_PICKER_POPUP_H
 ));
 
-1684 
+1686 
 	`evas_obje˘_size_höt_mö_£t
 (
 box
 , -1,
 
-1685 
+1687 
 	`ELM_SCALE_SIZE
 (
 DEVICE_PICKER_POPUP_LN_H
 ));
 
-1688 
+1690 
 	`evas_obje˘_«me_£t
 (
 box
@@ -7935,7 +7909,7 @@ box
 EAP_CONNECT_POPUP
 );
 
-1691 
+1693 
 li°
  = 
 	`_¸óã_li°
@@ -7945,7 +7919,7 @@ box
 óp_d©a
 );
 
-1694 
+1696 
 id
  = 
 	`comm⁄_utû_m™aged_idÀ_add
@@ -7955,21 +7929,21 @@ __comm⁄_óp_c⁄√˘_lﬂd_ù_öfo_li°_cb
 óp_d©a
 );
 
-1695 i‡(!
+1697 i‡(!
 id
 ) {
 
-1696 
+1698 
 	`g_‰ì
 (
 óp_d©a
 );
 
-1697  
+1699  
 NULL
 ;
 
-1701 
+1703 
 	`ñm_box_∑ck_íd
 (
 box
@@ -7977,7 +7951,7 @@ box
 li°
 );
 
-1702 
+1704 
 	`ñm_obje˘_c⁄ã¡_£t
 (
 p›up
@@ -7985,19 +7959,19 @@ p›up
 box
 );
 
-1703 
+1705 
 	`evas_obje˘_show
 (
 li°
 );
 
-1704 
+1706 
 	`evas_obje˘_show
 (
 box
 );
 
-1706 
+1708 
 	`evas_obje˘_evít_ˇŒback_add
 (
 p›up
@@ -8005,19 +7979,19 @@ p›up
 EVAS_CALLBACK_KEY_DOWN
 ,
 
-1707 
+1709 
 __óp_p›up_keydown_cb
 , 
 óp_d©a
 );
 
-1709 
+1711 
 	`evas_obje˘_show
 (
 p›up
 );
 
-1710 
+1712 
 	`ñm_obje˘_focus_£t
 (
 p›up
@@ -8025,25 +7999,25 @@ p›up
 EINA_TRUE
 );
 
-1712 
+1714 
 	`__comm⁄_óp_p›up_£t_imf_˘xt_ev¡_cb
 (
 óp_d©a
 );
 
-1714 
+1716 
 __COMMON_FUNC_EXIT__
 ;
 
-1715  
+1717  
 óp_d©a
 ;
 
-1716 
+1718 
 	}
 }
 
-1718 
+1720 
 wifi_óp_ty≥_e
  
 	$__comm⁄_óp_c⁄√˘_p›up_gë_wœn_óp_ty≥
@@ -8053,7 +8027,7 @@ wifi_óp_ty≥_e
 óp_ty≥
 )
 
-1720 
+1722 
 wifi_óp_ty≥_e
  
 wœn_óp_ty≥
@@ -8061,75 +8035,75 @@ wœn_óp_ty≥
 WLAN_SEC_EAP_TYPE_PEAP
 ;
 
-1721 
+1723 
 óp_ty≥
 ) {
 
-1722 
+1724 
 EAP_SEC_TYPE_PEAP
 :
 
-1723 
+1725 
 wœn_óp_ty≥
  = 
 WIFI_EAP_TYPE_PEAP
 ;
 
-1725 
+1727 
 EAP_SEC_TYPE_TLS
 :
 
-1726 
+1728 
 wœn_óp_ty≥
  = 
 WIFI_EAP_TYPE_TLS
 ;
 
-1728 
+1730 
 EAP_SEC_TYPE_TTLS
 :
 
-1729 
+1731 
 wœn_óp_ty≥
  = 
 WIFI_EAP_TYPE_TTLS
 ;
 
-1731 
+1733 
 EAP_SEC_TYPE_SIM
 :
 
-1732 
+1734 
 wœn_óp_ty≥
  = 
 WIFI_EAP_TYPE_SIM
 ;
 
-1734 
+1736 
 EAP_SEC_TYPE_AKA
 :
 
-1735 
+1737 
 wœn_óp_ty≥
  = 
 WIFI_EAP_TYPE_AKA
 ;
 
-1739 
+1741 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "Err!");
 
-1743  
+1745  
 wœn_óp_ty≥
 ;
 
-1744 
+1746 
 	}
 }
 
-1746 
+1748 
 wifi_óp_auth_ty≥_e
  
 	$__comm⁄_óp_c⁄√˘_p›up_gë_wœn_auth_ty≥
@@ -8139,7 +8113,7 @@ wifi_óp_auth_ty≥_e
 auth_ty≥
 )
 
-1748 
+1750 
 wifi_óp_auth_ty≥_e
  
 wœn_auth_ty≥
@@ -8147,85 +8121,85 @@ wœn_auth_ty≥
 WIFI_EAP_AUTH_TYPE_NONE
 ;
 
-1749 
+1751 
 auth_ty≥
 ) {
 
-1750 
+1752 
 EAP_SEC_AUTH_NONE
 :
 
-1751 
+1753 
 wœn_auth_ty≥
  = 
 WIFI_EAP_AUTH_TYPE_NONE
 ;
 
-1753 
+1755 
 EAP_SEC_AUTH_PAP
 :
 
-1754 
+1756 
 wœn_auth_ty≥
  = 
 WIFI_EAP_AUTH_TYPE_PAP
 ;
 
-1756 
+1758 
 EAP_SEC_AUTH_MSCHAP
 :
 
-1757 
+1759 
 wœn_auth_ty≥
  = 
 WIFI_EAP_AUTH_TYPE_MSCHAP
 ;
 
-1759 
+1761 
 EAP_SEC_AUTH_MSCHAPV2
 :
 
-1760 
+1762 
 wœn_auth_ty≥
  = 
 WIFI_EAP_AUTH_TYPE_MSCHAPV2
 ;
 
-1762 
+1764 
 EAP_SEC_AUTH_GTC
 :
 
-1763 
+1765 
 wœn_auth_ty≥
  = 
 WIFI_EAP_AUTH_TYPE_GTC
 ;
 
-1765 
+1767 
 EAP_SEC_AUTH_MD5
 :
 
-1766 
+1768 
 wœn_auth_ty≥
  = 
 WIFI_EAP_AUTH_TYPE_MD5
 ;
 
-1770 
+1772 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "Err!");
 
-1773  
+1775  
 wœn_auth_ty≥
 ;
 
-1774 
+1776 
 	}
 }
 
-1776 
+1778 
 óp_ty≥_t
  
 	$__comm⁄_óp_c⁄√˘_p›up_gë_óp_ty≥
@@ -8235,13 +8209,13 @@ wifi_≠_h
 ≠
 )
 
-1778 
+1780 
 wifi_óp_ty≥_e
  
 wœn_óp_ty≥
  = 0;
 
-1779 
+1781 
 ªt
  = 
 	`wifi_≠_gë_óp_ty≥
@@ -8251,13 +8225,13 @@ wœn_óp_ty≥
 wœn_óp_ty≥
 );
 
-1780 i‡(
+1782 i‡(
 WIFI_ERROR_OPERATION_FAILED
  =
 ªt
 ) {
 
-1781 
+1783 
 ªt
  = 
 	`wifi_≠_£t_óp_ty≥
@@ -8267,13 +8241,13 @@ WIFI_ERROR_OPERATION_FAILED
 WIFI_EAP_TYPE_PEAP
 );
 
-1784 i‡(
+1786 i‡(
 WIFI_ERROR_NONE
  !
 ªt
 ) {
 
-1785 
+1787 
 	`ERROR_LOG
 (
 UG_NAME_ERR
@@ -8281,11 +8255,11 @@ UG_NAME_ERR
 ªt
 );
 
-1786  
+1788  
 EAP_SEC_TYPE_UNKNOWN
 ;
 
-1788 
+1790 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -8293,63 +8267,63 @@ UG_NAME_NORMAL
 wœn_óp_ty≥
 );
 
-1789 
+1791 
 wœn_óp_ty≥
 ) {
 
-1790 
+1792 
 WIFI_EAP_TYPE_PEAP
 :
 
-1791  
+1793  
 EAP_SEC_TYPE_PEAP
 ;
 
-1793 
+1795 
 WIFI_EAP_TYPE_TLS
 :
 
-1794  
+1796  
 EAP_SEC_TYPE_TLS
 ;
 
-1796 
+1798 
 WIFI_EAP_TYPE_TTLS
 :
 
-1797  
+1799  
 EAP_SEC_TYPE_TTLS
 ;
 
-1799 
+1801 
 WIFI_EAP_TYPE_SIM
 :
 
-1800  
+1802  
 EAP_SEC_TYPE_SIM
 ;
 
-1802 
+1804 
 WIFI_EAP_TYPE_AKA
 :
 
-1803  
+1805  
 EAP_SEC_TYPE_AKA
-;
-
-1806  
-EAP_SEC_TYPE_PEAP
 ;
 
 1808  
 EAP_SEC_TYPE_PEAP
 ;
 
-1809 
+1810  
+EAP_SEC_TYPE_PEAP
+;
+
+1811 
 	}
 }
 
-1811 
+1813 
 óp_auth_t
  
 	$__comm⁄_óp_c⁄√˘_p›up_gë_auth_ty≥
@@ -8359,13 +8333,13 @@ wifi_≠_h
 ≠
 )
 
-1813 
+1815 
 wifi_óp_auth_ty≥_e
  
 wœn_auth_ty≥
  = 0;
 
-1814 
+1816 
 ªt
  = 
 	`wifi_≠_gë_óp_auth_ty≥
@@ -8375,13 +8349,13 @@ wœn_auth_ty≥
 wœn_auth_ty≥
 );
 
-1815 i‡(
+1817 i‡(
 WIFI_ERROR_OPERATION_FAILED
  =
 ªt
 ) {
 
-1816 
+1818 
 ªt
  = 
 	`wifi_≠_£t_óp_auth_ty≥
@@ -8391,13 +8365,13 @@ WIFI_ERROR_OPERATION_FAILED
 EAP_SEC_AUTH_NONE
 );
 
-1819 i‡(
+1821 i‡(
 WIFI_ERROR_NONE
  !
 ªt
 ) {
 
-1820 
+1822 
 	`ERROR_LOG
 (
 UG_NAME_ERR
@@ -8405,11 +8379,11 @@ UG_NAME_ERR
 ªt
 );
 
-1821  
+1823  
 EAP_SEC_AUTH_NONE
 ;
 
-1823 
+1825 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -8417,71 +8391,71 @@ UG_NAME_NORMAL
 wœn_auth_ty≥
 );
 
-1825 
+1827 
 wœn_auth_ty≥
 ) {
 
-1826 
+1828 
 WIFI_EAP_AUTH_TYPE_NONE
 :
 
-1827  
+1829  
 EAP_SEC_AUTH_NONE
 ;
 
-1829 
+1831 
 WIFI_EAP_AUTH_TYPE_PAP
 :
 
-1830  
+1832  
 EAP_SEC_AUTH_PAP
 ;
 
-1832 
+1834 
 WIFI_EAP_AUTH_TYPE_MSCHAP
 :
 
-1833  
+1835  
 EAP_SEC_AUTH_MSCHAP
 ;
 
-1835 
+1837 
 WIFI_EAP_AUTH_TYPE_MSCHAPV2
 :
 
-1836  
+1838  
 EAP_SEC_AUTH_MSCHAPV2
 ;
 
-1838 
+1840 
 WIFI_EAP_AUTH_TYPE_GTC
 :
 
-1839  
+1841  
 EAP_SEC_AUTH_GTC
 ;
 
-1841 
+1843 
 WIFI_EAP_AUTH_TYPE_MD5
 :
 
-1842  
+1844  
 EAP_SEC_AUTH_MD5
-;
-
-1845  
-EAP_SEC_AUTH_NONE
 ;
 
 1847  
 EAP_SEC_AUTH_NONE
 ;
 
-1848 
+1849  
+EAP_SEC_AUTH_NONE
+;
+
+1850 
 	}
 }
 
-1850 *
+1852 *
 	$_óp_öfo_gë_u£r_˚π_Æüs
 (
 wifi_≠_h
@@ -8489,35 +8463,35 @@ wifi_≠_h
 ≠
 )
 
-1852 *
+1854 *
 ∑th
  = 
 NULL
 ;
 
-1853 *
+1855 *
 Æüs
  = 
 NULL
 ;
 
-1854 *
+1856 *
 fûíame
  = 
 NULL
 ;
 
-1855 *
+1857 *
 ˚π_«me
  = 
 NULL
 ;
 
-1856 
+1858 
 Æüs_Àn
  = 0;
 
-1858 
+1860 
 	`wifi_≠_gë_óp_˛õ¡_˚π_fûe
 (
 ≠
@@ -8525,17 +8499,17 @@ NULL
 ∑th
 );
 
-1859 i‡(
+1861 i‡(
 ∑th
  =
 NULL
 )
 
-1860  
+1862  
 NULL
 ;
 
-1862 
+1864 
 fûíame
  = 
 	`°ºchr
@@ -8543,27 +8517,27 @@ fûíame
 ∑th
 , '/');
 
-1863 i‡(
+1865 i‡(
 fûíame
  =
 NULL
 ) {
 
-1864 
+1866 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "Invalid fileÇame");
 
-1865  
+1867  
 NULL
 ;
 
-1868 
+1870 
 fûíame
 ++;
 
-1869 
+1871 
 ˚π_«me
  = 
 	`°r°r
@@ -8573,27 +8547,27 @@ fûíame
 EAP_TLS_USER_CERT_PATH
 );
 
-1870 i‡(
+1872 i‡(
 ˚π_«me
  =
 NULL
 ) {
 
-1871 
+1873 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "Invalid fileÇame");
 
-1872  
+1874  
 NULL
 ;
 
-1875 
+1877 
 ˚π_«me
 --;
 
-1876 
+1878 
 Æüs_Àn
  = 
 ˚π_«me
@@ -8601,7 +8575,7 @@ NULL
 fûíame
 ;
 
-1878 
+1880 
 Æüs
  = 
 	`g_åy_mÆloc0
@@ -8609,29 +8583,29 @@ fûíame
 Æüs_Àn
  + 1);
 
-1879 i‡(
+1881 i‡(
 Æüs
  =
 NULL
 ) {
 
-1880 
+1882 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "Invalid fileÇame");
 
-1881 
+1883 
 	`g_‰ì
 (
 ∑th
 );
 
-1882  
+1884  
 NULL
 ;
 
-1885 
+1887 
 	`g_°æ˝y
 (
 Æüs
@@ -8641,7 +8615,7 @@ fûíame
 Æüs_Àn
  + 1);
 
-1886 
+1888 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -8651,21 +8625,21 @@ UG_NAME_NORMAL
 Æüs_Àn
 );
 
-1888 
+1890 
 	`g_‰ì
 (
 ∑th
 );
 
-1890  
+1892  
 Æüs
 ;
 
-1891 
+1893 
 	}
 }
 
-1896 
+1898 
 óp_öfo_li°_t
  *
 	$óp_öfo_≠≥nd_ôems
@@ -8679,7 +8653,7 @@ Evas_Obje˘
 võw_li°
 ,
 
-1897 c⁄° *
+1899 c⁄° *
 °r_pkg_«me
 , 
 imf_˘xt_∑√l_cb_t
@@ -8687,33 +8661,33 @@ imf_˘xt_∑√l_cb_t
 öput_∑√l_cb
 ,
 
-1898 *
+1900 *
 öput_∑√l_cb_d©a
 )
 
-1900 
+1902 
 __COMMON_FUNC_ENTER__
 ;
 
-1902 
+1904 
 óp_ty≥_t
  
 óp_ty≥
 ;
 
-1903 
+1905 
 óp_auth_t
  
 auth_ty≥
 ;
 
-1904 *
+1906 *
 ãmp_°r
  = 
 NULL
 ;
 
-1905 
+1907 
 Eöa_Boﬁ
  
 ≠≥nd_c⁄töue
@@ -8721,7 +8695,7 @@ Eöa_Boﬁ
 TRUE
 ;
 
-1906 
+1908 
 óp_öfo_li°_t
  *
 óp_öfo_li°_d©a
@@ -8729,7 +8703,7 @@ TRUE
 NULL
 ;
 
-1907 
+1909 
 Elm_Obje˘_Iãm
 * 
 ôem
@@ -8737,7 +8711,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-1908 i‡(!
+1910 i‡(!
 võw_li°
  || !
 °r_pkg_«me
@@ -8745,17 +8719,17 @@ võw_li°
 ≠
 ) {
 
-1909 
+1911 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "InvalidÖaramsÖassed!");
 
-1910  
+1912  
 NULL
 ;
 
-1913 
+1915 
 óp_öfo_li°_d©a
  = 
 	`g_åy_√w0
@@ -8763,23 +8737,23 @@ NULL
 óp_öfo_li°_t
 , 1);
 
-1914 i‡(
+1916 i‡(
 óp_öfo_li°_d©a
  =
 NULL
 ) {
 
-1915  
+1917  
 NULL
 ;
 
-1918 
+1920 
 óp_öfo_li°_d©a
 ->
 ≠
  =áp;
 
-1919 
+1921 
 óp_ty≥
  = 
 	`__comm⁄_óp_c⁄√˘_p›up_gë_óp_ty≥
@@ -8787,7 +8761,7 @@ NULL
 ≠
 );
 
-1920 
+1922 
 auth_ty≥
  = 
 	`__comm⁄_óp_c⁄√˘_p›up_gë_auth_ty≥
@@ -8795,7 +8769,7 @@ auth_ty≥
 ≠
 );
 
-1922 
+1924 
 ôem
  = 
 	`comm⁄_utûs_add_2_löe_txt_dißbÀd_ôem
@@ -8803,7 +8777,7 @@ auth_ty≥
 võw_li°
 ,
 
-1924 
+1926 
 	`sc
 (
 °r_pkg_«me
@@ -8811,7 +8785,7 @@ võw_li°
 I18N_TYPE_EAP_mëhod
 ),
 
-1925 
+1927 
 li°_óp_ty≥
 [
 óp_ty≥
@@ -8819,7 +8793,7 @@ li°_óp_ty≥
 «me
 );
 
-1926 
+1928 
 óp_öfo_li°_d©a
 ->
 óp_mëhod_ôem
@@ -8827,57 +8801,57 @@ li°_óp_ty≥
 ôem
 ;
 
-1928 
+1930 
 óp_öfo_li°_d©a
 ->
 óp_ty≥
  =Éap_type;
 
-1930 
+1932 
 óp_ty≥
 ) {
 
-1931 
+1933 
 EAP_SEC_TYPE_UNKNOWN
 :
 
-1932 
+1934 
 EAP_SEC_TYPE_PEAP
 :
 
-1933 
+1935 
 EAP_SEC_TYPE_TLS
 :
 
-1934 
+1936 
 EAP_SEC_TYPE_TTLS
 :
 
-1936 
+1938 
 EAP_SEC_TYPE_SIM
 :
 
-1937 
+1939 
 EAP_SEC_TYPE_AKA
 :
 
-1939 
+1941 
 ≠≥nd_c⁄töue
  = 
 FALSE
 ;
 
-1943 i‡(
+1945 i‡(
 ≠≥nd_c⁄töue
 ) {
 
-1944 
+1946 
 comm⁄_utûs_íåy_öfo_t
  *
 edô_box_dëaûs
 ;
 
-1947 
+1949 
 ôem
  = 
 	`comm⁄_utûs_add_2_löe_txt_dißbÀd_ôem
@@ -8885,7 +8859,7 @@ edô_box_dëaûs
 võw_li°
 ,
 
-1949 
+1951 
 	`sc
 (
 °r_pkg_«me
@@ -8893,7 +8867,7 @@ võw_li°
 I18N_TYPE_Pha£_2_authítiˇti⁄
 ),
 
-1950 
+1952 
 li°_óp_auth
 [
 auth_ty≥
@@ -8901,7 +8875,7 @@ auth_ty≥
 «me
 );
 
-1951 
+1953 
 óp_öfo_li°_d©a
 ->
 óp_auth_ôem
@@ -8909,7 +8883,7 @@ auth_ty≥
 ôem
 ;
 
-1954 
+1956 
 ãmp_°r
  = 
 	`_óp_öfo_gë_u£r_˚π_Æüs
@@ -8917,7 +8891,7 @@ auth_ty≥
 ≠
 );
 
-1956 i‡(
+1958 i‡(
 ãmp_°r
  =
 NULL
@@ -8925,19 +8899,19 @@ NULL
 	`°æí
 (temp_str) == 0) {
 
-1957 i‡(
+1959 i‡(
 ãmp_°r
  !
 NULL
 ) {
 
-1958 
+1960 
 	`g_‰ì
 (
 ãmp_°r
 );
 
-1960 
+1962 
 ãmp_°r
  = 
 	`g_°rdup
@@ -8949,7 +8923,7 @@ NULL
 I18N_TYPE_Un•ecifõd
 ));
 
-1963 
+1965 
 ôem
  = 
 	`comm⁄_utûs_add_2_löe_txt_dißbÀd_ôem
@@ -8957,7 +8931,7 @@ I18N_TYPE_Un•ecifõd
 võw_li°
 , "2line.top",
 
-1964 
+1966 
 	`sc
 (
 °r_pkg_«me
@@ -8967,7 +8941,7 @@ I18N_TYPE_U£r_Cîtifiˇã
 ãmp_°r
 );
 
-1965 
+1967 
 óp_öfo_li°_d©a
 ->
 u£r_˚π_ôem
@@ -8975,25 +8949,25 @@ u£r_˚π_ôem
 ôem
 ;
 
-1966 
+1968 
 	`g_‰ì
 (
 ãmp_°r
 );
 
-1969 
+1971 
 boﬁ
  
 is_∑swd_£t
 ;
 
-1970 
+1972 
 ãmp_°r
  = 
 NULL
 ;
 
-1971 
+1973 
 	`wifi_≠_gë_óp_∑s•hø£
 (
 ≠
@@ -9003,7 +8977,7 @@ NULL
 is_∑swd_£t
 );
 
-1972 
+1974 
 ôem
  = 
 	`comm⁄_utûs_add_2_löe_txt_dißbÀd_ôem
@@ -9011,7 +8985,7 @@ is_∑swd_£t
 võw_li°
 , "2line.top",
 
-1973 
+1975 
 	`sc
 (
 °r_pkg_«me
@@ -9021,7 +8995,7 @@ I18N_TYPE_Idítôy
 ãmp_°r
 );
 
-1974 
+1976 
 óp_öfo_li°_d©a
 ->
 id_ôem
@@ -9029,19 +9003,19 @@ id_ôem
 ôem
 ;
 
-1975 
+1977 
 	`g_‰ì
 (
 ãmp_°r
 );
 
-1978 
+1980 
 g_óp_íåy_ôc
 .
 ôem_°yÀ
  = "entry.main";
 
-1979 
+1981 
 g_óp_íåy_ôc
 .
 func
@@ -9051,7 +9025,7 @@ func
 _gl_óp_íåy_ôem_ãxt_gë
 ;
 
-1980 
+1982 
 g_óp_íåy_ôc
 .
 func
@@ -9061,7 +9035,7 @@ c⁄ã¡_gë
 _gl_óp_íåy_ôem_c⁄ã¡_gë
 ;
 
-1981 
+1983 
 g_óp_íåy_ôc
 .
 func
@@ -9071,7 +9045,7 @@ func
 NULL
 ;
 
-1982 
+1984 
 g_óp_íåy_ôc
 .
 func
@@ -9081,7 +9055,7 @@ dñ
 _gl_óp_íåy_ôem_dñ
 ;
 
-1984 
+1986 
 edô_box_dëaûs
  = 
 	`g_åy_√w0
@@ -9089,23 +9063,23 @@ edô_box_dëaûs
 comm⁄_utûs_íåy_öfo_t
 , 1);
 
-1985 i‡(
+1987 i‡(
 edô_box_dëaûs
  =
 NULL
 ) {
 
-1986 
+1988 
 	`g_‰ì
 (
 óp_öfo_li°_d©a
 );
 
-1987  
+1989  
 NULL
 ;
 
-1990 
+1992 
 edô_box_dëaûs
 ->
 íåy_id
@@ -9113,7 +9087,7 @@ edô_box_dëaûs
 ENTRY_TYPE_PASSWORD
 ;
 
-1991 
+1993 
 edô_box_dëaûs
 ->
 tôÀ_txt
@@ -9125,7 +9099,7 @@ tôÀ_txt
 I18N_TYPE_Passw‹d
 );
 
-1992 
+1994 
 edô_box_dëaûs
 ->
 íåy_txt
@@ -9133,7 +9107,7 @@ edô_box_dëaûs
 NULL
 ;
 
-1993 
+1995 
 edô_box_dëaûs
 ->
 guide_txt
@@ -9145,19 +9119,19 @@ guide_txt
 I18N_TYPE_E¡î_∑ssw‹d
 );
 
-1994 
+1996 
 edô_box_dëaûs
 ->
 öput_∑√l_cb
  = input_panel_cb;
 
-1995 
+1997 
 edô_box_dëaûs
 ->
 öput_∑√l_cb_d©a
  = input_panel_cb_data;
 
-1996 
+1998 
 edô_box_dëaûs
 ->
 ôem
@@ -9167,7 +9141,7 @@ edô_box_dëaûs
 võw_li°
 ,
 
-1997 &
+1999 &
 g_óp_íåy_ôc
 , 
 edô_box_dëaûs
@@ -9175,7 +9149,7 @@ edô_box_dëaûs
 NULL
 ,
 
-1998 
+2000 
 ELM_GENLIST_ITEM_NONE
 , 
 _gl_edôbox_£l_cb
@@ -9183,7 +9157,7 @@ _gl_edôbox_£l_cb
 NULL
 );
 
-1999 
+2001 
 	`ñm_gíli°_ôem_£À˘_mode_£t
 (
 edô_box_dëaûs
@@ -9191,11 +9165,11 @@ edô_box_dëaûs
 ôem
 ,
 
-2000 
+2002 
 ELM_OBJECT_SELECT_MODE_NONE
 );
 
-2001 
+2003 
 óp_öfo_li°_d©a
 ->
 pswd_ôem
@@ -9205,19 +9179,19 @@ edô_box_dëaûs
 ôem
 ;
 
-2004 
+2006 
 __COMMON_FUNC_EXIT__
 ;
 
-2005  
+2007  
 óp_öfo_li°_d©a
 ;
 
-2006 
+2008 
 	}
 }
 
-2008 
+2010 
 	$óp_öfo_ßve_d©a
 (
 óp_öfo_li°_t
@@ -9225,17 +9199,17 @@ __COMMON_FUNC_EXIT__
 óp_öfo_li°_d©a
 )
 
-2010 i‡(!
+2012 i‡(!
 óp_öfo_li°_d©a
 ) {
 
-2011 
+2013 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "InvalidÖaramsÖassed!");
 
-2014 *
+2016 *
 txt
  = 
 	`comm⁄_utûs_gë_li°_ôem_íåy_txt
@@ -9245,7 +9219,7 @@ txt
 pswd_ôem
 );
 
-2016 
+2018 
 	`wifi_≠_£t_óp_∑s•hø£
 (
 óp_öfo_li°_d©a
@@ -9257,17 +9231,17 @@ NULL
 txt
 );
 
-2017 
+2019 
 	`g_‰ì
 (
 txt
 );
 
-2019 
+2021 
 	}
 }
 
-2021 
+2023 
 	$óp_öfo_ªmove
 (
 óp_öfo_li°_t
@@ -9275,27 +9249,27 @@ txt
 óp_öfo_li°_d©a
 )
 
-2023 i‡(!
+2025 i‡(!
 óp_öfo_li°_d©a
 ) {
 
-2024 
+2026 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "InvalidÖaramsÖassed!");
 
-2028 
+2030 
 	`g_‰ì
 (
 óp_öfo_li°_d©a
 );
 
-2029 
+2031 
 	}
 }
 
-2031 
+2033 
 	$óp_c⁄√˘_d©a_‰ì
 (
 óp_c⁄√˘_d©a_t
@@ -9303,17 +9277,17 @@ UG_NAME_ERR
 óp_d©a
 )
 
-2033 
+2035 
 	`__comm⁄_óp_c⁄√˘_˛ónup
 (
 óp_d©a
 );
 
-2034 
+2036 
 	}
 }
 
-2036 
+2038 
 	$óp_võw_rŸ©e_p›up
 (
 óp_c⁄√˘_d©a_t
@@ -9323,11 +9297,11 @@ UG_NAME_ERR
 rŸ©e_™gÀ
 )
 
-2038 
+2040 
 __COMMON_FUNC_ENTER__
 ;
 
-2040 i‡(
+2042 i‡(
 NULL
  =
 óp_d©a
@@ -9335,7 +9309,7 @@ NULL
 p›up
 ) {
 
-2044 
+2046 
 vÆue
  = 
 óp_d©a
@@ -9343,7 +9317,7 @@ vÆue
 key_°©us
 ;
 
-2045 
+2047 
 Evas_Obje˘
  *
 box
@@ -9355,85 +9329,85 @@ box
 p›up
 );
 
-2047 i‡(
+2049 i‡(
 vÆue
  =
 ECORE_IMF_INPUT_PANEL_STATE_SHOW
 ) {
 
-2048 
+2050 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "KeyÖad is open");
 
-2050 i‡(
+2052 i‡(
 rŸ©e_™gÀ
  == 0 ||Ñotate_angle == 180) {
 
-2051 
+2053 
 	`evas_obje˘_size_höt_mö_£t
 (
 box
 , -1,
 
-2052 
+2054 
 	`ELM_SCALE_SIZE
 (530));
 
-2054 
+2056 
 	`evas_obje˘_size_höt_mö_£t
 (
 box
 , -1,
 
-2055 
+2057 
 	`ELM_SCALE_SIZE
 (200));
 
-2057 } i‡(
+2059 } i‡(
 vÆue
  =
 ECORE_IMF_INPUT_PANEL_STATE_HIDE
 ) {
 
-2058 i‡(
+2060 i‡(
 rŸ©e_™gÀ
  == 0 ||Ñotate_angle == 180) {
 
-2059 
+2061 
 	`evas_obje˘_size_höt_mö_£t
 (
 box
 , -1,
 
-2060 
+2062 
 	`ELM_SCALE_SIZE
 (
 DEVICE_PICKER_POPUP_H
 ));
 
-2062 
+2064 
 	`evas_obje˘_size_höt_mö_£t
 (
 box
 , -1,
 
-2063 
+2065 
 	`ELM_SCALE_SIZE
 (
 DEVICE_PICKER_POPUP_LN_H
 ));
 
-2067 
+2069 
 __COMMON_FUNC_EXIT__
 ;
 
-2069 
+2071 
 	}
 }
 
-2071 
+2073 
 	$óp_öfo_ôems_ªÆize
 (
 óp_öfo_li°_t
@@ -9441,7 +9415,7 @@ __COMMON_FUNC_EXIT__
 óp_öfo_li°
 )
 
-2073 
+2075 
 	`ªtm_if
 (
 NULL
@@ -9449,7 +9423,7 @@ NULL
 óp_öfo_li°
 );
 
-2075 
+2077 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -9457,7 +9431,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-2077 
+2079 
 ôem
  = 
 óp_öfo_li°
@@ -9465,19 +9439,19 @@ NULL
 óp_mëhod_ôem
 ;
 
-2078 i‡(
+2080 i‡(
 ôem
  !
 NULL
 ) {
 
-2079 
+2081 
 	`ñm_obje˘_ôem_sig«l_emô
 (
 ôem
 , "elm,state,top", "");
 
-2081 
+2083 
 ôem
  = 
 óp_öfo_li°
@@ -9485,19 +9459,19 @@ NULL
 óp_auth_ôem
 ;
 
-2082 i‡(
+2084 i‡(
 ôem
  !
 NULL
 ) {
 
-2083 
+2085 
 	`ñm_obje˘_ôem_sig«l_emô
 (
 ôem
 , "elm,state,center", "");
 
-2085 
+2087 
 ôem
  = 
 óp_öfo_li°
@@ -9505,19 +9479,19 @@ NULL
 u£r_˚π_ôem
 ;
 
-2086 i‡(
+2088 i‡(
 ôem
  !
 NULL
 ) {
 
-2087 
+2089 
 	`ñm_obje˘_ôem_sig«l_emô
 (
 ôem
 , "elm,state,center", "");
 
-2089 
+2091 
 ôem
  = 
 óp_öfo_li°
@@ -9525,19 +9499,19 @@ NULL
 id_ôem
 ;
 
-2090 i‡(
+2092 i‡(
 ôem
  !
 NULL
 ) {
 
-2091 
+2093 
 	`ñm_obje˘_ôem_sig«l_emô
 (
 ôem
 , "elm,state,center", "");
 
-2093 
+2095 
 ôem
  = 
 óp_öfo_li°
@@ -9545,19 +9519,19 @@ NULL
 pswd_ôem
 ;
 
-2094 i‡(
+2096 i‡(
 ôem
  !
 NULL
 ) {
 
-2095 
+2097 
 	`ñm_obje˘_ôem_sig«l_emô
 (
 ôem
 , "elm,state,bottom", "");
 
-2097 
+2099 
 	}
 }
 
@@ -23246,6 +23220,10 @@ check_Áv
 ) {
 
 202 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
+203 
 	`wifi_≠_is_Áv‹ôe
 (
 devi˚_öfo
@@ -23255,31 +23233,31 @@ devi˚_öfo
 Áv‹ôe
 );
 
-203 i‡(
+204 i‡(
 Áv‹ôe
  =
 åue
 ) {
 
-204 if(
+205 if(
 °©us_txt
  !
 NULL
 ) {
 
-205 
+206 
 	`g_‰ì
 (
 °©us_txt
 );
 
-206 
+207 
 °©us_txt
  = 
 NULL
 ;
 
-208 
+209 
 °©us_txt
  = 
 	`g_°rdup_¥ötf
@@ -23291,19 +23269,19 @@ pkg_«me
 I18N_TYPE_Saved
 ),
 
-209 
+210 
 °©us_txt
 );
 
-212  
+213  
 °©us_txt
 ;
 
-213 
+214 
 	}
 }
 
-215 
+216 
 	$comm⁄_utûs_gë_wps_ic⁄
 (**
 ic⁄_∑th
@@ -23313,23 +23291,23 @@ gboﬁón
 ¥es£d
 )
 
-217 
+218 
 buf
 [
 MAX_DEVICE_ICON_PATH_STR_LEN
 ] = {'\0', };
 
-219 
+220 
 	`g_°æˇt
 (
 buf
 , "A01-3_icon_WPS_support_AP.png", (buf));
 
-221 i‡(
+222 i‡(
 ic⁄_∑th
 ) {
 
-222 *
+223 *
 ic⁄_∑th
  = 
 	`g_°rdup_¥ötf
@@ -23337,11 +23315,11 @@ ic⁄_∑th
 buf
 );
 
-224 
+225 
 	}
 }
 
-226 
+227 
 	$comm⁄_utûs_gë_devi˚_ic⁄
 (
 wifi_devi˚_öfo_t
@@ -23351,19 +23329,19 @@ devi˚_öfo
 ic⁄_∑th
 )
 
-228 
+229 
 buf
 [
 MAX_DEVICE_ICON_PATH_STR_LEN
 ] = {'\0', };
 
-230 
+231 
 	`g_°æˇt
 (
 buf
 , "A01-3_icon", (buf));
 
-232 i‡(
+233 i‡(
 devi˚_öfo
 ->
 £curôy_mode
@@ -23371,13 +23349,13 @@ devi˚_öfo
 WLAN_SEC_MODE_NONE
 ) {
 
-233 
+234 
 	`g_°æˇt
 (
 buf
 , "_lock", (buf));
 
-236 
+237 
 	`wœn_m™agî_gë_sig«l_°ªngth
 (
 devi˚_öfo
@@ -23385,55 +23363,55 @@ devi˚_öfo
 rssi
 )) {
 
-237 
+238 
 SIGNAL_STRENGTH_TYPE_EXCELLENT
 :
 
-238 
+239 
 	`g_°æˇt
 (
 buf
 , "_03", (buf));
 
-240 
+241 
 SIGNAL_STRENGTH_TYPE_GOOD
 :
 
-241 
+242 
 	`g_°æˇt
 (
 buf
 , "_02", (buf));
 
-243 
+244 
 SIGNAL_STRENGTH_TYPE_WEAK
 :
 
-244 
+245 
 	`g_°æˇt
 (
 buf
 , "_01", (buf));
 
-246 
+247 
 SIGNAL_STRENGTH_TYPE_VERY_WEAK
 :
 
-247 
+248 
 SIGNAL_STRENGTH_TYPE_NULL
 :
 
-249 
+250 
 	`g_°æˇt
 (
 buf
 , "_00", (buf));
 
-253 i‡(
+254 i‡(
 ic⁄_∑th
 ) {
 
-254 *
+255 *
 ic⁄_∑th
  = 
 	`g_°rdup_¥ötf
@@ -23441,11 +23419,11 @@ ic⁄_∑th
 buf
 );
 
-256 
+257 
 	}
 }
 
-258 *
+259 *
 	$comm⁄_utûs_gë_rssi_ãxt
 (c⁄° *
 °r_pkg_«me
@@ -23453,17 +23431,17 @@ buf
 rssi
 )
 
-260 
+261 
 	`wœn_m™agî_gë_sig«l_°ªngth
 (
 rssi
 )) {
 
-261 
+262 
 SIGNAL_STRENGTH_TYPE_EXCELLENT
 :
 
-262  
+263  
 	`g_°rdup
 (
 	`sc
@@ -23473,11 +23451,11 @@ SIGNAL_STRENGTH_TYPE_EXCELLENT
 I18N_TYPE_Ex˚Œít
 ));
 
-263 
+264 
 SIGNAL_STRENGTH_TYPE_GOOD
 :
 
-264  
+265  
 	`g_°rdup
 (
 	`sc
@@ -23487,7 +23465,7 @@ SIGNAL_STRENGTH_TYPE_GOOD
 I18N_TYPE_Good
 ));
 
-266  
+267  
 	`g_°rdup
 (
 	`sc
@@ -23497,11 +23475,11 @@ I18N_TYPE_Good
 I18N_TYPE_Wók
 ));
 
-268 
+269 
 	}
 }
 
-270 
+271 
 	$comm⁄_utûs_£t_edô_box_imf_∑√l_ev¡_cb
 (
 Elm_Obje˘_Iãm
@@ -23509,7 +23487,7 @@ Elm_Obje˘_Iãm
 ôem
 ,
 
-271 
+272 
 imf_˘xt_∑√l_cb_t
  
 öput_∑√l_cb
@@ -23517,17 +23495,17 @@ imf_˘xt_∑√l_cb_t
 u£r_d©a
 )
 
-273 
+274 
 __COMMON_FUNC_ENTER__
 ;
 
-274 
+275 
 comm⁄_utûs_íåy_öfo_t
  *
 íåy_öfo
 ;
 
-275 
+276 
 íåy_öfo
  = 
 	`ñm_obje˘_ôem_d©a_gë
@@ -23535,17 +23513,17 @@ comm⁄_utûs_íåy_öfo_t
 ôem
 );
 
-276 i‡(!
+277 i‡(!
 íåy_öfo
 ) {
 
-280 
+281 
 íåy_öfo
 ->
 öput_∑√l_cb
  = input_panel_cb;
 
-281 
+282 
 íåy_öfo
 ->
 öput_∑√l_cb_d©a
@@ -23553,7 +23531,7 @@ comm⁄_utûs_íåy_öfo_t
 u£r_d©a
 ;
 
-283 
+284 
 Evas_Obje˘
  *
 íåy
@@ -23563,7 +23541,7 @@ Evas_Obje˘
 ôem
 , "elm.icon.entry");
 
-284 
+285 
 Ec‹e_IMF_C⁄ãxt
  *
 imf_˘xt
@@ -23573,7 +23551,7 @@ imf_˘xt
 íåy
 );
 
-285 i‡(
+286 i‡(
 imf_˘xt
  && 
 íåy_öfo
@@ -23581,59 +23559,59 @@ imf_˘xt
 öput_∑√l_cb
 ) {
 
-287 
+288 
 	`ec‹e_imf_c⁄ãxt_öput_∑√l_evít_ˇŒback_dñ
 (
 imf_˘xt
 ,
 
-288 
+289 
 ECORE_IMF_INPUT_PANEL_STATE_EVENT
 ,
 
-289 
+290 
 íåy_öfo
 ->
 öput_∑√l_cb
 );
 
-290 
+291 
 	`ec‹e_imf_c⁄ãxt_öput_∑√l_evít_ˇŒback_add
 (
 imf_˘xt
 ,
 
-291 
-ECORE_IMF_INPUT_PANEL_STATE_EVENT
-,
-
 292 
-íåy_öfo
-->
-öput_∑√l_cb
+ECORE_IMF_INPUT_PANEL_STATE_EVENT
 ,
 
 293 
 íåy_öfo
 ->
+öput_∑√l_cb
+,
+
+294 
+íåy_öfo
+->
 öput_∑√l_cb_d©a
 );
 
-294 
+295 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "setÅhe imf ctxt cbs");
 
-297 
+298 
 __COMMON_FUNC_EXIT__
 ;
 
-299 
+300 
 	}
 }
 
-301 
+302 
 	$comm⁄_utûs_edô_box_focus_£t
 (
 Elm_Obje˘_Iãm
@@ -23645,15 +23623,15 @@ Eöa_Boﬁ
 focus_£t
 )
 
-303 
+304 
 __COMMON_FUNC_ENTER__
 ;
 
-304 i‡(!
+305 i‡(!
 ôem
 ) {
 
-308 
+309 
 Evas_Obje˘
  *
 íåy
@@ -23663,7 +23641,7 @@ Evas_Obje˘
 ôem
 , "elm.icon.entry");
 
-309 
+310 
 	`ñm_obje˘_focus_£t
 (
 íåy
@@ -23671,7 +23649,7 @@ Evas_Obje˘
 focus_£t
 );
 
-310 
+311 
 	`ñm_obje˘_focus_Ælow_£t
 (
 íåy
@@ -23679,15 +23657,15 @@ focus_£t
 focus_£t
 );
 
-312 
+313 
 __COMMON_FUNC_EXIT__
 ;
 
-314 
+315 
 	}
 }
 
-316 
+317 
 	$comm⁄_utûs_edô_box_Ælow_focus_£t
 (
 Elm_Obje˘_Iãm
@@ -23695,21 +23673,21 @@ Elm_Obje˘_Iãm
 ôem
 ,
 
-317 
+318 
 Eöa_Boﬁ
  
 focus_£t
 )
 
-319 
+320 
 __COMMON_FUNC_ENTER__
 ;
 
-320 i‡(!
+321 i‡(!
 ôem
 ) {
 
-324 
+325 
 Evas_Obje˘
  *
 íåy
@@ -23719,7 +23697,7 @@ Evas_Obje˘
 ôem
 , "elm.icon.entry");
 
-325 
+326 
 	`ñm_obje˘_focus_Ælow_£t
 (
 íåy
@@ -23727,21 +23705,21 @@ Evas_Obje˘
 focus_£t
 );
 
-327 
+328 
 __COMMON_FUNC_EXIT__
 ;
 
-329 
+330 
 	}
 }
 
-331 
+332 
 Elm_Obje˘_Iãm
  *
 	$comm⁄_utûs_add_2_löe_txt_dißbÀd_ôem
 (
 
-332 
+333 
 Evas_Obje˘
 * 
 võw_li°
@@ -23749,19 +23727,19 @@ võw_li°
 °yÀ_«me
 ,
 
-333 c⁄° *
+334 c⁄° *
 löe1_txt
 , c⁄° *
 löe2_txt
 )
 
-335 
+336 
 Elm_Gíli°_Iãm_Cœss
  
 two_löe_di•œy_ôc
 ;
 
-336 
+337 
 two_löe_di•_d©a_t
  *
 two_löe_d©a
@@ -23769,7 +23747,7 @@ two_löe_d©a
 NULL
 ;
 
-337 
+338 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -23777,7 +23755,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-339 
+340 
 two_löe_di•œy_ôc
 .
 ôem_°yÀ
@@ -23785,7 +23763,7 @@ two_löe_di•œy_ôc
 °yÀ_«me
 ;
 
-340 
+341 
 two_löe_di•œy_ôc
 .
 func
@@ -23795,7 +23773,7 @@ func
 __comm⁄_utûs_2löe_ãxt_gë
 ;
 
-341 
+342 
 two_löe_di•œy_ôc
 .
 func
@@ -23805,7 +23783,7 @@ c⁄ã¡_gë
 NULL
 ;
 
-342 
+343 
 two_löe_di•œy_ôc
 .
 func
@@ -23815,7 +23793,7 @@ func
 NULL
 ;
 
-343 
+344 
 two_löe_di•œy_ôc
 .
 func
@@ -23825,7 +23803,7 @@ dñ
 __comm⁄_utûs_2löe_ãxt_dñ
 ;
 
-345 
+346 
 two_löe_d©a
  = 
 	`g_√w0
@@ -23833,7 +23811,7 @@ two_löe_d©a
 two_löe_di•_d©a_t
 , 1);
 
-346 
+347 
 two_löe_d©a
 ->
 tôÀ_°r
@@ -23843,7 +23821,7 @@ tôÀ_°r
 löe1_txt
 );
 
-347 
+348 
 two_löe_d©a
 ->
 öfo_°r
@@ -23853,13 +23831,13 @@ two_löe_d©a
 löe2_txt
 );
 
-348 
+349 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
 , "title_str = %s info_str = %s",
 
-349 
+350 
 two_löe_d©a
 ->
 tôÀ_°r
@@ -23867,7 +23845,7 @@ tôÀ_°r
 öfo_°r
 );
 
-351 
+352 
 ôem
  = 
 	`ñm_gíli°_ôem_≠≥nd
@@ -23877,7 +23855,7 @@ võw_li°
 two_löe_di•œy_ôc
 ,
 
-352 
+353 
 two_löe_d©a
 , 
 NULL
@@ -23885,7 +23863,7 @@ NULL
 ELM_GENLIST_ITEM_NONE
 , NULL, NULL);
 
-353 
+354 
 	`ñm_obje˘_ôem_dißbÀd_£t
 (
 ôem
@@ -23893,15 +23871,15 @@ ELM_GENLIST_ITEM_NONE
 TRUE
 );
 
-355  
+356  
 ôem
 ;
 
-356 
+357 
 	}
 }
 
-358 *
+359 *
 	$comm⁄_utûs_gë_li°_ôem_íåy_txt
 (
 Elm_Obje˘_Iãm
@@ -23909,13 +23887,13 @@ Elm_Obje˘_Iãm
 íåy_ôem
 )
 
-360 
+361 
 comm⁄_utûs_íåy_öfo_t
  *
 íåy_öfo
  =
 
-361 (
+362 (
 comm⁄_utûs_íåy_öfo_t
  *)
 	`ñm_obje˘_ôem_d©a_gë
@@ -23923,17 +23901,17 @@ comm⁄_utûs_íåy_öfo_t
 íåy_ôem
 );
 
-362 i‡(
+363 i‡(
 íåy_öfo
  =
 NULL
 ) {
 
-363  
+364  
 NULL
 ;
 
-366 
+367 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
@@ -23941,7 +23919,7 @@ UG_NAME_NORMAL
 íåy_öfo
 );
 
-368  
+369  
 	`g_°rdup
 (
 íåy_öfo
@@ -23949,11 +23927,11 @@ UG_NAME_NORMAL
 íåy_txt
 );
 
-369 
+370 
 	}
 }
 
-371 
+372 
 Evas_Obje˘
  *
 	$comm⁄_utûs_¸óã_œyout
@@ -23963,13 +23941,13 @@ Evas_Obje˘
 «vi_‰ame
 )
 
-373 
+374 
 Evas_Obje˘
  *
 œyout
 ;
 
-374 
+375 
 œyout
  = 
 	`ñm_œyout_add
@@ -23977,13 +23955,13 @@ Evas_Obje˘
 «vi_‰ame
 );
 
-375 
+376 
 	`ñm_œyout_theme_£t
 (
 œyout
 , "layout", "application", "noindicator");
 
-376 
+377 
 	`evas_obje˘_size_höt_weight_£t
 (
 œyout
@@ -23991,7 +23969,7 @@ Evas_Obje˘
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-378 
+379 
 Evas_Obje˘
 * 
 bg
@@ -24001,7 +23979,7 @@ bg
 œyout
 );
 
-379 
+380 
 	`evas_obje˘_size_höt_weight_£t
 (
 bg
@@ -24009,13 +23987,13 @@ bg
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-380 
+381 
 	`ñm_obje˘_°yÀ_£t
 (
 bg
 , "group_list");
 
-381 
+382 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 œyout
@@ -24023,21 +24001,21 @@ bg
 bg
 );
 
-383 
+384 
 	`evas_obje˘_show
 (
 œyout
 );
 
-385  
+386  
 œyout
 ;
 
-386 
+387 
 	}
 }
 
-388 
+389 
 	$__comm⁄_utûs_dñ_p›up
 (*
 d©a
@@ -24049,7 +24027,7 @@ obj
 evít_öfo
 )
 
-390 
+391 
 Evas_Obje˘
  *
 p›up
@@ -24057,17 +24035,17 @@ p›up
 d©a
 ;
 
-391 
+392 
 	`evas_obje˘_dñ
 (
 p›up
 );
 
-392 
+393 
 	}
 }
 
-394 
+395 
 Evas_Obje˘
  *
 	$comm⁄_utûs_show_öfo_p›up
@@ -24077,17 +24055,17 @@ Evas_Obje˘
 ∑ª¡
 ,
 
-395 
+396 
 p›up_bä_öfo_t
  *
 p›up_d©a
 )
 
-397 
+398 
 __COMMON_FUNC_ENTER__
 ;
 
-399 
+400 
 Evas_Obje˘
  *
 p›up
@@ -24097,21 +24075,21 @@ p›up
 ∑ª¡
 );
 
-401 i‡(!
+402 i‡(!
 p›up
 ) {
 
-402 
+403 
 	`ERROR_LOG
 (
 UG_NAME_ERR
 , "CouldÇotáddÖopup");
 
-403  
+404  
 NULL
 ;
 
-406 i‡(
+407 i‡(
 p›up_d©a
 ->
 p›up_wôh_íåy
@@ -24119,13 +24097,13 @@ p›up_wôh_íåy
 åue
 ) {
 
-407 
+408 
 	`ñm_obje˘_°yÀ_£t
 (
 p›up
 , "no_effect");
 
-409 
+410 
 	`evas_obje˘_size_höt_weight_£t
 (
 p›up
@@ -24133,13 +24111,13 @@ p›up
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-411 i‡(
+412 i‡(
 p›up_d©a
 ->
 tôÀ_txt
 ) {
 
-412 
+413 
 	`ñm_obje˘_∑π_ãxt_£t
 (
 p›up
@@ -24149,13 +24127,13 @@ p›up_d©a
 tôÀ_txt
 );
 
-414 i‡(
+415 i‡(
 p›up_d©a
 ->
 öfo_txt
 ) {
 
-415 
+416 
 	`ñm_obje˘_ãxt_£t
 (
 p›up
@@ -24165,13 +24143,13 @@ p›up_d©a
 öfo_txt
 );
 
-417 i‡(
+418 i‡(
 p›up_d©a
 ->
 bä1_txt
 ) {
 
-418 
+419 
 Evas_Obje˘
  *
 bä_1
@@ -24181,13 +24159,13 @@ bä_1
 p›up
 );
 
-419 
+420 
 	`ñm_obje˘_°yÀ_£t
 (
 bä_1
 , "popup");
 
-420 
+421 
 	`ñm_obje˘_ãxt_£t
 (
 bä_1
@@ -24197,7 +24175,7 @@ p›up_d©a
 bä1_txt
 );
 
-421 
+422 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 p›up
@@ -24205,35 +24183,19 @@ p›up
 bä_1
 );
 
-422 i‡(
+423 i‡(
 p›up_d©a
 ->
 bä1_cb
 ) {
 
-423 
+424 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 bä_1
 , "clicked",
-
-424 
-p›up_d©a
-->
-bä1_cb
-,Ö›up_d©a->
-bä1_d©a
-);
 
 425 
-	`ó_obje˘_evít_ˇŒback_add
-(
-p›up
-, 
-EA_CALLBACK_BACK
-,
-
-426 
 p›up_d©a
 ->
 bä1_cb
@@ -24241,19 +24203,7 @@ bä1_cb
 bä1_d©a
 );
 
-428 
-	`evas_obje˘_sm¨t_ˇŒback_add
-(
-bä_1
-, "clicked",
-
-429 
-__comm⁄_utûs_dñ_p›up
-, 
-p›up
-);
-
-430 
+426 
 	`ó_obje˘_evít_ˇŒback_add
 (
 p›up
@@ -24261,19 +24211,47 @@ p›up
 EA_CALLBACK_BACK
 ,
 
-431 
+427 
+p›up_d©a
+->
+bä1_cb
+,Ö›up_d©a->
+bä1_d©a
+);
+
+429 
+	`evas_obje˘_sm¨t_ˇŒback_add
+(
+bä_1
+, "clicked",
+
+430 
 __comm⁄_utûs_dñ_p›up
 , 
 p›up
 );
 
-434 i‡(
+431 
+	`ó_obje˘_evít_ˇŒback_add
+(
+p›up
+, 
+EA_CALLBACK_BACK
+,
+
+432 
+__comm⁄_utûs_dñ_p›up
+, 
+p›up
+);
+
+435 i‡(
 p›up_d©a
 ->
 bä2_txt
 ) {
 
-435 
+436 
 Evas_Obje˘
  *
 bä_2
@@ -24283,13 +24261,13 @@ bä_2
 p›up
 );
 
-436 
+437 
 	`ñm_obje˘_°yÀ_£t
 (
 bä_2
 , "popup");
 
-438 
+439 
 p›up_d©a
 ->
 bä
@@ -24297,7 +24275,7 @@ bä
 bä_2
 ;
 
-439 
+440 
 	`ñm_obje˘_ãxt_£t
 (
 bä_2
@@ -24307,7 +24285,7 @@ p›up_d©a
 bä2_txt
 );
 
-440 
+441 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 p›up
@@ -24315,25 +24293,25 @@ p›up
 bä_2
 );
 
-442 
+443 
 	`evas_obje˘_show
 (
 p›up
 );
 
-443 i‡(
+444 i‡(
 p›up_d©a
 ->
 bä2_cb
 ) {
 
-444 
+445 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 bä_2
 , "clicked",
 
-445 
+446 
 p›up_d©a
 ->
 bä2_cb
@@ -24341,25 +24319,25 @@ bä2_cb
 bä2_d©a
 );
 
-447 
+448 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 bä_2
 , "clicked",
 
-448 
+449 
 __comm⁄_utûs_dñ_p›up
 , 
 p›up
 );
 
-452 
+453 
 	`evas_obje˘_show
 (
 p›up
 );
 
-453 
+454 
 	`ñm_obje˘_focus_£t
 (
 p›up
@@ -24367,15 +24345,15 @@ p›up
 EINA_TRUE
 );
 
-455  
+456  
 p›up
 ;
 
-456 
+457 
 	}
 }
 
-458 
+459 
 Evas_Obje˘
  *
 	$comm⁄_utûs_show_öfo_ok_p›up
@@ -24385,13 +24363,13 @@ Evas_Obje˘
 wö
 ,
 
-459 c⁄° *
+460 c⁄° *
 °r_pkg_«me
 , c⁄° *
 öfo_txt
 ,
 
-460 
+461 
 Evas_Sm¨t_Cb
  
 ok_cb
@@ -24399,25 +24377,25 @@ ok_cb
 cb_d©a
 )
 
-462 
+463 
 p›up_bä_öfo_t
  
 p›up_d©a
 ;
 
-464 
+465 
 	`mem£t
 (&
 p›up_d©a
 , 0, (popup_data));
 
-465 
+466 
 p›up_d©a
 .
 öfo_txt
  = (*)info_txt;
 
-466 
+467 
 p›up_d©a
 .
 bä1_txt
@@ -24429,7 +24407,7 @@ bä1_txt
 I18N_TYPE_Ok
 );
 
-467 
+468 
 p›up_d©a
 .
 bä1_cb
@@ -24437,7 +24415,7 @@ bä1_cb
 ok_cb
 ;
 
-468 
+469 
 p›up_d©a
 .
 bä1_d©a
@@ -24445,7 +24423,7 @@ bä1_d©a
 cb_d©a
 ;
 
-470  
+471  
 	`comm⁄_utûs_show_öfo_p›up
 (
 wö
@@ -24453,11 +24431,11 @@ wö
 p›up_d©a
 );
 
-471 
+472 
 	}
 }
 
-473 
+474 
 Evas_Obje˘
  *
 	$comm⁄_utûs_show_öfo_timeout_p›up
@@ -24467,13 +24445,13 @@ Evas_Obje˘
 wö
 ,
 
-474 c⁄° * 
+475 c⁄° * 
 öfo_ãxt
 , c⁄° 
 timeout
 )
 
-476 
+477 
 Evas_Obje˘
  *
 p›up
@@ -24483,7 +24461,7 @@ p›up
 wö
 );
 
-478 
+479 
 	`ñm_obje˘_ãxt_£t
 (
 p›up
@@ -24491,7 +24469,7 @@ p›up
 öfo_ãxt
 );
 
-479 
+480 
 	`ñm_p›up_timeout_£t
 (
 p›up
@@ -24499,19 +24477,19 @@ p›up
 timeout
 );
 
-480 
+481 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 p›up
 , "timeout",
 
-481 
+482 
 __comm⁄_utûs_dñ_p›up
 , 
 p›up
 );
 
-482 
+483 
 	`evas_obje˘_size_höt_weight_£t
 (
 p›up
@@ -24519,7 +24497,7 @@ p›up
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-483 
+484 
 	`ñm_p›up_‹õ¡_£t
 (
 p›up
@@ -24527,21 +24505,21 @@ p›up
 ELM_POPUP_ORIENT_CENTER
 );
 
-484 
+485 
 	`evas_obje˘_show
 (
 p›up
 );
 
-486  
+487  
 p›up
 ;
 
-487 
+488 
 	}
 }
 
-489 
+490 
 	$comm⁄_utûs_gë_rŸ©e_™gÀ
 (
 ≠pc‹e_rm
@@ -24549,23 +24527,23 @@ p›up
 rŸ©e_mode
 )
 
-491 
+492 
 rŸ©e_™gÀ
 ;
 
-492 i‡(
+493 i‡(
 APPCORE_RM_UNKNOWN
  =
 rŸ©e_mode
 ) {
 
-493 
+494 
 	`≠pc‹e_gë_rŸ©i⁄_°©e
 (&
 rŸ©e_mode
 );
 
-496 
+497 
 	`DEBUG_LOG
 (
 SP_NAME_NORMAL
@@ -24573,85 +24551,85 @@ SP_NAME_NORMAL
 rŸ©e_mode
 );
 
-498 
+499 
 rŸ©e_mode
 ) {
 
-499 
+500 
 APPCORE_RM_PORTRAIT_NORMAL
 :
 
-500 
+501 
 	`DEBUG_LOG
 (
 SP_NAME_NORMAL
 , "rotate mode is APPCORE_RM_PORTRAIT_NORMAL");
 
-501 
+502 
 rŸ©e_™gÀ
  = 0;
 
-504 
+505 
 APPCORE_RM_PORTRAIT_REVERSE
 :
 
-505 
+506 
 	`DEBUG_LOG
 (
 SP_NAME_NORMAL
 , "rotate mode is APPCORE_RM_PORTRAIT_REVERSE");
 
-506 
+507 
 rŸ©e_™gÀ
  = 180;
 
-509 
+510 
 APPCORE_RM_LANDSCAPE_NORMAL
 :
 
-510 
+511 
 	`DEBUG_LOG
 (
 SP_NAME_NORMAL
 , "rotate mode is APPCORE_RM_LANDSCAPE_NORMAL");
 
-511 
+512 
 rŸ©e_™gÀ
  = 270;
 
-514 
+515 
 APPCORE_RM_LANDSCAPE_REVERSE
 :
 
-515 
+516 
 	`DEBUG_LOG
 (
 SP_NAME_NORMAL
 , "rotate mode is APPCORE_RM_LANDSCAPE_REVERSE");
 
-516 
+517 
 rŸ©e_™gÀ
  = 90;
 
-520 
+521 
 	`ERROR_LOG
 (
 SP_NAME_ERR
 , "InvalidÑotate mode. The default value (0) is setÅo 'rotate_angle'.");
 
-521 
+522 
 rŸ©e_™gÀ
  = 0;
 
-525  
+526  
 rŸ©e_™gÀ
 ;
 
-526 
+527 
 	}
 }
 
-528 
+529 
 wœn_£curôy_mode_ty≥_t
  
 	$comm⁄_utûs_gë_£c_mode
@@ -24661,69 +24639,69 @@ wifi_£curôy_ty≥_e
 £c_ty≥
 )
 
-530 
+531 
 £c_ty≥
 ) {
 
-531 
+532 
 WIFI_SECURITY_TYPE_NONE
 :
 
-532  
+533  
 WLAN_SEC_MODE_NONE
 ;
 
-533 
+534 
 WIFI_SECURITY_TYPE_WEP
 :
 
-534  
+535  
 WLAN_SEC_MODE_WEP
 ;
 
-535 
+536 
 WIFI_SECURITY_TYPE_WPA_PSK
 :
 
-536  
+537  
 WLAN_SEC_MODE_WPA_PSK
 ;
 
-537 
+538 
 WIFI_SECURITY_TYPE_WPA2_PSK
 :
 
-538  
+539  
 WLAN_SEC_MODE_WPA_PSK
 ;
 
-539 
+540 
 WIFI_SECURITY_TYPE_EAP
 :
 
-540  
+541  
 WLAN_SEC_MODE_IEEE8021X
 ;
 
-542  
+543  
 WLAN_SEC_MODE_NONE
 ;
 
-545  
+546  
 WLAN_SEC_MODE_NONE
 ;
 
-546 
+547 
 	}
 }
 
-548 
+549 
 	$comm⁄_utûs_£nd_mesßge_to_√t_p›up
 (c⁄° *
 tôÀ
 ,
 
-549 c⁄° *
+550 c⁄° *
 c⁄ã¡
 , c⁄° *
 ty≥
@@ -24731,11 +24709,11 @@ ty≥
 ssid
 )
 
-551 
+552 
 ªt
  = 0;
 
-552 
+553 
 bundÀ
  *
 b
@@ -24743,7 +24721,7 @@ b
 	`bundÀ_¸óã
 ();
 
-554 
+555 
 	`bundÀ_add
 (
 b
@@ -24751,7 +24729,7 @@ b
 tôÀ
 );
 
-555 
+556 
 	`bundÀ_add
 (
 b
@@ -24759,7 +24737,7 @@ b
 c⁄ã¡
 );
 
-556 
+557 
 	`bundÀ_add
 (
 b
@@ -24767,7 +24745,7 @@ b
 ty≥
 );
 
-557 
+558 
 	`bundÀ_add
 (
 b
@@ -24775,7 +24753,7 @@ b
 ssid
 );
 
-559 
+560 
 ªt
  = 
 	`aul_œunch_≠p
@@ -24783,21 +24761,21 @@ ssid
 b
 );
 
-561 
+562 
 	`bundÀ_‰ì
 (
 b
 );
 
-563  
+564  
 ªt
 ;
 
-564 
+565 
 	}
 }
 
-566 
+567 
 	$comm⁄_utû_£t_sy°em_ªgi°ry
 (c⁄° *
 key
@@ -24805,11 +24783,11 @@ key
 vÆue
 )
 
-568 
+569 
 __COMMON_FUNC_ENTER__
 ;
 
-570 i‡(
+571 i‡(
 	`vc⁄f_£t_öt
 (
 key
@@ -24817,39 +24795,39 @@ key
 vÆue
 ) < 0) {
 
-571 
+572 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "FailedÅo set vconf");
 
-573 
+574 
 __COMMON_FUNC_EXIT__
 ;
 
-577 
+578 
 __COMMON_FUNC_EXIT__
 ;
 
-579 
+580 
 	}
 }
 
-581 
+582 
 	$comm⁄_utû_gë_sy°em_ªgi°ry
 (c⁄° *
 key
 )
 
-583 
+584 
 __COMMON_FUNC_ENTER__
 ;
 
-585 
+586 
 vÆue
  = 0;
 
-587 i‡(
+588 i‡(
 	`vc⁄f_gë_öt
 (
 key
@@ -24857,29 +24835,29 @@ key
 vÆue
 ) < 0) {
 
-588 
+589 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "FailedÅo get vconf");
 
-590 
+591 
 __COMMON_FUNC_EXIT__
 ;
 
-594 
+595 
 __COMMON_FUNC_EXIT__
 ;
 
-595  
+596  
 vÆue
 ;
 
-596 
+597 
 	}
 }
 
-598 
+599 
 	$__comm⁄_utû_m™aged_idÀ_de°roy_cb
 (
 gpoöãr
@@ -24887,11 +24865,11 @@ gpoöãr
 d©a
 )
 
-600 i‡(!
+601 i‡(!
 d©a
 ) {
 
-604 
+605 
 m™aged_idÀr_li°
  = 
 	`g_¶i°_ªmove
@@ -24899,17 +24877,17 @@ m™aged_idÀr_li°
 d©a
 );
 
-605 
+606 
 	`g_‰ì
 (
 d©a
 );
 
-606 
+607 
 	}
 }
 
-608 
+609 
 gboﬁón
  
 	$__comm⁄_utû_m™aged_idÀ_cb
@@ -24919,7 +24897,7 @@ gpoöãr
 u£r_d©a
 )
 
-610 
+611 
 m™aged_idÀ_d©a
  *
 d©a
@@ -24927,15 +24905,15 @@ d©a
 u£r_d©a
 ;
 
-612 i‡(!
+613 i‡(!
 d©a
 ) {
 
-613  
+614  
 FALSE
 ;
 
-616  
+617  
 d©a
 ->
 	`func
@@ -24943,11 +24921,11 @@ d©a
 u£r_d©a
 );
 
-617 
+618 
 	}
 }
 
-619 
+620 
 guöt
  
 	$comm⁄_utû_m™aged_idÀ_add
@@ -24961,23 +24939,23 @@ gpoöãr
 u£r_d©a
 )
 
-621 
+622 
 guöt
  
 id
 ;
 
-622 
+623 
 m™aged_idÀ_d©a
  *
 d©a
 ;
 
-624 i‡(!
+625 i‡(!
 func
 ) {
 
-628 
+629 
 d©a
  = 
 	`g_åy_√w0
@@ -24985,23 +24963,23 @@ d©a
 m™aged_idÀ_d©a
 , 1);
 
-629 i‡(!
+630 i‡(!
 d©a
 ) {
 
-633 
+634 
 d©a
 ->
 func
  = func;
 
-634 
+635 
 d©a
 ->
 u£r_d©a
  = user_data;
 
-636 
+637 
 id
  = 
 	`g_idÀ_add_fuŒ
@@ -25011,33 +24989,33 @@ G_PRIORITY_DEFAULT_IDLE
 __comm⁄_utû_m™aged_idÀ_cb
 ,
 
-637 
+638 
 d©a
 , 
 __comm⁄_utû_m™aged_idÀ_de°roy_cb
 );
 
-638 i‡(!
+639 i‡(!
 id
 ) {
 
-639 
+640 
 	`g_‰ì
 (
 d©a
 );
 
-640  
+641  
 id
 ;
 
-643 
+644 
 d©a
 ->
 id
  = id;
 
-645 
+646 
 m™aged_idÀr_li°
  = 
 	`g_¶i°_≠≥nd
@@ -25045,25 +25023,25 @@ m™aged_idÀr_li°
 d©a
 );
 
-647  
+648  
 id
 ;
 
-648 
+649 
 	}
 }
 
-650 
+651 
 	$comm⁄_utû_m™aged_idÀ_˛ónup
 ()
 
-652 i‡(
+653 i‡(
 m™aged_idÀr_li°
  =
 NULL
 ) {
 
-656 
+657 
 GSLi°
  *
 cur
@@ -25071,23 +25049,23 @@ cur
 m™aged_idÀr_li°
 ;
 
-657 
+658 
 GSour˚
  *
 §c
 ;
 
-658 
+659 
 m™aged_idÀ_d©a
  *
 d©a
 ;
 
-660 
+661 
 cur
 ) {
 
-661 
+662 
 GSLi°
  *
 √xt
@@ -25095,7 +25073,7 @@ GSLi°
 cur
 ->next;
 
-662 
+663 
 d©a
  = (
 m™aged_idÀ_d©a
@@ -25103,7 +25081,7 @@ m™aged_idÀ_d©a
 cur
 ->data;
 
-664 
+665 
 §c
  = 
 	`g_maö_c⁄ãxt_föd_sour˚_by_id
@@ -25115,51 +25093,51 @@ d©a
 id
 );
 
-665 i‡(
+666 i‡(
 §c
 ) {
 
-666 
+667 
 	`g_sour˚_de°roy
 (
 §c
 );
 
-667 
+668 
 cur
  = 
 m™aged_idÀr_li°
 ;
 
-669 
+670 
 cur
  = 
 √xt
 ;
 
-673 
+674 
 	`g_¶i°_‰ì
 (
 m™aged_idÀr_li°
 );
 
-674 
+675 
 m™aged_idÀr_li°
  = 
 NULL
 ;
 
-675 
+676 
 	}
 }
 
-677 
+678 
 	$comm⁄_utû_m™aged_ec‹e_sˇn_upd©e_timî_add
 (
 öãrvÆ
 ,
 
-678 
+679 
 comm⁄_utû_sˇn_upd©e_cb
  
 ˇŒback
@@ -25167,17 +25145,17 @@ comm⁄_utû_sˇn_upd©e_cb
 d©a
 )
 
-680 i‡(
+681 i‡(
 ˇŒback
  =
 NULL
 )
 
-683 
+684 
 	`comm⁄_utû_m™aged_ec‹e_sˇn_upd©e_timî_dñ
 ();
 
-685 
+686 
 sˇn_upd©e_timî
  = 
 	`ec‹e_timî_add
@@ -25189,57 +25167,57 @@ sˇn_upd©e_timî
 d©a
 );
 
-686 
+687 
 	}
 }
 
-688 
+689 
 	$comm⁄_utû_m™aged_ec‹e_sˇn_upd©e_timî_dñ
 ()
 
-690 i‡(
+691 i‡(
 sˇn_upd©e_timî
  !
 NULL
 ) {
 
-691 
+692 
 	`ec‹e_timî_dñ
 (
 sˇn_upd©e_timî
 );
 
-692 
+693 
 sˇn_upd©e_timî
  = 
 NULL
 ;
 
-694 
+695 
 	}
 }
 
-696 
+697 
 	$comm⁄_utû_m™agî_ec‹e_sˇn_upd©e_timî_ª£t
 ()
 
-698 
+699 
 sˇn_upd©e_timî
  = 
 NULL
 ;
 
-699 
+700 
 	}
 }
 
-701 
+702 
 GDBusC⁄√˘i⁄
  *
 	$comm⁄_utû_gë_gdbus_c⁄n
 ()
 
-703 
+704 
 GEº‹
  *
 îr‹
@@ -25247,7 +25225,7 @@ GEº‹
 NULL
 ;
 
-705 i‡(
+706 i‡(
 gdbus_c⁄n
 .
 c⁄√˘i⁄
@@ -25255,21 +25233,21 @@ c⁄√˘i⁄
 NULL
 )
 
-706  
+707  
 gdbus_c⁄n
 .
 c⁄√˘i⁄
 ;
 
-708 #i‡!
+709 #i‡!
 	`GLIB_CHECK_VERSION
 (2,36,0)
 
-709 
+710 
 	`g_ty≥_öô
 ();
 
-712 
+713 
 gdbus_c⁄n
 .
 c⁄√˘i⁄
@@ -25283,7 +25261,7 @@ NULL
 îr‹
 );
 
-713 i‡(
+714 i‡(
 gdbus_c⁄n
 .
 c⁄√˘i⁄
@@ -25291,39 +25269,39 @@ c⁄√˘i⁄
 NULL
 ) {
 
-714 
+715 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 ,
 
-715 "FaûedÅÿc⁄√˘ÅÿthêD-BUS d´m⁄: [%s]\n", 
+716 "FaûedÅÿc⁄√˘ÅÿthêD-BUS d´m⁄: [%s]\n", 
 îr‹
 ->
 mesßge
 );
 
-716 
+717 
 	`g_îr‹_‰ì
 (
 îr‹
 );
 
-717  
+718  
 NULL
 ;
 
-720  
+721  
 gdbus_c⁄n
 .
 c⁄√˘i⁄
 ;
 
-721 
+722 
 	}
 }
 
-723 
+724 
 gboﬁón
  
 	$comm⁄_utû_subs¸ibe_sˇ¬ög_sig«l
@@ -25333,35 +25311,35 @@ GDBusSig«lCÆlback
 ˇŒback
 )
 
-725 
+726 
 GDBusC⁄√˘i⁄
  *
 c⁄√˘i⁄
 ;
 
-727 
+728 
 c⁄√˘i⁄
  = 
 	`comm⁄_utû_gë_gdbus_c⁄n
 ();
 
-728 i‡(
+729 i‡(
 c⁄√˘i⁄
  =
 NULL
 ) {
 
-729 
+730 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "failedÅo get gdbus_conn");
 
-730  
+731  
 FALSE
 ;
 
-734 
+735 
 gdbus_c⁄n
 .
 subs¸ibe_id_suµliˇ¡
@@ -25369,20 +25347,16 @@ subs¸ibe_id_suµliˇ¡
 	`g_dbus_c⁄√˘i⁄_sig«l_subs¸ibe
 (
 
-735 
+736 
 c⁄√˘i⁄
 ,
 
-736 
+737 
 SUPPLICANT_SERVICE
 ,
 
-737 
+738 
 SUPPLICANT_SERVICE_INTERFACE
-,
-
-739 
-NULL
 ,
 
 740 
@@ -25390,98 +25364,102 @@ NULL
 ,
 
 741 
-G_DBUS_SIGNAL_FLAGS_NONE
+NULL
 ,
 
 742 
-ˇŒback
+G_DBUS_SIGNAL_FLAGS_NONE
 ,
 
 743 
-NULL
+ˇŒback
 ,
 
 744 
 NULL
+,
+
+745 
+NULL
 );
 
-746 i‡(
+747 i‡(
 gdbus_c⁄n
 .
 subs¸ibe_id_suµliˇ¡
  == 0) {
 
-747 
+748 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "FailedÑegister signals "
 
-749 
+750 
 gdbus_c⁄n
 .
 subs¸ibe_id_suµliˇ¡
 );
 
-750  
+751  
 FALSE
 ;
 
-753  
+754  
 TRUE
 ;
 
-754 
+755 
 	}
 }
 
-756 
+757 
 gboﬁón
  
 	$comm⁄_utû_unsubs¸ibe_sˇ¬ög_sig«l
 ()
 
-758 
+759 
 GDBusC⁄√˘i⁄
  *
 c⁄√˘i⁄
 ;
 
-760 
+761 
 c⁄√˘i⁄
  = 
 	`comm⁄_utû_gë_gdbus_c⁄n
 ();
 
-761 i‡(
+762 i‡(
 c⁄√˘i⁄
  =
 NULL
 ) {
 
-762 
+763 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "failedÅo get gdbus_conn");
 
-763  
+764  
 FALSE
 ;
 
-766 
+767 
 	`g_dbus_c⁄√˘i⁄_sig«l_unsubs¸ibe
 (
 c⁄√˘i⁄
 ,
 
-767 
+768 
 gdbus_c⁄n
 .
 subs¸ibe_id_suµliˇ¡
 );
 
-769 
+770 
 	`g_obje˘_uƒef
 (
 gdbus_c⁄n
@@ -25489,7 +25467,7 @@ gdbus_c⁄n
 c⁄√˘i⁄
 );
 
-770 
+771 
 gdbus_c⁄n
 .
 c⁄√˘i⁄
@@ -25497,11 +25475,11 @@ c⁄√˘i⁄
 NULL
 ;
 
-772  
+773  
 TRUE
 ;
 
-773 
+774 
 	}
 }
 
@@ -25752,6 +25730,28 @@ __LINE__
 	)
 
 89 
+	#MIN_LOG
+(
+f‹m©
+, 
+¨gs
+...) \
+
+90 
+	`LOGI
+("\033[42m[%s:%d]\033[0m\033[32m " 
+f‹m©
+ "\033[0m", 
+__func__
+, 
+__LINE__
+, ##
+¨gs
+)
+
+	)
+
+91 
 	#FUNC_LOG
 (
 MID
@@ -25761,7 +25761,7 @@ f‹m©
 ¨gs
 ...) \
 
-90 
+92 
 	`LOGI
 ("\033[2m[%s:%d]\033[2m " 
 f‹m©
@@ -25775,7 +25775,7 @@ __LINE__
 
 	)
 
-91 
+93 
 	#DEBUG_LOG
 (
 MID
@@ -25785,7 +25785,7 @@ f‹m©
 ¨gs
 ...) \
 
-92 
+94 
 	`SLOG
 (
 LOG_DEBUG
@@ -25803,7 +25803,7 @@ __LINE__
 
 	)
 
-93 
+95 
 	#INFO_LOG
 (
 MID
@@ -25813,7 +25813,7 @@ f‹m©
 ¨gs
 ...) \
 
-94 
+96 
 	`SLOG
 (
 LOG_INFO
@@ -25831,7 +25831,7 @@ __LINE__
 
 	)
 
-95 
+97 
 	#WARN_LOG
 (
 MID
@@ -25841,7 +25841,7 @@ f‹m©
 ¨gs
 ...) \
 
-96 
+98 
 	`SLOG
 (
 LOG_WARN
@@ -25859,7 +25859,7 @@ __LINE__
 
 	)
 
-97 
+99 
 	#ERROR_LOG
 (
 MID
@@ -25869,7 +25869,7 @@ f‹m©
 ¨gs
 ...) \
 
-98 
+100 
 	`SLOG
 (
 LOG_ERROR
@@ -25887,7 +25887,7 @@ __LINE__
 
 	)
 
-100 
+102 
 	#SECURE_FUNC_LOG
 (
 MID
@@ -25897,7 +25897,7 @@ f‹m©
 ¨gs
 ...) \
 
-101 
+103 
 	`SECURE_SLOG
 (
 LOG_INFO
@@ -25915,7 +25915,7 @@ __LINE__
 
 	)
 
-102 
+104 
 	#SECURE_DEBUG_LOG
 (
 MID
@@ -25925,7 +25925,7 @@ f‹m©
 ¨gs
 ...) \
 
-103 
+105 
 	`SECURE_SLOG
 (
 LOG_DEBUG
@@ -25943,7 +25943,7 @@ __LINE__
 
 	)
 
-104 
+106 
 	#SECURE_INFO_LOG
 (
 MID
@@ -25953,7 +25953,7 @@ f‹m©
 ¨gs
 ...) \
 
-105 
+107 
 	`SECURE_SLOG
 (
 LOG_INFO
@@ -25971,7 +25971,7 @@ __LINE__
 
 	)
 
-106 
+108 
 	#SECURE_WARN_LOG
 (
 MID
@@ -25981,7 +25981,7 @@ f‹m©
 ¨gs
 ...) \
 
-107 
+109 
 	`SECURE_SLOG
 (
 LOG_WARN
@@ -25999,7 +25999,7 @@ __LINE__
 
 	)
 
-108 
+110 
 	#SECURE_ERROR_LOG
 (
 MID
@@ -26009,7 +26009,7 @@ f‹m©
 ¨gs
 ...) \
 
-109 
+111 
 	`SECURE_SLOG
 (
 LOG_ERROR
@@ -26027,17 +26027,17 @@ __LINE__
 
 	)
 
-111 
+113 
 	#ªtm_if
 (
 ex¥
 ) do { \
 
-112 i‡(
+114 i‡(
 ex¥
 ) { \
 
-113 
+115 
 	`ERROR_LOG
 (
 COMMON_NAME_ERR
@@ -26047,11 +26047,11 @@ __FUNCTION__
 __LINE__
 , #expr); \
 
-116 } 0)
+118 } 0)
 
 	)
 
-118 
+120 
 	#ªtvm_if
 (
 ex¥
@@ -26059,11 +26059,11 @@ ex¥
 vÆ
 ) do { \
 
-119 i‡(
+121 i‡(
 ex¥
 ) { \
 
-120 
+122 
 	`ERROR_LOG
 (
 COMMON_NAME_ERR
@@ -26073,15 +26073,15 @@ __FUNCTION__
 __LINE__
 , #expr); \
 
-121  (
+123  (
 vÆ
 ); \
 
-123 } 0)
+125 } 0)
 
 	)
 
-125 
+127 
 	#as£πm_if
 (
 ex¥
@@ -26091,11 +26091,11 @@ fmt
 ¨g
 ...) do { \
 
-126 if(
+128 if(
 ex¥
 ) { \
 
-127 
+129 
 	`ERROR_LOG
 (
 COMMON_NAME_ERR
@@ -26107,15 +26107,15 @@ __FUNCTION__
 ¨g
 ); \
 
-128 
+130 
 	`as£π
 (1); \
 
-130 } 0Ë
+132 } 0Ë
 
 	)
 
-132 #ifde‡
+134 #ifde‡
 __˝lu•lus
 
 
@@ -26124,52 +26124,88 @@ __˝lu•lus
 2 #i‡!
 deföed
 (
-_COMMON_H_
+__COMMON_BT_H__
 )
 
 3 
-	#_COMMON_H_
+	#__COMMON_BT_H__
 
 
 	)
 
-6 #ifde‡
+5 
+	~<sy¶og.h
+>
+
+6 
+	~<f˙é.h
+>
+
+7 
+	~<°dio.h
+>
+
+8 
+	~<sys/ty≥s.h
+>
+
+9 
+	~<sys/°©.h
+>
+
+10 
+	~<uni°d.h
+>
+
+11 
+	~<°rög.h
+>
+
+12 
+	~<dlog.h
+>
+
+13 
+	~<°d¨g.h
+>
+
+15 #ifde‡
 __˝lu•lus
 
 
-12 
+21 
 	erkf_log_ty≥
  {
 
-13 
+22 
 RKF_LOG_PRINT_FILE
  = 1,
 
-14 
+23 
 RKF_LOG_SYSLOG
  = 2,
 
-15 
+24 
 RKF_LOG_DLOG
  = 3,
 
-18 
+27 
 	erkf_¥i‹ôy_ty≥
  {
 
-19 
+28 
 RKF_LOG_ERR
  = 1,
 
-20 
+29 
 RKF_LOG_DBG
  = 2,
 
-21 
+30 
 RKF_LOG_INFO
  = 3,
 
-24 
+33 
 rkf_log
 (
 ty≥
@@ -26181,7 +26217,7 @@ ty≥
 fmt
  , ...);
 
-27 
+36 
 	#MICROSECONDS
 (
 tv
@@ -26193,15 +26229,15 @@ tv_u£c
 
 	)
 
-29 #i‚de‡
+38 #i‚de‡
 __MODULE__
 
 
-30 
+39 
 	~<°rög.h
 >
 
-31 
+40 
 	#__MODULE__
  (
 	`°ºchr
@@ -26211,21 +26247,21 @@ __FILE__
 
 	)
 
-35 #ifde‡
+44 #ifde‡
 LOG_TAG
 
 
-36 #unde‡
+45 #unde‡
 LOG_TAG
 
 
-38 
+47 
 	#LOG_TAG
  "REMOTE_KEY_FW"
 
 	)
 
-42 #i‡
+51 #i‡
 deföed
 (
 _DEBUG
@@ -26233,7 +26269,7 @@ _DEBUG
 USE_FILE_DEBUG
 )
 
-44 
+53 
 	#DbgPröt
 (
 fmt
@@ -26253,13 +26289,13 @@ __LINE__
 
 	)
 
-48 #i‡
+57 #i‡
 deföed
 (
 USE_SYSLOG_DEBUG
 )
 
-50 
+59 
 	#ERR
 (
 fmt
@@ -26283,7 +26319,7 @@ __LINE__
 
 	)
 
-51 
+60 
 	#INFO
 (
 fmt
@@ -26307,7 +26343,7 @@ __LINE__
 
 	)
 
-52 
+61 
 	#DBG
 (
 fmt
@@ -26331,7 +26367,7 @@ __LINE__
 
 	)
 
-55 #ñi‡
+64 #ñi‡
 deföed
 (
 _DEBUG
@@ -26339,7 +26375,7 @@ _DEBUG
 USE_DLOG_DEBUG
 )
 
-57 
+66 
 	#ERR
 (
 fmt
@@ -26363,7 +26399,7 @@ __LINE__
 
 	)
 
-58 
+67 
 	#INFO
 (
 fmt
@@ -26387,7 +26423,7 @@ __LINE__
 
 	)
 
-59 
+68 
 	#DBG
 (
 fmt
@@ -26411,13 +26447,13 @@ __LINE__
 
 	)
 
-61 #ñi‡
+70 #ñi‡
 deföed
 (
 USE_FILE_DEBUG
 )
 
-63 
+72 
 	#ERR
 (
 fmt
@@ -26437,7 +26473,7 @@ __LINE__
 
 	)
 
-64 
+73 
 	#DBG
 (
 fmt
@@ -26457,7 +26493,7 @@ __LINE__
 
 	)
 
-65 
+74 
 	#INFO
 (
 fmt
@@ -26477,13 +26513,13 @@ __LINE__
 
 	)
 
-67 #ñi‡
+76 #ñi‡
 deföed
 (
 USE_DLOG_LOG
 )
 
-69 
+78 
 	#ERR
 (
 fmt
@@ -26507,7 +26543,7 @@ __LINE__
 
 	)
 
-70 
+79 
 	#INFO
 (
 fmt
@@ -26531,19 +26567,19 @@ __LINE__
 
 	)
 
-72 
+81 
 	#DBG
 (...)
 
 	)
 
-73 
+82 
 	#DbgPröt
 (...)
 
 	)
 
-76 
+85 
 	#ERR
 (
 fmt
@@ -26561,31 +26597,31 @@ LOG_TAG
 
 	)
 
-78 
+87 
 	#DbgPröt
 (...)
 
 	)
 
-79 
+88 
 	#DBG
 (...)
 
 	)
 
-80 
+89 
 	#INFO
 (...)
 
 	)
 
-84 #i‡
+93 #i‡
 deföed
 (
 _DEBUG
 )
 
-85 
+94 
 	#w¨n_if
 (
 ex¥
@@ -26595,11 +26631,11 @@ fmt
 ¨g
 ...) do { \
 
-86 if(
+95 if(
 ex¥
 ) { \
 
-87 
+96 
 	`DBG
 ("(%sË-> "
 fmt
@@ -26607,31 +26643,31 @@ fmt
 ¨g
 ); \
 
-89 } 0)
+98 } 0)
 
 	)
 
-90 
+99 
 	#ªt_if
 (
 ex¥
 ) do { \
 
-91 if(
+100 if(
 ex¥
 ) { \
 
-92 
+101 
 	`DBG
 ("(%sË-> %s(Ëªtu∫", #ex¥, 
 __FUNCTION__
 ); \
 
-95 } 0)
+104 } 0)
 
 	)
 
-96 
+105 
 	#ªtv_if
 (
 ex¥
@@ -26639,25 +26675,25 @@ ex¥
 vÆ
 ) do { \
 
-97 if(
+106 if(
 ex¥
 ) { \
 
-98 
+107 
 	`DBG
 ("(%sË-> %s(Ëªtu∫", #ex¥, 
 __FUNCTION__
 ); \
 
-99  (
+108  (
 vÆ
 ); \
 
-101 } 0)
+110 } 0)
 
 	)
 
-102 
+111 
 	#ªtm_if
 (
 ex¥
@@ -26667,11 +26703,11 @@ fmt
 ¨g
 ...) do { \
 
-103 if(
+112 if(
 ex¥
 ) { \
 
-104 
+113 
 	`ERR
 (
 fmt
@@ -26679,58 +26715,22 @@ fmt
 ¨g
 ); \
 
-105 
+114 
 	`DBG
 ("(%sË-> %s(Ëªtu∫", #ex¥, 
 __FUNCTION__
 ); \
 
-108 } 0)
+117 } 0)
 
 	)
 
-109 
+118 
 	#ªtvm_if
 (
 ex¥
 , 
 vÆ
-, 
-fmt
-, 
-¨g
-...) do { \
-
-110 if(
-ex¥
-) { \
-
-111 
-	`ERR
-(
-fmt
-, ##
-¨g
-); \
-
-112 
-	`DBG
-("(%sË-> %s(Ëªtu∫", #ex¥, 
-__FUNCTION__
-); \
-
-113  (
-vÆ
-); \
-
-115 } 0)
-
-	)
-
-118 
-	#w¨n_if
-(
-ex¥
 , 
 fmt
 , 
@@ -26749,25 +26749,61 @@ fmt
 ¨g
 ); \
 
-122 } 0)
+121 
+	`DBG
+("(%sË-> %s(Ëªtu∫", #ex¥, 
+__FUNCTION__
+); \
+
+122  (
+vÆ
+); \
+
+124 } 0)
 
 	)
 
-123 
+127 
+	#w¨n_if
+(
+ex¥
+, 
+fmt
+, 
+¨g
+...) do { \
+
+128 if(
+ex¥
+) { \
+
+129 
+	`ERR
+(
+fmt
+, ##
+¨g
+); \
+
+131 } 0)
+
+	)
+
+132 
 	#ªt_if
 (
 ex¥
 ) do { \
 
-124 if(
+133 if(
 ex¥
 ) { \
 
-127 } 0)
+136 } 0)
 
 	)
 
-128 
+137 
 	#ªtv_if
 (
 ex¥
@@ -26775,19 +26811,19 @@ ex¥
 vÆ
 ) do { \
 
-129 if(
+138 if(
 ex¥
 ) { \
 
-130  (
+139  (
 vÆ
 ); \
 
-132 } 0)
+141 } 0)
 
 	)
 
-133 
+142 
 	#ªtm_if
 (
 ex¥
@@ -26797,11 +26833,11 @@ fmt
 ¨g
 ...) do { \
 
-134 if(
+143 if(
 ex¥
 ) { \
 
-135 
+144 
 	`ERR
 (
 fmt
@@ -26809,11 +26845,11 @@ fmt
 ¨g
 ); \
 
-138 } 0)
+147 } 0)
 
 	)
 
-139 
+148 
 	#ªtvm_if
 (
 ex¥
@@ -26825,11 +26861,11 @@ fmt
 ¨g
 ...) do { \
 
-140 if(
+149 if(
 ex¥
 ) { \
 
-141 
+150 
 	`ERR
 (
 fmt
@@ -26837,15 +26873,15 @@ fmt
 ¨g
 ); \
 
-142  (
+151  (
 vÆ
 ); \
 
-144 } 0)
+153 } 0)
 
 	)
 
-149 #ifde‡
+158 #ifde‡
 __˝lu•lus
 
 
@@ -30003,6 +30039,10 @@ NULL
 √xt_ôem
 .ap == NULL) {
 
+89 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
 90 
 	`wifi_≠_is_Áv‹ôe
 (
@@ -32341,11 +32381,15 @@ __COMMON_FUNC_ENTER__
 NULL
 ) {
 
-625  
+625 
+__COMMON_FUNC_EXIT__
+;
+
+626  
 WLAN_MANAGER_ERR_NOSERVICE
 ;
 
-628 
+629 
 wœn_mgr_ªq_d©a_t
  *
 ªq_d©a
@@ -32353,7 +32397,7 @@ wœn_mgr_ªq_d©a_t
 	`g_√w0
 (wlan_mgr_req_data_t, 1);
 
-629 
+630 
 ªq_d©a
 ->
 ªq_ty≥
@@ -32361,7 +32405,7 @@ wœn_mgr_ªq_d©a_t
 WLAN_MANAGER_REQ_TYPE_CONNECT
 ;
 
-630 
+631 
 	`wifi_≠_˛⁄e
 (&(
 ªq_d©a
@@ -32369,7 +32413,7 @@ WLAN_MANAGER_REQ_TYPE_CONNECT
 ≠
 ),áp);
 
-632 
+633 
 ªt
  = 
 	`wœn_c⁄√˘
@@ -32381,13 +32425,13 @@ WLAN_MANAGER_REQ_TYPE_CONNECT
 wœn_m™agî_√tw‹k_evít_cb
 ,Ñeq_data);
 
-633 i‡(
+634 i‡(
 ªt
  !
 WIFI_ERROR_NONE
 ) {
 
-634 
+635 
 	`ERROR_LOG
 (
 UG_NAME_REQ
@@ -32395,7 +32439,7 @@ UG_NAME_REQ
 ªt
 );
 
-636 
+637 
 	`wifi_≠_de°roy
 (
 ªq_d©a
@@ -32403,25 +32447,25 @@ UG_NAME_REQ
 ≠
 );
 
-637 
+638 
 	`g_‰ì
 (
 ªq_d©a
 );
 
-640 
+641 
 __COMMON_FUNC_EXIT__
 ;
 
-641  
+642  
 ªt
 ;
 
-642 
+643 
 	}
 }
 
-644 
+645 
 	$wœn_m™agî_c⁄√˘_wôh_∑ssw‹d
 (
 wifi_≠_h
@@ -32431,25 +32475,25 @@ wifi_≠_h
 ∑ss_phø£
 )
 
-646 
+647 
 __COMMON_FUNC_ENTER__
 ;
 
-648 
+649 
 ªt
 ;
 
-650 i‡(
+651 i‡(
 ≠
  =
 NULL
 ) {
 
-651  
+652  
 WLAN_MANAGER_ERR_INVALID_PARAM
 ;
 
-654 
+655 
 ªt
  = 
 	`wifi_≠_£t_∑s•hø£
@@ -32459,21 +32503,21 @@ WLAN_MANAGER_ERR_INVALID_PARAM
 ∑ss_phø£
 );
 
-655 i‡(
+656 i‡(
 ªt
  !
 WIFI_ERROR_NONE
 ) {
 
-656 
+657 
 __COMMON_FUNC_EXIT__
 ;
 
-657  
+658  
 ªt
 ;
 
-660 
+661 
 wœn_mgr_ªq_d©a_t
  *
 ªq_d©a
@@ -32481,7 +32525,7 @@ wœn_mgr_ªq_d©a_t
 	`g_√w0
 (wlan_mgr_req_data_t, 1);
 
-661 
+662 
 ªq_d©a
 ->
 ªq_ty≥
@@ -32489,7 +32533,7 @@ wœn_mgr_ªq_d©a_t
 WLAN_MANAGER_REQ_TYPE_CONNECT
 ;
 
-662 
+663 
 	`wifi_≠_˛⁄e
 (&(
 ªq_d©a
@@ -32497,7 +32541,7 @@ WLAN_MANAGER_REQ_TYPE_CONNECT
 ≠
 ),áp);
 
-664 
+665 
 ªt
  = 
 	`wœn_c⁄√˘
@@ -32509,13 +32553,13 @@ WLAN_MANAGER_REQ_TYPE_CONNECT
 wœn_m™agî_√tw‹k_evít_cb
 ,Ñeq_data);
 
-665 i‡(
+666 i‡(
 ªt
  !
 WIFI_ERROR_NONE
 ) {
 
-666 
+667 
 	`ERROR_LOG
 (
 UG_NAME_REQ
@@ -32523,7 +32567,7 @@ UG_NAME_REQ
 ªt
 );
 
-668 
+669 
 	`wifi_≠_de°roy
 (
 ªq_d©a
@@ -32531,25 +32575,25 @@ UG_NAME_REQ
 ≠
 );
 
-669 
+670 
 	`g_‰ì
 (
 ªq_d©a
 );
 
-672 
+673 
 __COMMON_FUNC_EXIT__
 ;
 
-673  
+674  
 ªt
 ;
 
-674 
+675 
 	}
 }
 
-676 
+677 
 	$wœn_m™agî_disc⁄√˘
 (
 wifi_≠_h
@@ -32557,15 +32601,15 @@ wifi_≠_h
 ≠
 )
 
-678 
+679 
 __COMMON_FUNC_ENTER__
 ;
 
-680 
+681 
 ªt
 ;
 
-682 
+683 
 	`INFO_LOG
 (
 UG_NAME_REQ
@@ -32573,7 +32617,7 @@ UG_NAME_REQ
 ≠
 );
 
-684 
+685 
 ªt
  = 
 	`wifi_disc⁄√˘
@@ -32583,13 +32627,13 @@ UG_NAME_REQ
 NULL
 , NULL);
 
-685 i‡(
+686 i‡(
 WIFI_ERROR_NONE
  !
 ªt
 ) {
 
-686 
+687 
 	`ERROR_LOG
 (
 UG_NAME_REQ
@@ -32597,35 +32641,35 @@ UG_NAME_REQ
 ªt
 );
 
-688 
+689 
 __COMMON_FUNC_EXIT__
 ;
 
-689  
+690  
 WLAN_MANAGER_ERR_UNKNOWN
 ;
 
-692 
+693 
 __COMMON_FUNC_EXIT__
 ;
 
-693  
+694  
 WLAN_MANAGER_ERR_NONE
 ;
 
-694 
+695 
 	}
 }
 
-696 
+697 
 	$wœn_m™agî_sˇn
 ()
 
-698 
+699 
 __COMMON_FUNC_ENTER__
 ;
 
-700 
+701 
 wœn_mgr_ªq_d©a_t
  *
 ªq_d©a
@@ -32633,7 +32677,7 @@ wœn_mgr_ªq_d©a_t
 	`g_√w0
 (wlan_mgr_req_data_t, 1);
 
-701 
+702 
 ªq_d©a
 ->
 ªq_ty≥
@@ -32641,7 +32685,7 @@ wœn_mgr_ªq_d©a_t
 WLAN_MANAGER_REQ_TYPE_SCAN
 ;
 
-703 
+704 
 ªt
  = 
 	`wifi_sˇn
@@ -32651,13 +32695,13 @@ wœn_m™agî_√tw‹k_evít_cb
 ªq_d©a
 );
 
-704 i‡(
+705 i‡(
 ªt
  !
 WLAN_MANAGER_ERR_NONE
 ) {
 
-705 
+706 
 	`ERROR_LOG
 (
 UG_NAME_REQ
@@ -32665,21 +32709,21 @@ UG_NAME_REQ
 ªt
 );
 
-707 
+708 
 	`g_‰ì
 (
 ªq_d©a
 );
 
-709 
+710 
 __COMMON_FUNC_EXIT__
 ;
 
-710  
+711  
 ªt
 ;
 
-716 
+717 
 m™agî_obje˘
 ->
 b_sˇn_blocked
@@ -32687,7 +32731,7 @@ b_sˇn_blocked
 FALSE
 ;
 
-717 
+718 
 m™agî_obje˘
 ->
 b_ui_ª‰esh
@@ -32695,19 +32739,19 @@ b_ui_ª‰esh
 FALSE
 ;
 
-719 
+720 
 __COMMON_FUNC_EXIT__
 ;
 
-720  
+721  
 ªt
 ;
 
-721 
+722 
 	}
 }
 
-723 
+724 
 	$wœn_m™agî_sˇn_wôh_ssid
 (c⁄° *
 ssid
@@ -32715,11 +32759,11 @@ ssid
 u£r_d©a
 )
 
-725 
+726 
 __COMMON_FUNC_ENTER__
 ;
 
-727 
+728 
 	`wifi_£t_•ecific_sˇn_cb
 (
 wœn_m™agî_•ecific_sˇn_föished_cb
@@ -32727,7 +32771,7 @@ wœn_m™agî_•ecific_sˇn_föished_cb
 u£r_d©a
 );
 
-729 
+730 
 ªt
  = 
 	`c⁄nm™_ªque°_•ecific_sˇn
@@ -32735,13 +32779,13 @@ u£r_d©a
 ssid
 );
 
-730 i‡(
+731 i‡(
 ªt
  !
 WLAN_MANAGER_ERR_NONE
 ) {
 
-731 
+732 
 	`ERROR_LOG
 (
 UG_NAME_REQ
@@ -32749,15 +32793,15 @@ UG_NAME_REQ
 ªt
 );
 
-733 
+734 
 __COMMON_FUNC_EXIT__
 ;
 
-734  
+735  
 ªt
 ;
 
-740 
+741 
 m™agî_obje˘
 ->
 b_sˇn_blocked
@@ -32765,7 +32809,7 @@ b_sˇn_blocked
 FALSE
 ;
 
-741 
+742 
 m™agî_obje˘
 ->
 b_ui_ª‰esh
@@ -32773,27 +32817,27 @@ b_ui_ª‰esh
 FALSE
 ;
 
-743 
+744 
 __COMMON_FUNC_EXIT__
 ;
 
-744  
+745  
 ªt
 ;
 
-745 
+746 
 	}
 }
 
-747 
+748 
 	$wœn_m™agî_sˇ¬ed_¥ofûe_ª‰esh
 ()
 
-749 
+750 
 __COMMON_FUNC_ENTER__
 ;
 
-751 i‡(
+752 i‡(
 FALSE
  =
 m™agî_obje˘
@@ -32801,13 +32845,13 @@ m™agî_obje˘
 b_sˇn_blocked
 )
 
-752 
+753 
 m™agî_obje˘
 ->
 	`ª‰esh_func
 ();
 
-754 
+755 
 m™agî_obje˘
 ->
 b_ui_ª‰esh
@@ -32815,15 +32859,15 @@ b_ui_ª‰esh
 TRUE
 ;
 
-756 
+757 
 __COMMON_FUNC_EXIT__
 ;
 
-757 
+758 
 	}
 }
 
-759 
+760 
 STRENGTH_TYPES
  
 	$wœn_m™agî_gë_sig«l_°ªngth
@@ -32831,39 +32875,39 @@ STRENGTH_TYPES
 rssi
 )
 
-768 i‡(
+769 i‡(
 rssi
  >= -63) {
 
-769  
+770  
 SIGNAL_STRENGTH_TYPE_EXCELLENT
 ;
 
-770 } i‡(
+771 } i‡(
 rssi
  >= -74) {
 
-771  
+772  
 SIGNAL_STRENGTH_TYPE_GOOD
 ;
 
-772 } i‡(
+773 } i‡(
 rssi
  >= -82) {
 
-773  
+774  
 SIGNAL_STRENGTH_TYPE_WEAK
 ;
 
-775  
+776  
 SIGNAL_STRENGTH_TYPE_VERY_WEAK
 ;
 
-777 
+778 
 	}
 }
 
-779 
+780 
 gboﬁón
  
 	$_ª‰esh_ui
@@ -32871,13 +32915,13 @@ gboﬁón
 d©a
 )
 
-781 
+782 
 m™agî_obje˘
 ->
 	`ª‰esh_func
 ();
 
-783 
+784 
 m™agî_obje˘
 ->
 b_sˇn_blocked
@@ -32885,7 +32929,7 @@ b_sˇn_blocked
 FALSE
 ;
 
-784 
+785 
 m™agî_obje˘
 ->
 b_ui_ª‰esh
@@ -32893,45 +32937,45 @@ b_ui_ª‰esh
 FALSE
 ;
 
-786  
+787  
 FALSE
 ;
 
-787 
+788 
 	}
 }
 
-789 
+790 
 	$wœn_m™agî_íabÀ_sˇn_ªsu…_upd©e
 ()
 
-791 
+792 
 __COMMON_FUNC_ENTER__
 ;
-
-793 i‡(
-TRUE
- =
-m™agî_obje˘
-->
-b_sˇn_blocked
-) {
 
 794 i‡(
 TRUE
  =
 m™agî_obje˘
 ->
+b_sˇn_blocked
+) {
+
+795 i‡(
+TRUE
+ =
+m™agî_obje˘
+->
 b_ui_ª‰esh
 ) {
 
-795 
+796 
 	`DEBUG_LOG
 (
 COMMON_NAME_LIB
 , "RefreshÅhe UI withÜast scan update");
 
-798 
+799 
 	`comm⁄_utû_m™aged_idÀ_add
 (
 _ª‰esh_ui
@@ -32939,7 +32983,7 @@ _ª‰esh_ui
 NULL
 );
 
-800 
+801 
 m™agî_obje˘
 ->
 b_sˇn_blocked
@@ -32947,23 +32991,23 @@ b_sˇn_blocked
 FALSE
 ;
 
-804 
+805 
 __COMMON_FUNC_EXIT__
 ;
 
-805 
+806 
 	}
 }
 
-807 
+808 
 	$wœn_m™agî_dißbÀ_sˇn_ªsu…_upd©e
 ()
 
-809 
+810 
 __COMMON_FUNC_ENTER__
 ;
 
-811 
+812 
 m™agî_obje˘
 ->
 b_sˇn_blocked
@@ -32971,11 +33015,11 @@ b_sˇn_blocked
 TRUE
 ;
 
-813 
+814 
 __COMMON_FUNC_EXIT__
 ;
 
-814 
+815 
 	}
 }
 
@@ -34808,114 +34852,30 @@ __˝lu•lus
 	@sources/ui-gadget/bt_tethered_service.c
 
 2 
-	~<°dio.h
->
-
-3 
-	~<°dlib.h
->
-
-4 
-	~<uni°d.h
->
-
-5 
-	~<io°ªam
->
-
-7 
-	~"comm⁄.h
+	~"bt_ãthîed_£rvi˚.h
 "
 
-8 
-	~<dlog.h
->
+3 
+	~"comm⁄_bt.h
+"
 
-9 
-	~<glib.h
->
-
-10 
-	~<bluëoŸh.h
->
-
-12 #unde‡
+5 #unde‡
 LOG_TAG
 
 
-13 
+6 
 	#LOG_TAG
  "REMOTE_HOTSPOT_TRIGGER_FW"
 
 	)
 
-15 
-GMaöLo›
-* 
-	ggMaöLo›
- = 
-NULL
-;
-
-16 
-bt_ad≠ãr_visibûôy_mode_e
- 
-	ggVisibûôyMode
- = 
-BT_ADAPTER_VISIBILITY_MODE_NON_DISCOVERABLE
-;
-
-17 
-	ggSockëFd
- = -1;
-
-18 
-bt_ad≠ãr_°©e_e
- 
-	ggBtSèã
- = 
-BT_ADAPTER_DISABLED
-;
-
-19 c⁄° 
-	g£rvi˚_uuid
-[] = "00001101-0000-1000-8000-00805F9B34FB";
-
-20 * 
-	gbt_£rvî_addªss
- = 
-NULL
-;
-
-21 c⁄° *
-	gªmŸe_£rvî_«me
- = "server device";
-
-24 
-rhtf_öôülize_bluëoŸh
-();
-
-25 
-rhtf_£nd_d©a_bluëoŸh
-(* 
-d©a
-);
-
-26 
-rhtf_föÆize_bluëoŸh_sockë
-();
-
-27 
-rhtf_föÆize_bluëoŸh
-();
-
-30 
+23 
 rhtf_ª˚ived_d©a_cb
 (
 bt_sockë_ª˚ived_d©a_s
  *, *);
 
-31 
+24 
 rhtf_sockë_c⁄√˘i⁄_°©e_ch™ged_cb
 (, 
 bt_sockë_c⁄√˘i⁄_°©e_e
@@ -34923,13 +34883,13 @@ bt_sockë_c⁄√˘i⁄_°©e_e
 bt_sockë_c⁄√˘i⁄_s
  *, *);
 
-32 
+25 
 rhtf_°©e_ch™ged_cb
 (, 
 bt_ad≠ãr_°©e_e
 , *);
 
-33 
+26 
 gboﬁón
  
 timeout_func_cb
@@ -34937,35 +34897,35 @@ timeout_func_cb
 gpoöãr
 );
 
-35 
+28 
 	$rhtf_öôülize_bluëoŸh
 (c⁄° *
 devi˚_«me
 ) {
 
-37 
+30 
 ªt
 ;
 
-38 
+31 
 ªt
  = 
 	`bt_öôülize
 ();
 
-39 if(
+32 if(
 ªt
  !
 BT_ERROR_NONE
 ) {
 
-40 
+33 
 	`ALOGD
 ("Unknow¿ex˚±i⁄ i†occuªd i¿bt_öôülize(): %x", 
 ªt
 );
 
-44 
+37 
 ªt
  = 
 	`bt_ad≠ãr_gë_°©e
@@ -34973,49 +34933,49 @@ BT_ERROR_NONE
 gBtSèã
 );
 
-45 if(
+38 if(
 ªt
  !
 BT_ERROR_NONE
 ) {
 
-46 
+39 
 	`ALOGD
 ("Unknow¿ex˚±i⁄ i†occuªd i¿bt_ad≠ãr_gë_°©e(): %x", 
 ªt
 );
 
-51 if(
+44 if(
 gBtSèã
  =
 BT_ADAPTER_DISABLED
 )
 
-53 
+46 
 	`ALOGE
 ("[%s] bluëoŸh i†nŸÉ«bÀd.", 
 __FUNCTION__
 );
 
-58 
+51 
 	`ALOGI
 ("[%s] BT wa†ÆªadyÉ«bÀd.", 
 __FUNCTION__
 );
 
-62 if(
+55 if(
 gBtSèã
  =
 BT_ADAPTER_ENABLED
 ) {
 
-63 *
+56 *
 «me
  = 
 NULL
 ;
 
-64 
+57 
 ªt
  = 
 	`bt_ad≠ãr_gë_«me
@@ -35023,19 +34983,19 @@ NULL
 «me
 );
 
-65 if(
+58 if(
 «me
  =
 NULL
 ) {
 
-66 
+59 
 	`ALOGD
 ("NULLÇamêex˚±i⁄ i†occuªd i¿bt_ad≠ãr_gë_«me(): %x", 
 ªt
 );
 
-70 if(
+63 if(
 	`°∫cmp
 (
 «me
@@ -35045,7 +35005,7 @@ devi˚_«me
 	`°æí
 (name)) != 0) {
 
-71 if(
+64 if(
 	`bt_ad≠ãr_£t_«me
 (
 devi˚_«me
@@ -35053,35 +35013,35 @@ devi˚_«me
 BT_ERROR_NONE
 )
 
-73 i‡(
+66 i‡(
 NULL
  !
 «me
 )
 
-74 
+67 
 	`‰ì
 (
 «me
 );
 
-75 
+68 
 	`ALOGD
 ("Unknow¿ex˚±i⁄ i†occuªd i¿bt_ad≠ãr_£t_«mê: %x", 
 ªt
 );
 
-79 
+72 
 	`‰ì
 (
 «me
 );
 
-81 
+74 
 	`ALOGD
 ("Bluetooth isÇotÉnabled");
 
-110 
+103 
 ªt
  = 
 	`bt_sockë_£t_c⁄√˘i⁄_°©e_ch™ged_cb
@@ -35091,19 +35051,19 @@ rhtf_sockë_c⁄√˘i⁄_°©e_ch™ged_cb
 NULL
 );
 
-111 if(
+104 if(
 ªt
  !
 BT_ERROR_NONE
 ) {
 
-112 
+105 
 	`ALOGD
 ("Unknow¿ex˚±i⁄ i†occuªd i¿bt_sockë_£t_c⁄√˘i⁄_°©e_ch™ged_cb(): %x", 
 ªt
 );
 
-116 
+109 
 ªt
  = 
 	`bt_sockë_£t_d©a_ª˚ived_cb
@@ -35113,41 +35073,41 @@ rhtf_ª˚ived_d©a_cb
 NULL
 );
 
-117 if(
+110 if(
 ªt
  !
 BT_ERROR_NONE
 ) {
 
-118 
+111 
 	`ALOGD
 ("Unknow¿ex˚±i⁄ i†occuªd i¿bt_sockë_£t_d©a_ª˚ived_cb(): %x", 
 ªt
 );
 
-124 
+117 
 	}
 }
 
-126 
+119 
 	$rhtf_£nd_d©a_bluëoŸh
 (* 
 d©a
 ){
 
-127 
+120 
 ªt
 , 
 Àn
 ;
 
-128 c⁄° * 
+121 c⁄° * 
 buf
  = (*Ë
 d©a
 ;
 
-130 
+123 
 Àn
  = 
 	`°æí
@@ -35155,7 +35115,7 @@ d©a
 buf
 );
 
-132 
+125 
 ªt
  = 
 	`bt_sockë_£nd_d©a
@@ -35167,39 +35127,39 @@ buf
 Àn
 );
 
-133 if(
+126 if(
 ªt
  !
 BT_ERROR_NONE
 )
 
-135 
+128 
 	`ALOGD
 ("[%s] bt_sockë_£nd_d©®Áûed.", 
 __FUNCTION__
 );
 
-137  
+130  
 ªt
 ;
 
-138 
+131 
 	}
 }
 
-141 
+134 
 	$rhtf_föÆize_bluëoŸh_sockë
 () {
 
-142 
+135 
 ªt
 ;
 
-143 
+136 
 	`¶ìp
 (5);
 
-144 
+137 
 ªt
  = 
 	`bt_sockë_disc⁄√˘_rfcomm
@@ -35207,39 +35167,39 @@ __FUNCTION__
 gSockëFd
 );
 
-145 if(
+138 if(
 ªt
  !
 BT_ERROR_NONE
 )
 
-147 
+140 
 	`ALOGD
 ("Unknow¿ex˚±i⁄ i†occuªd i¿bt_sockë_disc⁄√˘_rfcomm(): %x", 
 ªt
 );
 
-153 
+146 
+	}
+}
+
+148 
+	$rhtf_föÆize_bluëoŸh
+() {
+
+149 
+	`bt_deöôülize
+();
+
+151 
 	}
 }
 
 155 
-	$rhtf_föÆize_bluëoŸh
-() {
-
-156 
-	`bt_deöôülize
-();
-
-158 
-	}
-}
-
-162 
 	ggRe˚iveCou¡
  = 0;
 
-165 
+158 
 	$rhtf_ª˚ived_d©a_cb
 (
 bt_sockë_ª˚ived_d©a_s
@@ -35249,23 +35209,23 @@ d©a
 u£r_d©a
 ) {
 
-166 
+159 
 buf„r
 [1024];
 
-167 
+160 
 míu_°rög
 []="menu";
 
-168 
+161 
 home_°rög
 []="home";
 
-169 
+162 
 back_°rög
 []="back";
 
-171 
+164 
 	`°∫˝y
 (
 buf„r
@@ -35273,7 +35233,7 @@ buf„r
 d©a
 ->data, 1024);
 
-172 
+165 
 buf„r
 [
 d©a
@@ -35281,7 +35241,7 @@ d©a
 d©a_size
 ] = '\0';
 
-173 
+166 
 	`ALOGD
 ("RemŸeKeyFW:Ñe˚ivedá d©a!(%dË%s", ++
 gRe˚iveCou¡
@@ -35289,7 +35249,7 @@ gRe˚iveCou¡
 buf„r
 );
 
-177 if(
+170 if(
 	`°∫cmp
 (
 buf„r
@@ -35299,11 +35259,11 @@ míu_°rög
 	`°æí
 (menu_string)) == 0) {
 
-178 
+171 
 	`sy°em
 ("/bin/echo 1 > /sys/bus/platform/devices/homekey/coordinates");
 
-179 } if(
+172 } if(
 	`°∫cmp
 (
 buf„r
@@ -35313,11 +35273,11 @@ home_°rög
 	`°æí
 (home_string)) == 0) {
 
-180 
+173 
 	`sy°em
 ("/bin/echo 11 > /sys/bus/platform/devices/homekey/coordinates");
 
-181 } if(
+174 } if(
 	`°∫cmp
 (
 buf„r
@@ -35327,15 +35287,15 @@ back_°rög
 	`°æí
 (back_string)) == 0) {
 
-182 
+175 
 	`sy°em
 ("/bin/echo 111 > /sys/bus/platform/devices/homekey/coordinates");
 
-185 
+178 
 	}
 }
 
-188 
+181 
 	$rhtf_sockë_c⁄√˘i⁄_°©e_ch™ged_cb
 (
 ªsu…
@@ -35351,35 +35311,35 @@ c⁄√˘i⁄
 u£r_d©a
 ) {
 
-189 *
+182 *
 msg
  = "TEST STRING";
 
-191 if(
+184 if(
 ªsu…
  =
 BT_ERROR_NONE
 ) {
 
-192 
+185 
 	`ALOGD
 ("RemoteKeyFW: connection state changed (BT_ERROR_NONE)");
 
-194 
+187 
 	`ALOGD
 ("RemoteKeyFW: connection state changed (not BT_ERROR_NONE)");
 
-197 if(
+190 if(
 c⁄√˘i⁄_°©e_evít
  =
 BT_SOCKET_CONNECTED
 ) {
 
-198 
+191 
 	`ALOGD
 ("RemoteKeyFW: connected");
 
-199 
+192 
 gSockëFd
  = 
 c⁄√˘i⁄
@@ -35387,33 +35347,33 @@ c⁄√˘i⁄
 sockë_fd
 ;
 
-202 
+195 
 	`rhtf_£nd_d©a_bluëoŸh
 ((*)
 msg
 );
 
-203 } if(
+196 } if(
 c⁄√˘i⁄_°©e_evít
  =
 BT_SOCKET_DISCONNECTED
 ) {
 
-204 
+197 
 	`ALOGD
 ("RemoteKeyFW: disconnected");
 
-205 
+198 
 	`g_maö_lo›_quô
 (
 gMaöLo›
 );
 
-207 
+200 
 	}
 }
 
-209 
+202 
 	$rhtf_°©e_ch™ged_cb
 (
 ªsu…
@@ -35425,61 +35385,61 @@ ad≠ãr_°©e
 u£r_d©a
 ) {
 
-210 if(
+203 if(
 ad≠ãr_°©e
  =
 BT_ADAPTER_ENABLED
 ) {
 
-211 if(
+204 if(
 ªsu…
  =
 BT_ERROR_NONE
 ) {
 
-212 
+205 
 	`ALOGD
 ("RemoteKeyFW: bluetooth wasÉnabled successfully.");
 
-213 
+206 
 gBtSèã
  = 
 BT_ADAPTER_ENABLED
 ;
 
-215 
+208 
 	`ALOGD
 ("RemŸeKeyFW: faûedÅÿíabÀ BT.: %x", 
 ªsu…
 );
 
-216 
+209 
 gBtSèã
  = 
 BT_ADAPTER_DISABLED
 ;
 
-219 if(
+212 if(
 gMaöLo›
 ) {
 
-220 
+213 
 	`ALOGD
 ("Iàwû»ãrmö©êgMaöLo›.", 
 ªsu…
 );
 
-221 
+214 
 	`g_maö_lo›_quô
 (
 gMaöLo›
 );
 
-223 
+216 
 	}
 }
 
-225 
+218 
 gboﬁón
  
 	$timeout_func_cb
@@ -35489,15 +35449,15 @@ gpoöãr
 d©a
 )
 
-227 
+220 
 	`ALOGE
 ("timeout_func_cb");
 
-228 if(
+221 if(
 gMaöLo›
 )
 
-230 
+223 
 	`g_maö_lo›_quô
 ((
 GMaöLo›
@@ -35505,153 +35465,147 @@ GMaöLo›
 d©a
 );
 
-232  
+225  
 FALSE
 ;
 
-233 
+226 
 	}
 }
 
-235 
-°¨t_bt_£rvi˚
-();
+228 
+	$°¨t_bt_£rvi˚
+(* 
+°¨t_addªss
+)
 
-237 
-	gîr‹
+230 
+îr‹
 , 
-	gªt
+ªt
  = 0;
 
-238 c⁄° 
-	gdeÁu…_devi˚_«me
+231 c⁄° 
+deÁu…_devi˚_«me
 [] = "Tizen-RHT";
 
-239 c⁄° *
-	gdevi˚_«me
+232 c⁄° *
+devi˚_«me
  = 
 NULL
 ;
 
-240 
-	ggMaöLo›
+233 
+gMaöLo›
  = 
-g_maö_lo›_√w
+	`g_maö_lo›_√w
 (
 NULL
 , 
 FALSE
 );
 
-243 
-ALOGD
+236 
+	`ALOGD
 ("Remote Hotspot Trigger started\n");
 
-245 if(
-	g¨gc
- != 2){
-
-246 
-¥ötf
-("usage: %s <device_MAC_address_to_connect>");
-
-247 
-exô
-(1);
-
-249 
-	gdevi˚_«me
+256 
+devi˚_«me
  = 
 deÁu…_devi˚_«me
 ;
 
-250 
-	gbt_£rvî_addªss
+257 
+bt_£rvî_addªss
  = 
-¨gv
-[1];
+°¨t_addªss
+;
 
-265 
-	gîr‹
+260 
+îr‹
  = 
-rhtf_öôülize_bluëoŸh
+	`rhtf_öôülize_bluëoŸh
 (
 devi˚_«me
 );
 
-266 if(
-	gîr‹
+261 if(
+îr‹
  != 0) {
 
-267 
+262 
 ªt
  = -2;
 
-268 
-	gîr‹_íd_wôhout_sockë
+263 
+îr‹_íd_wôhout_sockë
 ;
 
-270 
-ALOGD
+265 
+	`ALOGD
 ("succeed inÑhtf_initialize_bluetooth()\n");
 
-272 
-	gªt
+267 
+ªt
  = 
-bt_sockë_c⁄√˘_rfcomm
+	`bt_sockë_c⁄√˘_rfcomm
 (
 bt_£rvî_addªss
 , 
 £rvi˚_uuid
 );
 
-273 if(
-	gªt
+268 if(
+ªt
  !
 BT_ERROR_NONE
 )
 
-275 
-LOGE
+270 
+	`LOGE
 ("[%s] bt_sockë_c⁄√˘_rfcomm faûed.", 
 __FUNCTION__
 );
 
-280 
-ALOGI
+275 
+	`ALOGI
 ("[%s] bt_sockë_c⁄√˘_rfcomm suc˚eded. bt_sockë_c⁄√˘i⁄_°©e_ch™ged_cb wû»bêˇŒed.", 
 __FUNCTION__
 );
 
-286 
-g_maö_lo›_run
+281 
+	`g_maö_lo›_run
 (
 gMaöLo›
 );
 
-288 
-ALOGI
+283 
+	`ALOGI
 ("Server isÅerminated successfully\n");
 
-290 
-	gîr‹_íd_wôh_sockë
+285 
+îr‹_íd_wôh_sockë
 :
+
+287 
+	`rhtf_föÆize_bluëoŸh_sockë
+();
+
+289 
+îr‹_íd_wôhout_sockë
+:
+
+290 
+	`rhtf_föÆize_bluëoŸh
+();
+
+291  
+ªt
+;
 
 292 
-rhtf_föÆize_bluëoŸh_sockë
-();
-
-294 
-	gîr‹_íd_wôhout_sockë
-:
-
-295 
-rhtf_föÆize_bluëoŸh
-();
-
-296  
-	gªt
-;
+	}
+}
 
 	@sources/ui-gadget/include/bt_tethered_service.h
 
@@ -35737,7 +35691,9 @@ NULL
 
 21 
 rhtf_öôülize_bluëoŸh
-();
+(c⁄° * 
+devi˚_«me
+);
 
 22 
 rhtf_£nd_d©a_bluëoŸh
@@ -35755,7 +35711,9 @@ rhtf_föÆize_bluëoŸh
 
 25 
 °¨t_bt_£rvi˚
-();
+(* 
+°¨t_addªss
+);
 
 	@sources/ui-gadget/include/ug_wifi.h
 
@@ -42336,6 +42294,10 @@ devi˚_öfo
 ->ap;
 
 581 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
+582 
 	`wifi_≠_is_Áv‹ôe
 (
 ≠
@@ -42343,7 +42305,7 @@ devi˚_öfo
 Áv‹ôe
 );
 
-582 
+583 
 _dëaû_d©a
 ->
 ≠_image_∑th
@@ -42353,7 +42315,7 @@ _dëaû_d©a
 devi˚_öfo
 ->ap_image_path);
 
-584 i‡(
+585 i‡(
 ug_≠p_°©e
 ->
 ug_ty≥
@@ -42361,7 +42323,7 @@ ug_ty≥
 UG_VIEW_SETUP_WIZARD
 ) {
 
-585 
+586 
 œyout
  = 
 	`ñm_œyout_add
@@ -42369,7 +42331,7 @@ UG_VIEW_SETUP_WIZARD
 «vi_‰ame
 );
 
-587 
+588 
 	`ñm_œyout_fûe_£t
 (
 œyout
@@ -42377,13 +42339,13 @@ UG_VIEW_SETUP_WIZARD
 SETUP_WIZARD_EDJ_PATH
 , "detail_pwlock");
 
-588 
+589 
 	`ñm_obje˘_domaö_å™¶©abÀ_∑π_ãxt_£t
 (
 œyout
 ,
 
-589 "ãxt.tôÀ", 
+590 "ãxt.tôÀ", 
 PACKAGE
 , 
 	`sc
@@ -42391,7 +42353,7 @@ PACKAGE
 I18N_TYPE_Wi_Fi_√tw‹k_öfo
 ));
 
-591 
+592 
 «vi_ô
  = 
 	`ñm_«vi‰ame_ôem_push
@@ -42399,13 +42361,13 @@ I18N_TYPE_Wi_Fi_√tw‹k_öfo
 «vi_‰ame
 ,
 
-592 
+593 
 NULL
 , NULL, NULL, 
 œyout
 , NULL);
 
-593 
+594 
 	`ñm_«vi‰ame_ôem_tôÀ_íabÀd_£t
 (
 «vi_ô
@@ -42413,7 +42375,7 @@ NULL
 EINA_FALSE
 , EINA_FALSE);
 
-595 
+596 
 ug_d©a
  *
 ugd
@@ -42423,7 +42385,7 @@ ug_≠p_°©e
 gadgë
 ;
 
-596 
+597 
 ch™ge_™g
  = 
 	`ñm_wö_rŸ©i⁄_gë
@@ -42433,17 +42395,17 @@ ugd
 wö_maö
 );
 
-597 i‡(
+598 i‡(
 ch™ge_™g
  == 0 || change_ang == 180) {
 
-598 
+599 
 	`comm⁄_utûs_c⁄ã¡s_rŸ©i⁄_adju°
 (
 UG_EVENT_ROTATE_PORTRAIT
 );
 
-599 
+600 
 	`edje_obje˘_sig«l_emô
 ((
 Evas_Obje˘
@@ -42453,13 +42415,13 @@ Evas_Obje˘
 œyout
 )
 
-602 
+603 
 	`comm⁄_utûs_c⁄ã¡s_rŸ©i⁄_adju°
 (
 UG_EVENT_ROTATE_LANDSCAPE
 );
 
-603 
+604 
 	`edje_obje˘_sig«l_emô
 ((
 Evas_Obje˘
@@ -42469,7 +42431,7 @@ Evas_Obje˘
 œyout
 ),
 
-607 
+608 
 œyout
  = 
 	`comm⁄_utûs_¸óã_œyout
@@ -42477,7 +42439,7 @@ Evas_Obje˘
 «vi_‰ame
 );
 
-609 
+610 
 «vi_ô
  = 
 	`ñm_«vi‰ame_ôem_push
@@ -42485,7 +42447,7 @@ Evas_Obje˘
 «vi_‰ame
 ,
 
-610 
+611 
 	`sc
 (
 PACKAGE
@@ -42497,13 +42459,13 @@ NULL
 œyout
 , NULL);
 
-613 
+614 
 	`evas_obje˘_show
 (
 œyout
 );
 
-615 
+616 
 dëaûvõw_li°
  = 
 	`ñm_gíli°_add
@@ -42511,7 +42473,7 @@ dëaûvõw_li°
 œyout
 );
 
-616 
+617 
 	`as£πm_if
 (
 NULL
@@ -42519,7 +42481,7 @@ NULL
 dëaûvõw_li°
 , "NULL!!");
 
-617 
+618 
 	`ñm_gíli°_fx_mode_£t
 (
 dëaûvõw_li°
@@ -42527,7 +42489,7 @@ dëaûvõw_li°
 EINA_FALSE
 );
 
-618 
+619 
 	`ñm_gíli°_ªÆiz©i⁄_mode_£t
 (
 dëaûvõw_li°
@@ -42535,13 +42497,13 @@ dëaûvõw_li°
 TRUE
 );
 
-620 
+621 
 	`ñm_obje˘_°yÀ_£t
 (
 dëaûvõw_li°
 , "dialogue");
 
-621 
+622 
 _dëaû_d©a
 ->
 võw_dëaû_li°
@@ -42549,25 +42511,25 @@ võw_dëaû_li°
 dëaûvõw_li°
 ;
 
-623 
+624 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 dëaûvõw_li°
 , "realized",
 
-624 
+625 
 _gl_ªÆized
 , 
 _dëaû_d©a
 );
 
-626 
+627 
 grou±ôÀ_ôc
 .
 ôem_°yÀ
  = "2line.bottom";
 
-627 
+628 
 grou±ôÀ_ôc
 .
 func
@@ -42577,7 +42539,7 @@ func
 _võw_dëaû_grou±ôÀ_ãxt_gë
 ;
 
-628 
+629 
 grou±ôÀ_ôc
 .
 func
@@ -42587,7 +42549,7 @@ c⁄ã¡_gë
 _võw_dëaû_grou±ôÀ_c⁄ã¡_gë
 ;
 
-629 
+630 
 grou±ôÀ_ôc
 .
 func
@@ -42597,7 +42559,7 @@ func
 NULL
 ;
 
-630 
+631 
 grou±ôÀ_ôc
 .
 func
@@ -42607,7 +42569,7 @@ dñ
 NULL
 ;
 
-633 
+634 
 tôÀ
  = 
 	`ñm_gíli°_ôem_≠≥nd
@@ -42615,7 +42577,7 @@ tôÀ
 dëaûvõw_li°
 ,
 
-634 &
+635 &
 grou±ôÀ_ôc
 , 
 _dëaû_d©a
@@ -42625,11 +42587,11 @@ NULL
 ELM_GENLIST_ITEM_GROUP
 ,
 
-635 
+636 
 NULL
 , NULL);
 
-636 
+637 
 	`ñm_gíli°_ôem_£À˘_mode_£t
 (
 tôÀ
@@ -42637,7 +42599,7 @@ tôÀ
 ELM_OBJECT_SELECT_MODE_NONE
 );
 
-638 
+639 
 	`ñm_obje˘_∑π_c⁄ã¡_£t
 (
 œyout
@@ -42645,7 +42607,7 @@ ELM_OBJECT_SELECT_MODE_NONE
 dëaûvõw_li°
 );
 
-640 
+641 
 	`evas_obje˘_d©a_£t
 (
 «vi_‰ame
@@ -42653,11 +42615,11 @@ dëaûvõw_li°
 SCREEN_TYPE_ID_KEY
 ,
 
-641 (*)
+642 (*)
 VIEW_MANAGER_VIEW_TYPE_DETAIL
 );
 
-644 
+645 
 	`ñm_«vi‰ame_ôem_p›_cb_£t
 (
 «vi_ô
@@ -42667,11 +42629,11 @@ dëaûvõw_sk_cb
 _dëaû_d©a
 );
 
-646 i‡(
+647 i‡(
 Áv‹ôe
 ) {
 
-649 
+650 
 Evas_Obje˘
  *
 toﬁb¨
@@ -42679,7 +42641,7 @@ toﬁb¨
 NULL
 ;
 
-651 
+652 
 toﬁb¨
  = 
 	`ñm_toﬁb¨_add
@@ -42687,7 +42649,7 @@ toﬁb¨
 «vi_‰ame
 );
 
-652 
+653 
 	`ñm_toﬁb¨_shrök_mode_£t
 (
 toﬁb¨
@@ -42695,7 +42657,7 @@ toﬁb¨
 ELM_TOOLBAR_SHRINK_EXPAND
 );
 
-653 
+654 
 	`ñm_toﬁb¨_å™svî£_ex∑nded_£t
 (
 toﬁb¨
@@ -42703,7 +42665,7 @@ toﬁb¨
 EINA_TRUE
 );
 
-654 
+655 
 	`ñm_toﬁb¨_£À˘_mode_£t
 (
 toﬁb¨
@@ -42711,7 +42673,7 @@ toﬁb¨
 ELM_OBJECT_SELECT_MODE_NONE
 );
 
-656 
+657 
 	`ñm_toﬁb¨_ôem_≠≥nd
 (
 toﬁb¨
@@ -42719,7 +42681,7 @@ toﬁb¨
 NULL
 ,
 
-657 
+658 
 	`sc
 (
 PACKAGE
@@ -42727,13 +42689,13 @@ PACKAGE
 I18N_TYPE_F‹gë
 ),
 
-658 
+659 
 f‹gë_sk_cb
 , 
 _dëaû_d©a
 );
 
-660 
+661 
 	`ñm_obje˘_ôem_∑π_c⁄ã¡_£t
 (
 «vi_ô
@@ -42741,7 +42703,7 @@ _dëaû_d©a
 toﬁb¨
 );
 
-663 
+664 
 m‹e_bä
  = 
 	`ñm_buâ⁄_add
@@ -42751,25 +42713,25 @@ _dëaû_d©a
 «v
 );
 
-664 
+665 
 	`ñm_obje˘_°yÀ_£t
 (
 m‹e_bä
 , "naviframe/more/default");
 
-665 
+666 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 m‹e_bä
 , "clicked",
 
-666 
+667 
 _¸óã_˘xp›up_f‹gë_bä_cb
 , 
 wö_maö
 );
 
-667 
+668 
 	`ñm_obje˘_ôem_∑π_c⁄ã¡_£t
 (
 «vi_ô
@@ -42777,7 +42739,7 @@ wö_maö
 m‹e_bä
 );
 
-670 
+671 
 wifi_£curôy_ty≥_e
  
 ty≥
@@ -42785,7 +42747,7 @@ ty≥
 WIFI_SECURITY_TYPE_NONE
 ;
 
-671 
+672 
 	`wifi_≠_gë_£curôy_ty≥
 (
 ≠
@@ -42793,19 +42755,19 @@ WIFI_SECURITY_TYPE_NONE
 ty≥
 );
 
-672 i‡(
+673 i‡(
 WIFI_SECURITY_TYPE_EAP
  =
 ty≥
 ) {
 
-673 
+674 
 wifi_c⁄√˘i⁄_°©e_e
  
 c⁄√˘i⁄_°©e
 ;
 
-674 
+675 
 	`wifi_≠_gë_c⁄√˘i⁄_°©e
 (
 ≠
@@ -42813,7 +42775,7 @@ c⁄√˘i⁄_°©e
 c⁄√˘i⁄_°©e
 );
 
-675 i‡(
+676 i‡(
 Áv‹ôe
  || 
 WIFI_CONNECTION_STATE_CONNECTED
@@ -42821,7 +42783,7 @@ WIFI_CONNECTION_STATE_CONNECTED
 c⁄√˘i⁄_°©e
 ) {
 
-676 
+677 
 _dëaû_d©a
 ->
 óp_öfo_li°
@@ -42831,7 +42793,7 @@ _dëaû_d©a
 ≠
 ,
 
-677 
+678 
 dëaûvõw_li°
 , 
 PACKAGE
@@ -42839,11 +42801,11 @@ PACKAGE
 __võw_dëaû_imf_˘xt_ev¡_cb
 ,
 
-678 
+679 
 «vi_ô
 );
 
-683 
+684 
 id
  = 
 	`comm⁄_utû_m™aged_idÀ_add
@@ -42853,21 +42815,21 @@ __võw_dëaû_lﬂd_ù_öfo_li°_cb
 _dëaû_d©a
 );
 
-684 i‡(!
+685 i‡(!
 id
 ) {
 
-685 
+686 
 	`g_‰ì
 (
 _dëaû_d©a
 );
 
-688 
+689 
 __COMMON_FUNC_EXIT__
 ;
 
-689 
+690 
 	}
 }
 
@@ -44463,7 +44425,7 @@ devi˚_öfo
 ≠_°©us_txt
 );
 
-122 
+123 
 gd©a
 ->
 devi˚_öfo
@@ -44471,13 +44433,11 @@ devi˚_öfo
 ≠_°©us_txt
  =
 
-123 
+124 
 	`comm⁄_utûs_gë_≠_£curôy_ty≥_öfo_txt
 (
 PACKAGE
-,
-
-124 
+, 
 gd©a
 ->
 devi˚_öfo
@@ -51604,6 +51564,10 @@ devi˚_öfo
  != NULL) {
 
 1940 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
+1941 
 	`wifi_≠_is_Áv‹ôe
 (
 gd©a
@@ -51615,13 +51579,13 @@ devi˚_öfo
 Áv‹ôe
 );
 
-1941 i‡(
+1942 i‡(
 Áv‹ôe
  =
 åue
 ) {
 
-1942 
+1943 
 	`võwî_li°_wifi_c⁄√˘
 (
 gd©a
@@ -51629,19 +51593,19 @@ gd©a
 devi˚_öfo
 );
 
-1944 
+1945 
 exô
 ;
 
-1950 
+1951 
 £c_mode
 ) {
 
-1951 
+1952 
 WLAN_SEC_MODE_NONE
 :
 
-1952 
+1953 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -51649,7 +51613,7 @@ UG_NAME_NORMAL
 ssid
 );
 
-1954 
+1955 
 hiddí_≠_d©a
  = 
 	`g_√w0
@@ -51657,7 +51621,7 @@ hiddí_≠_d©a
 hiddí_≠_d©a_t
 , 1);
 
-1955 
+1956 
 hiddí_≠_d©a
 ->
 £c_mode
@@ -51665,7 +51629,7 @@ hiddí_≠_d©a
 WLAN_SEC_MODE_NONE
 ;
 
-1956 
+1957 
 hiddí_≠_d©a
 ->
 ssid
@@ -51673,19 +51637,19 @@ ssid
 	`g_°rdup
 (ssid);
 
-1958 
+1959 
 p›up_bä_öfo_t
  
 p›up_bä_d©a
 ;
 
-1959 
+1960 
 	`mem£t
 (&
 p›up_bä_d©a
 , 0, (popup_btn_data));
 
-1960 
+1961 
 p›up_bä_d©a
 .
 tôÀ_txt
@@ -51695,7 +51659,7 @@ tôÀ_txt
 ssid
 );
 
-1961 
+1962 
 p›up_bä_d©a
 .
 öfo_txt
@@ -51707,7 +51671,7 @@ PACKAGE
 I18N_TYPE_WiFi_√tw‹k_dëe˘ed_c⁄√˘
 );
 
-1962 
+1963 
 p›up_bä_d©a
 .
 bä1_txt
@@ -51719,7 +51683,7 @@ PACKAGE
 I18N_TYPE_C™˚l
 );
 
-1963 
+1964 
 p›up_bä_d©a
 .
 bä1_cb
@@ -51727,7 +51691,7 @@ bä1_cb
 hiddí_≠_c⁄√˘_ˇn˚l_cb
 ;
 
-1964 
+1965 
 p›up_bä_d©a
 .
 bä1_d©a
@@ -51737,7 +51701,7 @@ bä2_d©a
 hiddí_≠_d©a
 ;
 
-1965 
+1966 
 p›up_bä_d©a
 .
 bä2_txt
@@ -51749,7 +51713,7 @@ PACKAGE
 I18N_TYPE_C⁄√˘
 );
 
-1966 
+1967 
 p›up_bä_d©a
 .
 bä2_cb
@@ -51757,7 +51721,7 @@ bä2_cb
 hiddí_≠_c⁄√˘_ok_cb
 ;
 
-1967 
+1968 
 p›up_bä_d©a
 .
 p›up_wôh_íåy
@@ -51765,13 +51729,13 @@ p›up_wôh_íåy
 åue
 ;
 
-1969 
+1970 
 hiddí_≠_d©a
 ->
 c⁄fúm©i⁄_p›up
  =
 
-1970 
+1971 
 	`comm⁄_utûs_show_öfo_p›up
 (
 ug_≠p_°©e
@@ -51779,11 +51743,11 @@ ug_≠p_°©e
 œyout_maö
 ,
 
-1971 &
+1972 &
 p›up_bä_d©a
 );
 
-1973 
+1974 
 	`evas_obje˘_evít_ˇŒback_add
 (
 hiddí_≠_d©a
@@ -51791,7 +51755,7 @@ hiddí_≠_d©a
 c⁄fúm©i⁄_p›up
 ,
 
-1974 
+1975 
 EVAS_CALLBACK_MOUSE_UP
 , 
 __hiddí_≠_ˇn˚l_mou£up_cb
@@ -51799,7 +51763,7 @@ __hiddí_≠_ˇn˚l_mou£up_cb
 hiddí_≠_d©a
 );
 
-1975 
+1976 
 	`evas_obje˘_evít_ˇŒback_add
 (
 hiddí_≠_d©a
@@ -51807,7 +51771,7 @@ hiddí_≠_d©a
 c⁄fúm©i⁄_p›up
 ,
 
-1976 
+1977 
 EVAS_CALLBACK_KEY_DOWN
 , 
 __hiddí_≠_ˇn˚l_keydown_cb
@@ -51815,11 +51779,11 @@ __hiddí_≠_ˇn˚l_keydown_cb
 hiddí_≠_d©a
 );
 
-1980 
+1981 
 WLAN_SEC_MODE_IEEE8021X
 :
 
-1981 
+1982 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -51827,7 +51791,7 @@ UG_NAME_NORMAL
 ssid
 );
 
-1983 
+1984 
 Evas_Obje˘
 * 
 «vi_‰ame
@@ -51835,19 +51799,19 @@ Evas_Obje˘
 	`võwî_m™agî_gë_«vi‰ame
 ();
 
-1984 
+1985 
 wifi_devi˚_öfo_t
  
 devi˚_öfo
 ;
 
-1985 
+1986 
 wifi_≠_h
  
 ≠
 ;
 
-1987 
+1988 
 	`wifi_≠_hiddí_¸óã
 (
 ssid
@@ -51855,7 +51819,7 @@ ssid
 ≠
 );
 
-1988 
+1989 
 	`wifi_≠_£t_£curôy_ty≥
 (
 ≠
@@ -51863,7 +51827,7 @@ ssid
 WIFI_SECURITY_TYPE_EAP
 );
 
-1990 
+1991 
 ug_d©a
  *
 ugd
@@ -51873,13 +51837,13 @@ ug_≠p_°©e
 gadgë
 ;
 
-1992 
+1993 
 	`mem£t
 (&
 devi˚_öfo
 , 0, (device_info));
 
-1993 
+1994 
 devi˚_öfo
 .
 £curôy_mode
@@ -51887,25 +51851,25 @@ devi˚_öfo
 WIFI_SECURITY_TYPE_EAP
 ;
 
-1994 
+1995 
 devi˚_öfo
 .
 ssid
  = (*)ssid;
 
-1995 
+1996 
 devi˚_öfo
 .
 ≠
  =áp;
 
-1996 
+1997 
 ug_≠p_°©e
 ->
 óp_võw
  =
 
-1997 
+1998 
 	`¸óã_óp_võw
 (
 ug_≠p_°©e
@@ -51913,13 +51877,13 @@ ug_≠p_°©e
 ug_ty≥
 ,
 
-1998 
+1999 
 ug_≠p_°©e
 ->
 œyout_maö
 ,
 
-1999 
+2000 
 «vi_‰ame
 , 
 PACKAGE
@@ -51927,49 +51891,49 @@ PACKAGE
 devi˚_öfo
 ,
 
-2000 
+2001 
 ugd
 ->
 wö_maö
 );
 
-2002 
+2003 
 	`wifi_≠_de°roy
 (
 ≠
 );
 
-2006 
+2007 
 WLAN_SEC_MODE_WEP
 :
 
-2007 
+2008 
 WLAN_SEC_MODE_WPA_PSK
 :
 
-2008 
+2009 
 WLAN_SEC_MODE_WPA2_PSK
 :
 
-2009 
+2010 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
 ,
 
-2010 "Secuªd(%dË%†found", 
+2011 "Secuªd(%dË%†found", 
 £c_mode
 , 
 ssid
 );
 
-2012 
+2013 
 pswd_p›up_¸óã_ªq_d©a_t
  
 p›up_öfo
 ;
 
-2014 
+2015 
 hiddí_≠_d©a
  = 
 	`g_åy_√w0
@@ -51977,29 +51941,29 @@ hiddí_≠_d©a
 hiddí_≠_d©a_t
 , 1);
 
-2015 i‡(
+2016 i‡(
 hiddí_≠_d©a
  =
 NULL
 ) {
 
-2016 
+2017 
 	`ERROR_LOG
 (
 UG_NAME_RESP
 , "MemoryállocationÉrror.");
 
-2017 
+2018 
 exô
 ;
 
-2019 
+2020 
 hiddí_≠_d©a
 ->
 £c_mode
  = sec_mode;
 
-2020 
+2021 
 hiddí_≠_d©a
 ->
 ssid
@@ -52007,7 +51971,7 @@ ssid
 	`g_°rdup
 (ssid);
 
-2022 
+2023 
 	`mem£t
 (&
 p›up_öfo
@@ -52015,7 +51979,7 @@ p›up_öfo
 pswd_p›up_¸óã_ªq_d©a_t
 ));
 
-2028 
+2029 
 p›up_öfo
 .
 tôÀ
@@ -52023,7 +51987,7 @@ tôÀ
 ssid
 ;
 
-2029 
+2030 
 p›up_öfo
 .
 ok_cb
@@ -52031,7 +51995,7 @@ ok_cb
 hiddí_≠_c⁄√˘_ok_cb
 ;
 
-2030 
+2031 
 p›up_öfo
 .
 ˇn˚l_cb
@@ -52039,7 +52003,7 @@ p›up_öfo
 hiddí_≠_c⁄√˘_ˇn˚l_cb
 ;
 
-2031 
+2032 
 p›up_öfo
 .
 cb_d©a
@@ -52047,13 +52011,13 @@ cb_d©a
 hiddí_≠_d©a
 ;
 
-2033 i‡(
+2034 i‡(
 £c_mode
  =
 WLAN_SEC_MODE_WEP
 )
 
-2034 
+2035 
 p›up_öfo
 .
 £c_ty≥
@@ -52061,13 +52025,13 @@ p›up_öfo
 WIFI_SECURITY_TYPE_WEP
 ;
 
-2035 i‡(
+2036 i‡(
 £c_mode
  =
 WLAN_SEC_MODE_WPA_PSK
 )
 
-2036 
+2037 
 p›up_öfo
 .
 £c_ty≥
@@ -52075,13 +52039,13 @@ p›up_öfo
 WIFI_SECURITY_TYPE_WPA_PSK
 ;
 
-2037 i‡(
+2038 i‡(
 £c_mode
  =
 WLAN_SEC_MODE_WPA2_PSK
 )
 
-2038 
+2039 
 p›up_öfo
 .
 £c_ty≥
@@ -52089,13 +52053,13 @@ p›up_öfo
 WIFI_SECURITY_TYPE_WPA2_PSK
 ;
 
-2040 
+2041 
 ug_≠p_°©e
 ->
 ∑s•›up
  =
 
-2041 
+2042 
 	`¸óã_∑sswd_p›up
 (
 ug_≠p_°©e
@@ -52103,13 +52067,13 @@ ug_≠p_°©e
 œyout_maö
 ,
 
-2042 
+2043 
 PACKAGE
 , &
 p›up_öfo
 );
 
-2043 i‡(
+2044 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -52117,13 +52081,13 @@ ug_≠p_°©e
 NULL
 )
 
-2044 
+2045 
 	`INFO_LOG
 (
 UG_NAME_ERR
 , "FailÅo createÖasswordÖopup");
 
-2049 
+2050 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -52131,43 +52095,43 @@ UG_NAME_NORMAL
 £c_mode
 );
 
-2052 } i‡(
+2053 } i‡(
 ≠_cou¡
  == 0) {
 
-2053 
+2054 
 	`INFO_LOG
 (
 UG_NAME_ERR
 , "noáp found");
 
-2054 
+2055 
 	`comm⁄_utûs_£nd_mesßge_to_√t_p›up
 ("Network connectionÖopup",
 
-2055 "nÿ≠ found", "nŸifiˇti⁄", 
+2056 "nÿ≠ found", "nŸifiˇti⁄", 
 NULL
 );
 
-2058 
+2059 
 exô
 :
 
-2059 
+2060 
 	`g_‰ì
 (
 u£r_d©a
 );
 
-2061 
+2062 
 	`võw_hiddí_≠_p›up_de°roy
 ();
 
-2062 
+2063 
 	}
 }
 
-2064 
+2065 
 wifi_devi˚_öfo_t
  *
 	$võw_li°_ôem_devi˚_öfo_¸óã
@@ -52177,19 +52141,19 @@ wifi_≠_h
 ≠
 )
 
-2066 
+2067 
 wifi_£curôy_ty≥_e
  
 £c_ty≥
 ;
 
-2067 
+2068 
 ªt
  = 
 Ál£
 ;
 
-2068 
+2069 
 wifi_devi˚_öfo_t
 * 
 wifi_devi˚
@@ -52197,13 +52161,13 @@ wifi_devi˚
 NULL
 ;
 
-2070 i‡(
+2071 i‡(
 ≠
  !
 NULL
 ) {
 
-2071 
+2072 
 wifi_devi˚
  = 
 	`g_åy_√w0
@@ -52211,7 +52175,7 @@ wifi_devi˚
 wifi_devi˚_öfo_t
 , 1);
 
-2072 
+2073 
 	`ªtvm_if
 (
 NULL
@@ -52219,7 +52183,7 @@ NULL
 wifi_devi˚
 , NULL);
 
-2074 i‡(
+2075 i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_˛⁄e
@@ -52229,11 +52193,11 @@ wifi_devi˚
 ≠
 ),áp)) {
 
-2075 
+2076 
 FREE_DEVICE_INFO
 ;
 
-2076 } i‡(
+2077 } i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_essid
@@ -52245,11 +52209,11 @@ wifi_devi˚
 ssid
 ))) {
 
-2077 
+2078 
 FREE_DEVICE_INFO
 ;
 
-2078 } i‡(
+2079 } i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_rssi
@@ -52261,11 +52225,11 @@ wifi_devi˚
 rssi
 ))) {
 
-2079 
+2080 
 FREE_DEVICE_INFO
 ;
 
-2080 } i‡(
+2081 } i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_£curôy_ty≥
@@ -52275,11 +52239,11 @@ WIFI_ERROR_NONE
 £c_ty≥
 )) {
 
-2081 
+2082 
 FREE_DEVICE_INFO
 ;
 
-2082 } i‡(
+2083 } i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_is_wps_suµ‹ãd
@@ -52291,11 +52255,11 @@ wifi_devi˚
 wps_mode
 ))) {
 
-2083 
+2084 
 FREE_DEVICE_INFO
 ;
 
-2086 
+2087 
 wifi_devi˚
 ->
 £curôy_mode
@@ -52305,7 +52269,7 @@ wifi_devi˚
 £c_ty≥
 );
 
-2087 
+2088 
 wifi_devi˚
 ->
 is_bt_ãthîed_devi˚
@@ -52313,7 +52277,7 @@ is_bt_ãthîed_devi˚
 Ál£
 ;
 
-2088 
+2089 
 	`comm⁄_utûs_gë_devi˚_ic⁄
 (
 wifi_devi˚
@@ -52321,17 +52285,17 @@ wifi_devi˚
 ≠_image_∑th
 );
 
-2090 
+2091 
 ªt
  = 
 åue
 ;
 
-2092 
+2093 
 FREE_DEVICE_INFO
 :
 
-2093 i‡(
+2094 i‡(
 ªt
  =
 Ál£
@@ -52339,7 +52303,7 @@ FREE_DEVICE_INFO
 wifi_devi˚
 ) {
 
-2094 
+2095 
 	`wifi_≠_de°roy
 (
 wifi_devi˚
@@ -52347,7 +52311,7 @@ wifi_devi˚
 ≠
 );
 
-2095 
+2096 
 	`g_‰ì
 (
 wifi_devi˚
@@ -52355,7 +52319,7 @@ wifi_devi˚
 ≠_image_∑th
 );
 
-2096 
+2097 
 	`g_‰ì
 (
 wifi_devi˚
@@ -52363,7 +52327,7 @@ wifi_devi˚
 ≠_°©us_txt
 );
 
-2097 
+2098 
 	`g_‰ì
 (
 wifi_devi˚
@@ -52371,31 +52335,31 @@ wifi_devi˚
 ssid
 );
 
-2098 
+2099 
 	`g_‰ì
 (
 wifi_devi˚
 );
 
-2101  
+2102  
 wifi_devi˚
 ;
 
-2102 
+2103 
 	}
 }
 
-2104 
+2105 
 võw_m™agî_võw_ty≥_t
  
 	$võwî_m™agî_võw_ty≥_gë
 ()
 
-2106 
+2107 
 __COMMON_FUNC_ENTER__
 ;
 
-2108 
+2109 
 Evas_Obje˘
 * 
 «vi_‰ame
@@ -52403,19 +52367,19 @@ Evas_Obje˘
 NULL
 ;
 
-2109 
+2110 
 võw_m™agî_võw_ty≥_t
  
 t›_võw_id
 ;
 
-2111 
+2112 
 «vi_‰ame
  = 
 	`võwî_m™agî_gë_«vi‰ame
 ();
 
-2112 
+2113 
 t›_võw_id
  = (
 võw_m™agî_võw_ty≥_t
@@ -52423,117 +52387,117 @@ võw_m™agî_võw_ty≥_t
 	`evas_obje˘_d©a_gë
 (
 
-2113 
+2114 
 «vi_‰ame
 ,
 
-2114 
+2115 
 SCREEN_TYPE_ID_KEY
 );
 
-2116 
+2117 
 __COMMON_FUNC_EXIT__
 ;
 
-2117  
+2118  
 t›_võw_id
 ;
 
-2118 
+2119 
 	}
 }
 
-2120 
+2121 
 	$võwî_m™agî_ªque°_sˇn
 ()
 
-2122 
+2123 
 __COMMON_FUNC_ENTER__
 ;
 
-2124 
+2125 
 HEADER_MODES
  
 cuºít_°©e
 ;
 
-2126 
+2127 
 cuºít_°©e
  = 
 	`võwî_m™agî_hódî_mode_gë
 ();
 
-2128 i‡(
+2129 i‡(
 cuºít_°©e
  =
 HEADER_MODE_ON
  ||
 
-2129 
+2130 
 cuºít_°©e
  =
 HEADER_MODE_CONNECTED
 ) {
 
-2130 
+2131 
 sˇn_ªsu…
 ;
 
-2132 
+2133 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "TimeÅo makeá scan..");
 
-2134 
+2135 
 	`võwî_m™agî_show
 (
 VIEWER_WINSET_SEARCHING_GRP_TITLE
 );
 
-2135 
+2136 
 	`võwî_m™agî_hódî_mode_£t
 (
 HEADER_MODE_SEARCHING
 );
 
-2137 
+2138 
 sˇn_ªsu…
  = 
 	`wœn_m™agî_sˇn
 ();
 
-2138 i‡(
+2139 i‡(
 sˇn_ªsu…
  !
 WLAN_MANAGER_ERR_NONE
 ) {
 
-2139 
+2140 
 	`võwî_m™agî_hódî_mode_£t
 (
 cuºít_°©e
 );
 
-2143 
+2144 
 __COMMON_FUNC_EXIT__
 ;
 
-2144 
+2145 
 	}
 }
 
-2146 
+2147 
 	$võwî_m™agî_˛ónup_võws
 ()
 
-2148 i‡(
+2149 i‡(
 m™agî_obje˘
 ->
 ˘xp›up
 ) {
 
-2149 
+2150 
 	`evas_obje˘_dñ
 (
 m™agî_obje˘
@@ -52541,7 +52505,7 @@ m™agî_obje˘
 ˘xp›up
 );
 
-2150 
+2151 
 m™agî_obje˘
 ->
 ˘xp›up
@@ -52549,23 +52513,23 @@ m™agî_obje˘
 NULL
 ;
 
-2153 
+2154 
 	`võwî_m™agî_p›_«vi‰ame_ôem
 ();
 
-2154 
+2155 
 	`võw_hiddí_≠_p›up_dñëe
 ();
 
-2155 
+2156 
 	}
 }
 
-2157 
+2158 
 	$võwî_m™agî_rŸ©e_t›_£tupwiz¨d_œyout
 ()
 
-2159 
+2160 
 Evas_Obje˘
  *
 œyout
@@ -52573,17 +52537,17 @@ Evas_Obje˘
 NULL
 ;
 
-2160 
+2161 
 ug_d©a
  *
 ugd
 ;
 
-2161 
+2162 
 ch™ge_™g
  = 0;
 
-2162 
+2163 
 Elm_Obje˘_Iãm
  *
 «vi_ô
@@ -52591,7 +52555,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-2164 
+2165 
 «vi_ô
  = 
 	`ñm_«vi‰ame_t›_ôem_gë
@@ -52601,7 +52565,7 @@ m™agî_obje˘
 «v
 );
 
-2165 
+2166 
 œyout
  = 
 	`ñm_obje˘_ôem_c⁄ã¡_gë
@@ -52609,7 +52573,7 @@ m™agî_obje˘
 «vi_ô
 );
 
-2167 
+2168 
 ugd
  = (
 ug_d©a
@@ -52619,7 +52583,7 @@ ug_≠p_°©e
 gadgë
 ;
 
-2168 
+2169 
 ch™ge_™g
  = 
 	`ñm_wö_rŸ©i⁄_gë
@@ -52629,17 +52593,17 @@ ugd
 wö_maö
 );
 
-2169 i‡(
+2170 i‡(
 ch™ge_™g
  == 0 || change_ang == 180) {
 
-2170 
+2171 
 	`comm⁄_utûs_c⁄ã¡s_rŸ©i⁄_adju°
 (
 UG_EVENT_ROTATE_PORTRAIT
 );
 
-2171 
+2172 
 	`edje_obje˘_sig«l_emô
 ((
 Evas_Obje˘
@@ -52649,13 +52613,13 @@ Evas_Obje˘
 œyout
 )
 
-2174 
+2175 
 	`comm⁄_utûs_c⁄ã¡s_rŸ©i⁄_adju°
 (
 UG_EVENT_ROTATE_LANDSCAPE
 );
 
-2175 
+2176 
 	`edje_obje˘_sig«l_emô
 ((
 Evas_Obje˘
@@ -52665,7 +52629,7 @@ Evas_Obje˘
 œyout
 ),
 
-2178 
+2179 
 	}
 }
 
@@ -54379,7 +54343,11 @@ boﬁ
 FALSE
 ;
 
-394 if(
+394 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
+395 if(
 	`wifi_≠_is_Áv‹ôe
 (
 ≠
@@ -54389,25 +54357,25 @@ FALSE
 WIFI_ERROR_NONE
 
 
-395 && 
+396 && 
 Áv‹ôe
  =
 TRUE
 ) {
 
-396 
+397 
 	`wœn_m™agî_f‹gë
 (
 ≠
 );
 
-397 
+398 
 	`wifi_≠_ª‰esh
 (
 ≠
 );
 
-400 
+401 
 	`wœn_m™agî_c⁄√˘_wôh_∑ssw‹d
 (
 ≠
@@ -54415,7 +54383,7 @@ TRUE
 ∑ssw‹d
 );
 
-402 
+403 
 	`∑sswd_p›up_‰ì
 (
 ug_≠p_°©e
@@ -54423,7 +54391,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-403 
+404 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54431,11 +54399,11 @@ ug_≠p_°©e
 NULL
 ;
 
-405 
+406 
 p›up_ok_cb_exô
 :
 
-406 
+407 
 	`g_‰ì
 ((
 gpoöãr
@@ -54443,15 +54411,15 @@ gpoöãr
 ∑ssw‹d
 );
 
-408 
+409 
 __COMMON_FUNC_EXIT__
 ;
 
-409 
+410 
 	}
 }
 
-411 
+412 
 	$__∑sswd_p›up_£âög_cb
 (*
 d©a
@@ -54461,15 +54429,15 @@ Evas_Obje˘
 obj
 ,
 
-412 *
+413 *
 evít_öfo
 )
 
-414 
+415 
 __COMMON_FUNC_ENTER__
 ;
 
-416 
+417 
 wifi_devi˚_öfo_t
  *
 devi˚_öfo
@@ -54477,7 +54445,7 @@ devi˚_öfo
 d©a
 ;
 
-417 
+418 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -54485,7 +54453,7 @@ Elm_Obje˘_Iãm
 evít_öfo
 ;
 
-419 
+420 
 	`ñm_gíli°_ôem_£À˘ed_£t
 (
 ôem
@@ -54493,7 +54461,7 @@ evít_öfo
 EINA_FALSE
 );
 
-421 i‡(
+422 i‡(
 devi˚_öfo
  =
 NULL
@@ -54501,7 +54469,7 @@ NULL
 ug_≠p_°©e
  == NULL)
 
-424 i‡(
+425 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54509,7 +54477,7 @@ ug_≠p_°©e
 NULL
 )
 
-427 
+428 
 	`∑sswd_p›up_hide
 (
 ug_≠p_°©e
@@ -54517,7 +54485,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-428 
+429 
 	`võw_dëaû
 (
 devi˚_öfo
@@ -54527,15 +54495,15 @@ ug_≠p_°©e
 œyout_maö
 );
 
-430 
+431 
 __COMMON_FUNC_EXIT__
 ;
 
-431 
+432 
 	}
 }
 
-433 
+434 
 	$__wps_pbc_p›up_ˇn˚l_c⁄√˘ög
 (*
 d©a
@@ -54545,15 +54513,15 @@ Evas_Obje˘
 obj
 ,
 
-434 *
+435 *
 evít_öfo
 )
 
-436 
+437 
 __COMMON_FUNC_ENTER__
 ;
 
-438 i‡(
+439 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54561,7 +54529,7 @@ ug_≠p_°©e
 NULL
 ) {
 
-442 
+443 
 wifi_≠_h
  
 ≠
@@ -54573,7 +54541,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-444 
+445 
 ªt
  = 
 	`wœn_m™agî_disc⁄√˘
@@ -54581,13 +54549,13 @@ ug_≠p_°©e
 ≠
 );
 
-445 i‡(
+446 i‡(
 ªt
  !
 WLAN_MANAGER_ERR_NONE
 ) {
 
-446 
+447 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -54595,7 +54563,7 @@ UG_NAME_NORMAL
 ≠
 );
 
-449 
+450 
 	`∑sswd_p›up_‰ì
 (
 ug_≠p_°©e
@@ -54603,7 +54571,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-450 
+451 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54611,21 +54579,21 @@ ug_≠p_°©e
 NULL
 ;
 
-452 
+453 
 	`võwî_m™agî_hódî_mode_£t
 (
 HEADER_MODE_ON
 );
 
-454 
+455 
 __COMMON_FUNC_EXIT__
 ;
 
-455 
+456 
 	}
 }
 
-457 
+458 
 	$_wps_bä_cb
 (* 
 d©a
@@ -54637,17 +54605,17 @@ obj
 evít_öfo
 )
 
-459 
+460 
 __COMMON_FUNC_ENTER__
 ;
 
-461 i‡(!
+462 i‡(!
 ug_≠p_°©e
 ->
 ∑s•›up
 ) {
 
-465 
+466 
 wifi_≠_h
  
 ≠
@@ -54659,7 +54627,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-466 
+467 
 ªt
  = 
 	`wœn_m™agî_wps_c⁄√˘
@@ -54667,13 +54635,13 @@ ug_≠p_°©e
 ≠
 );
 
-467 i‡(
+468 i‡(
 ªt
  =
 WLAN_MANAGER_ERR_NONE
 ) {
 
-468 
+469 
 	`¸óã_pbc_p›up
 (
 ug_≠p_°©e
@@ -54681,25 +54649,25 @@ ug_≠p_°©e
 ∑s•›up
 ,
 
-469 
+470 
 __wps_pbc_p›up_ˇn˚l_c⁄√˘ög
 , 
 NULL
 ,
 
-470 
+471 
 POPUP_WPS_BTN
 , 
 NULL
 );
 
-472 
+473 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "wlan_manager_wps_connect failed");
 
-473 
+474 
 	`∑sswd_p›up_‰ì
 (
 ug_≠p_°©e
@@ -54707,7 +54675,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-474 
+475 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54715,15 +54683,15 @@ ug_≠p_°©e
 NULL
 ;
 
-477 
+478 
 __COMMON_FUNC_EXIT__
 ;
 
-478 
+479 
 	}
 }
 
-480 
+481 
 	$_wps_ˇn˚l_cb
 (* 
 d©a
@@ -54735,11 +54703,11 @@ obj
 evít_öfo
 )
 
-482 
+483 
 __COMMON_FUNC_ENTER__
 ;
 
-484 i‡(
+485 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54747,7 +54715,7 @@ ug_≠p_°©e
 NULL
 ) {
 
-488 
+489 
 	`cuºít_p›up_‰ì
 (
 ug_≠p_°©e
@@ -54757,15 +54725,15 @@ ug_≠p_°©e
 POPUP_WPS_OPTIONS
 );
 
-490 
+491 
 __COMMON_FUNC_EXIT__
 ;
 
-491 
+492 
 	}
 }
 
-493 
+494 
 	$_wps_pö_cb
 (* 
 d©a
@@ -54777,29 +54745,29 @@ obj
 evít_öfo
 )
 
-495 
+496 
 __COMMON_FUNC_ENTER__
 ;
 
-496 
+497 
 Ωö
  = 0;
 
-497 
+498 
 ≈ö
 [9] = { '\0' };
 
-498 
+499 
 pö_Àn
  = 0;
 
-499 
+500 
 ªt
  = 
 WLAN_MANAGER_ERR_NONE
 ;
 
-500 
+501 
 wifi_≠_h
  
 ≠
@@ -54807,7 +54775,7 @@ wifi_≠_h
 NULL
 ;
 
-501 
+502 
 Evas_Obje˘
  *
 öfo_p›up
@@ -54815,23 +54783,23 @@ Evas_Obje˘
 NULL
 ;
 
-503 i‡(!
+504 i‡(!
 ug_≠p_°©e
 ->
 ∑s•›up
 ) {
 
-508 
+509 
 Ωö
  = 
 	`wps_gíî©e_pö
 ();
 
-509 i‡(
+510 i‡(
 Ωö
  > 0)
 
-510 
+511 
 	`g_¢¥ötf
 (
 ≈ö
@@ -54839,7 +54807,7 @@ ug_≠p_°©e
 Ωö
 );
 
-512 
+513 
 pö_Àn
  = 
 	`°æí
@@ -54847,17 +54815,17 @@ pö_Àn
 ≈ö
 );
 
-513 i‡(
+514 i‡(
 pö_Àn
  != 8) {
 
-514 
+515 
 öfo_p›up
  = 
 	`comm⁄_utûs_show_öfo_ok_p›up
 (
 
-515 
+516 
 ug_≠p_°©e
 ->
 œyout_maö
@@ -54865,7 +54833,7 @@ ug_≠p_°©e
 PACKAGE
 ,
 
-516 
+517 
 	`sc
 (
 PACKAGE
@@ -54873,17 +54841,17 @@ PACKAGE
 I18N_TYPE_InvÆid_pö
 ),
 
-517 
+518 
 _öfo_p›up_ok_cb
 ,
 
-518 
+519 
 ug_≠p_°©e
 ->
 ∑s•›up
 );
 
-519 
+520 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54891,11 +54859,11 @@ ug_≠p_°©e
 öfo_p›up
  = info_popup;
 
-521 
+522 
 __COMMON_FUNC_EXIT__
 ;
 
-525 
+526 
 ≠
  = 
 	`∑sswd_p›up_gë_≠
@@ -54905,7 +54873,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-527 
+528 
 ªt
  = 
 	`wœn_m™agî_wps_pö_c⁄√˘
@@ -54915,19 +54883,19 @@ ug_≠p_°©e
 ≈ö
 );
 
-528 i‡(
+529 i‡(
 ªt
  =
 WLAN_MANAGER_ERR_NONE
 ) {
 
-529 
+530 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "wlan_manager_wps_pin_connect successful");
 
-531 
+532 
 	`¸óã_pbc_p›up
 (
 ug_≠p_°©e
@@ -54935,25 +54903,25 @@ ug_≠p_°©e
 ∑s•›up
 ,
 
-532 
+533 
 __wps_pbc_p›up_ˇn˚l_c⁄√˘ög
 , 
 NULL
 ,
 
-533 
+534 
 POPUP_WPS_PIN
 , 
 ≈ö
 );
 
-535 
+536 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "wlan_manager_wps_pin_connect failed");
 
-536 
+537 
 	`∑sswd_p›up_‰ì
 (
 ug_≠p_°©e
@@ -54961,7 +54929,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-537 
+538 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -54969,15 +54937,15 @@ ug_≠p_°©e
 NULL
 ;
 
-540 
+541 
 __COMMON_FUNC_EXIT__
 ;
 
-541 
+542 
 	}
 }
 
-543 
+544 
 	$__wps_›ti⁄s_p›up_cb
 (* 
 d©a
@@ -54989,27 +54957,27 @@ obj
 evít_öfo
 )
 
-545 
+546 
 __COMMON_FUNC_ENTER__
 ;
 
-546 
+547 
 pswd_p›up_¸óã_ªq_d©a_t
  
 p›up_öfo
 ;
 
-548 i‡(!
+549 i‡(!
 ug_≠p_°©e
 ->
 ∑s•›up
 ) {
 
-552 i‡(!
+553 i‡(!
 evít_öfo
 ) {
 
-556 
+557 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -55017,7 +54985,7 @@ Elm_Obje˘_Iãm
 evít_öfo
 ;
 
-557 
+558 
 	`ñm_gíli°_ôem_£À˘ed_£t
 (
 ôem
@@ -55025,7 +54993,7 @@ evít_öfo
 EINA_FALSE
 );
 
-559 
+560 
 	`mem£t
 (&
 p›up_öfo
@@ -55033,7 +55001,7 @@ p›up_öfo
 pswd_p›up_¸óã_ªq_d©a_t
 ));
 
-561 
+562 
 p›up_öfo
 .
 tôÀ
@@ -55047,7 +55015,7 @@ PACKAGE
 I18N_TYPE_Sñe˘_WPS_Mëhod
 ));
 
-562 
+563 
 p›up_öfo
 .
 ok_cb
@@ -55055,7 +55023,7 @@ ok_cb
 NULL
 ;
 
-563 
+564 
 p›up_öfo
 .
 ˇn˚l_cb
@@ -55063,7 +55031,7 @@ p›up_öfo
 _wps_ˇn˚l_cb
 ;
 
-564 
+565 
 p›up_öfo
 .
 show_wps_bä
@@ -55071,7 +55039,7 @@ show_wps_bä
 EINA_FALSE
 ;
 
-565 
+566 
 p›up_öfo
 .
 wps_bä_cb
@@ -55079,7 +55047,7 @@ wps_bä_cb
 _wps_bä_cb
 ;
 
-566 
+567 
 p›up_öfo
 .
 wps_pö_cb
@@ -55087,7 +55055,7 @@ wps_pö_cb
 _wps_pö_cb
 ;
 
-567 
+568 
 p›up_öfo
 .
 ≠
@@ -55099,7 +55067,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-568 
+569 
 p›up_öfo
 .
 cb_d©a
@@ -55107,7 +55075,7 @@ cb_d©a
 NULL
 ;
 
-569 
+570 
 	`¸óã_wps_›ti⁄s_p›up
 (
 ug_≠p_°©e
@@ -55117,11 +55085,11 @@ ug_≠p_°©e
 ∑s•›up
 ,
 
-570 &
+571 &
 p›up_öfo
 );
 
-572 
+573 
 	`g_‰ì
 (
 p›up_öfo
@@ -55129,15 +55097,15 @@ p›up_öfo
 tôÀ
 );
 
-574 
+575 
 __COMMON_FUNC_EXIT__
 ;
 
-575 
+576 
 	}
 }
 
-577 
+578 
 	$võwî_li°_wifi_ªc⁄√˘
 (
 wifi_devi˚_öfo_t
@@ -55145,7 +55113,7 @@ wifi_devi˚_öfo_t
 devi˚_öfo
 )
 
-579 
+580 
 Evas_Obje˘
 * 
 «vi_‰ame
@@ -55153,13 +55121,13 @@ Evas_Obje˘
 NULL
 ;
 
-580 
+581 
 pswd_p›up_¸óã_ªq_d©a_t
  
 p›up_öfo
 ;
 
-581 
+582 
 wifi_£curôy_ty≥_e
  
 £c_ty≥
@@ -55167,13 +55135,13 @@ wifi_£curôy_ty≥_e
 WIFI_SECURITY_TYPE_NONE
 ;
 
-583 i‡(
+584 i‡(
 devi˚_öfo
  =
 NULL
 )
 
-586 
+587 
 	`wifi_≠_gë_£curôy_ty≥
 (
 devi˚_öfo
@@ -55183,23 +55151,23 @@ devi˚_öfo
 £c_ty≥
 );
 
-588 
+589 
 £c_ty≥
 ) {
 
-589 
+590 
 WIFI_SECURITY_TYPE_WEP
 :
 
-590 
+591 
 WIFI_SECURITY_TYPE_WPA_PSK
 :
 
-591 
+592 
 WIFI_SECURITY_TYPE_WPA2_PSK
 :
 
-592 
+593 
 	`mem£t
 (&
 p›up_öfo
@@ -55207,7 +55175,7 @@ p›up_öfo
 pswd_p›up_¸óã_ªq_d©a_t
 ));
 
-594 
+595 
 p›up_öfo
 .
 tôÀ
@@ -55217,7 +55185,7 @@ devi˚_öfo
 ssid
 ;
 
-595 
+596 
 p›up_öfo
 .
 ok_cb
@@ -55225,7 +55193,7 @@ ok_cb
 __∑sswd_p›up_ok_cb
 ;
 
-596 
+597 
 p›up_öfo
 .
 ˇn˚l_cb
@@ -55233,7 +55201,7 @@ p›up_öfo
 __∑sswd_p›up_ˇn˚l_cb
 ;
 
-597 
+598 
 p›up_öfo
 .
 £âög_cb
@@ -55241,7 +55209,7 @@ p›up_öfo
 __∑sswd_p›up_£âög_cb
 ;
 
-598 
+599 
 p›up_öfo
 .
 show_wps_bä
@@ -55251,7 +55219,7 @@ devi˚_öfo
 wps_mode
 ;
 
-599 
+600 
 p›up_öfo
 .
 wps_bä_cb
@@ -55259,7 +55227,7 @@ wps_bä_cb
 __wps_›ti⁄s_p›up_cb
 ;
 
-600 
+601 
 p›up_öfo
 .
 ≠
@@ -55267,7 +55235,7 @@ p›up_öfo
 devi˚_öfo
 ->ap;
 
-601 
+602 
 p›up_öfo
 .
 cb_d©a
@@ -55275,13 +55243,13 @@ cb_d©a
 devi˚_öfo
 ;
 
-602 
+603 
 p›up_öfo
 .
 £c_ty≥
  = sec_type;
 
-604 i‡(
+605 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55289,7 +55257,7 @@ ug_≠p_°©e
 NULL
 ) {
 
-605 
+606 
 	`∑sswd_p›up_‰ì
 (
 ug_≠p_°©e
@@ -55297,7 +55265,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-606 
+607 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55305,7 +55273,7 @@ ug_≠p_°©e
 NULL
 ;
 
-610 
+611 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55313,7 +55281,7 @@ ug_≠p_°©e
 	`¸óã_∑sswd_p›up
 (
 
-611 
+612 
 ug_≠p_°©e
 ->
 œyout_maö
@@ -55323,7 +55291,7 @@ PACKAGE
 p›up_öfo
 );
 
-613 i‡(
+614 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55331,23 +55299,23 @@ ug_≠p_°©e
 NULL
 ) {
 
-614 
+615 
 	`INFO_LOG
 (
 UG_NAME_ERR
 , "FailÅo createÖasswordÖopup");
 
-618 
+619 
 WIFI_SECURITY_TYPE_EAP
 :
 
-619 
+620 
 «vi_‰ame
  = 
 	`võwî_m™agî_gë_«vi‰ame
 ();
 
-620 
+621 
 ug_d©a
  *
 ugd
@@ -55357,7 +55325,7 @@ ug_≠p_°©e
 gadgë
 ;
 
-621 
+622 
 ug_≠p_°©e
 ->
 óp_võw
@@ -55367,7 +55335,7 @@ ug_≠p_°©e
 ug_ty≥
 ,
 
-622 
+623 
 ug_≠p_°©e
 ->
 œyout_maö
@@ -55377,7 +55345,7 @@ ug_≠p_°©e
 PACKAGE
 ,
 
-623 
+624 
 devi˚_öfo
 , 
 ugd
@@ -55385,7 +55353,7 @@ ugd
 wö_maö
 );
 
-626 
+627 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -55393,11 +55361,11 @@ UG_NAME_NORMAL
 £c_ty≥
 );
 
-630 
+631 
 	}
 }
 
-632 
+633 
 	$võwî_li°_wifi_c⁄√˘
 (
 wifi_devi˚_öfo_t
@@ -55405,7 +55373,11 @@ wifi_devi˚_öfo_t
 devi˚_öfo
 )
 
-634 
+635 
+__COMMON_FUNC_ENTER__
+;
+
+636 
 boﬁ
  
 Áv‹ôe
@@ -55413,7 +55385,7 @@ boﬁ
 Ál£
 ;
 
-635 
+637 
 Evas_Obje˘
 * 
 «vi_‰ame
@@ -55421,13 +55393,13 @@ Evas_Obje˘
 NULL
 ;
 
-636 
+638 
 pswd_p›up_¸óã_ªq_d©a_t
  
 p›up_öfo
 ;
 
-637 
+639 
 wifi_£curôy_ty≥_e
  
 £c_ty≥
@@ -55435,37 +55407,17 @@ wifi_£curôy_ty≥_e
 WIFI_SECURITY_TYPE_NONE
 ;
 
-639 i‡(
+641 i‡(
 devi˚_öfo
  =
 NULL
-)
+){
 
 642 
-	`wifi_≠_is_Áv‹ôe
-(
-devi˚_öfo
-->
-≠
-, &
-Áv‹ôe
-);
+__COMMON_FUNC_EXIT__
+;
 
-644 i‡(
-Áv‹ôe
- =
-åue
-) {
-
-645 
-	`wœn_m™agî_c⁄√˘
-(
-devi˚_öfo
-->
-≠
-);
-
-649 
+657 
 	`wifi_≠_gë_£curôy_ty≥
 (
 devi˚_öfo
@@ -55475,15 +55427,21 @@ devi˚_öfo
 £c_ty≥
 );
 
-651 
+658 
+	`MIN_LOG
+("£c_ty≥ : %d", 
+£c_ty≥
+);
+
+659 
 £c_ty≥
 ) {
 
-652 
+660 
 WIFI_SECURITY_TYPE_NONE
 :
 
-653 
+661 
 	`wœn_m™agî_c⁄√˘
 (
 devi˚_öfo
@@ -55491,19 +55449,19 @@ devi˚_öfo
 ≠
 );
 
-656 
+664 
 WIFI_SECURITY_TYPE_WEP
 :
 
-657 
+665 
 WIFI_SECURITY_TYPE_WPA_PSK
 :
 
-658 
+666 
 WIFI_SECURITY_TYPE_WPA2_PSK
 :
 
-659 
+667 
 	`mem£t
 (&
 p›up_öfo
@@ -55511,7 +55469,7 @@ p›up_öfo
 pswd_p›up_¸óã_ªq_d©a_t
 ));
 
-661 
+669 
 p›up_öfo
 .
 tôÀ
@@ -55521,7 +55479,7 @@ devi˚_öfo
 ssid
 ;
 
-662 
+670 
 p›up_öfo
 .
 ok_cb
@@ -55529,7 +55487,7 @@ ok_cb
 __∑sswd_p›up_ok_cb
 ;
 
-663 
+671 
 p›up_öfo
 .
 ˇn˚l_cb
@@ -55537,7 +55495,7 @@ p›up_öfo
 __∑sswd_p›up_ˇn˚l_cb
 ;
 
-664 
+672 
 p›up_öfo
 .
 £âög_cb
@@ -55545,7 +55503,7 @@ p›up_öfo
 __∑sswd_p›up_£âög_cb
 ;
 
-665 
+673 
 p›up_öfo
 .
 show_wps_bä
@@ -55555,7 +55513,7 @@ devi˚_öfo
 wps_mode
 ;
 
-666 
+674 
 p›up_öfo
 .
 wps_bä_cb
@@ -55563,7 +55521,7 @@ wps_bä_cb
 __wps_›ti⁄s_p›up_cb
 ;
 
-668 
+676 
 p›up_öfo
 .
 ≠
@@ -55571,7 +55529,7 @@ p›up_öfo
 devi˚_öfo
 ->ap;
 
-669 
+677 
 p›up_öfo
 .
 cb_d©a
@@ -55579,13 +55537,13 @@ cb_d©a
 devi˚_öfo
 ;
 
-670 
+678 
 p›up_öfo
 .
 £c_ty≥
  = sec_type;
 
-672 i‡(
+680 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55593,7 +55551,7 @@ ug_≠p_°©e
 NULL
 ) {
 
-673 
+681 
 	`∑sswd_p›up_‰ì
 (
 ug_≠p_°©e
@@ -55601,7 +55559,7 @@ ug_≠p_°©e
 ∑s•›up
 );
 
-674 
+682 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55609,7 +55567,7 @@ ug_≠p_°©e
 NULL
 ;
 
-678 
+686 
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55617,7 +55575,7 @@ ug_≠p_°©e
 	`¸óã_∑sswd_p›up
 (
 
-679 
+687 
 ug_≠p_°©e
 ->
 œyout_maö
@@ -55627,7 +55585,7 @@ PACKAGE
 p›up_öfo
 );
 
-681 i‡(
+689 i‡(
 ug_≠p_°©e
 ->
 ∑s•›up
@@ -55635,23 +55593,23 @@ ug_≠p_°©e
 NULL
 ) {
 
-682 
+690 
 	`INFO_LOG
 (
 UG_NAME_ERR
 , "FailÅo createÖasswordÖopup");
 
-687 
+695 
 WIFI_SECURITY_TYPE_EAP
 :
 
-688 
+696 
 «vi_‰ame
  = 
 	`võwî_m™agî_gë_«vi‰ame
 ();
 
-689 
+697 
 ug_d©a
  *
 ugd
@@ -55661,7 +55619,7 @@ ug_≠p_°©e
 gadgë
 ;
 
-690 
+698 
 ug_≠p_°©e
 ->
 óp_võw
@@ -55671,7 +55629,7 @@ ug_≠p_°©e
 ug_ty≥
 ,
 
-691 
+699 
 ug_≠p_°©e
 ->
 œyout_maö
@@ -55681,7 +55639,7 @@ ug_≠p_°©e
 PACKAGE
 ,
 
-692 
+700 
 devi˚_öfo
 , 
 ugd
@@ -55689,7 +55647,7 @@ ugd
 wö_maö
 );
 
-696 
+704 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -55697,11 +55655,15 @@ UG_NAME_NORMAL
 £c_ty≥
 );
 
-700 
+707 
+__COMMON_FUNC_EXIT__
+;
+
+708 
 	}
 }
 
-711 
+719 
 	$__võwî_li°_ôem_˛icked_cb
 (*
 d©a
@@ -55711,15 +55673,15 @@ Evas_Obje˘
 obj
 ,
 
-712 *
+720 *
 evít_öfo
 )
 
-714 
+722 
 __COMMON_FUNC_ENTER__
 ;
 
-716 
+724 
 	`as£πm_if
 (
 NULL
@@ -55727,7 +55689,7 @@ NULL
 evít_öfo
 , "event_info is NULL!!");
 
-717 
+725 
 	`as£πm_if
 (
 NULL
@@ -55735,7 +55697,7 @@ NULL
 obj
 , "obj is NULL!!");
 
-719 
+727 
 Elm_Obje˘_Iãm
  *
 ô
@@ -55743,7 +55705,7 @@ Elm_Obje˘_Iãm
 evít_öfo
 ;
 
-720 
+728 
 ug_gíli°_d©a_t
  *
 gd©a
@@ -55751,7 +55713,7 @@ gd©a
 NULL
 ;
 
-721 
+729 
 wifi_devi˚_öfo_t
  *
 devi˚_öfo
@@ -55759,7 +55721,7 @@ devi˚_öfo
 NULL
 ;
 
-723 
+731 
 gd©a
  = (
 ug_gíli°_d©a_t
@@ -55769,7 +55731,7 @@ ug_gíli°_d©a_t
 ô
 );
 
-724 
+732 
 	`ªtm_if
 (
 NULL
@@ -55777,13 +55739,13 @@ NULL
 gd©a
 );
 
-726 
+734 
 devi˚_öfo
  = 
 gd©a
 ->device_info;
 
-727 
+735 
 	`ªtm_if
 (
 NULL
@@ -55793,7 +55755,7 @@ devi˚_öfo
 ssid
 );
 
-729 
+737 
 ôem_°©e
  = 
 gd©a
@@ -55801,11 +55763,11 @@ gd©a
 ødio_mode
 ;
 
-730 
+738 
 cuºít_°©e
  = 0;
 
-732 
+740 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55815,7 +55777,7 @@ devi˚_öfo
 ssid
 );
 
-733 
+741 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55825,7 +55787,7 @@ devi˚_öfo
 ≠
 );
 
-734 
+742 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55833,27 +55795,27 @@ UG_NAME_NORMAL
 ôem_°©e
 );
 
-736 
+744 
 ôem_°©e
 ) {
 
-737 
+745 
 VIEWER_ITEM_RADIO_MODE_OFF
 :
 
-738 
+746 
 cuºít_°©e
  = 
 	`võwî_m™agî_hódî_mode_gë
 ();
 
-740 
+748 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Clicked AP information\n");
 
-741 
+749 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55861,55 +55823,55 @@ UG_NAME_NORMAL
 cuºít_°©e
 );
 
-743 
+751 
 cuºít_°©e
 ) {
 
-744 
+752 
 HEADER_MODE_ON
 :
 
-745 
+753 
 HEADER_MODE_CONNECTED
 :
 
-746 
+754 
 HEADER_MODE_CONNECTING
 :
 
-747 
+755 
 HEADER_MODE_SEARCHING
 :
 
-748 
+756 
 	`võwî_li°_wifi_c⁄√˘
 (
 devi˚_öfo
 );
 
-751 
+759 
 HEADER_MODE_OFF
 :
 
-752 
+760 
 HEADER_MODE_ACTIVATING
 :
 
-753 
+761 
 HEADER_MODE_DEACTIVATING
 :
 
-755 
+763 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Ignore click");
 
-760 
+768 
 VIEWER_ITEM_RADIO_MODE_CONNECTING
 :
 
-761 
+769 
 	`wœn_m™agî_disc⁄√˘
 (
 devi˚_öfo
@@ -55917,17 +55879,17 @@ devi˚_öfo
 ≠
 );
 
-764 
+772 
 VIEWER_ITEM_RADIO_MODE_CONNECTED
 :
 
-766 
+774 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Ignore click");
 
-770 
+778 
 	`ñm_gíli°_ôem_£À˘ed_£t
 ((
 Elm_Obje˘_Iãm
@@ -55937,15 +55899,15 @@ evít_öfo
 EINA_FALSE
 );
 
-772 
+780 
 __COMMON_FUNC_EXIT__
 ;
 
-773 
+781 
 	}
 }
 
-775 *
+783 *
 	$võwî_li°_gë_devi˚_°©us_txt
 (
 wifi_devi˚_öfo_t
@@ -55953,25 +55915,25 @@ wifi_devi˚_öfo_t
 wifi_devi˚
 ,
 
-776 
+784 
 VIEWER_ITEM_RADIO_MODES
  
 mode
 )
 
-778 *
+786 *
 °©us_txt
  = 
 NULL
 ;
 
-781 i‡(
+789 i‡(
 VIEWER_ITEM_RADIO_MODE_CONNECTING
  =
 mode
 ) {
 
-782 
+790 
 °©us_txt
  = 
 	`g_°rdup
@@ -55983,13 +55945,13 @@ PACKAGE
 I18N_TYPE_C⁄√˘ög
 ));
 
-783 } i‡(
+791 } i‡(
 VIEWER_ITEM_RADIO_MODE_CONFIGURATION
  =
 mode
 ) {
 
-784 
+792 
 °©us_txt
  = 
 	`g_°rdup
@@ -56001,17 +55963,17 @@ PACKAGE
 I18N_TYPE_Obèöög_IP_addr
 ));
 
-785 } i‡(
+793 } i‡(
 VIEWER_ITEM_RADIO_MODE_CONNECTED
  =
 mode
 ) {
 
-786 i‡(
+794 i‡(
 	`c⁄√˘i⁄_m™agî_is_wifi_c⁄√˘i⁄_u£d
 ()) {
 
-787 
+795 
 °©us_txt
  = 
 	`g_°rdup
@@ -56023,13 +55985,13 @@ PACKAGE
 I18N_TYPE_C⁄√˘ed
 ));
 
-789 } i‡(
+797 } i‡(
 VIEWER_ITEM_RADIO_MODE_OFF
  =
 mode
 ) {
 
-790 
+799 
 °©us_txt
  = 
 	`comm⁄_utûs_gë_≠_£curôy_ty≥_öfo_txt
@@ -56037,13 +55999,13 @@ mode
 PACKAGE
 ,
 
-791 
+800 
 wifi_devi˚
 , 
 åue
 );
 
-793 
+802 
 °©us_txt
  = 
 	`g_°rdup
@@ -56055,7 +56017,7 @@ PACKAGE
 I18N_TYPE_Unknown
 ));
 
-794 
+803 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -56063,15 +56025,15 @@ UG_NAME_NORMAL
 mode
 );
 
-797  
+806  
 °©us_txt
 ;
 
-798 
+807 
 	}
 }
 
-800 
+809 
 Evas_Obje˘
 * 
 	$võwî_li°_¸óã
@@ -56081,11 +56043,11 @@ Evas_Obje˘
 wö
 )
 
-802 
+811 
 __COMMON_FUNC_ENTER__
 ;
 
-804 
+813 
 	`as£πm_if
 (
 NULL
@@ -56093,7 +56055,7 @@ NULL
 wö
 , "NULL!!");
 
-805 
+814 
 	`as£πm_if
 (
 NULL
@@ -56101,7 +56063,7 @@ NULL
 võwî_li°
 , "Err!!");
 
-807 
+816 
 võwî_li°
  = 
 	`ñm_gíli°_add
@@ -56109,7 +56071,7 @@ võwî_li°
 wö
 );
 
-808 
+817 
 	`as£πm_if
 (
 NULL
@@ -56117,7 +56079,7 @@ NULL
 võwî_li°
 , "NULL!!");
 
-809 
+818 
 	`ñm_gíli°_fx_mode_£t
 (
 võwî_li°
@@ -56125,7 +56087,7 @@ võwî_li°
 EINA_FALSE
 );
 
-813 
+822 
 	`ñm_gíli°_mode_£t
 (
 võwî_li°
@@ -56133,7 +56095,7 @@ võwî_li°
 ELM_LIST_COMPRESS
 );
 
-814 
+823 
 	`ñm_gíli°_homogíeous_£t
 (
 võwî_li°
@@ -56141,7 +56103,7 @@ võwî_li°
 EINA_TRUE
 );
 
-816 
+825 
 	`evas_obje˘_size_höt_weight_£t
 (
 võwî_li°
@@ -56149,7 +56111,7 @@ võwî_li°
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-817 
+826 
 	`evas_obje˘_size_höt_Æign_£t
 (
 võwî_li°
@@ -56157,13 +56119,13 @@ võwî_li°
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-819 
+828 
 ôc
 .
 ôem_°yÀ
  = "2line.top";
 
-820 
+829 
 ôc
 .
 func
@@ -56173,7 +56135,7 @@ func
 _gl_li°võw_ãxt_gë
 ;
 
-821 
+830 
 ôc
 .
 func
@@ -56183,7 +56145,7 @@ c⁄ã¡_gë
 _gl_li°võw_c⁄ã¡_gë
 ;
 
-822 
+831 
 ôc
 .
 func
@@ -56193,7 +56155,7 @@ func
 NULL
 ;
 
-823 
+832 
 ôc
 .
 func
@@ -56203,13 +56165,13 @@ dñ
 _gl_li°võw_dñ
 ;
 
-825 
+834 
 no_wifi_devi˚_ôc
 .
 ôem_°yÀ
  = "1line";
 
-826 
+835 
 no_wifi_devi˚_ôc
 .
 func
@@ -56219,7 +56181,7 @@ func
 _gl_li°võw_ãxt_gë
 ;
 
-827 
+836 
 no_wifi_devi˚_ôc
 .
 func
@@ -56229,7 +56191,7 @@ c⁄ã¡_gë
 NULL
 ;
 
-828 
+837 
 no_wifi_devi˚_ôc
 .
 func
@@ -56239,7 +56201,7 @@ func
 NULL
 ;
 
-829 
+838 
 no_wifi_devi˚_ôc
 .
 func
@@ -56249,7 +56211,7 @@ dñ
 _gl_li°võw_dñ
 ;
 
-831 
+840 
 fú°_ôem
  = 
 œ°_ôem
@@ -56257,7 +56219,7 @@ fú°_ôem
 NULL
 ;
 
-833 
+842 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 võwî_li°
@@ -56267,19 +56229,19 @@ _gl_ªÆized
 NULL
 );
 
-835 
+844 
 __COMMON_FUNC_EXIT__
 ;
 
-836  
+845  
 võwî_li°
 ;
 
-837 
+846 
 	}
 }
 
-839 
+848 
 	$võwî_li°_tôÀ_ôem_dñ_avaûabÀ_√tw‹ks
 (
 Elm_Obje˘_Iãm
@@ -56287,31 +56249,31 @@ Elm_Obje˘_Iãm
 ôem_hódî
 )
 
-841 i‡(
+850 i‡(
 ôem_hódî
  =
 NULL
 )
 
-844 
+853 
 	`ñm_obje˘_ôem_dñ
 (
 grou±ôÀ
 );
 
-846 
+855 
 	`mem£t
 (&
 grou±ôÀ_ôc
 , 0, (grouptitle_itc));
 
-847 
+856 
 grou±ôÀ_ôc
 .
 ôem_°yÀ
  = "multiline/1text";
 
-849 
+858 
 	`as£πm_if
 (
 NULL
@@ -56319,7 +56281,7 @@ NULL
 grou±ôÀ
 , "Err!!");
 
-851 
+860 
 grou±ôÀ
  = 
 	`ñm_gíli°_ôem_ö£π_a·î
@@ -56327,7 +56289,7 @@ grou±ôÀ
 võwî_li°
 ,
 
-852 &
+861 &
 grou±ôÀ_ôc
 , 
 NULL
@@ -56335,13 +56297,13 @@ NULL
 ôem_hódî
 ,
 
-853 
+862 
 ELM_GENLIST_ITEM_NONE
 , 
 NULL
 , NULL);
 
-855 
+864 
 	`as£πm_if
 (
 NULL
@@ -56349,39 +56311,39 @@ NULL
 grou±ôÀ
 , "NULL!!");
 
-857 
+866 
 	`ñm_gíli°_ôem_£À˘_mode_£t
 (
 grou±ôÀ
 ,
 
-858 
+867 
 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY
 );
 
-859 
+868 
 	}
 }
 
-861 
+870 
 	$võwî_li°_tôÀ_ôem_upd©e
 ()
 
-863 i‡(
+872 i‡(
 grou±ôÀ
 )
 
-864 
+873 
 	`ñm_gíli°_ôem_upd©e
 (
 grou±ôÀ
 );
 
-865 
+874 
 	}
 }
 
-867 
+876 
 	$võwî_li°_tôÀ_ôem_£t_avaûabÀ_√tw‹ks
 (
 Elm_Obje˘_Iãm
@@ -56389,35 +56351,35 @@ Elm_Obje˘_Iãm
 ôem_hódî
 )
 
-869 
+878 
 __COMMON_FUNC_ENTER__
 ;
 
-870 i‡(
+879 i‡(
 ôem_hódî
  =
 NULL
 )
 
-873 
+882 
 	`ñm_obje˘_ôem_dñ
 (
 grou±ôÀ
 );
 
-876 
+885 
 	`mem£t
 (&
 grou±ôÀ_ôc
 , 0, (grouptitle_itc));
 
-877 
+886 
 grou±ôÀ_ôc
 .
 ôem_°yÀ
  = "groupindex";
 
-878 
+887 
 grou±ôÀ_ôc
 .
 func
@@ -56427,7 +56389,7 @@ func
 _gl_ãxt_avaûabÀ_√tw‹ks_gë
 ;
 
-879 
+888 
 grou±ôÀ_ôc
 .
 func
@@ -56437,7 +56399,7 @@ c⁄ã¡_gë
 _gl_c⁄ã¡_sˇ¬ög_ic⁄_gë
 ;
 
-881 
+890 
 	`as£πm_if
 (
 NULL
@@ -56445,7 +56407,7 @@ NULL
 grou±ôÀ
 , "Err!!");
 
-883 
+892 
 grou±ôÀ
  = 
 	`ñm_gíli°_ôem_ö£π_a·î
@@ -56453,7 +56415,7 @@ grou±ôÀ
 võwî_li°
 ,
 
-884 &
+893 &
 grou±ôÀ_ôc
 , 
 NULL
@@ -56461,13 +56423,13 @@ NULL
 ôem_hódî
 ,
 
-885 
+894 
 ELM_GENLIST_ITEM_NONE
 , 
 NULL
 , NULL);
 
-887 
+896 
 	`as£πm_if
 (
 NULL
@@ -56475,25 +56437,25 @@ NULL
 grou±ôÀ
 , "NULL!!");
 
-889 
+898 
 	`ñm_gíli°_ôem_£À˘_mode_£t
 (
 grou±ôÀ
 ,
 
-890 
+899 
 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY
 );
 
-892 
+901 
 __COMMON_FUNC_ENTER__
 ;
 
-893 
+902 
 	}
 }
 
-895 
+904 
 	$võwî_li°_ôem_ødio_mode_£t
 (
 Elm_Obje˘_Iãm
@@ -56501,33 +56463,33 @@ Elm_Obje˘_Iãm
 ôem
 ,
 
-896 
+905 
 VIEWER_ITEM_RADIO_MODES
  
 mode
 )
 
-898 
+907 
 __COMMON_FUNC_ENTER__
 ;
 
-900 i‡(
+909 i‡(
 NULL
  =
 ôem
 ) {
 
-901 
+910 
 	`INFO_LOG
 (
 COMMON_NAME_ERR
 , "item is NULL");
 
-902  
+911  
 FALSE
 ;
 
-905 
+914 
 ug_gíli°_d©a_t
 * 
 gd©a
@@ -56537,7 +56499,7 @@ gd©a
 ôem
 );
 
-906 i‡(
+915 i‡(
 NULL
  =
 gd©a
@@ -56545,17 +56507,17 @@ gd©a
 devi˚_öfo
 ) {
 
-907 
+916 
 	`INFO_LOG
 (
 COMMON_NAME_ERR
 , "gdata or device_info is NULL");
 
-908  
+917  
 FALSE
 ;
 
-911 i‡(
+920 i‡(
 gd©a
 ->
 ødio_mode
@@ -56563,7 +56525,7 @@ gd©a
 mode
 ) {
 
-912 
+921 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -56575,11 +56537,11 @@ devi˚_öfo
 ssid
 );
 
-913  
+922  
 FALSE
 ;
 
-916 
+925 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -56595,7 +56557,7 @@ ssid
 mode
 );
 
-917 
+926 
 gd©a
 ->
 ødio_mode
@@ -56603,7 +56565,7 @@ gd©a
 mode
 ;
 
-918 i‡(
+927 i‡(
 gd©a
 ->
 devi˚_öfo
@@ -56611,7 +56573,7 @@ devi˚_öfo
 ≠_°©us_txt
 ) {
 
-919 
+928 
 	`g_‰ì
 (
 gd©a
@@ -56621,7 +56583,7 @@ devi˚_öfo
 ≠_°©us_txt
 );
 
-920 
+929 
 gd©a
 ->
 devi˚_öfo
@@ -56633,29 +56595,29 @@ devi˚_öfo
 mode
 );
 
-923 
+932 
 	`ñm_gíli°_ôem_upd©e
 (
 ôem
 );
 
-925 
+934 
 __COMMON_FUNC_EXIT__
 ;
 
-926  
+935  
 TRUE
 ;
 
-927 
+936 
 	}
 }
 
-929 
+938 
 	$võwî_li°_sˇ¬ed_≠_li°_‰ì
 ()
 
-931 
+940 
 sˇ¬ed_≠_li°_t
  *
 ãmp
@@ -56663,19 +56625,19 @@ sˇ¬ed_≠_li°_t
 sˇn_li°_hód
 ;
 
-933 
+942 
 NULL
  !
 ãmp
 ) {
 
-934 
+943 
 sˇn_li°_hód
  = sˇn_li°_hód->
 √xt
 ;
 
-936 i‡(
+945 i‡(
 FALSE
  =
 ãmp
@@ -56683,7 +56645,7 @@ FALSE
 found
 ) {
 
-937 
+946 
 	`g_‰ì
 (
 ãmp
@@ -56695,7 +56657,7 @@ devi˚_öfo
 ≠_image_∑th
 );
 
-938 
+947 
 	`g_‰ì
 (
 ãmp
@@ -56707,7 +56669,7 @@ devi˚_öfo
 ≠_°©us_txt
 );
 
-939 
+948 
 	`g_‰ì
 (
 ãmp
@@ -56719,7 +56681,7 @@ devi˚_öfo
 ssid
 );
 
-940 
+949 
 	`wifi_≠_de°roy
 (
 ãmp
@@ -56731,7 +56693,7 @@ devi˚_öfo
 ≠
 );
 
-941 
+950 
 	`g_‰ì
 (
 ãmp
@@ -56741,7 +56703,7 @@ devi˚_öfo
 devi˚_öfo
 );
 
-942 
+951 
 	`g_‰ì
 (
 ãmp
@@ -56749,23 +56711,23 @@ devi˚_öfo
 ≠_d©a
 );
 
-944 
+953 
 	`g_‰ì
 (
 ãmp
 );
 
-946 
+955 
 ãmp
  = 
 sˇn_li°_hód
 ;
 
-948 
+957 
 	}
 }
 
-950 
+959 
 Elm_Obje˘_Iãm
  *
 	$võwî_li°_ôem_ö£π_a·î
@@ -56775,17 +56737,17 @@ wifi_devi˚_öfo_t
 wifi_devi˚
 ,
 
-951 
+960 
 Elm_Obje˘_Iãm
  *
 a·î
 )
 
-953 
+962 
 __COMMON_FUNC_ENTER__
 ;
 
-954 
+963 
 Elm_Obje˘_Iãm
 * 
 ªt
@@ -56793,7 +56755,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-955 
+964 
 ug_gíli°_d©a_t
 * 
 gd©a
@@ -56801,7 +56763,7 @@ gd©a
 NULL
 ;
 
-956 
+965 
 wifi_devi˚_öfo_t
  *
 no_wifi_devi˚
@@ -56809,7 +56771,7 @@ no_wifi_devi˚
 NULL
 ;
 
-958 
+967 
 ug_gíli°_d©a_t
 * 
 g_bt_d©a
@@ -56817,7 +56779,7 @@ g_bt_d©a
 NULL
 ;
 
-959 
+968 
 boﬁ
  
 is_bt_devi˚
@@ -56825,7 +56787,7 @@ is_bt_devi˚
 Ál£
 ;
 
-962 
+971 
 	`ªtvm_if
 (
 NULL
@@ -56833,7 +56795,7 @@ NULL
 võwî_li°
 , NULL);
 
-964 
+973 
 Elm_Obje˘_Iãm
 * 
 ô
@@ -56843,11 +56805,11 @@ Elm_Obje˘_Iãm
 võwî_li°
 );
 
-966 
+975 
 ô
 )
 
-968 
+977 
 ug_gíli°_d©a_t
 * 
 gãmp
@@ -56857,13 +56819,13 @@ gãmp
 ô
 );
 
-969 if(
+978 if(
 gãmp
  && gãmp->
 devi˚_öfo
 ){
 
-970 if(
+979 if(
 gãmp
 ->
 devi˚_öfo
@@ -56873,37 +56835,37 @@ is_bt_ãthîed_devi˚
 åue
 )
 
-972 
+981 
 is_bt_devi˚
  = 
 åue
 ;
 
-976 i‡(
+985 i‡(
 ô
  =
 œ°_ôem
 )
 
-978 
+987 
 ô
  = 
 NULL
 ;
 
-981 
+990 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-986 i‡(
+995 i‡(
 wifi_devi˚
  !
 NULL
 ) {
 
-987 
+996 
 wifi_devi˚
 ->
 ≠_°©us_txt
@@ -56911,15 +56873,15 @@ wifi_devi˚
 	`võwî_li°_gë_devi˚_°©us_txt
 (
 
-988 
+997 
 wifi_devi˚
 ,
 
-989 
+998 
 VIEWER_ITEM_RADIO_MODE_OFF
 );
 
-991 
+1000 
 no_wifi_devi˚
  = 
 	`g_åy_√w0
@@ -56927,21 +56889,21 @@ no_wifi_devi˚
 wifi_devi˚_öfo_t
 , 1);
 
-992 i‡(
+1001 i‡(
 no_wifi_devi˚
  =
 NULL
 ){
 
-993 
+1002 
 __COMMON_FUNC_EXIT__
 ;
 
-994  
+1003  
 NULL
 ;
 
-996 
+1005 
 no_wifi_devi˚
 ->
 ssid
@@ -56955,13 +56917,13 @@ PACKAGE
 I18N_TYPE_No_Wi_Fi_AP_Found
 ));
 
-998 
+1007 
 wifi_devi˚
  = 
 no_wifi_devi˚
 ;
 
-1003 
+1012 
 sˇ¬ed_≠_li°_t
  *
 ãmp
@@ -56969,13 +56931,13 @@ sˇ¬ed_≠_li°_t
 sˇn_li°_hód
 ;
 
-1004 
+1013 
 NULL
  !
 ãmp
 ) {
 
-1005 i‡(
+1014 i‡(
 	`g_°rcmp0
 (
 ãmp
@@ -56989,7 +56951,7 @@ ssid
 wifi_devi˚
 ->ssid) == 0
 
-1006 && (
+1015 && (
 ãmp
 ->
 ≠_d©a
@@ -56999,13 +56961,13 @@ devi˚_öfo
 £curôy_mode
  ==
 
-1007 
+1016 
 wifi_devi˚
 ->
 £curôy_mode
 )) {
 
-1008 
+1017 
 ãmp
 ->
 found
@@ -57013,19 +56975,19 @@ found
 TRUE
 ;
 
-1011 
+1020 
 ãmp
  =Åemp->
 √xt
 ;
 
-1015 i‡(
+1024 i‡(
 NULL
  =
 ãmp
 ) {
 
-1016 
+1025 
 gd©a
  = 
 	`g_åy_√w0
@@ -57033,7 +56995,7 @@ gd©a
 ug_gíli°_d©a_t
 , 1);
 
-1017 
+1026 
 	`ªtvm_if
 (
 NULL
@@ -57041,7 +57003,7 @@ NULL
 gd©a
 , NULL);
 
-1018 
+1027 
 gd©a
 ->
 devi˚_öfo
@@ -57049,7 +57011,7 @@ devi˚_öfo
 wifi_devi˚
 ;
 
-1020 
+1029 
 gd©a
  = 
 ãmp
@@ -57057,7 +57019,7 @@ gd©a
 ≠_d©a
 ;
 
-1021 
+1030 
 gd©a
 ->
 devi˚_öfo
@@ -57065,7 +57027,7 @@ devi˚_öfo
 wifi_devi˚
 ;
 
-1022 
+1031 
 gd©a
 ->
 devi˚_öfo
@@ -57077,7 +57039,7 @@ devi˚_öfo
 ≠_d©a
 ->device_info->ap;
 
-1023 
+1032 
 gd©a
 ->
 highlighãd
@@ -57085,7 +57047,7 @@ highlighãd
 FALSE
 ;
 
-1026 
+1035 
 gd©a
 ->
 ødio_mode
@@ -57093,21 +57055,21 @@ gd©a
 VIEWER_ITEM_RADIO_MODE_OFF
 ;
 
-1028 i‡(!
+1037 i‡(!
 a·î
 ) {
 
-1030 
+1039 
 a·î
  = 
 grou±ôÀ
 ;
 
-1032 if(!
+1041 if(!
 is_bt_devi˚
 )
 
-1034 
+1043 
 g_bt_d©a
  = 
 	`g_åy_√w0
@@ -57115,7 +57077,7 @@ g_bt_d©a
 ug_gíli°_d©a_t
 , 1);
 
-1035 
+1044 
 	`ªtvm_if
 (
 NULL
@@ -57123,7 +57085,7 @@ NULL
 g_bt_d©a
 , NULL);
 
-1036 
+1045 
 g_bt_d©a
 ->
 devi˚_öfo
@@ -57131,7 +57093,7 @@ devi˚_öfo
 	`ãthî_devi˚_gë_sögÀt⁄
 ();
 
-1037 
+1046 
 g_bt_d©a
 ->
 ødio_mode
@@ -57139,137 +57101,137 @@ g_bt_d©a
 VIEWER_ITEM_RADIO_MODE_OFF
 ;
 
-1039 
+1048 
 ªt
  = 
 	`ñm_gíli°_ôem_ö£π_bef‹e
 (
 
-1040 
+1049 
 võwî_li°
 ,
 
-1041 &
+1050 &
 ôc
 ,
 
-1042 
+1051 
 g_bt_d©a
 ,
 
-1043 
+1052 
 NULL
 ,
 
-1044 
+1053 
 grou±ôÀ
 ,
 
-1045 
+1054 
 ELM_GENLIST_ITEM_NONE
 ,
 
-1046 
+1055 
 __võwî_li°_ôem_˛icked_cb
 ,
 
-1047 
+1056 
 NULL
 );
 
-1048 
+1057 
 	`ñm_gíli°_ôem_upd©e
 (
 ªt
 );
 
-1051 i‡(
+1060 i‡(
 no_wifi_devi˚
  =
 NULL
 ) {
 
-1052 
+1061 
 ªt
  = 
 	`ñm_gíli°_ôem_ö£π_a·î
 (
 
-1053 
+1062 
 võwî_li°
 ,
 
-1054 &
+1063 &
 ôc
 ,
 
-1055 
+1064 
 gd©a
 ,
 
-1056 
+1065 
 NULL
 ,
 
-1057 
+1066 
 a·î
 ,
 
-1058 
+1067 
 ELM_GENLIST_ITEM_NONE
 ,
 
-1059 
+1068 
 __võwî_li°_ôem_˛icked_cb
 ,
 
-1060 
+1069 
 NULL
 );
 
-1062 
+1071 
 ªt
  = 
 	`ñm_gíli°_ôem_ö£π_a·î
 (
 
-1063 
+1072 
 võwî_li°
 ,
 
-1064 &
+1073 &
 no_wifi_devi˚_ôc
 ,
 
-1065 
+1074 
 gd©a
 ,
 
-1066 
+1075 
 NULL
 ,
 
-1067 
+1076 
 a·î
 ,
 
-1068 
+1077 
 ELM_GENLIST_ITEM_NONE
 ,
 
-1069 
+1078 
 __võwî_li°_ôem_˛icked_cb
 ,
 
-1070 
+1079 
 NULL
 );
 
-1073 i‡(!
+1082 i‡(!
 ªt
 ) {
 
-1074 
+1083 
 	`as£πm_if
 (
 NULL
@@ -57277,95 +57239,95 @@ NULL
 ªt
 , "NULL!!");
 
-1075 
+1084 
 	`g_‰ì
 (
 gd©a
 );
 
-1077 
+1086 
 	`SECURE_DEBUG_LOG
 (
 UG_NAME_NORMAL
 ,
 
-1079 
+1088 
 ªt
 ,
 
-1080 
+1089 
 wifi_devi˚
 ->
 ssid
 ,
 
-1081 
+1090 
 wifi_devi˚
 ->
 £curôy_mode
 ,
 
-1082 
+1091 
 	`võwî_li°_ôem_size_gë
 ());
 
-1084 i‡(
+1093 i‡(
 a·î
  =
 grou±ôÀ
 ) {
 
-1085 
+1094 
 fú°_ôem
  = 
 ªt
 ;
 
-1086 i‡(!
+1095 i‡(!
 œ°_ôem
 ) {
-
-1087 
-œ°_ôem
- = 
-ªt
-;
-
-1090 
-œ°_ôem
- = 
-ªt
-;
-
-1091 i‡(!
-fú°_ôem
-) {
-
-1092 
-fú°_ôem
- = 
-ªt
-;
 
 1096 
+œ°_ôem
+ = 
+ªt
+;
+
+1099 
+œ°_ôem
+ = 
+ªt
+;
+
+1100 i‡(!
+fú°_ôem
+) {
+
+1101 
+fú°_ôem
+ = 
+ªt
+;
+
+1105 
 	`ñm_gíli°_ôem_upd©e
 (
 ªt
 );
 
-1098 
+1107 
 __COMMON_FUNC_EXIT__
 ;
 
-1099  
+1108  
 ªt
 ;
 
-1100 
+1109 
 	}
 }
 
-1102 
+1111 
 	$võwî_li°_ôem_dñ
 (
 Elm_Obje˘_Iãm
@@ -57373,59 +57335,59 @@ Elm_Obje˘_Iãm
 ô
 )
 
-1104 i‡(
+1113 i‡(
 ô
  =
 NULL
 ) {
 
-1108 i‡(
+1117 i‡(
 ô
  =
 fú°_ôem
 ) {
 
-1109 
+1118 
 fú°_ôem
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (first_item);
 
-1110 } i‡(
+1119 } i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1111 
+1120 
 œ°_ôem
  = 
 	`ñm_gíli°_ôem_¥ev_gë
 (last_item);
 
-1113 
+1122 
 	`ñm_obje˘_ôem_dñ
 (
 ô
 );
 
-1114 
+1123 
 	}
 }
 
-1116 
+1125 
 	$võwî_li°_ôem_size_gë
 ()
 
-1118 
+1127 
 __COMMON_FUNC_ENTER__
 ;
 
-1119 
+1128 
 ªt
  = 0;
 
-1120 
+1129 
 Elm_Obje˘_Iãm
  *
 ô
@@ -57433,47 +57395,47 @@ Elm_Obje˘_Iãm
 fú°_ôem
 ;
 
-1122 
+1131 
 ô
 ) {
 
-1123 
+1132 
 ªt
 ++;
 
-1124 i‡(
+1133 i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1127 
+1136 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-1130 
+1139 
 __COMMON_FUNC_EXIT__
 ;
 
-1131  
+1140  
 ªt
 ;
 
-1132 
+1141 
 	}
 }
 
-1134 
+1143 
 	$võwî_li°_ôem_˛ór
 ()
 
-1136 
+1145 
 __COMMON_FUNC_ENTER__
 ;
 
-1138 
+1147 
 Elm_Obje˘_Iãm
  *
 ô
@@ -57481,7 +57443,7 @@ Elm_Obje˘_Iãm
 fú°_ôem
 ;
 
-1139 
+1148 
 Elm_Obje˘_Iãm
  *
 nxt
@@ -57489,11 +57451,11 @@ nxt
 NULL
 ;
 
-1157 
+1166 
 ô
 ) {
 
-1158 
+1167 
 nxt
  = 
 	`ñm_gíli°_ôem_√xt_gë
@@ -57501,25 +57463,25 @@ nxt
 ô
 );
 
-1159 
+1168 
 	`ñm_obje˘_ôem_dñ
 (
 ô
 );
 
-1160 i‡(
+1169 i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1163 
+1172 
 ô
  = 
 nxt
 ;
 
-1166 
+1175 
 fú°_ôem
  = 
 œ°_ôem
@@ -57527,23 +57489,23 @@ fú°_ôem
 NULL
 ;
 
-1168 
+1177 
 __COMMON_FUNC_EXIT__
 ;
 
-1169 
+1178 
 	}
 }
 
-1171 
+1180 
 	$võwî_li°_ôem_íabÀ_Æl
 ()
 
-1173 
+1182 
 __COMMON_FUNC_ENTER__
 ;
 
-1175 
+1184 
 Elm_Obje˘_Iãm
  *
 ô
@@ -57551,11 +57513,11 @@ Elm_Obje˘_Iãm
 fú°_ôem
 ;
 
-1177 
+1186 
 ô
 ) {
 
-1178 
+1187 
 	`ñm_obje˘_ôem_dißbÀd_£t
 (
 ô
@@ -57563,35 +57525,35 @@ fú°_ôem
 EINA_FALSE
 );
 
-1180 i‡(
+1189 i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1184 
+1193 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-1187 
+1196 
 __COMMON_FUNC_EXIT__
 ;
 
-1188 
+1197 
 	}
 }
 
-1190 
+1199 
 	$võwî_li°_ôem_dißbÀ_Æl
 ()
 
-1192 
+1201 
 __COMMON_FUNC_ENTER__
 ;
 
-1194 
+1203 
 Elm_Obje˘_Iãm
  *
 ô
@@ -57599,11 +57561,11 @@ Elm_Obje˘_Iãm
 fú°_ôem
 ;
 
-1196 
+1205 
 ô
 ) {
 
-1197 
+1206 
 	`ñm_obje˘_ôem_dißbÀd_£t
 (
 ô
@@ -57611,27 +57573,27 @@ fú°_ôem
 EINA_TRUE
 );
 
-1199 i‡(
+1208 i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1203 
+1212 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-1206 
+1215 
 __COMMON_FUNC_EXIT__
 ;
 
-1207 
+1216 
 	}
 }
 
-1209 
+1218 
 Elm_Obje˘_Iãm
 * 
 	$ôem_gë_f‹_≠
@@ -57641,29 +57603,29 @@ wifi_≠_h
 ≠
 )
 
-1211 
+1220 
 __COMMON_FUNC_ENTER__
 ;
 
-1212 i‡(!
+1221 i‡(!
 ≠
 ) {
 
-1213 
+1222 
 __COMMON_FUNC_EXIT__
 ;
 
-1214  
+1223  
 NULL
 ;
 
-1217 *
+1226 *
 essid
  = 
 NULL
 ;
 
-1218 
+1227 
 wifi_£curôy_ty≥_e
  
 ty≥
@@ -57671,7 +57633,7 @@ ty≥
 WIFI_SECURITY_TYPE_NONE
 ;
 
-1220 i‡(
+1229 i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_essid
@@ -57681,15 +57643,15 @@ WIFI_ERROR_NONE
 essid
 )) {
 
-1221 
+1230 
 __COMMON_FUNC_EXIT__
 ;
 
-1222  
+1231  
 NULL
 ;
 
-1224 i‡(
+1233 i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_£curôy_ty≥
@@ -57699,21 +57661,21 @@ WIFI_ERROR_NONE
 ty≥
 )) {
 
-1225 
+1234 
 	`g_‰ì
 (
 essid
 );
 
-1226 
+1235 
 __COMMON_FUNC_EXIT__
 ;
 
-1227  
+1236  
 NULL
 ;
 
-1230 
+1239 
 Elm_Obje˘_Iãm
  *
 ô
@@ -57721,7 +57683,7 @@ Elm_Obje˘_Iãm
 fú°_ôem
 ;
 
-1231 
+1240 
 wœn_£curôy_mode_ty≥_t
  
 £c_mode
@@ -57731,11 +57693,11 @@ wœn_£curôy_mode_ty≥_t
 ty≥
 );
 
-1232 
+1241 
 ô
 ) {
 
-1233 
+1242 
 ug_gíli°_d©a_t
 * 
 gd©a
@@ -57745,7 +57707,7 @@ gd©a
 ô
 );
 
-1234 
+1243 
 wifi_devi˚_öfo_t
  *
 devi˚_öfo
@@ -57753,13 +57715,13 @@ devi˚_öfo
 NULL
 ;
 
-1235 i‡(
+1244 i‡(
 gd©a
  && (
 devi˚_öfo
  = gdata->device_info)) {
 
-1236 i‡(!
+1245 i‡(!
 	`g_°rcmp0
 (
 devi˚_öfo
@@ -57773,43 +57735,43 @@ essid
 £c_mode
 ) {
 
-1240 i‡(
+1249 i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1241 
+1250 
 ô
  = 
 NULL
 ;
 
-1244 
+1253 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-1247 
+1256 
 	`g_‰ì
 (
 essid
 );
 
-1248 
+1257 
 __COMMON_FUNC_EXIT__
 ;
 
-1249  
+1258  
 ô
 ;
 
-1250 
+1259 
 	}
 }
 
-1252 
+1261 
 Elm_Obje˘_Iãm
 * 
 	$ôem_gë_f‹_ssid
@@ -57817,7 +57779,7 @@ Elm_Obje˘_Iãm
 ssid
 )
 
-1254 
+1263 
 Elm_Obje˘_Iãm
  *
 ô
@@ -57825,11 +57787,11 @@ Elm_Obje˘_Iãm
 fú°_ôem
 ;
 
-1255 
+1264 
 ô
 ) {
 
-1256 
+1265 
 ug_gíli°_d©a_t
 * 
 gd©a
@@ -57839,7 +57801,7 @@ gd©a
 ô
 );
 
-1257 
+1266 
 wifi_devi˚_öfo_t
  *
 devi˚_öfo
@@ -57847,13 +57809,13 @@ devi˚_öfo
 NULL
 ;
 
-1258 i‡(
+1267 i‡(
 gd©a
  && (
 devi˚_öfo
  = gdata->device_info)) {
 
-1259 i‡(!
+1268 i‡(!
 	`g_°rcmp0
 (
 devi˚_öfo
@@ -57861,29 +57823,29 @@ devi˚_öfo
 ssid
 , ssid)) {
 
-1263 i‡(
+1272 i‡(
 ô
  =
 œ°_ôem
 ) {
 
-1264 
+1273 
 ô
  = 
 NULL
 ;
 
-1267 
+1276 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-1270  
+1279  
 ô
 ;
 
-1271 
+1280 
 	}
 }
 
@@ -59872,6 +59834,10 @@ boﬁ
  = 
 Ál£
 ;
+
+528 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
 
 529 
 	`wifi_≠_is_Áv‹ôe
@@ -64232,6 +64198,10 @@ gd©a
 )
 
 341 
+__COMMON_FUNC_ENTER__
+;
+
+342 
 boﬁ
  
 Áv‹ôe
@@ -64239,19 +64209,19 @@ boﬁ
 Ál£
 ;
 
-342 
+343 
 wifi_devi˚_öfo_t
  *
 devi˚_öfo
 ;
 
-343 
+344 
 pswd_p›up_¸óã_ªq_d©a_t
  
 p›up_öfo
 ;
 
-344 
+345 
 wifi_£curôy_ty≥_e
  
 £c_ty≥
@@ -64259,7 +64229,7 @@ wifi_£curôy_ty≥_e
 WIFI_SECURITY_TYPE_NONE
 ;
 
-346 
+347 
 	`ªtm_if
 (
 NULL
@@ -64267,7 +64237,7 @@ NULL
 gd©a
 );
 
-348 
+349 
 devi˚_öfo
  = 
 gd©a
@@ -64275,7 +64245,7 @@ gd©a
 dev_öfo
 ;
 
-349 
+350 
 	`ªtm_if
 (
 NULL
@@ -64284,6 +64254,10 @@ devi˚_öfo
 );
 
 351 
+	`MIN_LOG
+("wifi_ap_is_favorite called");
+
+352 
 	`wifi_≠_is_Áv‹ôe
 (
 devi˚_öfo
@@ -64293,13 +64267,13 @@ devi˚_öfo
 Áv‹ôe
 );
 
-353 i‡(
+354 i‡(
 Áv‹ôe
  =
 åue
 ) {
 
-354 
+355 
 	`wœn_m™agî_c⁄√˘
 (
 devi˚_öfo
@@ -64307,7 +64281,11 @@ devi˚_öfo
 ≠
 );
 
-358 
+356 
+__COMMON_FUNC_EXIT__
+;
+
+360 
 	`wifi_≠_gë_£curôy_ty≥
 (
 devi˚_öfo
@@ -64317,15 +64295,15 @@ devi˚_öfo
 £c_ty≥
 );
 
-360 
+362 
 £c_ty≥
 ) {
 
-361 
+363 
 WIFI_SECURITY_TYPE_NONE
 :
 
-362 
+364 
 	`wœn_m™agî_c⁄√˘
 (
 devi˚_öfo
@@ -64333,19 +64311,19 @@ devi˚_öfo
 ≠
 );
 
-365 
+367 
 WIFI_SECURITY_TYPE_WEP
 :
 
-366 
+368 
 WIFI_SECURITY_TYPE_WPA_PSK
 :
 
-367 
+369 
 WIFI_SECURITY_TYPE_WPA2_PSK
 :
 
-368 
+370 
 	`mem£t
 (&
 p›up_öfo
@@ -64353,7 +64331,7 @@ p›up_öfo
 pswd_p›up_¸óã_ªq_d©a_t
 ));
 
-370 
+372 
 p›up_öfo
 .
 tôÀ
@@ -64365,7 +64343,7 @@ dev_öfo
 ssid
 ;
 
-371 
+373 
 p›up_öfo
 .
 ok_cb
@@ -64373,7 +64351,7 @@ ok_cb
 __p›up_ok_cb
 ;
 
-372 
+374 
 p›up_öfo
 .
 ˇn˚l_cb
@@ -64381,7 +64359,7 @@ p›up_öfo
 __p›up_ˇn˚l_cb
 ;
 
-373 
+375 
 p›up_öfo
 .
 show_wps_bä
@@ -64393,7 +64371,7 @@ dev_öfo
 wps_mode
 ;
 
-374 
+376 
 p›up_öfo
 .
 wps_bä_cb
@@ -64401,7 +64379,7 @@ wps_bä_cb
 __p›up_wps_›ti⁄s_cb
 ;
 
-375 
+377 
 p›up_öfo
 .
 ≠
@@ -64411,7 +64389,7 @@ gd©a
 dev_öfo
 ->ap;
 
-376 
+378 
 p›up_öfo
 .
 cb_d©a
@@ -64419,13 +64397,13 @@ cb_d©a
 NULL
 ;
 
-377 
+379 
 p›up_öfo
 .
 £c_ty≥
  = sec_type;
 
-379 i‡(
+381 i‡(
 devpkr_≠p_°©e
 ->
 ∑s•›up
@@ -64433,7 +64411,7 @@ devpkr_≠p_°©e
 NULL
 ) {
 
-380 
+382 
 	`∑sswd_p›up_‰ì
 (
 devpkr_≠p_°©e
@@ -64441,7 +64419,7 @@ devpkr_≠p_°©e
 ∑s•›up
 );
 
-381 
+383 
 devpkr_≠p_°©e
 ->
 ∑s•›up
@@ -64449,7 +64427,7 @@ devpkr_≠p_°©e
 NULL
 ;
 
-384 
+386 
 devpkr_≠p_°©e
 ->
 ∑s•›up
@@ -64457,7 +64435,7 @@ devpkr_≠p_°©e
 	`¸óã_∑sswd_p›up
 (
 
-385 
+387 
 devpkr_≠p_°©e
 ->
 œyout_maö
@@ -64465,11 +64443,11 @@ devpkr_≠p_°©e
 PACKAGE
 ,
 
-386 &
+388 &
 p›up_öfo
 );
 
-387 i‡(
+389 i‡(
 devpkr_≠p_°©e
 ->
 ∑s•›up
@@ -64477,17 +64455,17 @@ devpkr_≠p_°©e
 NULL
 ) {
 
-388 
+390 
 	`ERROR_LOG
 (
 SP_NAME_NORMAL
 , "PasswordÖopup creation failed");
 
-392 
+394 
 WIFI_SECURITY_TYPE_EAP
 :
 
-393 
+395 
 devpkr_≠p_°©e
 ->
 óp_p›up
@@ -64495,7 +64473,7 @@ devpkr_≠p_°©e
 	`¸óã_óp_p›up
 (
 
-394 
+396 
 devpkr_≠p_°©e
 ->
 œyout_maö
@@ -64503,7 +64481,7 @@ devpkr_≠p_°©e
 wö_maö
 ,
 
-395 
+397 
 PACKAGE
 , 
 gd©a
@@ -64511,7 +64489,7 @@ gd©a
 dev_öfo
 );
 
-399 
+401 
 	`ERROR_LOG
 (
 SP_NAME_NORMAL
@@ -64519,11 +64497,15 @@ SP_NAME_NORMAL
 £c_ty≥
 );
 
-402 
+405 
+__COMMON_FUNC_EXIT__
+;
+
+406 
 	}
 }
 
-404 
+408 
 Elm_Obje˘_Iãm
  *
 	$võw_maö_ôem_gë_f‹_≠
@@ -64533,31 +64515,31 @@ wifi_≠_h
 ≠
 )
 
-406 
+410 
 __COMMON_FUNC_ENTER__
 ;
 
-407 i‡(!
+411 i‡(!
 ≠
  || !
 li°
 ) {
 
-408 
+412 
 __COMMON_FUNC_EXIT__
 ;
 
-409  
+413  
 NULL
 ;
 
-412 *
+416 *
 essid
  = 
 NULL
 ;
 
-413 
+417 
 wifi_£curôy_ty≥_e
  
 ty≥
@@ -64565,7 +64547,7 @@ ty≥
 WIFI_SECURITY_TYPE_NONE
 ;
 
-415 i‡(
+419 i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_essid
@@ -64575,15 +64557,15 @@ WIFI_ERROR_NONE
 essid
 )) {
 
-416 
+420 
 __COMMON_FUNC_EXIT__
 ;
 
-417  
+421  
 NULL
 ;
 
-419 i‡(
+423 i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_£curôy_ty≥
@@ -64593,21 +64575,21 @@ WIFI_ERROR_NONE
 ty≥
 )) {
 
-420 
+424 
 	`g_‰ì
 (
 essid
 );
 
-421 
+425 
 __COMMON_FUNC_EXIT__
 ;
 
-422  
+426  
 NULL
 ;
 
-425 
+429 
 Elm_Obje˘_Iãm
  *
 ô
@@ -64617,7 +64599,7 @@ Elm_Obje˘_Iãm
 li°
 );
 
-426 
+430 
 wœn_£curôy_mode_ty≥_t
  
 £c_mode
@@ -64627,11 +64609,11 @@ wœn_£curôy_mode_ty≥_t
 ty≥
 );
 
-427 
+431 
 ô
 ) {
 
-428 
+432 
 devpkr_gl_d©a_t
 * 
 gd©a
@@ -64641,7 +64623,7 @@ gd©a
 ô
 );
 
-429 
+433 
 wifi_devi˚_öfo_t
  *
 devi˚_öfo
@@ -64649,7 +64631,7 @@ devi˚_öfo
 NULL
 ;
 
-430 i‡(
+434 i‡(
 gd©a
  && (
 devi˚_öfo
@@ -64657,7 +64639,7 @@ devi˚_öfo
 dev_öfo
 )) {
 
-431 i‡(!
+435 i‡(!
 	`g_°rcmp0
 (
 devi˚_öfo
@@ -64671,31 +64653,31 @@ essid
 £c_mode
 ) {
 
-436 
+440 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-439 
+443 
 	`g_‰ì
 (
 essid
 );
 
-440 
+444 
 __COMMON_FUNC_EXIT__
 ;
 
-441  
+445  
 ô
 ;
 
-442 
+446 
 	}
 }
 
-446 
+450 
 Elm_Obje˘_Iãm
  *
 	$__võw_maö_gë_ôem_ö_mode
@@ -64705,7 +64687,7 @@ ITEM_CONNECTION_MODES
 mode
 )
 
-448 
+452 
 Elm_Obje˘_Iãm
 * 
 ô
@@ -64713,7 +64695,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-449 
+453 
 ô
  = 
 	`ñm_gíli°_fú°_ôem_gë
@@ -64721,15 +64703,15 @@ NULL
 li°
 );
 
-450 
+454 
 __COMMON_FUNC_ENTER__
 ;
 
-451 
+455 
 ô
 ) {
 
-452 
+456 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -64739,7 +64721,7 @@ gd©a
 ô
 );
 
-453 i‡(
+457 i‡(
 gd©a
  && gd©a->
 c⁄√˘i⁄_mode
@@ -64747,7 +64729,7 @@ c⁄√˘i⁄_mode
 mode
 ) {
 
-454 
+458 
 	`SECURE_INFO_LOG
 –
 SP_NAME_NORMAL
@@ -64761,33 +64743,33 @@ ssid
 mode
 );
 
-455 
+459 
 __COMMON_FUNC_EXIT__
 ;
 
-456  
+460  
 ô
 ;
 
-458 
+462 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-461 
+465 
 __COMMON_FUNC_EXIT__
 ;
 
-462  
+466  
 NULL
 ;
 
-463 
+467 
 	}
 }
 
-466 
+470 
 	$__gl_£l
 (*
 d©a
@@ -64799,11 +64781,11 @@ obj
 evít_öfo
 )
 
-468 
+472 
 __COMMON_FUNC_ENTER__
 ;
 
-470 
+474 
 	`as£πm_if
 (
 NULL
@@ -64811,7 +64793,7 @@ NULL
 d©a
 , "data is NULL!!");
 
-471 
+475 
 	`as£πm_if
 (
 NULL
@@ -64819,7 +64801,7 @@ NULL
 obj
 , "obj is NULL!!");
 
-472 
+476 
 	`as£πm_if
 (
 NULL
@@ -64827,7 +64809,7 @@ NULL
 evít_öfo
 , "event_info is NULL!!");
 
-474 
+478 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -64835,7 +64817,7 @@ Elm_Obje˘_Iãm
 evít_öfo
 ;
 
-475 
+479 
 ITEM_CONNECTION_MODES
  
 °©e
@@ -64843,7 +64825,7 @@ ITEM_CONNECTION_MODES
 	`võw_maö_°©e_gë
 ();
 
-476 
+480 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -64851,25 +64833,25 @@ gd©a
 d©a
 ;
 
-478 
+482 
 °©e
 ) {
 
-479 
+483 
 ITEM_CONNECTION_MODE_OFF
 :
 
-480 
+484 
 ITEM_CONNECTION_MODE_CONNECTING
 :
 
-481 
+485 
 	`võw_maö_wifi_c⁄√˘
 (
 gd©a
 );
 
-488 
+492 
 	`ñm_gíli°_ôem_£À˘ed_£t
 (
 ôem
@@ -64877,15 +64859,15 @@ gd©a
 EINA_FALSE
 );
 
-490 
+494 
 __COMMON_FUNC_EXIT__
 ;
 
-491 
+495 
 	}
 }
 
-493 *
+497 *
 	$_gl_ãxt_gë
 (*
 d©a
@@ -64897,13 +64879,13 @@ obj
 ∑π
 )
 
-495 *
+499 *
 ªt
  = 
 NULL
 ;
 
-496 
+500 
 	`as£πm_if
 (
 NULL
@@ -64911,7 +64893,7 @@ NULL
 d©a
 , "dataÖaram is NULL!!");
 
-497 
+501 
 	`as£πm_if
 (
 NULL
@@ -64919,7 +64901,7 @@ NULL
 obj
 , "objÖaram is NULL!!");
 
-498 
+502 
 	`as£πm_if
 (
 NULL
@@ -64927,7 +64909,7 @@ NULL
 ∑π
 , "partÖaram is NULL!!");
 
-500 
+504 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -64935,7 +64917,7 @@ gd©a
 d©a
 ;
 
-501 
+505 
 	`ªtvm_if
 (
 NULL
@@ -64943,7 +64925,7 @@ NULL
 gd©a
 , NULL);
 
-503 i‡(!
+507 i‡(!
 	`°∫cmp
 (
 ∑π
@@ -64951,7 +64933,7 @@ gd©a
 	`°æí
 (part))) {
 
-504 
+508 
 ªt
  = 
 gd©a
@@ -64961,19 +64943,19 @@ dev_öfo
 ssid
 ;
 
-505 i‡(
+509 i‡(
 ªt
  =
 NULL
 ) {
 
-506 
+510 
 	`ERROR_LOG
 (
 SP_NAME_NORMAL
 , "ssidÇame is NULL!!");
 
-508 } i‡(!
+512 } i‡(!
 	`°∫cmp
 (
 ∑π
@@ -64981,7 +64963,7 @@ SP_NAME_NORMAL
 	`°æí
 (part))) {
 
-509 i‡(
+513 i‡(
 ITEM_CONNECTION_MODE_CONNECTING
  =
 gd©a
@@ -64989,7 +64971,7 @@ gd©a
 c⁄√˘i⁄_mode
 ) {
 
-510 
+514 
 ªt
  = 
 	`sc
@@ -64999,7 +64981,7 @@ PACKAGE
 I18N_TYPE_C⁄√˘ög
 );
 
-511 } i‡(
+515 } i‡(
 ITEM_CONNECTION_MODE_CONFIGURATION
  =
 gd©a
@@ -65007,7 +64989,7 @@ gd©a
 c⁄√˘i⁄_mode
 ) {
 
-512 
+516 
 ªt
  = 
 	`sc
@@ -65017,7 +64999,7 @@ PACKAGE
 I18N_TYPE_Obèöög_IP_addr
 );
 
-514 
+518 
 ªt
  = 
 gd©a
@@ -65027,29 +65009,29 @@ dev_öfo
 ≠_°©us_txt
 ;
 
-517 i‡(
+521 i‡(
 ªt
  =
 NULL
 ) {
 
-518 
+522 
 	`ERROR_LOG
 (
 SP_NAME_NORMAL
 , "ap_status_txt is NULL!!");
 
-522  
+526  
 	`g_°rdup
 (
 ªt
 );
 
-523 
+527 
 	}
 }
 
-525 
+529 
 Evas_Obje˘
  *
 	$_gl_c⁄ã¡_gë
@@ -65063,17 +65045,17 @@ obj
 ∑π
 )
 
-527 i‡(
+531 i‡(
 d©a
  =
 NULL
 ) {
 
-528  
+532  
 NULL
 ;
 
-531 
+535 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -65081,7 +65063,7 @@ gd©a
 d©a
 ;
 
-533 
+537 
 Evas_Obje˘
 * 
 ic⁄
@@ -65089,7 +65071,7 @@ ic⁄
 NULL
 ;
 
-535 i‡(!
+539 i‡(!
 	`°∫cmp
 (
 ∑π
@@ -65097,13 +65079,13 @@ NULL
 	`°æí
 (part))) {
 
-536 *
+540 *
 ãmp_°r
  = 
 NULL
 ;
 
-537 
+541 
 Evas_Obje˘
  *
 ic
@@ -65113,7 +65095,7 @@ ic
 obj
 );
 
-539 
+543 
 ic⁄
  = 
 	`ñm_image_add
@@ -65121,13 +65103,13 @@ ic⁄
 ic
 );
 
-540 
+544 
 	`ñm_œyout_theme_£t
 (
 ic
 , "layout", "list/B/type.1", "default");
 
-542 
+546 
 ãmp_°r
  = 
 	`g_°rdup_¥ötf
@@ -65139,7 +65121,7 @@ dev_öfo
 ≠_image_∑th
 );
 
-543 
+547 
 	`ñm_image_fûe_£t
 (
 ic⁄
@@ -65149,13 +65131,13 @@ CUSTOM_EDITFIELD_PATH
 ãmp_°r
 );
 
-544 
+548 
 	`g_‰ì
 (
 ãmp_°r
 );
 
-546 i‡(
+550 i‡(
 gd©a
 ->
 highlighãd
@@ -65163,19 +65145,19 @@ highlighãd
 TRUE
 ) {
 
-547 
+551 
 	`ó_theme_obje˘_cﬁ‹_£t
 (
 ic⁄
 , "AO001P");
 
-549 
+553 
 	`ó_theme_obje˘_cﬁ‹_£t
 (
 ic⁄
 , "AO001");
 
-551 
+555 
 	`evas_obje˘_size_höt_Æign_£t
 (
 ic⁄
@@ -65183,7 +65165,7 @@ ic⁄
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-552 
+556 
 	`evas_obje˘_size_höt_weight_£t
 (
 ic⁄
@@ -65191,7 +65173,7 @@ ic⁄
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-553 
+557 
 	`ñm_œyout_c⁄ã¡_£t
 (
 ic
@@ -65199,11 +65181,11 @@ ic
 ic⁄
 );
 
-555  
+559  
 ic
 ;
 
-556 } i‡(!
+560 } i‡(!
 	`°∫cmp
 (
 ∑π
@@ -65211,21 +65193,21 @@ ic
 	`°æí
 (part))) {
 
-557 
+561 
 gd©a
 ->
 c⁄√˘i⁄_mode
 ) {
 
-558 
+562 
 ITEM_CONNECTION_MODE_OFF
 :
 
-561 
+565 
 ITEM_CONNECTION_MODE_CONNECTING
 :
 
-562 
+566 
 ic⁄
  = 
 	`ñm_¥ogªssb¨_add
@@ -65233,13 +65215,13 @@ ic⁄
 obj
 );
 
-563 
+567 
 	`ñm_obje˘_°yÀ_£t
 (
 ic⁄
 , "process_medium");
 
-564 
+568 
 	`evas_obje˘_size_höt_Æign_£t
 (
 ic⁄
@@ -65247,7 +65229,7 @@ ic⁄
 EVAS_HINT_FILL
 , 0.5);
 
-565 
+569 
 	`evas_obje˘_size_höt_weight_£t
 (
 ic⁄
@@ -65255,7 +65237,7 @@ ic⁄
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-566 
+570 
 	`ñm_¥ogªssb¨_pul£
 (
 ic⁄
@@ -65263,15 +65245,15 @@ ic⁄
 TRUE
 );
 
-574  
+578  
 ic⁄
 ;
 
-575 
+579 
 	}
 }
 
-577 
+581 
 	$_gl_li°_dñ
 (* 
 d©a
@@ -65281,13 +65263,13 @@ Evas_Obje˘
 obj
 )
 
-579 i‡(
+583 i‡(
 d©a
  =
 NULL
 ) {
 
-583 
+587 
 devpkr_gl_d©a_t
 * 
 gd©a
@@ -65295,13 +65277,13 @@ gd©a
 d©a
 ;
 
-585 i‡(
+589 i‡(
 gd©a
 ->
 dev_öfo
 ) {
 
-586 
+590 
 	`SECURE_DEBUG_LOG
 (
 UG_NAME_NORMAL
@@ -65313,7 +65295,7 @@ dev_öfo
 ssid
 );
 
-587 
+591 
 	`g_‰ì
 (
 gd©a
@@ -65323,7 +65305,7 @@ dev_öfo
 ≠_image_∑th
 );
 
-588 
+592 
 	`g_‰ì
 (
 gd©a
@@ -65333,7 +65315,7 @@ dev_öfo
 ≠_°©us_txt
 );
 
-589 
+593 
 	`g_‰ì
 (
 gd©a
@@ -65343,7 +65325,7 @@ dev_öfo
 ssid
 );
 
-590 
+594 
 	`wifi_≠_de°roy
 (
 gd©a
@@ -65353,7 +65335,7 @@ dev_öfo
 ≠
 );
 
-591 
+595 
 	`g_‰ì
 (
 gd©a
@@ -65361,17 +65343,17 @@ gd©a
 dev_öfo
 );
 
-594 
+598 
 	`g_‰ì
 (
 gd©a
 );
 
-597 
+601 
 	}
 }
 
-599 
+603 
 	$_gl_highlighãd
 (*
 d©a
@@ -65383,7 +65365,7 @@ obj
 evít_öfo
 )
 
-601 
+605 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -65391,11 +65373,11 @@ Elm_Obje˘_Iãm
 evít_öfo
 ;
 
-602 i‡(
+606 i‡(
 ôem
 ) {
 
-603 
+607 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -65405,11 +65387,11 @@ gd©a
 ôem
 );
 
-604 i‡(
+608 i‡(
 gd©a
 ) {
 
-605 
+609 
 gd©a
 ->
 highlighãd
@@ -65417,7 +65399,7 @@ highlighãd
 TRUE
 ;
 
-606 
+610 
 	`ñm_gíli°_ôem_fõlds_upd©e
 (
 ôem
@@ -65425,11 +65407,11 @@ TRUE
 ELM_GENLIST_ITEM_FIELD_CONTENT
 );
 
-609 
+613 
 	}
 }
 
-611 
+615 
 	$_gl_unhighlighãd
 (*
 d©a
@@ -65441,7 +65423,7 @@ obj
 evít_öfo
 )
 
-613 
+617 
 Elm_Obje˘_Iãm
  *
 ôem
@@ -65449,11 +65431,11 @@ Elm_Obje˘_Iãm
 evít_öfo
 ;
 
-614 i‡(
+618 i‡(
 ôem
 ) {
 
-615 
+619 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -65463,11 +65445,11 @@ gd©a
 ôem
 );
 
-616 i‡(
+620 i‡(
 gd©a
 ) {
 
-617 
+621 
 gd©a
 ->
 highlighãd
@@ -65475,7 +65457,7 @@ highlighãd
 FALSE
 ;
 
-618 
+622 
 	`ñm_gíli°_ôem_fõlds_upd©e
 (
 ôem
@@ -65483,11 +65465,11 @@ FALSE
 ELM_GENLIST_ITEM_FIELD_CONTENT
 );
 
-621 
+625 
 	}
 }
 
-623 
+627 
 Evas_Obje˘
  *
 	$_¸óã_gíli°
@@ -65497,11 +65479,11 @@ Evas_Obje˘
 ∑ª¡
 )
 
-625 
+629 
 __COMMON_FUNC_ENTER__
 ;
 
-626 
+630 
 	`as£πm_if
 (
 NULL
@@ -65509,7 +65491,7 @@ NULL
 ∑ª¡
 , "parent is NULL!!");
 
-628 
+632 
 li°
  = 
 	`ñm_gíli°_add
@@ -65517,7 +65499,7 @@ li°
 ∑ª¡
 );
 
-629 
+633 
 	`as£πm_if
 (
 NULL
@@ -65525,7 +65507,7 @@ NULL
 li°
 , "listállocation fail!!");
 
-630 
+634 
 	`ñm_gíli°_fx_mode_£t
 (
 li°
@@ -65533,7 +65515,7 @@ li°
 EINA_FALSE
 );
 
-631 
+635 
 	`ñm_gíli°_mode_£t
 (
 li°
@@ -65541,7 +65523,7 @@ li°
 ELM_LIST_COMPRESS
 );
 
-632 
+636 
 	`ñm_gíli°_homogíeous_£t
 (
 li°
@@ -65549,7 +65531,7 @@ li°
 EINA_TRUE
 );
 
-634 
+638 
 	`evas_obje˘_size_höt_weight_£t
 (
 li°
@@ -65557,7 +65539,7 @@ li°
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-635 
+639 
 	`evas_obje˘_size_höt_Æign_£t
 (
 li°
@@ -65565,7 +65547,7 @@ li°
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-637 
+641 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 li°
@@ -65575,7 +65557,7 @@ _gl_highlighãd
 NULL
 );
 
-638 
+642 
 	`evas_obje˘_sm¨t_ˇŒback_add
 (
 li°
@@ -65585,13 +65567,13 @@ _gl_unhighlighãd
 NULL
 );
 
-640 
+644 
 ôc
 .
 ôem_°yÀ
  = "2line.top";
 
-641 
+645 
 ôc
 .
 func
@@ -65601,7 +65583,7 @@ func
 _gl_ãxt_gë
 ;
 
-642 
+646 
 ôc
 .
 func
@@ -65611,7 +65593,7 @@ c⁄ã¡_gë
 _gl_c⁄ã¡_gë
 ;
 
-643 
+647 
 ôc
 .
 func
@@ -65621,7 +65603,7 @@ func
 NULL
 ;
 
-644 
+648 
 ôc
 .
 func
@@ -65631,47 +65613,47 @@ dñ
 _gl_li°_dñ
 ;
 
-646 
+650 
 __COMMON_FUNC_EXIT__
 ;
 
-648  
+652  
 li°
 ;
 
-649 
+653 
 	}
 }
 
-651 
+655 
 	$võw_maö_sˇn_ui_˛ór
 ()
 
-653 
+657 
 __COMMON_FUNC_ENTER__
 ;
 
-655 i‡(
+659 i‡(
 li°
  =
 NULL
 ) {
 
-658 
+662 
 	`ñm_gíli°_˛ór
 (
 li°
 );
 
-660 
+664 
 __COMMON_FUNC_EXIT__
 ;
 
-661 
+665 
 	}
 }
 
-663 
+667 
 	$võw_maö_ôem_°©e_£t
 (
 wifi_≠_h
@@ -65683,29 +65665,29 @@ ITEM_CONNECTION_MODES
 °©e
 )
 
-665 
+669 
 __COMMON_FUNC_ENTER__
 ;
 
-667 *
+671 *
 ôem_ssid
  = 
 NULL
 ;
 
-668 
+672 
 wifi_£curôy_ty≥_e
  
 £c_ty≥
 ;
 
-669 
+673 
 wœn_£curôy_mode_ty≥_t
  
 ôem_£c_mode
 ;
 
-670 
+674 
 Elm_Obje˘_Iãm
 * 
 ô
@@ -65713,7 +65695,7 @@ Elm_Obje˘_Iãm
 NULL
 ;
 
-672 
+676 
 ô
  = 
 	`ñm_gíli°_fú°_ôem_gë
@@ -65721,15 +65703,15 @@ NULL
 li°
 );
 
-673 i‡(!
+677 i‡(!
 ô
  ||
 
-674 !
+678 !
 ≠
  ||
 
-675 (
+679 (
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_essid
@@ -65739,7 +65721,7 @@ WIFI_ERROR_NONE
 ôem_ssid
 )) ||
 
-676 (
+680 (
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_£curôy_ty≥
@@ -65749,35 +65731,35 @@ WIFI_ERROR_NONE
 £c_ty≥
 ))) {
 
-677 
+681 
 	`ERROR_LOG
 (
 SP_NAME_NORMAL
 , "InvalidÖarams");
 
-678 if(
+682 if(
 ôem_ssid
  !
 NULL
 ) {
 
-679 
+683 
 	`g_‰ì
 (
 ôem_ssid
 );
 
-680 
+684 
 ôem_ssid
  = 
 NULL
 ;
 
-682 
+686 
 __COMMON_FUNC_EXIT__
 ;
 
-685 
+689 
 ôem_£c_mode
  = 
 	`comm⁄_utûs_gë_£c_mode
@@ -65785,7 +65767,7 @@ __COMMON_FUNC_EXIT__
 £c_ty≥
 );
 
-686 
+690 
 	`SECURE_INFO_LOG
 (
 SP_NAME_NORMAL
@@ -65795,11 +65777,11 @@ SP_NAME_NORMAL
 ôem_£c_mode
 );
 
-687 
+691 
 ô
 ) {
 
-688 
+692 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -65809,19 +65791,19 @@ gd©a
 ô
 );
 
-689 i‡(
+693 i‡(
 gd©a
  !
 NULL
 ) {
 
-690 
+694 
 	`SECURE_INFO_LOG
 (
 SP_NAME_NORMAL
 , "gdata AP[%s] with sec mode[%d]",
 
-691 
+695 
 gd©a
 ->
 dev_öfo
@@ -65831,7 +65813,7 @@ ssid
 £curôy_mode
 );
 
-694 i‡(
+698 i‡(
 gd©a
  && gd©a->
 dev_öfo
@@ -65841,7 +65823,7 @@ dev_öfo
 ôem_£c_mode
  &&
 
-695 !
+699 !
 	`g_°rcmp0
 (
 gd©a
@@ -65853,7 +65835,7 @@ ssid
 ôem_ssid
 )) {
 
-696 i‡(
+700 i‡(
 gd©a
 ->
 c⁄√˘i⁄_mode
@@ -65861,7 +65843,7 @@ c⁄√˘i⁄_mode
 °©e
 ) {
 
-697 
+701 
 gd©a
 ->
 c⁄√˘i⁄_mode
@@ -65869,7 +65851,7 @@ c⁄√˘i⁄_mode
 °©e
 ;
 
-698 
+702 
 	`INFO_LOG
 (
 SP_NAME_NORMAL
@@ -65879,39 +65861,39 @@ SP_NAME_NORMAL
 °©e
 );
 
-699 
+703 
 	`võw_maö_°©e_£t
 (
 °©e
 );
 
-700 
+704 
 	`ñm_gíli°_ôem_upd©e
 (
 ô
 );
 
-705 
+709 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-707 
+711 
 	`g_‰ì
 (
 ôem_ssid
 );
 
-708 
+712 
 __COMMON_FUNC_EXIT__
 ;
 
-710 
+714 
 	}
 }
 
-712 
+716 
 wifi_devi˚_öfo_t
  *
 	$võw_maö_ôem_devi˚_öfo_¸óã
@@ -65921,7 +65903,7 @@ wifi_≠_h
 ≠
 )
 
-714 
+718 
 wifi_devi˚_öfo_t
  *
 wifi_devi˚
@@ -65929,13 +65911,13 @@ wifi_devi˚
 	`g_åy_√w0
 (wifi_device_info_t, 1);
 
-715 
+719 
 wifi_£curôy_ty≥_e
  
 £c_ty≥
 ;
 
-717 i‡(
+721 i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_˛⁄e
@@ -65945,17 +65927,17 @@ wifi_devi˚
 ≠
 ),áp)) {
 
-718 
+722 
 	`g_‰ì
 (
 wifi_devi˚
 );
 
-719  
+723  
 NULL
 ;
 
-720 } i‡(
+724 } i‡(
 WIFI_ERROR_NONE
  !
 	`wifi_≠_gë_essid
@@ -65966,36 +65948,6 @@ wifi_devi˚
 ->
 ssid
 ))) {
-
-721 
-	`g_‰ì
-(
-wifi_devi˚
-);
-
-722  
-NULL
-;
-
-723 } i‡(
-WIFI_ERROR_NONE
- !
-	`wifi_≠_gë_rssi
-(
-≠
-, &(
-wifi_devi˚
-->
-rssi
-))) {
-
-724 
-	`g_‰ì
-(
-wifi_devi˚
-->
-ssid
-);
 
 725 
 	`g_‰ì
@@ -66010,12 +65962,14 @@ NULL
 727 } i‡(
 WIFI_ERROR_NONE
  !
-	`wifi_≠_gë_£curôy_ty≥
+	`wifi_≠_gë_rssi
 (
 ≠
-, &
-£c_ty≥
-)) {
+, &(
+wifi_devi˚
+->
+rssi
+))) {
 
 728 
 	`g_‰ì
@@ -66038,14 +65992,12 @@ NULL
 731 } i‡(
 WIFI_ERROR_NONE
  !
-	`wifi_≠_is_wps_suµ‹ãd
+	`wifi_≠_gë_£curôy_ty≥
 (
 ≠
-, &(
-wifi_devi˚
-->
-wps_mode
-))) {
+, &
+£c_ty≥
+)) {
 
 732 
 	`g_‰ì
@@ -66065,7 +66017,37 @@ wifi_devi˚
 NULL
 ;
 
+735 } i‡(
+WIFI_ERROR_NONE
+ !
+	`wifi_≠_is_wps_suµ‹ãd
+(
+≠
+, &(
+wifi_devi˚
+->
+wps_mode
+))) {
+
+736 
+	`g_‰ì
+(
+wifi_devi˚
+->
+ssid
+);
+
 737 
+	`g_‰ì
+(
+wifi_devi˚
+);
+
+738  
+NULL
+;
+
+741 
 wifi_devi˚
 ->
 £curôy_mode
@@ -66075,7 +66057,7 @@ wifi_devi˚
 £c_ty≥
 );
 
-738 
+743 
 wifi_devi˚
 ->
 ≠_°©us_txt
@@ -66085,13 +66067,13 @@ wifi_devi˚
 PACKAGE
 ,
 
-739 
+744 
 wifi_devi˚
 , 
 åue
 );
 
-740 
+745 
 wifi_devi˚
 ->
 is_bt_ãthîed_devi˚
@@ -66099,7 +66081,7 @@ is_bt_ãthîed_devi˚
 Ál£
 ;
 
-741 
+746 
 	`comm⁄_utûs_gë_devi˚_ic⁄
 (
 wifi_devi˚
@@ -66107,15 +66089,15 @@ wifi_devi˚
 ≠_image_∑th
 );
 
-743  
+748  
 wifi_devi˚
 ;
 
-744 
+749 
 	}
 }
 
-746 
+751 
 boﬁ
  
 	$võw_maö_wifi_ö£π_found_≠
@@ -66125,7 +66107,7 @@ wifi_devi˚_öfo_t
 wifi_devi˚
 )
 
-748 
+753 
 devpkr_gl_d©a_t
  *
 gd©a
@@ -66133,13 +66115,13 @@ gd©a
 	`g_åy_√w0
 (devpkr_gl_data_t, 1);
 
-749 
+754 
 wifi_c⁄√˘i⁄_°©e_e
  
 °©e
 ;
 
-751 
+756 
 	`as£πm_if
 (
 NULL
@@ -66147,17 +66129,17 @@ NULL
 li°
 , "list is NULL");
 
-753 i‡(
+758 i‡(
 gd©a
  =
 NULL
 )
 
-754  
+759  
 Ál£
 ;
 
-756 
+761 
 gd©a
 ->
 dev_öfo
@@ -66165,7 +66147,7 @@ dev_öfo
 wifi_devi˚
 ;
 
-757 i‡(
+762 i‡(
 gd©a
 ->
 dev_öfo
@@ -66173,17 +66155,17 @@ dev_öfo
 NULL
 ) {
 
-758 
+763 
 	`g_‰ì
 (
 gd©a
 );
 
-759  
+764  
 åue
 ;
 
-762 
+767 
 	`wifi_≠_gë_c⁄√˘i⁄_°©e
 (
 wifi_devi˚
@@ -66193,19 +66175,19 @@ wifi_devi˚
 °©e
 );
 
-764 i‡(
+769 i‡(
 WIFI_CONNECTION_STATE_ASSOCIATION
  =
 °©e
  ||
 
-765 
+770 
 WIFI_CONNECTION_STATE_CONFIGURATION
  =
 °©e
 ) {
 
-766 
+771 
 gd©a
 ->
 c⁄√˘i⁄_mode
@@ -66213,7 +66195,7 @@ c⁄√˘i⁄_mode
 ITEM_CONNECTION_MODE_CONNECTING
 ;
 
-767 
+772 
 gd©a
 ->
 ô
@@ -66225,7 +66207,7 @@ li°
 ôc
 , gdata,
 
-768 
+773 
 NULL
 , 
 ELM_GENLIST_ITEM_NONE
@@ -66233,21 +66215,21 @@ ELM_GENLIST_ITEM_NONE
 __gl_£l
 ,
 
-769 
+774 
 gd©a
 );
 
-770 
+775 
 	`võw_maö_°©e_£t
 (
 ITEM_CONNECTION_MODE_CONNECTING
 );
 
-772  
+777  
 åue
 ;
 
-775 
+780 
 gd©a
 ->
 c⁄√˘i⁄_mode
@@ -66255,7 +66237,7 @@ c⁄√˘i⁄_mode
 ITEM_CONNECTION_MODE_OFF
 ;
 
-777 
+782 
 gd©a
 ->
 ô
@@ -66269,7 +66251,7 @@ li°
 NULL
 ,
 
-778 
+783 
 ELM_GENLIST_ITEM_NONE
 , 
 __gl_£l
@@ -66277,15 +66259,15 @@ __gl_£l
 gd©a
 );
 
-780  
+785  
 åue
 ;
 
-781 
+786 
 	}
 }
 
-783 
+788 
 göt
  
 	$com∑ª
@@ -66297,7 +66279,7 @@ a
 b
 )
 
-785 
+790 
 boﬁ
  
 Áv‹ôe1
@@ -66307,7 +66289,7 @@ boﬁ
 Áv‹ôe2
  = false;
 
-786 
+791 
 wifi_c⁄√˘i⁄_°©e_e
  
 °©e1
@@ -66315,7 +66297,7 @@ wifi_c⁄√˘i⁄_°©e_e
 °©e2
  = 0;
 
-788 
+793 
 wifi_devi˚_öfo_t
  *
 wifi_devi˚1
@@ -66323,7 +66305,7 @@ wifi_devi˚1
 a
 ;
 
-789 
+794 
 wifi_devi˚_öfo_t
  *
 wifi_devi˚2
@@ -66331,7 +66313,7 @@ wifi_devi˚2
 b
 ;
 
-791 
+796 
 	`wifi_≠_gë_c⁄√˘i⁄_°©e
 (
 wifi_devi˚1
@@ -66341,7 +66323,7 @@ wifi_devi˚1
 °©e1
 );
 
-792 
+797 
 	`wifi_≠_gë_c⁄√˘i⁄_°©e
 (
 wifi_devi˚2
@@ -66351,49 +66333,49 @@ wifi_devi˚2
 °©e2
 );
 
-794 i‡(
+799 i‡(
 °©e1
  !
 °©e2
 ) {
 
-795 i‡(
-°©e1
- =
-WIFI_CONNECTION_STATE_CONNECTED
-)
-
-797 i‡(
-°©e2
- =
-WIFI_CONNECTION_STATE_CONNECTED
-)
-
 800 i‡(
 °©e1
  =
-WIFI_CONNECTION_STATE_CONFIGURATION
+WIFI_CONNECTION_STATE_CONNECTED
 )
 
 802 i‡(
 °©e2
  =
-WIFI_CONNECTION_STATE_CONFIGURATION
+WIFI_CONNECTION_STATE_CONNECTED
 )
 
 805 i‡(
 °©e1
  =
-WIFI_CONNECTION_STATE_ASSOCIATION
+WIFI_CONNECTION_STATE_CONFIGURATION
 )
 
 807 i‡(
 °©e2
  =
+WIFI_CONNECTION_STATE_CONFIGURATION
+)
+
+810 i‡(
+°©e1
+ =
 WIFI_CONNECTION_STATE_ASSOCIATION
 )
 
-811 
+812 i‡(
+°©e2
+ =
+WIFI_CONNECTION_STATE_ASSOCIATION
+)
+
+816 
 	`wifi_≠_is_Áv‹ôe
 (
 wifi_devi˚1
@@ -66403,7 +66385,7 @@ wifi_devi˚1
 Áv‹ôe1
 );
 
-812 
+817 
 	`wifi_≠_is_Áv‹ôe
 (
 wifi_devi˚2
@@ -66413,25 +66395,25 @@ wifi_devi˚2
 Áv‹ôe2
 );
 
-814 i‡(
+819 i‡(
 Áv‹ôe1
  !
 Áv‹ôe2
 ) {
 
-815 i‡(
+820 i‡(
 Áv‹ôe1
  =
 åue
 )
 
-817 i‡(
+822 i‡(
 Áv‹ôe2
  =
 åue
 )
 
-821  
+826  
 	`°rˇ£cmp
 ((c⁄° *)
 wifi_devi˚1
@@ -66439,17 +66421,17 @@ wifi_devi˚1
 ssid
 ,
 
-822 (c⁄° *)
+827 (c⁄° *)
 wifi_devi˚2
 ->
 ssid
 );
 
-823 
+828 
 	}
 }
 
-825 
+830 
 boﬁ
  
 	$võw_maö_wifi_found_≠_cb
@@ -66461,13 +66443,13 @@ wifi_≠_h
 u£r_d©a
 )
 
-827 *
+832 *
 ¥ofûe_size
  = (*)
 u£r_d©a
 ;
 
-828 
+833 
 wifi_devi˚_öfo_t
  *
 wifi_devi˚
@@ -66475,7 +66457,7 @@ wifi_devi˚
 NULL
 ;
 
-830 
+835 
 wifi_devi˚
  = 
 	`võw_maö_ôem_devi˚_öfo_¸óã
@@ -66483,17 +66465,17 @@ wifi_devi˚
 ≠
 );
 
-831 i‡(
+836 i‡(
 wifi_devi˚
  =
 NULL
 )
 
-832  
+837  
 åue
 ;
 
-834 
+839 
 wifi_devi˚_li°
  = 
 	`g_li°_ö£π_s‹ãd
@@ -66503,19 +66485,19 @@ wifi_devi˚
 com∑ª
 );
 
-835 (*
+840 (*
 ¥ofûe_size
 )++;
 
-837  
+842  
 åue
 ;
 
-838 
+843 
 	}
 }
 
-840 
+845 
 Evas_Obje˘
  *
 	$_gl_c⁄ã¡_tôÀ_gë
@@ -66529,7 +66511,7 @@ obj
 ∑π
 )
 
-842 
+847 
 Evas_Obje˘
  *
 tôÀ_¥ogªssb¨
@@ -66537,17 +66519,17 @@ tôÀ_¥ogªssb¨
 NULL
 ;
 
-844 i‡(
+849 i‡(
 FALSE
  =
 	`wifi_devpkr_gë_sˇn_°©us
 ())
 
-845  
+850  
 NULL
 ;
 
-847 
+852 
 tôÀ_¥ogªssb¨
  = 
 	`ñm_¥ogªssb¨_add
@@ -66555,13 +66537,13 @@ tôÀ_¥ogªssb¨
 obj
 );
 
-848 
+853 
 	`ñm_obje˘_°yÀ_£t
 (
 tôÀ_¥ogªssb¨
 , "process_small");
 
-849 
+854 
 	`ñm_¥ogªssb¨_h‹iz⁄èl_£t
 (
 tôÀ_¥ogªssb¨
@@ -66569,7 +66551,7 @@ tôÀ_¥ogªssb¨
 EINA_TRUE
 );
 
-850 
+855 
 	`ñm_¥ogªssb¨_pul£
 (
 tôÀ_¥ogªssb¨
@@ -66577,15 +66559,15 @@ tôÀ_¥ogªssb¨
 EINA_TRUE
 );
 
-852  
+857  
 tôÀ_¥ogªssb¨
 ;
 
-853 
+858 
 	}
 }
 
-855 * 
+860 * 
 	$_gl_ãxt_tôÀ_gë
 (*
 d©a
@@ -66597,19 +66579,19 @@ obj
 ∑π
 )
 
-857 i‡(
+862 i‡(
 	`g_°rcmp0
 (
 ∑π
 , "elm.text.main") == 0) {
 
-858 i‡(
+863 i‡(
 TRUE
  =
 	`wifi_devpkr_gë_sˇn_°©us
 ())
 
-859  (*Ë
+864  (*Ë
 	`g_°rdup
 (
 	`sc
@@ -66619,7 +66601,7 @@ PACKAGE
 I18N_TYPE_Sˇ¬ög
 ));
 
-861  (*Ë
+866  (*Ë
 	`g_°rdup
 (
 	`sc
@@ -66629,25 +66611,25 @@ PACKAGE
 I18N_TYPE_AvaûabÀ_√tw‹ks
 ));
 
-864  
+869  
 NULL
 ;
 
-865 
+870 
 	}
 }
 
-867 
+872 
 	$võw_maö_add_group_tôÀ
 ()
 
-869 
+874 
 grou±ôÀ_ôc
 .
 ôem_°yÀ
  = "groupindex";
 
-870 
+875 
 grou±ôÀ_ôc
 .
 func
@@ -66657,7 +66639,7 @@ func
 _gl_ãxt_tôÀ_gë
 ;
 
-871 
+876 
 grou±ôÀ_ôc
 .
 func
@@ -66667,7 +66649,7 @@ c⁄ã¡_gë
 _gl_c⁄ã¡_tôÀ_gë
 ;
 
-873 
+878 
 grou±ôÀ
  = 
 	`ñm_gíli°_ôem_≠≥nd
@@ -66675,31 +66657,31 @@ grou±ôÀ
 li°
 ,
 
-874 &
+879 &
 grou±ôÀ_ôc
 ,
 
-875 
+880 
 NULL
 ,
 
-876 
+881 
 NULL
 ,
 
-877 
+882 
 ELM_GENLIST_ITEM_NONE
 ,
 
-878 
+883 
 NULL
 ,
 
-879 
+884 
 NULL
 );
 
-880 
+885 
 	`as£πm_if
 (
 NULL
@@ -66707,21 +66689,21 @@ NULL
 grou±ôÀ
 , "NULL!!");
 
-882 
+887 
 	`ñm_gíli°_ôem_£À˘_mode_£t
 (
 grou±ôÀ
 ,
 
-883 
+888 
 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY
 );
 
-884 
+889 
 	}
 }
 
-886 
+891 
 	$võw_maö_upd©e_group_tôÀ
 (
 gboﬁón
@@ -66729,7 +66711,7 @@ gboﬁón
 is_bg_sˇn
 )
 
-888 
+893 
 Evas_Obje˘
  *
 box
@@ -66737,7 +66719,7 @@ box
 NULL
 ;
 
-889 
+894 
 Evas_Obje˘
  *
 maö_li°
@@ -66745,17 +66727,17 @@ maö_li°
 NULL
 ;
 
-891 i‡(
+896 i‡(
 li°
  !
 NULL
 ) {
 
-892 i‡(!
+897 i‡(!
 is_bg_sˇn
 ) {
 
-893 
+898 
 Elm_Obje˘_Iãm
  *
 ô
@@ -66765,11 +66747,11 @@ Elm_Obje˘_Iãm
 li°
 );
 
-895 
+900 
 ô
 ) {
 
-896 
+901 
 	`ñm_obje˘_ôem_dißbÀd_£t
 (
 ô
@@ -66777,19 +66759,19 @@ li°
 EINA_TRUE
 );
 
-897 
+902 
 ô
  = 
 	`ñm_gíli°_ôem_√xt_gë
 (it);
 
-901 
+906 
 	`ñm_gíli°_ôem_upd©e
 (
 grou±ôÀ
 );
 
-903 
+908 
 box
  = 
 	`ñm_obje˘_c⁄ã¡_gë
@@ -66799,7 +66781,7 @@ devpkr_≠p_°©e
 p›up
 );
 
-905 
+910 
 maö_li°
  = 
 	`_¸óã_gíli°
@@ -66807,11 +66789,11 @@ maö_li°
 box
 );
 
-906 
+911 
 	`võw_maö_add_group_tôÀ
 ();
 
-907 
+912 
 	`ñm_box_∑ck_°¨t
 (
 box
@@ -66819,23 +66801,23 @@ box
 maö_li°
 );
 
-909 
+914 
 	`evas_obje˘_show
 (
 maö_li°
 );
 
-910 
+915 
 	`evas_obje˘_show
 (
 box
 );
 
-912 
+917 
 	`wifi_devpkr_ªdøw
 ();
 
-914 
+919 
 	`evas_obje˘_show
 (
 devpkr_≠p_°©e
@@ -66843,19 +66825,19 @@ devpkr_≠p_°©e
 p›up
 );
 
-918 
+923 
 	}
 }
 
-920 
+925 
 	$võw_maö_¸óã_em±y_œyout
 ()
 
-922 
+927 
 __COMMON_FUNC_ENTER__
 ;
 
-924 
+929 
 Evas_Obje˘
  *
 box
@@ -66863,7 +66845,7 @@ box
 NULL
 ;
 
-925 
+930 
 Evas_Obje˘
  *
 œyout
@@ -66871,7 +66853,7 @@ Evas_Obje˘
 NULL
 ;
 
-926 
+931 
 Evas_Obje˘
  *
 ¥ev_box
@@ -66879,7 +66861,7 @@ Evas_Obje˘
 NULL
 ;
 
-928 
+933 
 ¥ev_box
  = 
 	`ñm_obje˘_c⁄ã¡_gë
@@ -66889,31 +66871,31 @@ devpkr_≠p_°©e
 p›up
 );
 
-929 i‡(
+934 i‡(
 ¥ev_box
  !
 NULL
 ) {
 
-930 
+935 
 	`evas_obje˘_dñ
 (
 ¥ev_box
 );
 
-931 
+936 
 li°
  = 
 NULL
 ;
 
-932 
+937 
 grou±ôÀ
  = 
 NULL
 ;
 
-935 
+940 
 box
  = 
 	`ñm_box_add
@@ -66923,7 +66905,7 @@ devpkr_≠p_°©e
 p›up
 );
 
-936 
+941 
 	`evas_obje˘_size_höt_weight_£t
 (
 box
@@ -66931,7 +66913,7 @@ box
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-937 
+942 
 	`evas_obje˘_size_höt_Æign_£t
 (
 box
@@ -66939,7 +66921,7 @@ box
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-939 
+944 
 œyout
  = 
 	`ñm_œyout_add
@@ -66949,7 +66931,7 @@ devpkr_≠p_°©e
 p›up
 );
 
-940 
+945 
 	`ñm_œyout_fûe_£t
 (
 œyout
@@ -66959,7 +66941,7 @@ WIFI_DEVPKR_EDJ
 WIFI_SYSPOPUP_EMPTY_GRP
 );
 
-941 
+946 
 	`evas_obje˘_size_höt_weight_£t
 (
 œyout
@@ -66967,7 +66949,7 @@ WIFI_SYSPOPUP_EMPTY_GRP
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-942 
+947 
 	`evas_obje˘_size_höt_Æign_£t
 (
 œyout
@@ -66975,7 +66957,7 @@ EVAS_HINT_EXPAND
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-944 
+949 
 	`ñm_obje˘_domaö_å™¶©abÀ_∑π_ãxt_£t
 (
 œyout
@@ -66983,7 +66965,7 @@ EVAS_HINT_FILL
 PACKAGE
 ,
 
-945 
+950 
 	`sc
 (
 PACKAGE
@@ -66991,7 +66973,7 @@ PACKAGE
 I18N_TYPE_No_Wi_Fi_AP_Found
 ));
 
-947 
+952 
 	`ñm_box_∑ck_íd
 (
 box
@@ -66999,19 +66981,19 @@ box
 œyout
 );
 
-948 
+953 
 	`evas_obje˘_show
 (
 œyout
 );
 
-949 
+954 
 	`evas_obje˘_show
 (
 box
 );
 
-950 
+955 
 	`ñm_obje˘_c⁄ã¡_£t
 (
 devpkr_≠p_°©e
@@ -67021,23 +67003,23 @@ p›up
 box
 );
 
-952 
+957 
 __COMMON_FUNC_EXIT__
 ;
 
-953 
+958 
 	}
 }
 
-955 
+960 
 	$võw_maö_¸óã_maö_li°
 ()
 
-957 
+962 
 __COMMON_FUNC_ENTER__
 ;
 
-959 
+964 
 Evas_Obje˘
  *
 box
@@ -67045,7 +67027,7 @@ box
 NULL
 ;
 
-960 
+965 
 Evas_Obje˘
  *
 maö_li°
@@ -67053,7 +67035,7 @@ maö_li°
 NULL
 ;
 
-961 
+966 
 Evas_Obje˘
  *
 ¥ev_box
@@ -67061,7 +67043,7 @@ Evas_Obje˘
 NULL
 ;
 
-963 
+968 
 ¥ev_box
  = 
 	`ñm_obje˘_c⁄ã¡_gë
@@ -67071,31 +67053,31 @@ devpkr_≠p_°©e
 p›up
 );
 
-964 i‡(
+969 i‡(
 ¥ev_box
  !
 NULL
 ) {
 
-965 
+970 
 	`evas_obje˘_dñ
 (
 ¥ev_box
 );
 
-966 
+971 
 li°
  = 
 NULL
 ;
 
-967 
+972 
 grou±ôÀ
  = 
 NULL
 ;
 
-970 
+975 
 box
  = 
 	`ñm_box_add
@@ -67105,7 +67087,7 @@ devpkr_≠p_°©e
 p›up
 );
 
-971 
+976 
 	`evas_obje˘_size_höt_weight_£t
 (
 box
@@ -67113,7 +67095,7 @@ box
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-972 
+977 
 	`evas_obje˘_size_höt_Æign_£t
 (
 box
@@ -67121,7 +67103,7 @@ box
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-974 
+979 
 maö_li°
  = 
 	`_¸óã_gíli°
@@ -67129,11 +67111,11 @@ maö_li°
 box
 );
 
-975 
+980 
 	`võw_maö_add_group_tôÀ
 ();
 
-977 
+982 
 	`ñm_box_∑ck_íd
 (
 box
@@ -67141,19 +67123,19 @@ box
 maö_li°
 );
 
-978 
+983 
 	`evas_obje˘_show
 (
 maö_li°
 );
 
-979 
+984 
 	`evas_obje˘_show
 (
 box
 );
 
-980 
+985 
 	`ñm_obje˘_c⁄ã¡_£t
 (
 devpkr_≠p_°©e
@@ -67163,15 +67145,15 @@ p›up
 box
 );
 
-982 
+987 
 __COMMON_FUNC_EXIT__
 ;
 
-983 
+988 
 	}
 }
 
-985 
+990 
 gboﬁón
  
 	$võw_maö_show
@@ -67179,15 +67161,15 @@ gboﬁón
 d©a
 )
 
-987 
+992 
 __COMMON_FUNC_ENTER__
 ;
 
-989 
+994 
 i
 ;
 
-990 
+995 
 wifi_devi˚_öfo_t
  *
 wifi_devi˚
@@ -67195,7 +67177,7 @@ wifi_devi˚
 NULL
 ;
 
-991 
+996 
 GLi°
 * 
 li°_of_devi˚
@@ -67203,13 +67185,13 @@ li°_of_devi˚
 NULL
 ;
 
-993 
+998 
 °©e
  = 
 	`wœn_m™agî_°©e_gë
 ();
 
-994 i‡(
+999 i‡(
 WLAN_MANAGER_ERROR
  =
 °©e
@@ -67217,65 +67199,65 @@ WLAN_MANAGER_ERROR
 WLAN_MANAGER_OFF
  == state) {
 
-995 
+1000 
 	`INFO_LOG
 (
 SP_NAME_NORMAL
 , "Wi-Fi state is OFF");
 
-996 
+1001 
 	`võw_maö_¸óã_em±y_œyout
 ();
 
-997 
+1002 
 exô
 ;
 
-998 } i‡(
+1003 } i‡(
 WLAN_MANAGER_CONNECTED
  =
 °©e
 ) {
 
-999 
+1004 
 __COMMON_FUNC_EXIT__
 ;
 
-1000  
+1005  
 FALSE
 ;
 
-1003 
+1008 
 	`wifi_devpkr_íabÀ_sˇn_bä
 ();
 
-1006 i‡(
+1011 i‡(
 ¥ofûes_li°_size
 ) {
 
-1007 
+1012 
 	`võw_maö_sˇn_ui_˛ór
 ();
 
-1008 
+1013 
 	`võw_maö_add_group_tôÀ
 ();
 
-1010 
+1015 
 	`võw_maö_¸óã_maö_li°
 ();
 
-1013 
+1018 
 	`võw_maö_°©e_£t
 (
 ITEM_CONNECTION_MODE_OFF
 );
 
-1015 
+1020 
 ¥ofûes_li°_size
  = 0;
 
-1017 
+1022 
 	`wifi_f‹óch_found_≠s
 (
 võw_maö_wifi_found_≠_cb
@@ -67283,7 +67265,7 @@ võw_maö_wifi_found_≠_cb
 ¥ofûes_li°_size
 );
 
-1018 
+1023 
 	`INFO_LOG
 (
 SP_NAME_NORMAL
@@ -67291,13 +67273,13 @@ SP_NAME_NORMAL
 ¥ofûes_li°_size
 );
 
-1020 
+1025 
 li°_of_devi˚
  = 
 wifi_devi˚_li°
 ;
 
-1021 
+1026 
 i
  = 0; i < 
 ¥ofûes_li°_size
@@ -67307,7 +67289,7 @@ li°_of_devi˚
 NULL
 ; i++) {
 
-1022 
+1027 
 wifi_devi˚
  = (
 wifi_devi˚_öfo_t
@@ -67317,59 +67299,59 @@ li°_of_devi˚
 d©a
 ;
 
-1024 
+1029 
 	`võw_maö_wifi_ö£π_found_≠
 (
 wifi_devi˚
 );
 
-1026 
+1031 
 li°_of_devi˚
  =Üi°_of_devi˚->
 √xt
 ;
 
-1029 i‡(
+1034 i‡(
 wifi_devi˚_li°
  !
 NULL
 ) {
 
-1030 
+1035 
 	`g_li°_‰ì
 (
 wifi_devi˚_li°
 );
 
-1031 
+1036 
 wifi_devi˚_li°
  = 
 NULL
 ;
 
-1034 i‡(
+1039 i‡(
 ¥ofûes_li°_size
  <= 0)
 
-1035 
+1040 
 	`võw_maö_¸óã_em±y_œyout
 ();
 
-1037 
+1042 
 	`evas_obje˘_show
 (
 li°
 );
 
-1039 
+1044 
 exô
 :
 
-1040 
+1045 
 	`wifi_devpkr_ªdøw
 ();
 
-1042 
+1047 
 	`evas_obje˘_show
 (
 devpkr_≠p_°©e
@@ -67377,7 +67359,7 @@ devpkr_≠p_°©e
 p›up
 );
 
-1043 
+1048 
 	`evas_obje˘_show
 (
 devpkr_≠p_°©e
@@ -67385,15 +67367,15 @@ devpkr_≠p_°©e
 wö_maö
 );
 
-1045 
+1050 
 __COMMON_FUNC_EXIT__
 ;
 
-1046  
+1051  
 FALSE
 ;
 
-1047 
+1052 
 	}
 }
 
