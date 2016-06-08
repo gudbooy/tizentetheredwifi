@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "無"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "連接至裝置"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "憑證無效。"
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "按鍵"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "永遠"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "第 2 階段認證"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "尋找"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "上一頁"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "下一頁"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "不再顯示"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "照字母次序"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "僅限 Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "略過"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "上一步"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "增加數據用量。"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "密碼錯誤"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "開啟 Wi-Fi 將停用 Wi-Fi 網路共享。"
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "管理憑證"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "輕觸兩次"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "可用網路"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "取得 WPS"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Wi-Fi網路偵測，要繼續?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "若要查看可用的網路，請開啟 Wi-Fi。"
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "安全"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "正在取得 IP 位址..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "下一步"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "網路 SSID"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "網路通知"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "休眠時仍開啟 Wi-Fi"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "良好"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "棒極了"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "在 Wi-Fi 路由器上輸入 %1$s PIN 碼。此設定可能需要花費達 %2$d 分鐘的時間才可完成。"
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "進階"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "無效的 PIN 碼"
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "已達字元數量上限  %d"
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "無法取得 IP 位址。"
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "已連接至 Wi-Fi 網路 %s"
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "從不"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "經 Wi-Fi 與 4G 下載資料"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "經 Wi-Fi 與 3G 下載資料"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS的密碼"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "清除"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "取消"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "確定"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "已連線"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "自動於 Wi-Fi 與行動網路間切換至維持穩定的網際網路連線。"
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "認證發生錯誤"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "將同時使用 Wi-Fi 與行動網路以加速檔案的下載。這可能增加您的數據用量。"
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "智慧網路切換已啟用。此功能可於行動網路與 Wi-Fi 網路間切換以協助維持穩定的網路連線。可能產生數據用量。"
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "已選擇 %s。\n\n若您無法連線至 AP，請前往 SIM 卡管理工具來變更用於驗證的 SIM 卡。然後選擇欲用於行動數據與多媒體訊息的 SIM 卡。除此之外也可以卸除不想要使用的 SIM 卡。"
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "在%d分鐘內按下你的Wi - Fi WPS存取點。"
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "開啟"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "找不到 Wi-Fi AP。"
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "即將中斷目前的網路連線。"
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "顯示密碼"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "開"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "關"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "清除網路"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "智慧網路切換"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "訊號強度"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "降低行動數據用量"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "速度優先排序"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "網路合併"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Wi-Fi 網路資訊"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "選擇 WPS 方式"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "代理伺服器位址"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "密碼"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "輸入密碼。"
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "WPS 按鈕"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "掃描"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "尋找隱藏的網路"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "可用的 Wi-Fi 網路。"
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "只在充電時"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "弱"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "使用者憑證"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "未指定"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "未知"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "若要加速下載大型檔案，可同時使用 Wi-Fi 與行動網路。"
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "子網路遮罩"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "靜態 IP"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "排序依據"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "正在掃描..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "網路可用時接收通知"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "代理伺服器連接埠"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "名稱"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC 位址"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP 位址"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "使用者"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "閘道位址"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "輸入身分。"
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "EAP 方法"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "連線中..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "連線"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "已儲存"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "已偵測到 Wi-Fi 網路。將會連接。"
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "進階設定"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS的密碼"
+

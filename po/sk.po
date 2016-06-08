@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Žiadny"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Pripojenie k zariadeniu"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Neplatný certifikát."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Tlačidlo"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Vždy"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Overovanie fázy 2"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Nájsť"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Predchádzajúci"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Ďalej"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Už nezobrazovať"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Abecedné"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Iba Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Vynechať"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Predch."
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Zvyšuje prenos dát."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Nesprávne heslo."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Zapnutím pripojenia Wi-Fi sa vypne zdieľanie pripojenia cez Wi-Fi."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Spravovať certifikáty"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Dvojité ťuknutie"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Dostupné siete"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS je k dispozícii"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Zistila sa sieť Wi-Fi. Pripojiť?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Ak chcete zobraziť dostupné siete, zapnite Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Zabezpečené"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Získava sa adresa IP..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Ďalej"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID siete"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Sieťové oznámenie"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Ponechať Wi-Fi zapnuté počas spánku"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Dobrý"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Výborné"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Zadajte kód PIN %1$s na smerovači Wi-Fi. Nastavenie sa dokončí do %2$d minút."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Pokročilé"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "Neplatný PIN kód."
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Dosiahol sa maximálny počet znakov (%d)."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Nepodarilo sa získať adresu IP."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Pripojené k sieti Wi-Fi %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Nikdy"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Sťahovať údaje cez Wi-Fi a 4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Sťahovať údaje cez Wi-Fi a 3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Zabudnúť"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Zrušiť"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Pripojené"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Automaticky prepína medzi sieťami Wi-Fi a mobilnými sieťami na zachovanie stabilného internetového pripojenia."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Vyskytla sa chyba overenia"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Siete Wi-Fi a mobilné siete sa budú používať spoločne na rýchlejšie sťahovanie súborov. To môže zvyšovať prenos dát cez mobilné dátové siete."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Inteligentné prepínanie sietí sa zaplo. Táto funkcia pomáha udržiavať stabilné internetové pripojenie prostredníctvom prepínania medzi mobilnými sieťami a sieťami Wi-Fi. To môže zvyšovať prenos dát."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "Vybraté: %s.\n\nAk sa nemôžete pripojiť k prístupovému bodu, prostredníctvom aplikácie Správca kariet SIM zmeňte kartu SIM používanú na overenie. Potom vyberte kartu SIM, ktorú chcete používať pre mobilné dátové pripojenie a multimediálne správy. Prípadne môžete odpojiť kartu SIM, ktorú nechcete používať."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Do %d minút stlačte tlačidlo WPS na prístupovom bode Wi-Fi."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Otvoriť"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nepodarilo sa nájsť žiadny prístupový bod Wi-Fi."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Aktuálna sieť sa odpojí."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Zobraziť heslo"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Zap."
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Vyp."
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Zabudnúť sieť"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Intelig. prepínanie sietí"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Intenzita signálu"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Znížiť využív. mob. dát."
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Uprednostniť rýchlosť"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Spojenie sietí"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Informácie o sieti Wi-Fi"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Vyberte metódu WPS"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Adresa proxy"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Heslo"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Zadajte heslo."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "Tlačid. WPS"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Vyhľadať"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Hľadať skrytú sieť"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Siete Wi-Fi sú k dispozícii."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Iba počas nabíjania"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Slabá"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Použ. certifikát"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Nešpecifik."
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Neznáme"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Ak chcete rýchlejšie sťahovať veľké súbory, používajte spolu siete Wi-Fi a mobilné siete."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Maska podsiete"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "Pevná adresa IP"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Usporiadať podľa"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Hľadanie..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Prijímanie oznámení, keď sú k dispozícii siete"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Port proxy servera"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Meno"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "Adresa MAC"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "Adresa IP"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Identita"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Adresa brány"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Zadajte identitu."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "Metóda EAP"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Pripájanie..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Pripojiť"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Uložené"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Zistila sa sieť Wi-Fi. Pripojíte sa."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Pokročilé nastavenia"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

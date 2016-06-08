@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Cap"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Connectar a dispositiu"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Certificat no vàlid"
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Botó"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Sempre"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Autenticació de fase 2"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Cercar"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Anterior"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Seg"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "No ho tornis a mostrar."
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Alfabèticament"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Només Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Ometre"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Anterior"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Augmenta l'ús de dades"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Contrasenya incorrecta"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Si activa el Wi-Fi, es deshabilitarà el tethering Wi-Fi"
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Gestionar certificats"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Doble toc"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Xarxes disponibles"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS disponible"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "S'ha detectat una xarxa Wi-Fi. Connectar?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Per veure les xarxes disponibles, activi el Wi-Fi"
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Protegit"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "S'està obtenint l'adreça IP..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Següent"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID de xarxa"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Notificació de xarxa"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Mantenir Wi-Fi activat durant el repòs"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Bo"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Excel·lent"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Introdueixi el PIN de %1$s a l'encaminador Wi-Fi. La configuració pot trigar fins a %2$d minuts en completar-se."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Avançat"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "PIN no vàlid"
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "S'ha assolit el nombre màxim de %d caràcters."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Error en obtenir l'adreça IP."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Està connectat a la xarxa Wi-Fi %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Mai"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Descarreg dades amb Wi-Fi i 4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Descarreg dades amb Wi-Fi i 3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "PIN WPS"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Oblidar"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Cancel"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "Acceptar"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Connectat"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Alternar automàticament entre xarxes Wi-Fi i mòbils per mantenir una connexió a Internet estable."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "S'ha produït un error d'autenticació"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Les xarxes Wi-Fi i mòbil s'utilitzaran conjuntament per descarregar fitxers més ràpidament. Això pot augmentar l'ús de dades mòbils."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "S'ha habilitat Smart network switch. Aquesta funció l'ajuda a mantenir una connexió a Internet estable canviant entre xarxes mòbils i Wi-Fi. Aquesta acció pot augmentar el seu consum de dades."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "S'ha seleccionat %s.\n\nSi no pot connectar a un punt d'accés, canviï la targeta SIM utilitzada per a la verificació anant al gestor de targetes SIM. Després, seleccioni la targeta SIM que vulgui utilitzar per a les dades mòbils i missatges multimèdia. També pot desmuntar la targeta SIM que no vulgui utilitzar."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Premi WPS al seu punt d'accés Wi-Fi en %d minuts"
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Obrir"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "No es troba Wi-Fi AP"
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Es desconnectarà la connexió actual"
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Mostrar contrasenya"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Activat"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Desactivat"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Oblidar xarxa"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Canvi Smart network"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Potència de senyal"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Reduir ús de dades mòbils"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Prioritzar velocitat"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Vinculació de xarxa"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Informació de xarxa Wi-Fi"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Seleccionar mètode WPS"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Adreça de proxy"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Contrasenya"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Introduir contrasenya"
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "Botó WPS"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Escanejar"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Cercar xarxa oculta"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Xarxes Wi-Fi disponibles"
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Només mentre es carrega"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Feble"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Certificat usuari"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Sense especificar"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Desconegut"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Per descarregar fitxers més ràpidament, utilitzi Wi-Fi i xarxes mòbils conjuntament."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Màscara de subxarxa"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "IP estàtica"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Ordenar per"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Examinant..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Rebre notificacions quan hi hagi xarxes disponibles"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Port de servidor intermediari"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Nom"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "Adreça MAC"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "Adreça IP"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Identitat"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Adreça passarel·la"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Introduir identitat"
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "Mètode EAP"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Connectant..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Connectar"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Desat"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "S'ha detectat una xarxa Wi-Fi. S'hi connectarà."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Ajustaments avançats"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "PIN WPS"
+

@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Dada"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Nasc le gléas"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Deimhniú neamhbhailí."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Cnaipe"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "I gcónaí"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Fíordheimhniú chéim 2"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Aimsigh"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Roimhe"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Ar aghaidh"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Ná taispeáin arís"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Aibítreach"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi amháin"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Scipeáil"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Roimhe"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Méadaítear úsáid sonraí."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Pasfhocal contráilte."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Díchumasófar nascaireacht Wi-Fi má chastar Wi-Fi air"
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Bainistigh deimhnithe"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Déthapáil"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Líonraí atá ar fáil"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS atá ar fáil"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Líonra Wi-Fi aimsithe. Nasc leis?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Le líonraí atá ar fáil a fheiceáil, cas ar Wi-Fi"
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Slán"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Seoladh IP á fháil..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Ar aghaidh"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID Líonra"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Fógra líonra"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Coinnigh Wi-Fi ar siúl le linn codlata"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Maith"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Sármhaith"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Iontráil an PIN %1$s ar do ródaire Wi-Fi. Is féidir go dtógfaidh críochnú an tsocraithe seo %2$d nóiméad."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Ardleibhéal"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "PIN neamhbhailí."
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Uaslíon na gcarachtar %d bainte amach."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Theip ar fháil seoladh IP."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Nasctha leis an líonra Wi-Fi %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Choíche"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Íoslód. sonraí le Wi-Fi agus 4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Íoslód. sonraí le Wi-Fi agus 3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "PIN WPS"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Dearmad"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Cuir ar ceal"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Nasctha"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Aistrigh go huathoibríoch idir Wi-Fi agus líonraí móibíleacha le nasc Idirlín cobhsaí a choimeád."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Tharla earráid fhíordheimhnithe"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Úsáidfear Wi-Fi agus líonraí móibíleacha le chéile chun comhaid a íoslódáil níos tapa. Is féidir go méadófar d'úsáid sonraí móibíleacha leis seo."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Aistriú líonra cliste cumasaithe. Tá an fheidhm seo ina cuidiú leat nasc Idirlín a choinneáil cobhsaí trí aistriú idir líonraí móibíleacha agus Wi-Fi. Is féidir leis seo d'úsáid sonraí a mhéadú."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "Tá %s roghnaithe.\n\nMura féidir leat nascadh le AP, athraigh an cárta SIM a úsáidtear le fíorú ach gabháil chuig Bainisteoir cártaí SIM. Ansin roghnaigh an cárta SIM is mian leat a úsáid le haghaidh Sonraí móibíleacha agus teachtaireachtaí ilmheán. De rogha air sin, is féidir leat an cárta SIM nach mian leat a úsáid a dhíghléasadh."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Brúigh WPS ar do phointe rochtana Wi-Fi laistigh de %d nóiméad"
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Oscailte"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Níor aimsíodh AP Wi-Fi."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Dínascfar an líonra reatha"
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Taispeáin pasfhocal"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Air"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "As"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Déan dearmad ar líonra"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Aistriú go líonra cliste"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Neart comhartha"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Laghdaigh úsáid sonraí móib."
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Tosaíocht ar luas"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Nascáil líonra"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Faisnéis líonra Wi-Fi"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Roghnaigh modh WPS"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Seoladh seachfhreastalaí"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Pasfhocal"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Iontráil pasfhocal"
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "Cnaipe WPS"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Scan"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Aimsigh líonra folaithe"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Tá líonraí Wi-Fi ar fáil."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Le linn luchtú amháin"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Lag"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Deimhniú úsáideora"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Neamhshonraithe"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Anaithnid"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Chun comhaid mhóra a íoslódáil níos tapa, úsáid Wi-Fi agus líonraí móibíleacha le chéile."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Masc folíonra"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "IP Statach"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Sórtáil de réir"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Ag scanadh..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Faigh fógraí nuair atá líonraí ar fáil"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Seachphort"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Ainm"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "Seoladh MAC"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "Seoladh IP"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Aitheantas"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Seoladh geata"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Iontráil aitheantas"
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "Modh EAP"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Ag nascadh..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Nasc"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Sábháilte"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Braitheadh líonra Wi-Fi. Nascfar leis thú."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Ardsocruithe"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "PIN WPS"
+

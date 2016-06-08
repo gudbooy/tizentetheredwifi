@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "არც ერთი"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "დაუკავშირდით აპარატს"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "სერთიფიკატი არასწორია."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "ღილაკი"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "ყოველთვის"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "ფაზა 2-ის ავტორიზაცია"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "ძებნა"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "წინა"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "შემდეგი"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "აღარ მაჩვენო"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "ანბანით"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "მხოლოდ Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "გამოტოვება"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "წინა"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "ზრდის მონაცემთა გამოყენებას."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "პაროლი არასწორია."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "თუ ჩართავთ Wi-Fi-ს, გამოირთვება Wi-Fi მობილური ინტერნეტი კომპიუტერში."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "სერტიფიკატების მართვა"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "ორჯერ დაკაკუნება"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "არსებული ქსელები"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS მისაწვდომია"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "ნაპოვნია Wi-Fi ქსელი. დაუკავშირდებით?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "არსებული ქსელების სანახავად, ჩართეთ Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "დაცული"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "მიმდინარეობს IP მისამართის მიღება..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "შემდეგი"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID ქსელი"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "ქსელის შეტყობინება"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Wi-Fi ჩართული დარჩეს თვლემის დროს"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "კარგი"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "ბრწყინვალეა"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "შეიყვანეთ %1$s PIN თქვენს Wi-Fi როუტერში. ინსტალაციას შეიძლება დასჭირდეს %2$d წუთამდე."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "გაუმჯობესებული"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "PIN არასწორია."
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "მიღწეულია სიმბოლოების მაქსიმალური რაოდენობა %d"
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "IP მისამართის მიღება ვერ მოხდა."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "დაუკავშირდა Wi-Fi ქსელს %s"
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "არასოდეს"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "ჩამოტვირთვა Wi-Fi და 4G-ით"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "ჩამოტვირთვა Wi-Fi და 3G-ით"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "დავიწყება"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "გაუქმება"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "დაკავშირებული"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "ავტომატურად გადართეთ Wi-Fi-სა და მობილურ ქსელებს შორის, რათა შენარჩუნდეს უწყვეტი კავშირი ინტერნეტთან."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "მოხდა ავტორიზაციის შეცდომა"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "ფაილების უფრო სწრაფად ჩამოტვირთვისთვის ერთად იქნება გამოყენებული Wi-Fi და მობილური ქსელები. ამით შეიძლება გაიზარდოს მობილურ მონაცემთა გამოყენება."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "ჩაირთო ქსელის ინტელექტუალური გადართვა. ეს ფუნქცია ხელს უწყობს სტაბილური კავშირის შენარჩუნებას ინტერნეტთან, რისთვისაც ახდენს გადართვას მობილურ და Wi-Fi ქსელებს შორის. ამით შეიძლება გაიზარდოს მონაცემთა გამოყენება."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "არჩეულია %s.\n\nთუ წვდომის წერტილს ვერ უკავშირდებით, გადადით SIM ბარათების მმართველზე და შეცვალეთ დამოწმებისთვის გამოყენებული SIM ბარათი. შემდეგ აირჩიეთ SIM ბარათი, რომლის გამოყენებაც გსურთ მობილურ მონაცემთა ქსელისა და მულტიმედიური შეტყობინებებისთვის. სხვაგვარად, შეგიძლიათ გათიშოთ SIM ბარათი, რომლის გამოყენებაც არ გსურთ."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "მაქსიმუმ %d წუთში დააჭირეთ WPS–ს თქვენი Wi-Fi წვდომის წერტილზე."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "გახსნა"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Wi-Fi AP ვერ მოიძებნა."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "მიმდინარე ქსელი გამოირთვება."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "პაროლის გამოჩენა"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "ჩართვა"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "გამორთ."
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "ქსელის დავიწყება"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "ინტელექტუალური გადართვა"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "სიგნალის სიმძლავრე"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "შემცირდეს გამოყენება"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "სიჩქარის პრიორიტეტი"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "ქსელების დაკავშირება"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Wi-Fi ქსელის ინფორმაცია"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "აირჩიეთ WPS მეთოდი"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "პროქსი სერვერის მისამართი"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "პაროლი"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "პაროლის შეყვანა."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "WPS ღილაკი"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "სკანირება"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "ფარული ქსელის ძებნა"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Wi-Fi ქსელები მისაწვდომია."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "მხოლოდ დამუხტვის დროს"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "სუსტი"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "მომხ. სერთიფიკატი"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "დაუზუსტებელი"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "უცნობი"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "დიდი ფაილების მოგვიანებით ჩამოტვირთვისთვის ერთად გამოიყენეთ Wi-Fi და მობილური ქსელი."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "ქვექსელის ნიღაბი"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "სტატიკური IP"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "გადარჩევა"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "მიმდ. სკანირება"
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "მიიღეთ შეტყობინებები, როდესაც ქსელი მისაწვდომი გახდება"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "პროქსი სერვერის პორტი"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "სახელი"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC მისამართი"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP მისამართი"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "პირადობა"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "გასასვლელის მისამართი"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "შეიყვანეთ საიდენტიფიკაციო ინფორმაცია."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "EAP მეთოდი"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "უკავშირდება..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "დაკავშირება"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "შენახულია"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "ნაპოვნია Wi-Fi ქსელი. დამყარდება კავშირი"
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "დამატებითი პარამეტრები"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

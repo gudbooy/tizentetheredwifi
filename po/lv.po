@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Nav"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Izveidot savienojumu ar ierīci"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Nederīgs sertifikāts."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Poga"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Vienmēr"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "2. fāzes autentifikācija"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Atrast"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Iepriekšējais"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Nākamais"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Nerādīt vēlreiz"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Alfabēta secībā"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Tikai Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Izlaist"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Iepriekš."
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Palielina datu lietojumu."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Nepareiza parole."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Aktivizējot Wi-Fi, tiks deaktivizēta Wi-Fi piesaiste."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Pārvaldīt sertifikātus"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Divkāršs pieskāriens"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Pieejamie tīkli"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS ir pieejams"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Ir noteikts Wi-Fi tīkls. Vai izveidot savienojumu?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Lai skatītu pieejamos tīklus, ieslēdziet Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Aizsargāts"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Iegūst IP adresi..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Tālāk"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "Tīkla SSID"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Tīkla paziņojums"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Atstāt Wi-Fi ieslēgtu miega režīma laikā"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Labs"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Izcili"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Ievadiet Wi-Fi maršrutētājā %1$s PIN kodu. Iestatīšana var ilgt %2$d minūtes."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Papildu"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "Nederīgs PIN kods."
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Sasniegts maksimālais rakstzīmju skaits (%d)"
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Neizdevās iegūt IP adresi."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Izveidots savienojums ar Wi-Fi tīklu %s"
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Nekad"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Lejupielādēt, izm. Wi-Fi un 4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Lejupielādēt, izm. Wi-Fi un 3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Aizmirst"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Atcelt"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "Labi"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Savienots"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Automātiski pārslēdzieties no mobilā tīkla uz Wi-Fi tīklu un pretēji, lai saglabātu stabilu interneta savienojumu."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Radās autentifikācijas kļūda"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Wi-Fi un mobilie tīkli tiks izmantoti kopā, lai lejupielādētu failus ātrāk. Tas var palielināt mobilo datu lietojumu."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Viedā tīkla pārslēgšana ir aktivizēta. Šī funkcija palīdz nodrošināt stabilu interneta savienojumu, pārslēdzoties starp mobilajiem un Wi-Fi tīkliem. Tas var palielināt datu lietojumu."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "Ir izvēlēta %s.\n\nJa nevarat izveidot savienojumu ar AP, nomainiet verifikācijai izmantoto SIM karti, atverot programmu SIM kartes pārvaldnieks. Pēc tam izvēlieties SIM karti, ko lietot mobilajiem datiem un multiziņām. SIM karti, ko nevēlaties lietot, varat arī atvienot."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "%d minūšu laikā uz Wi-Fi piekļuves punkta nospiediet WPS."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Atvērt"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nav atrasts neviens Wi-Fi piekļuves punkts."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Pašreizējais tīkls tiks atvienots."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Rādīt paroli"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Ieslēgt"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Izslēgt"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Aizmirst tīklu"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Viedā tīkla pārslēgšana"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Signāla stiprums"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Samaz. mobilo datu liet."
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Ātrums ir prioritāte"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Tīkla saistīšana"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Wi-Fi tīkla informācija"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "WPS metodes izvēle"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Starpniekservera adrese"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Parole"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Ievadiet paroli."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "WPS poga"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Meklēt"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Atrast slēptu tīklu"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Pieejami Wi-Fi tīkli."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Tikai uzlādes laikā"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Vājš"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Liet.sertifikāts"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Nav norādīts"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Nezināms"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Lai ātrāk lejupielādētu lielus failus, izmantojiet gan Wi-Fi, gan mobilos tīklus."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Apakštīkla maska"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "Statiska IP"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Kārtot pēc"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Meklē..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Saņemt paziņojumus, kad tīkli ir pieejami"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Starpniekservera ports"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Vārds"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC adrese"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP adrese"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Identitāte"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Vārtejas adrese"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Ievadiet identitāti."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "EAP metode"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Savieno..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Savienot"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Saglabāts"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Noteikts Wi-Fi tīkls. Tiks izveidots savienojums."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Papildu iestatījumi"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

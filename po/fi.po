@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Ei mitään"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Yhdistä laitteeseen"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Virheellinen varmenne"
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Painike"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Aina"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Vaiheen 2 todennus"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Etsi"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Edellinen"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Seuraava"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Älä näytä uudestaan"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Aakkosellinen"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Vain Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Ohita"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Edellinen"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Lisää datankäyttöä."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Väärä salasana"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-Fi-yhteyden ottaminen käyttöön poistaa Wi-Fi-yhteyden jakamisen käytöstä."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Varmenteiden hallinta"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Kaksoisnapauta"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Käytettävissä olevat verkot"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS käytettävissä"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Havaittu Wi-Fi-verkko. Yhdistetäänkö?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Ota Wi-Fi käyttöön verkkojen tarkastelua varten."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Suojattu"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Haetaan IP-osoitetta..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Seuraava"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "Verkon nimi (SSID)"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Verkkoilmoitus"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Pidä Wi-Fi lepotilassa käytössä"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Hyvä"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Erinomainen"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Anna laitteen %1$s PIN-koodi Wi-Fi-reitittimessä. Määritys voi kestää %2$d minuuttia."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Lisäasetukset"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "Virheellinen PIN-koodi"
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Merkkien enimmäismäärä %d on saavutettu."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "IP-osoitteen haku epäonnistui."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Yhdistetty Wi-Fi-verkkoon %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Ei koskaan"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Lataa Wi-Fi- ja 4G-v. kautta"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Lataa Wi-Fi- ja 3G-v. kautta"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Unohda"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Peruuta"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Yhdistetty"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Vaihda automaattisesti Wi-Fi-yhteyden ja matkapuhelinverkkojen välillä vakaan Internet-yhteyden säilyttämiseksi."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Todennusvirhe"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Wi-Fi- ja matkapuhelinverkkoja käytetään yhdessä, jotta suuret tiedostot ladataan nopeammin. Tämä voi lisätä mobiilidatan käyttöä."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Älykäs verkon vaihto on käytössä. Tämä toiminto auttaa pitämään Internet-yhteyden vakaana vaihtamalla matkapuhelin- ja Wi-Fi-verkkojen välillä. Tämä voi lisätä datankäyttöä."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "%s on valittu.\n\nJos et pysty muodostamaan yhteyttä tukiasemaan, vaihda vahvistukseen käytettävä SIM-kortti siirtymällä SIM-kortin hallintaan. Valitse sitten mobiilidata- ja multimediaviestitoimintojen kanssa käytettävä SIM-kortti. Voit myös poistaa SIM-kortin käytöstä, jos et halua käyttää sitä."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Paina Wi-Fi-yhteyspisteesi WPS-painiketta %d minuutin kuluessa."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Avoin"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "WI-Fi-yhteyspistettä ei löydy."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Yhteys nykyiseen verkkoon katkaistaan."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Näytä salasana"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Päällä"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Pois"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Unohda verkko"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Älykäs verkon vaihto"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Signaalinvoimakkuus"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Väh. mobiilidatan käyttöä"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Priorisoi nopeus"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Verkkojen liitos"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Wi-Fi-verkon tiedot"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Valitse WPS-menetelmä"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Välityspalvelimen osoite"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Salasana"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Kirjoita salasana."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "WPS-painike"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Hae"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Etsi piilotettu verkko"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Käytett. olevat Wi-Fi-verkot."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Vain latauksen aikana"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Heikko"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Käyttäjävarmenne"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Määrittelemätön"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Tuntematon"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Voit ladata suuret tiedostot nopeammin käyttämällä Wi-Fi- ja matkapuhelinverkkoja yhdessä."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Aliverkon peite"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "Staattinen IP-osoite"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Lajitteluperuste"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Etsitään..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Vastaanota ilmoituksia, kun verkkoja on käytettävissä."
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Välityspalvelimen portti"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Nimi"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC-osoite"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP-osoite"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Käyttäjätiedot"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Yhdyskäytävän osoite"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Anna käyttäjätiedot."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "EAP-menetelmä"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Yhdistetään..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Yhdistä"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Tallennettu"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Havaittu Wi-Fi-verkko. Yhdistetään."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Lisäasetukset"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

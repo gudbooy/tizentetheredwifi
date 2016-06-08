@@ -1,0 +1,26 @@
+<manifest>
+	<define>
+		<domain name="net.wifi-qs"/>
+		    <request>
+			<smack request="pkgmgr::db" type="rwx"/>
+		    </request>
+	</define>
+	<assign>
+		<filesystem path="/usr/share/license/net.wifi-qs" label="_"/>
+		<filesystem path="/usr/share/packages/net.wifi-qs.xml" label="_"/>
+		<filesystem path="/usr/share/icons/noti_wifi_in_range.png" label="_"/>
+		<filesystem path="/usr/share/icons/noti_wifi_in_range_ongoing.png" label="_"/>
+		<filesystem path="/usr/share/locale/bn/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/en/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/hi/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/kn/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ml/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/si/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ta/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/te/LC_MESSAGES/wifi-qs.mo" label="_"/>
+		<filesystem path="/usr/share/locale/ur/LC_MESSAGES/wifi-qs.mo" label="_"/>
+	</assign>
+	<request>
+		<domain name="net.wifi-qs"/>
+	</request>
+</manifest>

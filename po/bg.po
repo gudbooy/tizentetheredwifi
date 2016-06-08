@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Няма"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Свързване към устройство"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Невалиден сертификат."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Бутон"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Винаги"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Удостоверяване с фаза 2"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Търсене"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Предишен"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Следващ"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Не показвай отново"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "По азбучен ред"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Само Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Проп."
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Предиш."
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Увеличава използването на данни."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Грешна парола."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Включването на Wi-Fi ще деактивира Wi-Fi привързване."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Управление на сертификати"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Двойно почукване"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Достъпни мрежи"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS е налична"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Открита е Wi-Fi мрежа. Свързване?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "За да видите достъпните мрежи, включете Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Защитено"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Получаване на IP адрес..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Следващ"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID мрежа"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Мрежово уведомяване"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Остави Wi-Fi включено по време на сън"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Добър"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Отлично"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Въведете PIN кода за %1$s на вашия Wi-Fi рутер. Изпълняването на настройката може да отнеме до %2$d минути."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Допълнителни"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "Невалиден PIN."
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Достигнат е максималният брой знаци %d."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Неуспешно получаване на IP адрес."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Свързано e към Wi-Fi мрежа %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Никога"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Изтег. на данни през Wi-Fi и 4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Изтег. на данни през Wi-Fi и 3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Забравяне"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Отмени"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Свързано"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "За автоматично превключване между Wi-Fi и мобилни мрежи за поддържане на стабилна интернет връзка."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Възникна грешка при удостоверяване"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Wi-Fi и мобилните мрежи ще се използват заедно за по-бързо изтегляне на файлове. Това може да увеличи вашето потребление на мобилни данни."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Превключване на умна мрежа е активирано. Тази функция помага да се запази стабилна интернет връзка, като превключва между мобилна и Wi-Fi мрежа. Това може да увеличи потреблението на мобилни данни."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "%s е избрано.\n\nАко не можете да се свържете към точка за достъп, сменете SIM картата, използвана за потвърждаване, като отидете в „Диспечер на SIM карти“. След това изберете SIM картата, която искате да използвате за Мобилни данни и за мултимедийни съобщения. Също така можете да демонтирате SIM картата, която не искате да използвате."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Натиснете WPS на Wi-Fi точката за достъп в рамките на %d минути."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Отваряне"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Не е намерена Wi-Fi AP."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Връзката с текущата мрежа ще бъде прекъсната."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Показване на паролата"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Включено"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Изключено"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Забравяне на мрежата"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Превключв. на умна мрежа"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Сила на сигнала"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Намал. използ. моб. данни"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Приоритет на скоростта"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Свързване на мрежа"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Информация за Wi-Fi мрежа"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Избор на WPS метод"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Адрес на прокси"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Парола"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Въвеждане на парола"
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "Бутон WPS"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Сканиране"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Намиране на скрита мрежа"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Има достъпни Wi-Fi мрежи."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Само докато се зарежда"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Слаб"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Сертификат потр."
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Неопределен"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Няма информация"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "За да изтегляте по-големи файлове по-бързо, използвайте Wi-Fi и мобилни мрежи за едно."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Подмрежова маска"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "Статичен IP"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Сортиране по"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Сканиране..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Получаване на известия, когато има достъпни мрежи"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Порт за прокси"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Име"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC адрес"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP адрес"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Самоличност"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Адрес на шлюз"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Въведете самоличност."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "Метод EAP"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Свързване..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Свързване"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Записан"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Открита е Wi-Fi връзка. Ще бъдете свързани."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Разширени настройки"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

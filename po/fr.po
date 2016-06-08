@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Aucun(e)"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Connexion à l'appareil"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Certificat non valide"
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Touche"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Toujours"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Authentification Phase 2"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Rechercher"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Précédent"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Suivant"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Ne plus afficher"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Alphabétique"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi uniqu."
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Ignorer"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Précédent"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Augmente l'utilisation des données."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Mot de passe incorrect"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "L'activation du Wi-Fi va désactiver le modem Wi-Fi."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Gérer les certificats"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Appuyer deux fois"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Réseaux disponibles"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS disponible"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Réseau Wi-Fi détecté. Se connecter ?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Pour voir les réseaux disponibles, activez le Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Sécurisé"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Obtention de l'adresse IP..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Suivant"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID du réseau"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Notification réseau"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Wi-Fi activé en mode veille"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Correct"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Excellent"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Entrez le code PIN %1$s sur votre routeur Wi-Fi. Le processus de configuration peut prendre jusqu'à %2$d minutes."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Paramètres avancés"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "Code PIN non valide"
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Le nombre maximum de caractères (%d) est atteint."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Impossible d'obtenir l'adresse IP."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Connecté au réseau Wi-Fi %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Jamais"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Téléch. données via Wi-Fi et 4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Téléch. données via Wi-Fi et 3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "PIN WPS"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Oublier"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Annuler"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Connecté"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Basculez automatiquement entre le Wi-Fi et les réseaux mobiles pour conserver une connexion Internet stable."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Une erreur d'authentification est survenue"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Les réseaux Wi-Fi et mobile seront utilisés en même temps pour télécharger les fichiers plus rapidement. Cela risque d'augmenter votre utilisation des données mobiles."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Réseau intelligent a été activé. Cette fonction permet de maintenir une connexion Internet stable en jonglant entre les réseaux mobiles et Wi-Fi. Ceci peut augmenter votre utilisation des données."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "%s est sélectionné.\n\nSi vous ne parvenez pas à vous connecter à un point d'accès, changez la carte SIM utilisée aux fins de la vérification en accédant au gestionnaire de carte SIM. Sélectionnez alors la carte SIM que vous souhaitez utiliser pour les données mobiles et les MMS. Vous pouvez aussi démonter la carte SIM que vous ne prévoyez pas d'utiliser."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Appuyez sur la touche WPS de votre point d'accès Wi-Fi sous %d minutes."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Ouvert"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Aucune application Wi-Fi trouvée."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Le réseau actuel sera déconnecté."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Afficher le mot de passe"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Activé"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Désactivé"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Oublier le réseau"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Bascul. réseau intellig."
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Force du signal"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Réduire util. donn. mob."
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Prioriser la vitesse"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Association de réseaux"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Infos sur le réseau Wi-Fi"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Sélectionner la méthode WPS"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Adresse du proxy"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Mot de passe"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Saisir le mot de passe."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "Touche WPS"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Rechercher"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Réseau sécurisé"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Réseaux Wi-Fi disponibles"
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Uniq. lors du chargement"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Faible"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Certif. utilisat."
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Non défini"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Inconnu"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Pour télécharger des fichiers volumineux plus rapidement, utilisez les réseaux mobile et Wi-Fi en même temps."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Masque de sous-réseau"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "IP statique"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Trier par"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Recherche..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Recevoir des notifications lorsque des réseaux sont disponibles"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Port du proxy"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Nom"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "Adresse MAC"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "Adresse IP"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Identité"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Adresse de passerelle"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Indiquer une identité."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "Méthode EAP"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Connexion..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Connexion"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Enregistré"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Un réseau Wi-Fi a été détecté. Vous allez être connecté."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Paramètres avancés"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "PIN WPS"
+

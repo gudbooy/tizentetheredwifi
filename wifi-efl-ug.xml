@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="wifi-efl-ug" version="1.0.0" install-location="internal-only">
+	<label>Wi-Fi</label>
+	<author email="hj0426.kim@samsung.com" href="www.samsung.com">Hyunjee Kim</author>
+	<author email="sanghooon80@samsung.com" href="www.samsung.com">Sanghoon Jo</author>
+	<author email="sunil85.kim@samsung.com" href="www.samsung.com">Sunil Kim</author>
+	<description>Wi-Fi</description>
+	<ui-application appid="wifi-efl-ug" exec="/usr/apps/wifi-efl-ug/bin/wifi-efl-UG" ui-gadget="true" nodisplay="true" taskmanage="false" multiple="false" type="capp">
+		<label>Wi-Fi</label>
+		<icon>/usr/apps/com.samsung.setting/res/icons/A01-1_icon_Wi-Fi.png</icon>
+		<application-service>
+		<operation name="http://tizen.org/appcontrol/operation/setting/wifi"/>
+		<operation name="http://samsung.com/appcontrol/operation/setting/wifi"/>
+		</application-service>
+	</ui-application>
+</manifest>

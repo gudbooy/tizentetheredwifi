@@ -1,0 +1,10 @@
+<manifest>
+	<request>
+		<domain name="_"/>
+	</request>
+	<assign>
+		<filesystem path="/usr/share/packages/wifi-efl-ug.xml" label="_"/>
+		<filesystem path="/usr/apps/wifi-efl-ug/shared/res/tables/ug-wifi-efl_ChangeableColorTable.xml" label="_"/>
+		<filesystem path="/usr/apps/wifi-efl-ug/shared/res/tables/ug-wifi-efl_FontInfoTable.xml" label="_"/>
+	</assign>
+</manifest>

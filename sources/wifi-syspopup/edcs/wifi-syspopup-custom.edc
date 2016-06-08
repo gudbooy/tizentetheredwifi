@@ -1,0 +1,60 @@
+#define DEVPKR_EMPTY_H 100
+#define DEVPKR_EMPTY_W 400
+
+collections {
+	base_scale: 1.8;
+	group {
+		name: "devpkr_no_wifi_networks";
+		styles {
+		style {
+			name: "custom_text_style";
+			base: "font=Tizen:style=Medium font_size=30 align=left color=#000000 wrap=mixed text_class=tizen";
+			tag:  "br" "\n";
+			tag:  "tab" "\t";
+			}
+		}
+		parts {
+			part {
+				name:"bg";
+				type: RECT;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: DEVPKR_EMPTY_W DEVPKR_EMPTY_H;
+					max: DEVPKR_EMPTY_W DEVPKR_EMPTY_H;
+					fixed: 1 1;
+					align: 0.0 1.0;
+					visible: 0;
+					rel1.relative: 0.0 0.0;
+					rel2.relative: 1.0 1.0;
+				}
+			}
+			part {
+				name:"text";
+				type: TEXTBLOCK;
+				scale: 1;
+				description {
+					state: "default" 0.0;
+					min: DEVPKR_EMPTY_W DEVPKR_EMPTY_H;
+					align: 0.0 1.0;
+					fixed: 1 1;
+					rel1 {
+						relative: 0.0 0.0;
+						to: "bg";
+						offset: 10 0;
+					}
+					rel2 {
+						relative: 1.0 1.0;
+						to: "bg";
+					}
+					color: 255 255 255 255;
+					text {
+						style: "custom_text_style";
+						min: 0 1;
+						max: 0 1;
+					}
+				}
+			}
+		}
+	}
+}

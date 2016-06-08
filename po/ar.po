@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "لا شيء"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "توصيل الجهاز"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "شهادة غير صالحة."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "الزر"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "دائما"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "مصادقة المرحلة الثانية"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "بحث"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "السابق"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "التالي"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "عدم العرض مرة أخرى"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "أبجدي"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi فقط"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "تخطي"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "السابق"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "يزيد من استخدام البيانات."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "كلمة المرور خاطئة."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "سيؤدي تشغيل شبكة Wi-Fi إلى إلغاء تفعيل الربط باستخدام Wi-Fi."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "إدارة الشهادات"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "نقرة مزدوجة"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "الشبكات المتوفرة"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS متوفر"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "تم اكتشاف شبكة Wi-Fi. هل تريد الاتصال؟"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "لعرض الشبكات المتاحة، قم بتشغيل Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "آمن"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "جار الحصول على عنوان IP..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "التالي"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "شبكة SSID"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "إخطارات الشبكة"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "الاحتفاظ بتشغيل Wi-Fi أثناء وضع السكون"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "جيدة"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "ممتاز"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "أدخل رمز PIN الخاص بـ %1$s بموجه Wi-Fi. قد يستغرق الإعداد %2$d دقائق حتى يكتمل."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "متقدم"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "رمز PIN غير صالح."
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "تم الوصول إلى الحد الأقصى من عدد الأحرف %d"
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "فشل الحصول على عنوان IP."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "تم الاتصال بشبكة Wi-Fi التي تحمل الاسم %s"
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "أبدًا"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "تنزيل البيانات عبر شبكة Wi-Fi و4G"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "تنزيل البيانات عبر شبكة Wi-Fi و3G"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "تجاهل"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "موافق"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "تم الاتصال"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "التبديل تلقائيا بين شبكات Wi-Fi والهاتف المحمول للحفاظ على اتصال إنترنت ثابت."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "حدث خطأ في المصادقة"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "سيتم استخدام شبكة Wi-Fi وشبكات الهاتف المحمول معًا لتنزيل الملفات بشكل أسرع. قد يزيد ذلك استخدام بيانات هاتفك المحمول."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "تم تفعيل تبديل الشبكة الذكي. تساعد هذه الوظيفة على المحافظة على اتصال إنترنت ثابت عبر التبديل بين شبكات جهاز المحمول وWi-Fi. قد يزيد هذا من استخدام البيانات."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "تم تحديد %s.‏\n\nإذا تعذر عليك الاتصال بنقطة الوصول، فغيّر بطاقة SIM المستخدمة للتحقق عبر الانتقال إلى إدارة بطاقة SIM. ثم حدد بطاقة SIM التي تريد استخدامها لبيانات الهاتف المحمول ورسائل الوسائط المتعددة. بدلاً من ذلك، يمكنك إلغاء تحميل بطاقة SIM التي لا تريد استخدامها."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "اضغط WPS في نقطة وصول Wi-Fi خلال %d دقيقة."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "مفتوح"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "لا يتوفر Wi-Fi."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "سيتم قطع اتصال الشبكة الحالية."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "عرض كلمة المرور"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "مفعل"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "غير مفعل"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "نسيان الشبكة"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "تبديل الشبكة الذكي"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "قوة الإشارة"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "تخفيض استخدام بيانات الهاتف المحمول"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "جعل السرعة أولوية"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "ربط الشبكات"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "معلومات حول شبكة Wi-Fi"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "تحديد طريقة WPS"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "عنوان التفويض"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "كلمة المرور"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "أدخل كلمة المرور."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "زر WPS"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "بحث"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "العثور على الشبكة المخفية"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "شبكات Wi-Fi متاحة."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "مباشر Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "أثناء الشحن فقط"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "ضعيفة"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "شهادة المستخدم"
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "غير محدد"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "غير معروف"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "لتنزيل ملفات أكبر حجمًا بشكل أسرع، استخدم شبكة Wi-Fi وشبكات الهواتف المحمولة معاً ."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "قناع الشبكة الفرعية"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "ثابت IP"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "فرز بواسطة"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "جاري البحث..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "استلام إشعارات عند توفّر الشبكات"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "منفذ الوكيل"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "الاسم"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "عنوان MAC"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "عنوان IP"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "الهوية"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "عنوان البوابة"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "أدخل الهوية."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "أسلوب EAP"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "جار التوصيل..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "توصيل"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "تم الحفظ."
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "تم اكتشاف شبكة Wi-Fi. سيتم الاتصال."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "ضبط متقدم"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

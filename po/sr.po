@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Nema"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Poveži se sa uređajem"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Neispravan certifikat."
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Taster"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Uvek"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "Autentikacija faze 2"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Nađi"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Prethodno"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Naredno"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Ne prikazuj ponovo"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Abecedno"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Samo Wi-Fi"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Preskoči"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Prethodna"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Povećava korišćenje podataka."
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Pogrešna šifra."
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Uključivanje Wi-Fi veze će onemogućiti Wi-Fi vezivanje."
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Upravljaj sertifikatima"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Dvostruko kucanje"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Dostupne mreže"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS je dostupan"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Otkrivena je Wi-Fi mreža. Poveži se?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Da bi video/la dostupne mreže, uključi Wi-Fi."
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Obezbeđeno"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "Pribavljanje IP adrese..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Naredna"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "SSID mreže"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Obaveštenja o mrežama"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Ostavi Wi-Fi uključen u režimu spavanja"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Dobar"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Odlično"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Unesi %1$s PIN na Wi-Fi ruteru. Podešavanje može da traje i do %2$d minuta."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Napredno"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "Neispravan PIN"
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "Dostignut je maksimalan broj od %d karaktera."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Neuspešno dobijanje IP adrese."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "Povezan na Wi-Fi mrežu %s."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Nikad"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Pr. pod. put. Wi-Fi i 4G mreže"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Pr. pod. put. Wi-Fi i 3G mreže"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PIN"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Zaboravi"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Otkaži"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "OK"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Veza je uspostavljena"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Automatski prelazi sa Wi-Fi mreže na mobilne mreže radi održavanja stabilne Internet veze."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Došlo je do greške u autentikaciji"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Wi-Fi i mobilne mreže će se istovremeno koristiti radi bržeg preuzimanja fajlova. Ovo može da poveća upotrebu podataka mobilnog telefona."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Pametna promena mreže je omogućena. Ova funkcija pomaže održavanje stabilne Internet veze prelaskom sa mobilne mreže na Wi-Fi mrežu. To može da poveća upotrebu podataka."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "%s kartica je izabrana.\n\nAko ne možeš da uspostaviš vezu sa pristupnom tačkom, promeni SIM karticu koju koristiš za potvrdu tako što ćeš otići na Menadžer SIM kartice. Zatim izaberi SIM karticu koju želiš da koristiš za Mobilne podatke i multimedijalne poruke. Alternativno, možeš da isključiš SIM karticu koju ne želiš da koristiš."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Pritisni WPS dugme na Wi-Fi pristupnoj tački u roku od %d minuta."
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Otvorena"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Nema Wi-Fi pristupne tačke."
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Trenutna mreža će biti isključena."
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Prikaži lozinku"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Uključeno"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Isključeno"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Zaboravi mrežu"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Pametna promena mreže"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Jačina signala"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Smanji up. pod. mob. tel."
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Daj prioritet brzini"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Osiguravanje mreže"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Informacije o Wi-Fi mreži"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Izaberi WPS metodu"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Adresa proksija"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Lozinka"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Unesi šifru."
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "WPS dugme"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Skeniraj"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Nađi skrivenu mrežu"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Dostupne su Wi-Fi mreže."
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Samo tokom punjenja"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Slabo"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Korisnički sert."
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Neodređeno"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Nepoznato"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Radi bržeg preuzimanja većih fajlova, istovremeno koristi Wi-Fi i mobilne mreže."
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Maska podmreže"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "Statička IP adresa"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Sortiraj po"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Skeniranje..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Primi obaveštenja o dostupnosti mreža"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Port proksija"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Ime"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC adresa"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP adresa"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Identitet"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Adresa mrežnog prolaza"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Unesi identitet."
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "EAP način"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Povezivanje..."
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Poveži se"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Sačuvano"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Detektovana je Wi-Fi mreža. Bićeš povezan/a."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Napredna podešavanja"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PIN"
+

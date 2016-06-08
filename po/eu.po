@@ -1,0 +1,312 @@
+msgid "IDS_ST_BODY_NONE"
+msgstr "Bat ere ez"
+
+msgid "IDS_BT_BODY_CONNECT_TO_DEVICE"
+msgstr "Konektatu gailura"
+
+msgid "IDS_BR_POP_INVALID_CERTIFICATE"
+msgstr "Baliogabeko ziurtagiria"
+
+msgid "IDS_BR_BODY_BUTTON_T_TTS"
+msgstr "Botoia"
+
+msgid "IDS_CLD_OPT_ALWAYS_ABB"
+msgstr "Beti"
+
+msgid "IDS_COM_BODY_PHASE_2_AUTHENTICATION"
+msgstr "2. fasearen egiaztapena"
+
+msgid "IDS_COM_BODY_FIND"
+msgstr "Aurkitu"
+
+msgid "IDS_STU_BUTTON_PREVIOUS"
+msgstr "Aurrekoa"
+
+msgid "IDS_STU_BUTTON_NEXT"
+msgstr "Hurrengoa"
+
+msgid "IDS_MOBILEAP_POP_DO_NOT_SHOW_AGAIN"
+msgstr "Ez erakutsi berriro"
+
+msgid "IDS_EMAIL_POP_ALPHABETICAL"
+msgstr "Alfabetikoki"
+
+msgid "IDS_MH_BODY_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi bakarrik"
+
+msgid "IDS_CAST_SK4_SKIP"
+msgstr "Saltatu"
+
+msgid "IDS_ST_SK_PREVIOUS"
+msgstr "Aurrekoa"
+
+msgid "IDS_ST_SBODY_INCREASES_DATA_USAGE_ABB"
+msgstr "Datu erabilera handitzen du"
+
+msgid "IDS_ST_POP_WRONG_PASSWORD"
+msgstr "Pasahitz okerra"
+
+msgid "IDS_ST_POP_TURNING_ON_WI_FI_WILL_DISABLE_WI_FI_TETHERING"
+msgstr "Wi-Fi piztuz gero Wi-Fi ainguraketa ezgaituko du"
+
+msgid "IDS_ST_MBODY_MANAGE_CERTIFICATES"
+msgstr "Kudeatu ziurtagiriak"
+
+msgid "IDS_ST_HEADER_DOUBLE_TAP"
+msgstr "Ukitu bi aldiz"
+
+msgid "IDS_ST_HEADER_AVAILABLE_NETWORKS"
+msgstr "Sare eskuragarriak"
+
+msgid "IDS_ST_BODY_WPS_AVAILABLE"
+msgstr "WPS eskuragarri"
+
+msgid "IDS_ST_BODY_WI_FI_NETWORK_DETECTED_CONNECT_Q"
+msgstr "Wi-Fi sareak aurkitu dira. Konektatu nahi duzu?"
+
+msgid "IDS_ST_BODY_TO_SEE_AVAILABLE_NETWORKS_TURN_ON_WI_FI_ABB"
+msgstr "Sare erabilg. ikusteko, piztu Wi-Fia"
+
+msgid "IDS_ST_BODY_SECURED_ABB_M_WIFI_AP_SUMMARY"
+msgstr "Babestua"
+
+msgid "IDS_ST_BODY_OBTAINING_IP_ADDRESS_ING"
+msgstr "IP helbidea lortzen..."
+
+msgid "IDS_ST_BODY_NEXT"
+msgstr "Hurrengoa"
+
+msgid "IDS_ST_BODY_NETWORK_SSID"
+msgstr "Sarearen SSID"
+
+msgid "IDS_ST_BODY_NETWORK_NOTIFICATION"
+msgstr "Sarearen jakinarazpena"
+
+msgid "IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP"
+msgstr "Utzi Wi-Fia piztuta gauean"
+
+msgid "IDS_ST_BODY_GOOD_M_BATTERY"
+msgstr "Ona"
+
+msgid "IDS_ST_BODY_EXCELLENT"
+msgstr "Bikain"
+
+msgid "IDS_ST_BODY_ENTER_THE_P1SS_PIN_ON_YOUR_WI_FI_ROUTER_THE_SETUP_CAN_TAKE_UP_TO_P2SD_MINUTES_TO_COMPLETE"
+msgstr "Sartu %1$s PINa Wi-Fi bideratzailean. %2$d minutu eman ditzake ezarpenak."
+
+msgid "IDS_ST_BODY_ADVANCED"
+msgstr "Aurreratua"
+
+msgid "IDS_GC_POP_INVALID_PIN"
+msgstr "PIN baliogabea"
+
+msgid "IDS_WIFI_TPOP_MAXIMUM_NUMBER_OF_CHARACTERS_PD_REACHED"
+msgstr "%d gehienezko karaktere kopurura iritsi zara."
+
+msgid "IDS_WIFI_TPOP_FAILED_TO_OBTAIN_IP_ADDRESS"
+msgstr "Ezin izan da IP helbidea lortu."
+
+msgid "IDS_WIFI_TPOP_CONNECTED_TO_WI_FI_NETWORK_PS"
+msgstr "%s Wi-Fi sarera konektatu da."
+
+msgid "IDS_WIFI_TMBODY_NEVER_M_ALWAYS_OFF"
+msgstr "Inoiz ez"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_4G"
+msgstr "Deskar. datuak Wi-Fi eta 4G bidez"
+
+msgid "IDS_WIFI_TMBODY_DOWNLOAD_DATA_VIA_WI_FI_AND_3G"
+msgstr "Deskar. datuak Wi-Fi eta 3G bidez"
+
+msgid "IDS_WIFI_SK_WPS_PIN"
+msgstr "WPS PINa"
+
+msgid "IDS_WIFI_SK_FORGET"
+msgstr "Ahaztu"
+
+msgid "IDS_WIFI_SK_CANCEL"
+msgstr "Ezeztatu"
+
+msgid "IDS_WIFI_SK2_OK"
+msgstr "Onartu"
+
+msgid "IDS_WIFI_SBODY_CONNECTED_M_STATUS"
+msgstr "Konektatuta"
+
+msgid "IDS_WIFI_SBODY_AUTOMATICALLY_SWITCH_BETWEEN_WI_FI_AND_MOBILE_NETWORKS_TO_MAINTAIN_A_STABLE_INTERNET_CONNECTION"
+msgstr "Automatikoki aldatu Wi-Fi eta sare mugikorren artean, Internet konexio egonkorra mantentzeko."
+
+msgid "IDS_WIFI_SBODY_AUTHENTICATION_ERROR_OCCURRED_M_STATUS"
+msgstr "Autentifikazio errorea gertatu da"
+
+msgid "IDS_WIFI_POP_WI_FI_AND_MOBILE_NETWORKS_WILL_BE_USED_TOGETHER_TO_DOWNLOAD_FILES_FASTER_MSG"
+msgstr "Wi-Fi eta sare mugikorrak elkarrekin erabiliko dira fitxategiak azkarrago deskargatzeko. Baliteke horrek datu mugikorren erabilera handitzea."
+
+msgid "IDS_WIFI_POP_SMART_NETWORK_SWITCH_HAS_BEEN_ENABLED_MSG"
+msgstr "Sare adimendunaren tekla gaitu da. Funtzio horrek Internet konexio egonkorrari eusten laguntzen du, sare mugikorren eta Wi-Fi sareen artean aldatuz. Baliteke datu erabilera handitzea."
+
+msgid "IDS_WIFI_POP_PS_IS_SELECTED_N_NIF_YOU_ARE_UNABLE_TO_CONNECT_TO_AN_AP_CHANGE_THE_SIM_CARD_USED_FOR_VERIFICATION_BY_GOING_TO_SIM_CARD_MANAGER_MSG"
+msgstr "%s hautatu da.\n\nEzin baduzu SP batera konektatu, aldatu egiaztapenean erabilitako SIM txartela, SIM txartelaren kudeatzailean. Ondoren hautatu Datu mugikorretarako eta multimedia mezuetarako erabili nahi duzun SIM txartela. Bestela, erabili nahi ez duzun SIM txartela atera dezakezu."
+
+msgid "IDS_WIFI_POP_PRESS_WPS_ON_YOUR_WI_FI_ACCESS_POINT_WITHIN_PD_MINUTES"
+msgstr "Sakatu WPS Wi-Fi sargunean %d minutu igaro baino lehen"
+
+msgid "IDS_WIFI_POP_OPEN"
+msgstr "Ireki"
+
+msgid "IDS_WIFI_POP_NO_WI_FI_AP_FOUND"
+msgstr "Ez da Wi-Fi APrik aurkitu"
+
+msgid "IDS_WIFI_POP_CURRENT_NETWORK_WILL_BE_DISCONNECTED"
+msgstr "Sare hau deskonektatuko da"
+
+msgid "IDS_WIFI_OPT_WPS"
+msgstr "WPS"
+
+msgid "IDS_WIFI_OPT_SHOW_PASSWORD"
+msgstr "Erakutsi pasahitza"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_ON"
+msgstr "Aktibatuta"
+
+msgid "IDS_WIFI_OPT_MOBILEACCESSSERVICEATCIVATION_OFF"
+msgstr "Desaktibatuta"
+
+msgid "IDS_WIFI_OPT_FORGET_NETWORK"
+msgstr "Ahaztu sarea"
+
+msgid "IDS_WIFI_MBODY_SMART_NETWORK_SWITCH"
+msgstr "Sare adimendunaren tekla"
+
+msgid "IDS_WIFI_MBODY_SIGNAL_STRENGTH_KOR_SKT"
+msgstr "Seinale indarra"
+
+msgid "IDS_WIFI_MBODY_REDUCE_MOBILE_DATA_USAGE"
+msgstr "Txikitu d. mug. erabilera"
+
+msgid "IDS_WIFI_MBODY_PRIORITISE_SPEED"
+msgstr "Lehenetsi abiadura"
+
+msgid "IDS_WIFI_MBODY_NETWORK_BONDING"
+msgstr "Sare lotzea"
+
+msgid "IDS_WIFI_HEADER_WI_FI_NETWORK_INFO_ABB"
+msgstr "Wi-Fi sarearen informazioa"
+
+msgid "IDS_WIFI_HEADER_SELECT_WPS_METHOD_ABB"
+msgstr "Hautatu WPS metodoa"
+
+msgid "IDS_WIFI_HEADER_PROXY_ADDRESS"
+msgstr "Proxy helbidea"
+
+msgid "IDS_WIFI_HEADER_PASSWORD"
+msgstr "Pasahitza"
+
+msgid "IDS_WIFI_HEADER_ENTER_PASSWORD"
+msgstr "Pasahitza idatzi"
+
+msgid "IDS_WIFI_BUTTON_WPS_BUTTON"
+msgstr "WPS botoia"
+
+msgid "IDS_WIFI_BUTTON_SCAN"
+msgstr "Eskaneatzea"
+
+msgid "IDS_WIFI_BUTTON_FIND_HIDDEN_NETWORK"
+msgstr "Aurkitu ezkutuko sarea"
+
+msgid "IDS_WIFI_BODY_WI_FI_NETWORKS_AVAILABLE_ABB"
+msgstr "Wi-Fi sare erabilgarriak"
+
+msgid "IDS_WIFI_BODY_WI_FI_DIRECT_ABB"
+msgstr "Wi-Fi Direct"
+
+msgid "IDS_WIFI_BODY_WI_FI"
+msgstr "Wi-Fi"
+
+msgid "IDS_WIFI_BODY_WHILE_CHARGING_ONLY_ABB"
+msgstr "Kargatzean soilik"
+
+msgid "IDS_WIFI_BODY_WEAK_M_STRENGTH"
+msgstr "Ahula"
+
+msgid "IDS_WIFI_BODY_USER_CERTIFICATE_ABB"
+msgstr "Erabiltzailearen ziurtag."
+
+msgid "IDS_WIFI_BODY_UNSPECIFIED"
+msgstr "Zehaztu gabe"
+
+msgid "IDS_WIFI_BODY_UNKNOWN"
+msgstr "Ezezaguna"
+
+msgid "IDS_WIFI_BODY_TO_DOWNLOAD_LARGE_FILES_FASTER_USE_WI_FI_AND_MOBILE_NETWORKS_TOGETHER_T_HELP"
+msgstr "Fitxategi handiak azkarrago deskargatzeko, erabili Wi-Fi eta sare mugikorrak aldi berean"
+
+msgid "IDS_WIFI_BODY_SUBNET_MASK"
+msgstr "Azpi-sareko maskara"
+
+msgid "IDS_WIFI_BODY_STATIC_IP"
+msgstr "IP estatikoa"
+
+msgid "IDS_WIFI_BODY_SSID"
+msgstr "SSID"
+
+msgid "IDS_WIFI_BODY_SORT_BY"
+msgstr "Antolatu honen bidez"
+
+msgid "IDS_WIFI_BODY_SCANNING_ING"
+msgstr "Eskaneatzen..."
+
+msgid "IDS_WIFI_BODY_RECEIVE_NOTIFICATIONS_WHEN_NETWORKS_ARE_AVAILABLE"
+msgstr "Jaso jakinarazpenak sareak erabilgarri daudenean"
+
+msgid "IDS_WIFI_BODY_PROXY_PORT"
+msgstr "Proxy ataka"
+
+msgid "IDS_WIFI_BODY_NAME"
+msgstr "Izena"
+
+msgid "IDS_WIFI_BODY_MAC_ADDRESS"
+msgstr "MAC helbidea"
+
+msgid "IDS_WIFI_BODY_IP_ADDRESS"
+msgstr "IP helbidea"
+
+msgid "IDS_WIFI_BODY_IDENTITY"
+msgstr "Identitatea"
+
+msgid "IDS_WIFI_BODY_GATEWAY_ADDRESS"
+msgstr "Atebidearen helbidea"
+
+msgid "IDS_WIFI_BODY_ENTER_IDENTITY"
+msgstr "Sartu identitatea"
+
+msgid "IDS_WIFI_BODY_EAP_METHOD"
+msgstr "EAP metodoa"
+
+msgid "IDS_WIFI_BODY_EAP"
+msgstr "EAP"
+
+msgid "IDS_WIFI_BODY_DNS_2"
+msgstr "DNS 2"
+
+msgid "IDS_WIFI_BODY_DNS_1"
+msgstr "DNS 1"
+
+msgid "IDS_WIFI_BODY_CONNECTING_ING"
+msgstr "Konektatzen"
+
+msgid "IDS_WIFI_BODY_CONNECT"
+msgstr "Konektatu"
+
+msgid "IDS_WIFI_BODY_CONFIGURATION_SAVED_M_STATUS"
+msgstr "Gordeta"
+
+msgid "IDS_WIFI_BODY_A_WI_FI_NETWORK_HAS_BEEN_DETECTED_YOU_WILL_BE_CONNECTED"
+msgstr "Wi-Fi sarea hauteman da. Konektatu egingo zara."
+
+msgid "IDS_WIFI_BODY_ADVANCED_SETTINGS"
+msgstr "Ezarpen aurreratuak"
+
+msgid "IDS_WIFI_BODY_WPS_PIN"
+msgstr "WPS PINa"
+
