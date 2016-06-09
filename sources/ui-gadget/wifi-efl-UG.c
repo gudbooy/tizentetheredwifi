@@ -20,7 +20,7 @@
 #ifndef UG_MODULE_API
 #define UG_MODULE_API __attribute__ ((visibility("default")))
 #endif
-
+#include <Elementary.h>
 #include <vconf-keys.h>
 //#include <setting-cfg.h>
 #include "ug_wifi.h"
@@ -33,10 +33,15 @@
 #include "view_ime_hidden.h"
 #include "view_advanced.h"
 #include "wifi-engine-callback.h"
+//MINI
+#include "bt_tethered_service.h"
+
+static char* start_address = "BC:79:AD:F7:3D:BA"; 
 
 static int wifi_exit_end = FALSE;
 static bool is_scan_reqd = false;
 wifi_appdata *ug_app_state = NULL;
+Ecore_Thread* bt_thread = NULL;
 
 UG_MODULE_API int UG_MODULE_INIT(struct ug_module_ops *ops);
 UG_MODULE_API void UG_MODULE_EXIT(struct ug_module_ops *ops);
@@ -144,6 +149,7 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode,
 			} else if (strcmp(caller, "notification") == 0){
 				/* Remove the "WiFi networks found" from the notification tray.*/
 				common_util_managed_idle_add(__wifi_efl_ug_del_found_ap_noti, NULL);
+				
 				ug_app_state->ug_type = UG_VIEW_DEFAULT;
 			} else {
 				ug_app_state->ug_type = UG_VIEW_DEFAULT;
@@ -173,7 +179,7 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode,
 
 	common_util_set_system_registry(VCONFKEY_WIFI_UG_RUN_STATE,
 			VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND);
-
+	
 	Evas_Object *layout_main = viewer_manager_create(parent_layout, ugd->win_main);
 	if (layout_main == NULL) {
 		INFO_LOG(UG_NAME_ERR, "Failed to create viewer_manager");
@@ -181,7 +187,6 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode,
 		__COMMON_FUNC_EXIT__;
 		return NULL;
 	}
-
 	/* Enablee Changeable UI feature */
 	ea_theme_object_changeable_ui_enabled_set(layout_main, EINA_TRUE);
 
@@ -199,12 +204,15 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode,
 	ugd->base = layout_main;
 	ug_app_state->layout_main = layout_main;
 	ug_app_state->bAlive = EINA_TRUE;
+//MINI
 
 	wlan_manager_create();
 	wlan_manager_set_message_callback(wlan_engine_callback);
 	wlan_manager_set_refresh_callback(wlan_engine_refresh_callback);
 	common_util_subscribe_scanning_signal(_bg_scan_status_callback);
-
+	
+//	start_bt_service(start_address);
+	
 	switch (wlan_manager_start()) {
 	case WLAN_MANAGER_ERR_NONE:
 		break;
@@ -216,7 +224,7 @@ static void *on_create(ui_gadget_h ug, enum ug_mode mode,
 		ERROR_LOG(UG_NAME_NORMAL, "Cannot start wlan_manager");
 
 		__COMMON_FUNC_EXIT__;
-		return ugd->base;
+	return ugd->base;
 	}
 
 	state = wlan_manager_state_get();

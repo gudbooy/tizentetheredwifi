@@ -90,69 +90,6 @@ void rkf_log(int type , int priority , const char *tag , const char *fmt , ...);
 #endif
 
 
-#if defined(_DEBUG)
-#  define warn_if(expr, fmt, arg...) do { \
-		if(expr) { \
-			DBG("(%s) -> "fmt, #expr, ##arg); \
-		} \
-	} while (0)
-#  define ret_if(expr) do { \
-		if(expr) { \
-			DBG("(%s) -> %s() return", #expr, __FUNCTION__); \
-			return; \
-		} \
-	} while (0)
-#  define retv_if(expr, val) do { \
-		if(expr) { \
-			DBG("(%s) -> %s() return", #expr, __FUNCTION__); \
-			return (val); \
-		} \
-	} while (0)
-#  define retm_if(expr, fmt, arg...) do { \
-		if(expr) { \
-			ERR(fmt, ##arg); \
-			DBG("(%s) -> %s() return", #expr, __FUNCTION__); \
-			return; \
-		} \
-	} while (0)
-#  define retvm_if(expr, val, fmt, arg...) do { \
-		if(expr) { \
-			ERR(fmt, ##arg); \
-			DBG("(%s) -> %s() return", #expr, __FUNCTION__); \
-			return (val); \
-		} \
-	} while (0)
-
-#else
-#  define warn_if(expr, fmt, arg...) do { \
-		if(expr) { \
-			ERR(fmt, ##arg); \
-		} \
-	} while (0)
-#  define ret_if(expr) do { \
-		if(expr) { \
-			return; \
-		} \
-	} while (0)
-#  define retv_if(expr, val) do { \
-		if(expr) { \
-			return (val); \
-		} \
-	} while (0)
-#  define retm_if(expr, fmt, arg...) do { \
-		if(expr) { \
-			ERR(fmt, ##arg); \
-			return; \
-		} \
-	} while (0)
-#  define retvm_if(expr, val, fmt, arg...) do { \
-		if(expr) { \
-			ERR(fmt, ##arg); \
-			return (val); \
-		} \
-	} while (0)
-
-#endif
 
 
 #ifdef __cplusplus

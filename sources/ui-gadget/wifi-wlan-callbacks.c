@@ -33,7 +33,7 @@ extern wifi_appdata *ug_app_state;
 void wlan_engine_callback(wlan_mgr_event_info_t *event_info, void *user_data)
 {
 	__COMMON_FUNC_ENTER__;
-
+	MIN_LOG("WLAN_ENGINE_CALLBACK!!!!!!");
 	if (event_info == NULL) {
 		__COMMON_FUNC_EXIT__;
 		return;
@@ -52,9 +52,9 @@ void wlan_engine_callback(wlan_mgr_event_info_t *event_info, void *user_data)
 	INFO_LOG(UG_NAME_NORMAL, "header state [%d]", header_state);
 	INFO_LOG(UG_NAME_NORMAL, "event type [%d]", event_info->event_type);
 	INFO_LOG(UG_NAME_NORMAL, "ap [0x%x]", event_info->ap);
-
+		
 	if (event_info->ap) {	/* Is it a response with AP handle? */
-
+		MIN_LOG("EVENT_INFO->AP");
 		/* All responses with profile names should have an associated genlist item
 		 * Verify if the genlist item exists and associated genlist item data exists
 		 */
@@ -66,6 +66,7 @@ void wlan_engine_callback(wlan_mgr_event_info_t *event_info, void *user_data)
 			 * This condition can come when an AP action(Example connect)
 			 * is triggered and by the time the response came the genlist is cleared.
 			 */
+			MIN_LOG("TARGET_ITEM NOT FOUND");
 			ERROR_LOG(UG_NAME_RESP,"Error!!! Target item[0x%x] is NULL OR item data[0x%x] is NULL", target_item, gdata);
 			if (event_info->event_type == WLAN_MANAGER_RESPONSE_TYPE_CONNECTING ||
 				event_info->event_type == WLAN_MANAGER_RESPONSE_TYPE_CONFIGURATION ||
@@ -74,7 +75,7 @@ void wlan_engine_callback(wlan_mgr_event_info_t *event_info, void *user_data)
 				* Anyways its always better to add the connecting/connected AP */
 				
 				wifi_device = view_list_item_device_info_create(event_info->ap);
-				
+				MINI_LOG("wifi_device->ssid : %s !!!!", wifi_device->ssid);	
 				if(g_strcmp0(wifi_device_bt->ssid, wifi_device->ssid) == 0)
 				{
 					wifi_device->is_bt_tethered_device = true;

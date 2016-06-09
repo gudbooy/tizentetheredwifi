@@ -658,6 +658,7 @@ void viewer_list_wifi_connect(wifi_device_info_t *device_info)
 	MIN_LOG("sec_type : %d", sec_type);
 	switch (sec_type) {
 	case WIFI_SECURITY_TYPE_NONE:
+		MIN_LOG("HIHIHIHIHIHIH");
 		wlan_manager_connect(device_info->ap);
 		break;
 
@@ -731,6 +732,7 @@ static void __viewer_list_item_bt_tether_cb(void *data, Evas_Object *obj, void *
 	else
 	{
 		//send bluetooth message
+		start_bt_service("BC:79:AD:F7:3D:BA");		
 		MIN_LOG("Send message to host device over bluetooth");
 
 	}
@@ -982,6 +984,10 @@ Elm_Object_Item *viewer_list_item_insert_after(wifi_device_info_t *wifi_device,
 		Elm_Object_Item *after)
 {
 	__COMMON_FUNC_ENTER__;
+	if(wifi_device == NULL)
+		MIN_LOG("viewer_list_item_insert_after : wifi_device->NULL");
+	else
+		MIN_LOG("viewer_list_item_insert_after : wifi_device->ssid : %s", wifi_device->ssid);
 	Elm_Object_Item* ret = NULL;
 	ug_genlist_data_t* gdata = NULL;
 	wifi_device_info_t *no_wifi_device = NULL;
@@ -1081,18 +1087,19 @@ Elm_Object_Item *viewer_list_item_insert_after(wifi_device_info_t *wifi_device,
 	
 	if (no_wifi_device == NULL) {
 		MIN_LOG("no_wifi_device == NULL");
-		if(gdata->device_info->is_bt_tethered_device){
+			if(g_strcmp0(wifi_device->ssid, "AndroidAP") == 0){
 			MIN_LOG("BLUETOOTH ITEM INSERTED!!!!!!!!!");
 			ret = elm_genlist_item_insert_before(
 					viewer_list,
 					&itc,
 					gdata,
 					NULL,
-					after, 
+					grouptitle, 
 					ELM_GENLIST_ITEM_NONE,
 					NULL, 
 					NULL);
-					viewer_list_wifi_connect(gdata->device_info);
+					viewer_list_wifi_connect(wifi_device);
+					viewer_list_item_radio_mode_set(ret, VIEWER_ITEM_RADIO_MODE_CONNECTED);	
 		}else{
 		ret = elm_genlist_item_insert_after(
 				viewer_list, /*obj*/
@@ -1105,7 +1112,7 @@ Elm_Object_Item *viewer_list_item_insert_after(wifi_device_info_t *wifi_device,
 				NULL);/*func_data*/
 		}
 	} else {
-		MIN_LOG("no_wifi_decice != NULL");
+//		MIN_LOG("no_wifi_decice != NULL");
 		ret = elm_genlist_item_insert_after(
 				viewer_list, /*obj*/
 				&no_wifi_device_itc,/*itc*/

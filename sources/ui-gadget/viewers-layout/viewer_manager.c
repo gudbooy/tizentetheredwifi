@@ -1665,7 +1665,7 @@ Eina_Bool viewer_manager_refresh(void)
 {
 	int state;
 	int header_state;
-
+	MIN_LOG("VIEWER_MANAGER_REFRESH");
 	INFO_LOG(UG_NAME_SCAN, "viewer manager refresh");
 
 	if (manager_object == NULL)
@@ -1699,7 +1699,10 @@ Eina_Bool viewer_manager_refresh(void)
 	}
 
 	wifi_ap_h ap = wlan_manager_get_ap_with_state(state);
+
+//	MIN_LOG("wlan_manager_get_ap_with_state(%d) : %s ", state, ap->ssid);
 	viewer_manager_update_list_all(NULL);
+
 	if (ug_app_state->ug_type == UG_VIEW_SETUP_WIZARD) {
 		__viewer_manager_hidden_button_create(manager_object->list);
 		__viewer_manager_setup_wizard_scan_btn_create(

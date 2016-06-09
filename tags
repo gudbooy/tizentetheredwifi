@@ -19,7 +19,7 @@ DBG	sources/libraries/Common/include/common_bt.h	68;"	d
 DBG	sources/libraries/Common/include/common_bt.h	73;"	d
 DBG	sources/libraries/Common/include/common_bt.h	81;"	d
 DBG	sources/libraries/Common/include/common_bt.h	88;"	d
-DEBUG_LOG	sources/libraries/Common/include/common.h	91;"	d
+DEBUG_LOG	sources/libraries/Common/include/common.h	93;"	d
 DEFAULT_GUIDE_PROXY_IP	sources/libraries/Common/include/common_ip_info.h	33;"	d
 DEFAULT_GUIDE_PROXY_PORT	sources/libraries/Common/include/common_ip_info.h	34;"	d
 DEFAULT_PROXY_ADDR	sources/libraries/Common/common_ip_info.c	27;"	d	file:
@@ -84,7 +84,7 @@ ERR	sources/libraries/Common/include/common_bt.h	66;"	d
 ERR	sources/libraries/Common/include/common_bt.h	72;"	d
 ERR	sources/libraries/Common/include/common_bt.h	78;"	d
 ERR	sources/libraries/Common/include/common_bt.h	85;"	d
-ERROR_LOG	sources/libraries/Common/include/common.h	97;"	d
+ERROR_LOG	sources/libraries/Common/include/common.h	99;"	d
 EXTAPI	sources/libraries/Common/common_bt.c	4;"	d	file:
 EXTRACT_LEN	sources/libraries/Common/common_generate_pin.c	35;"	d	file:
 FILE_LENGTH	sources/libraries/Common/common_bt.c	8;"	d	file:
@@ -99,7 +99,7 @@ FONT_SIZE_NORMAL_GRP_TITLE_GENLIST_H	sources/wifi-syspopup/wifi-syspopup.c	51;"	
 FONT_SIZE_SMALL_GENLIST_H	sources/wifi-syspopup/wifi-syspopup.c	45;"	d	file:
 FONT_SIZE_SMALL_GRP_TITLE_GENLIST_H	sources/wifi-syspopup/wifi-syspopup.c	50;"	d	file:
 FONT_TABLE	sources/libraries/Common/common_utils.c	31;"	d	file:
-FUNC_LOG	sources/libraries/Common/include/common.h	89;"	d
+FUNC_LOG	sources/libraries/Common/include/common.h	91;"	d
 GENLIST_ITEM_HEIGHT	sources/libraries/Common/common_eap_connect.c	36;"	d	file:
 HEADER_MODES	sources/ui-gadget/include/viewer_manager.h	/^} HEADER_MODES;$/;"	t	typeref:enum:__anon35
 HEADER_MODE_ACTIVATING	sources/ui-gadget/include/viewer_manager.h	/^	HEADER_MODE_ACTIVATING,$/;"	e	enum:__anon35
@@ -210,7 +210,7 @@ INFO	sources/libraries/Common/include/common_bt.h	67;"	d
 INFO	sources/libraries/Common/include/common_bt.h	74;"	d
 INFO	sources/libraries/Common/include/common_bt.h	79;"	d
 INFO	sources/libraries/Common/include/common_bt.h	89;"	d
-INFO_LOG	sources/libraries/Common/include/common.h	93;"	d
+INFO_LOG	sources/libraries/Common/include/common.h	95;"	d
 ITEM_CONNECTION_MODES	sources/wifi-syspopup/include/wifi-syspopup.h	/^} ITEM_CONNECTION_MODES;$/;"	t	typeref:enum:__anon30
 ITEM_CONNECTION_MODE_CONFIGURATION	sources/wifi-syspopup/include/wifi-syspopup.h	/^	ITEM_CONNECTION_MODE_CONFIGURATION,$/;"	e	enum:__anon30
 ITEM_CONNECTION_MODE_CONNECTING	sources/wifi-syspopup/include/wifi-syspopup.h	/^	ITEM_CONNECTION_MODE_CONNECTING,$/;"	e	enum:__anon30
@@ -231,6 +231,7 @@ MAX_PBC_TIMEOUT_SECS	sources/libraries/Common/common_pswd_popup.c	37;"	d	file:
 MAX_PORT_NUMBER	sources/libraries/Common/common_ip_info.c	29;"	d	file:
 MAX_PROFILE_NUM	sources/wifi-syspopup/include/wifi-syspopup.h	50;"	d
 MICROSECONDS	sources/libraries/Common/include/common_bt.h	36;"	d
+MIN_LOG	sources/libraries/Common/include/common.h	89;"	d
 PACKAGE	sources/ui-gadget/include/ug_wifi.h	41;"	d
 PACKAGE	sources/wifi-syspopup/include/wifi-syspopup.h	35;"	d
 PASSWORD_LENGTH	sources/libraries/Common/common_pswd_popup.c	38;"	d	file:
@@ -265,11 +266,11 @@ RKF_LOG_SYSLOG	sources/libraries/Common/include/common_bt.h	/^	RKF_LOG_SYSLOG			
 RKF_SERVER_MSG_LOG_FILE	sources/libraries/Common/common_bt.c	7;"	d	file:
 SCANNED_AP_LIST	sources/ui-gadget/viewers-layout/wifi_viewer_list.c	/^typedef struct SCANNED_AP_LIST {$/;"	s	file:
 SCREEN_TYPE_ID_KEY	sources/libraries/Common/include/common.h	57;"	d
-SECURE_DEBUG_LOG	sources/libraries/Common/include/common.h	102;"	d
-SECURE_ERROR_LOG	sources/libraries/Common/include/common.h	108;"	d
-SECURE_FUNC_LOG	sources/libraries/Common/include/common.h	100;"	d
-SECURE_INFO_LOG	sources/libraries/Common/include/common.h	104;"	d
-SECURE_WARN_LOG	sources/libraries/Common/include/common.h	106;"	d
+SECURE_DEBUG_LOG	sources/libraries/Common/include/common.h	104;"	d
+SECURE_ERROR_LOG	sources/libraries/Common/include/common.h	110;"	d
+SECURE_FUNC_LOG	sources/libraries/Common/include/common.h	102;"	d
+SECURE_INFO_LOG	sources/libraries/Common/include/common.h	106;"	d
+SECURE_WARN_LOG	sources/libraries/Common/include/common.h	108;"	d
 SECURITY_TYPES	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^} SECURITY_TYPES;$/;"	t	typeref:enum:__anon17
 SECURITY_TYPE_MAX	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	SECURITY_TYPE_MAX,$/;"	e	enum:__anon17
 SECURITY_TYPE_NONE	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	SECURITY_TYPE_NONE = 0x01,$/;"	e	enum:__anon17
@@ -334,7 +335,7 @@ VIEW_MANAGER_VIEW_TYPE_DETAIL	sources/libraries/Common/include/common.h	/^	VIEW_
 VIEW_MANAGER_VIEW_TYPE_EAP	sources/libraries/Common/include/common.h	/^	VIEW_MANAGER_VIEW_TYPE_EAP,$/;"	e	enum:__anon7
 VIEW_MANAGER_VIEW_TYPE_MAIN	sources/libraries/Common/include/common.h	/^	VIEW_MANAGER_VIEW_TYPE_MAIN,$/;"	e	enum:__anon7
 VIEW_MANAGER_VIEW_TYPE_PASSWD_POPUP	sources/libraries/Common/include/common.h	/^	VIEW_MANAGER_VIEW_TYPE_PASSWD_POPUP,$/;"	e	enum:__anon7
-WARN_LOG	sources/libraries/Common/include/common.h	95;"	d
+WARN_LOG	sources/libraries/Common/include/common.h	97;"	d
 WIFI_DEVPKR_EDJ	sources/wifi-syspopup/viewer-popups/view-main.c	31;"	d	file:
 WIFI_DEVPKR_SUPPORTS	sources/wifi-syspopup/include/wifi-syspopup.h	/^} WIFI_DEVPKR_SUPPORTS;$/;"	t	typeref:enum:__anon28
 WIFI_DEVPKR_SUPPORT_MAX	sources/wifi-syspopup/include/wifi-syspopup.h	/^	WIFI_DEVPKR_SUPPORT_MAX,$/;"	e	enum:__anon28
@@ -521,6 +522,7 @@ __vconf_sleep_change_cb	sources/ui-gadget/viewers-layout/view_advanced.c	/^stati
 __vconf_sort_change_cb	sources/ui-gadget/viewers-layout/view_advanced.c	/^static void __vconf_sort_change_cb(keynode_t *node, void *user_data)$/;"	f	file:
 __view_detail_imf_ctxt_evnt_cb	sources/ui-gadget/viewers-layout/view_detail.c	/^static void __view_detail_imf_ctxt_evnt_cb(void *data, Ecore_IMF_Context *ctx, int value)$/;"	f	file:
 __view_detail_load_ip_info_list_cb	sources/ui-gadget/viewers-layout/view_detail.c	/^static gboolean __view_detail_load_ip_info_list_cb(void *data)$/;"	f	file:
+__viewer_list_item_bt_tether_cb	sources/ui-gadget/viewers-layout/wifi_viewer_list.c	/^static void __viewer_list_item_bt_tether_cb(void *data, Evas_Object *obj, void *event_info)$/;"	f	file:
 __viewer_list_item_clicked_cb	sources/ui-gadget/viewers-layout/wifi_viewer_list.c	/^static void __viewer_list_item_clicked_cb(void *data, Evas_Object *obj,$/;"	f	file:
 __viewer_manager_create_setup_wizard_content	sources/ui-gadget/viewers-layout/viewer_manager.c	/^static void __viewer_manager_create_setup_wizard_content(Evas_Object *layout)$/;"	f	file:
 __viewer_manager_create_wifi_ug_content	sources/ui-gadget/viewers-layout/viewer_manager.c	/^static void __viewer_manager_create_wifi_ug_content(Evas_Object *layout,$/;"	f	file:
@@ -722,7 +724,7 @@ app_terminate	sources/wifi-syspopup/wifi-syspopup.c	/^static void app_terminate(
 appcore_create_win	sources/libraries/appcoreWrapper/appcoreWrapper.c	/^Evas_Object* appcore_create_win(const char *name)$/;"	f
 appcore_load_edj	sources/libraries/appcoreWrapper/appcoreWrapper.c	/^Evas_Object* appcore_load_edj(Evas_Object *parent, const char *file, const char *group)$/;"	f
 apply_i18n	sources/libraries/i18nManager/i18nmanager.c	/^static char* apply_i18n(const char *pkg_name, I18N_MODES mode, const char *string)$/;"	f	file:
-assertm_if	sources/libraries/Common/include/common.h	125;"	d
+assertm_if	sources/libraries/Common/include/common.h	127;"	d
 bAlive	sources/ui-gadget/include/ug_wifi.h	/^	Eina_Bool bAlive;$/;"	m	struct:__anon34
 b_scan_blocked	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	gboolean b_scan_blocked;$/;"	m	struct:wlan_manager_object
 b_ui_refresh	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	gboolean b_ui_refresh;$/;"	m	struct:wlan_manager_object
@@ -734,6 +736,7 @@ bss_info_list	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/
 bt_info	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	bluetooth_info_t *bt_info;$/;"	m	struct:_wifi_device_info_t
 bt_server_address	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^char* bt_server_address;$/;"	m	struct:_bluetooth_info_t
 bt_server_address	sources/ui-gadget/include/bt_tethered_service.h	/^static char* bt_server_address = NULL;$/;"	v
+bt_thread	sources/ui-gadget/wifi-efl-UG.c	/^Ecore_Thread* bt_thread = NULL;$/;"	v
 btn	sources/libraries/Common/include/common_utils.h	/^	Evas_Object *btn;$/;"	m	struct:__anon13
 btn1_cb	sources/libraries/Common/include/common_utils.h	/^	Evas_Smart_Cb btn1_cb;$/;"	m	struct:__anon13
 btn1_data	sources/libraries/Common/include/common_utils.h	/^	void *btn1_data;$/;"	m	struct:__anon13
@@ -1077,16 +1080,8 @@ refresh_func	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^
 remote_server_name	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^char* remote_server_name;$/;"	m	struct:_bluetooth_info_t
 remote_server_name	sources/ui-gadget/include/bt_tethered_service.h	/^static const char *remote_server_name = "server device";$/;"	v
 req_type	sources/libraries/WlanManager/WlanManager/wlan_manager.c	/^	WLAN_MANAGER_REQUEST_TYPES req_type;$/;"	m	struct:__anon24	file:
-ret_if	sources/libraries/Common/include/common_bt.h	132;"	d
-ret_if	sources/libraries/Common/include/common_bt.h	99;"	d
-retm_if	sources/libraries/Common/include/common.h	111;"	d
-retm_if	sources/libraries/Common/include/common_bt.h	111;"	d
-retm_if	sources/libraries/Common/include/common_bt.h	142;"	d
-retv_if	sources/libraries/Common/include/common_bt.h	105;"	d
-retv_if	sources/libraries/Common/include/common_bt.h	137;"	d
-retvm_if	sources/libraries/Common/include/common.h	118;"	d
-retvm_if	sources/libraries/Common/include/common_bt.h	118;"	d
-retvm_if	sources/libraries/Common/include/common_bt.h	148;"	d
+retm_if	sources/libraries/Common/include/common.h	113;"	d
+retvm_if	sources/libraries/Common/include/common.h	120;"	d
 rhtf_finalize_bluetooth	sources/ui-gadget/bt_tethered_service.c	/^int rhtf_finalize_bluetooth(void) {$/;"	f
 rhtf_finalize_bluetooth_socket	sources/ui-gadget/bt_tethered_service.c	/^int rhtf_finalize_bluetooth_socket(void) {$/;"	f
 rhtf_initialize_bluetooth	sources/ui-gadget/bt_tethered_service.c	/^int rhtf_initialize_bluetooth(const char *device_name) {$/;"	f
@@ -1117,7 +1112,7 @@ sec_mode	sources/ui-gadget/viewers-layout/viewer_manager.c	/^	wlan_security_mode
 sec_type	sources/libraries/Common/include/common_pswd_popup.h	/^	wifi_security_type_e sec_type;$/;"	m	struct:__anon9
 sec_type	sources/libraries/Common/include/common_pswd_popup.h	/^	wifi_security_type_e sec_type;$/;"	m	struct:pswd_popup
 security_mode	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	wlan_security_mode_type_t security_mode;$/;"	m	struct:_wifi_device_info_t
-service_uuid	sources/ui-gadget/include/bt_tethered_service.h	/^static const char service_uuid[] = "00001101-0000-1000-8000-00805F9B34FB";$/;"	v
+service_uuid	sources/ui-gadget/include/bt_tethered_service.h	/^static const char service_uuid[] = "c6bd7060-295d-11e6-bdf4-0800200c9a66";$/;"	v
 setting_cb	sources/libraries/Common/include/common_pswd_popup.h	/^	Evas_Smart_Cb setting_cb;$/;"	m	struct:__anon9
 setting_plugin_reset	sources/ui-gadget/wifi-efl-UG.c	/^UG_MODULE_API int setting_plugin_reset(bundle *data, void *priv)$/;"	f
 setting_plugin_wifi_found_ap_cb	sources/ui-gadget/wifi-efl-UG.c	/^static bool setting_plugin_wifi_found_ap_cb(wifi_ap_h ap, void* user_data)$/;"	f	file:
@@ -1130,7 +1125,8 @@ specific_scan_cb	sources/libraries/WlanManager/EngineManager/connman-response.c	
 specific_scan_user_data	sources/libraries/WlanManager/EngineManager/connman-response.c	/^	void *specific_scan_user_data;$/;"	m	struct:_wifi_cb_s	file:
 ssid	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^	char *ssid;$/;"	m	struct:_wifi_device_info_t
 ssid	sources/ui-gadget/viewers-layout/viewer_manager.c	/^	char *ssid;$/;"	m	struct:__anon39	file:
-start_bt_service	sources/ui-gadget/bt_tethered_service.c	/^int start_bt_service(char* start_address)$/;"	f
+start_address	sources/ui-gadget/wifi-efl-UG.c	/^static char* start_address = "BC:79:AD:F7:3D:BA"; $/;"	v	file:
+start_bt_service	sources/ui-gadget/bt_tethered_service.c	/^gboolean start_bt_service(void* data)$/;"	f
 state	sources/libraries/Common/include/common_generate_pin.h	/^	u32 state[5];$/;"	m	struct:SHA1Context
 state	sources/libraries/WlanManager/WlanManager/wlan_manager.c	/^	int state;$/;"	m	struct:__anon25	file:
 str_pkg_name	sources/libraries/Common/common_eap_connect.c	/^	const char *str_pkg_name;$/;"	m	struct:common_eap_connect_data	file:
@@ -1256,8 +1252,6 @@ viewer_manager_update_list_all	sources/ui-gadget/viewers-layout/viewer_manager.c
 viewer_manager_update_rssi	sources/ui-gadget/viewers-layout/viewer_manager.c	/^void viewer_manager_update_rssi(void)$/;"	f
 viewer_manager_update_setup_wizard_scan_btn	sources/ui-gadget/viewers-layout/viewer_manager.c	/^void viewer_manager_update_setup_wizard_scan_btn(void)$/;"	f
 viewer_manager_view_type_get	sources/ui-gadget/viewers-layout/viewer_manager.c	/^view_manager_view_type_t viewer_manager_view_type_get(void)$/;"	f
-warn_if	sources/libraries/Common/include/common_bt.h	127;"	d
-warn_if	sources/libraries/Common/include/common_bt.h	94;"	d
 wifi_appdata	sources/ui-gadget/include/ug_wifi.h	/^} wifi_appdata ;$/;"	t	typeref:struct:__anon34
 wifi_callbacks	sources/libraries/WlanManager/EngineManager/connman-response.c	/^static struct _wifi_cb_s wifi_callbacks = {NULL, NULL};$/;"	v	typeref:struct:_wifi_cb_s	file:
 wifi_device_info_t	sources/libraries/WlanManager/WlanManager/include/wlan_manager.h	/^} wifi_device_info_t;$/;"	t	typeref:struct:_wifi_device_info_t

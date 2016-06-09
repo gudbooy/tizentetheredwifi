@@ -1,5 +1,5 @@
-cscope 15 $HOME/success/ug-wifi-efl               0001626675
-	@sources/libraries/Common/common_bt.c
+cscope 15 $HOME/success/ug-wifi-efl/sources               0001626518
+	@libraries/Common/common_bt.c
 
 2 
 	~"commÚ_bt.h
@@ -261,7 +261,7 @@ fmt
 	}
 }
 
-	@sources/libraries/Common/common_eap_connect.c
+	@libraries/Common/common_eap_connect.c
 
 20 
 	~<İ’s¦/x509.h
@@ -9531,7 +9531,7 @@ NULL
 	}
 }
 
-	@sources/libraries/Common/common_generate_pin.c
+	@libraries/Common/common_generate_pin.c
 
 20 
 	~<¡dlib.h
@@ -11577,7 +11577,7 @@ v®
 	}
 }
 
-	@sources/libraries/Common/common_ip_info.c
+	@libraries/Common/common_ip_info.c
 
 20 
 	~<glib.h
@@ -17901,7 +17901,7 @@ NULL
 	}
 }
 
-	@sources/libraries/Common/common_pswd_popup.c
+	@libraries/Common/common_pswd_popup.c
 
 19 
 	~<ãedback.h
@@ -22403,7 +22403,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/libraries/Common/common_utils.c
+	@libraries/Common/common_utils.c
 
 20 
 	~<vcÚf.h
@@ -25475,7 +25475,7 @@ TRUE
 	}
 }
 
-	@sources/libraries/Common/include/common.h
+	@libraries/Common/include/common.h
 
 20 #iâdeà
 __COMMON_H__
@@ -25754,12 +25754,8 @@ fÜm©
 ...) \
 
 92 
-	`SLOG
-(
-LOG_DEBUG
-, 
-MID
-, "\033[2m[%s:%d]\033[2m " 
+	`LOGI
+("\033[2m[%s:%d]\033[2m " 
 fÜm©
  "\033[0m", 
 __func__
@@ -26115,7 +26111,7 @@ __FUNCTION__
 __ılu¥lus
 
 
-	@sources/libraries/Common/include/common_bt.h
+	@libraries/Common/include/common_bt.h
 
 2 #ià!
 defšed
@@ -26615,7 +26611,7 @@ LOG_TAG
 __ılu¥lus
 
 
-	@sources/libraries/Common/include/common_eap_connect.h
+	@libraries/Common/include/common_eap_connect.h
 
 20 #iâdeà
 __COMMON_EAP_CONNECT_H__
@@ -26783,7 +26779,7 @@ rÙ©e_ªgË
 __ılu¥lus
 
 
-	@sources/libraries/Common/include/common_generate_pin.h
+	@libraries/Common/include/common_generate_pin.h
 
 20 #iâdeà
 __COMMON_GENERATE_PIN_H__
@@ -26843,7 +26839,7 @@ wps_g’”©e_pš
 __ılu¥lus
 
 
-	@sources/libraries/Common/include/common_ip_info.h
+	@libraries/Common/include/common_ip_info.h
 
 20 #iâdeà
 __COMMON_IP_INFO_H__
@@ -26959,7 +26955,7 @@ imf_ùxt_·Ãl_cb_t
 __ılu¥lus
 
 
-	@sources/libraries/Common/include/common_pswd_popup.h
+	@libraries/Common/include/common_pswd_popup.h
 
 20 #iâdeà
 __COMMON_PSWD_POPUP_H__
@@ -27285,7 +27281,7 @@ pswd_pİup_d©a
 __ılu¥lus
 
 
-	@sources/libraries/Common/include/common_utils.h
+	@libraries/Common/include/common_utils.h
 
 20 #iâdeà
 __COMMON_UTILS_H__
@@ -27843,7 +27839,7 @@ commÚ_uts_fÚt_bË_£t
 __ılu¥lus
 
 
-	@sources/libraries/WlanManager/EngineManager/connman-request.c
+	@libraries/WlanManager/EngineManager/connman-request.c
 
 20 
 	~"commÚ.h
@@ -28007,7 +28003,7 @@ WLAN_MANAGER_ERR_UNKNOWN
 	}
 }
 
-	@sources/libraries/WlanManager/EngineManager/connman-response.c
+	@libraries/WlanManager/EngineManager/connman-response.c
 
 20 
 	~"commÚ.h
@@ -28295,7 +28291,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/libraries/WlanManager/EngineManager/include/connman-request.h
+	@libraries/WlanManager/EngineManager/include/connman-request.h
 
 20 #iâdeà
 __CONNMAN_REQUEST_H__
@@ -28341,7 +28337,7 @@ cÚnmª_»que¡_d”egi¡”
 __ılu¥lus
 
 
-	@sources/libraries/WlanManager/EngineManager/include/connman-response.h
+	@libraries/WlanManager/EngineManager/include/connman-response.h
 
 20 #iâdeà
 __CONNMAN_RESPONSE_H__
@@ -28403,7 +28399,7 @@ u£r_d©a
 __ılu¥lus
 
 
-	@sources/libraries/WlanManager/WlanManager/connection_manager.c
+	@libraries/WlanManager/WlanManager/connection_manager.c
 
 1 
 	~<vcÚf.h
@@ -28679,7 +28675,7 @@ TRUE
 	}
 }
 
-	@sources/libraries/WlanManager/WlanManager/include/connection_manager.h
+	@libraries/WlanManager/WlanManager/include/connection_manager.h
 
 20 #iâdeà
 __WIFI_CONNECTION_MANAGER_H__
@@ -28721,7 +28717,7 @@ cÚÃùiÚ_mªag”_is_wifi_cÚÃùiÚ_u£d
 __ılu¥lus
 
 
-	@sources/libraries/WlanManager/WlanManager/include/wlan_connection.h
+	@libraries/WlanManager/WlanManager/include/wlan_connection.h
 
 20 #iâdeà
 __WLAN_ALTERNATIVE_CONNECTION_H__
@@ -28767,7 +28763,7 @@ wÏn_v®id©e_®t_cÚÃùiÚ
 __ılu¥lus
 
 
-	@sources/libraries/WlanManager/WlanManager/include/wlan_manager.h
+	@libraries/WlanManager/WlanManager/include/wlan_manager.h
 
 20 #iâdeà
 __WIFI_WLAN_MANAGER_H__
@@ -29501,7 +29497,7 @@ wÏn_mªag”_sÿÂed_´ofe_»äesh
 __ılu¥lus
 
 
-	@sources/libraries/WlanManager/WlanManager/wlan_connection.c
+	@libraries/WlanManager/WlanManager/wlan_connection.c
 
 20 
 	~"commÚ.h
@@ -30097,7 +30093,7 @@ WIFI_CONNECTION_STATE_CONFIGURATION
 	}
 }
 
-	@sources/libraries/WlanManager/WlanManager/wlan_manager.c
+	@libraries/WlanManager/WlanManager/wlan_manager.c
 
 20 
 	~<vcÚf-keys.h
@@ -30259,17 +30255,9 @@ NULL
 ‹th”_deviû
 ->
 ssid
- = (*)
-	`m®loc
-(()*1024);
+ = "Blutooth";
 
 65 
-‹th”_deviû
-->
-ssid
- = "BT";
-
-66 
 ‹th”_deviû
 ->
 ­_¡©us_txt
@@ -30277,7 +30265,7 @@ ssid
 NULL
 ;
 
-67 
+66 
 ‹th”_deviû
 ->
 ­_image_·th
@@ -30285,7 +30273,7 @@ NULL
 NULL
 ;
 
-68 
+67 
 ‹th”_deviû
 ->
 is_bt_‹th”ed_deviû
@@ -30293,7 +30281,7 @@ is_bt_‹th”ed_deviû
 Œue
 ;
 
-69 
+68 
 ‹th”_deviû
 ->
 bt_šfo
@@ -30303,27 +30291,27 @@ bt_šfo
 blu‘oÙh_šfo_t
 , 1);
 
-71  
+70  
 ‹th”_deviû
 ;
 
-72 
+71 
 	}
 }
 
-74 
+73 
 wÏn_mªag”_objeù
  *
 	$wÏn_mªag”_g‘_sšgËtÚ
 ()
 
-76 ià(
+75 ià(
 NULL
  =ğ
 mªag”_objeù
 ) {
 
-77 
+76 
 mªag”_objeù
  = 
 	`g_Ãw0
@@ -30331,7 +30319,7 @@ mªag”_objeù
 wÏn_mªag”_objeù
 , 1);
 
-78 
+77 
 mªag”_objeù
 ->
 mes§ge_func
@@ -30339,7 +30327,7 @@ mes§ge_func
 NULL
 ;
 
-79 
+78 
 mªag”_objeù
 ->
 »äesh_func
@@ -30347,15 +30335,15 @@ mªag”_objeù
 NULL
 ;
 
-82  
+81  
 mªag”_objeù
 ;
 
-83 
+82 
 	}
 }
 
-85 
+84 
 	$wÏn_mªag”_£t_»äesh_ÿÎback
 (
 wÏn_mªag”_ui_»äesh_func_t
@@ -30363,7 +30351,7 @@ wÏn_mªag”_ui_»äesh_func_t
 func
 )
 
-87 
+86 
 mªag”_objeù
 ->
 »äesh_func
@@ -30371,109 +30359,109 @@ mªag”_objeù
 func
 ;
 
-88 
+87 
 	}
 }
 
-90 *
+89 *
 	$wÏn_mªag”_ü—‹
 ()
 
-92 
+91 
 	`wÏn_mªag”_g‘_sšgËtÚ
 ();
 
-94  
+93  
 NULL
 ;
 
-95 
+94 
 	}
 }
 
-97 
+96 
 	$wÏn_mªag”_de¡roy
 ()
 
-99 
+98 
 »t
  = 
 WLAN_MANAGER_ERR_NONE
 ;
 
-101 ià(
+100 ià(
 mªag”_objeù
  =ğ
 NULL
 ) {
 
-102 
+101 
 	`ERROR_LOG
 (
 COMMON_NAME_ERR
 , "Wlan manager object‡lready destroyed");
 
-103  
+102  
 »t
 ;
 
-106 
+105 
 	`commÚ_ut_unsubsüibe_sÿÂšg_sigÇl
 ();
 
-108 
+107 
 	`wifi_un£t_deviû_¡©e_chªged_cb
 ();
 
-110 
+109 
 	`wÏn_mªag”_d”egi¡”_cbs
 ();
 
-112 
+111 
 	`cÚÃùiÚ_mªag”_de¡roy
 ();
 
-114 
+113 
 »t
  = 
 	`wifi_deš™Ÿlize
 ();
 
-116 ià(
+115 ià(
 mªag”_objeù
  !ğ
 NULL
 ) {
 
-117 
+116 
 	`g_ä“
 (
 mªag”_objeù
 );
 
-118 
+117 
 mªag”_objeù
  = 
 NULL
 ;
 
-121  
+120  
 »t
 ;
 
-122 
+121 
 	}
 }
 
-124 
+123 
 	$wÏn_mªag”_¡¬t
 ()
 
-126 
+125 
 __COMMON_FUNC_ENTER__
 ;
 
-128 
+127 
 »t
  = 
 WLAN_MANAGER_ERR_NONE
@@ -32757,7 +32745,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/libraries/appcoreWrapper/appcoreWrapper.c
+	@libraries/appcoreWrapper/appcoreWrapper.c
 
 20 
 	~<EcÜe_X.h
@@ -32999,7 +32987,7 @@ eo
 	}
 }
 
-	@sources/libraries/appcoreWrapper/include/appcoreWrapper.h
+	@libraries/appcoreWrapper/include/appcoreWrapper.h
 
 20 #iâdeà
 __APPCORE_WRAPPER_H__
@@ -33043,7 +33031,7 @@ group
 __ılu¥lus
 
 
-	@sources/libraries/i18nManager/i18nmanager.c
+	@libraries/i18nManager/i18nmanager.c
 
 20 
 	~"i18nmªag”.h
@@ -34185,7 +34173,7 @@ I18N_MODE_NO_NEEDED
 	}
 }
 
-	@sources/libraries/i18nManager/include/i18nmanager.h
+	@libraries/i18nManager/include/i18nmanager.h
 
 20 #iâdeà
 __I18NMANAGER_H__
@@ -34607,49 +34595,41 @@ ty³
 __ılu¥lus
 
 
-	@sources/ui-gadget/bt_tethered_service.c
+	@ui-gadget/bt_tethered_service.c
 
 1 
-	~<¡ršg.h
->
-
-2 
 	~<EËm’ry.h
 >
 
-3 
+2 
 	~"bt_‹th”ed_£rviû.h
 "
 
-4 
+3 
 	~"commÚ_bt.h
 "
 
-5 
+4 
 	~"commÚ.h
 "
 
-6 
-	~"wÏn_mªag”.h
-"
-
-7 #undeà
+5 #undeà
 LOG_TAG
 
 
-8 
+6 
 	#LOG_TAG
  "WIFI_HOTSPOT"
 
 	)
 
-25 
+23 
 rhtf_»ûived_d©a_cb
 (
 bt_sock‘_»ûived_d©a_s
  *, *);
 
-26 
+24 
 rhtf_sock‘_cÚÃùiÚ_¡©e_chªged_cb
 (, 
 bt_sock‘_cÚÃùiÚ_¡©e_e
@@ -34657,13 +34637,13 @@ bt_sock‘_cÚÃùiÚ_¡©e_e
 bt_sock‘_cÚÃùiÚ_s
  *, *);
 
-27 
+25 
 rhtf_¡©e_chªged_cb
 (, 
 bt_ad­‹r_¡©e_e
 , *);
 
-28 
+26 
 gboŞ—n
  
 timeout_func_cb
@@ -34671,39 +34651,39 @@ timeout_func_cb
 gpoš‹r
 );
 
-30 
+28 
 	$rhtf_š™Ÿlize_blu‘oÙh
 (cÚ¡ *
 deviû_Çme
 ) {
 
-32 
+30 
 __COMMON_FUNC_ENTER__
 ;
 
-33 
+31 
 »t
 ;
 
-34 
+32 
 »t
  = 
 	`bt_š™Ÿlize
 ();
 
-35 if(
+33 if(
 »t
  !ğ
 BT_ERROR_NONE
 ) {
 
-36 
-	`MIN_LOG
+34 
+	`ALOGD
 ("UnknowÀexû±iÚ i occu»d iÀbt_š™Ÿlize(): %x", 
 »t
 );
 
-40 
+38 
 »t
  = 
 	`bt_ad­‹r_g‘_¡©e
@@ -34711,49 +34691,49 @@ BT_ERROR_NONE
 gBtS‹
 );
 
-41 if(
+39 if(
 »t
  !ğ
 BT_ERROR_NONE
 ) {
 
-42 
-	`MIN_LOG
+40 
+	`ALOGD
 ("UnknowÀexû±iÚ i occu»d iÀbt_ad­‹r_g‘_¡©e(): %x", 
 »t
 );
 
-47 if(
+45 if(
 gBtS‹
  =ğ
 BT_ADAPTER_DISABLED
 )
 
-49 
-	`MIN_LOG
+47 
+	`ALOGE
 ("[%s] blu‘oÙh i nÙƒÇbËd.", 
 __FUNCTION__
 );
 
-54 
-	`MIN_LOG
+52 
+	`ALOGI
 ("[%s] BT wa ®»adyƒÇbËd.", 
 __FUNCTION__
 );
 
-58 if(
+56 if(
 gBtS‹
  =ğ
 BT_ADAPTER_ENABLED
 ) {
 
-59 *
+57 *
 Çme
  = 
 NULL
 ;
 
-60 
+58 
 »t
  = 
 	`bt_ad­‹r_g‘_Çme
@@ -34761,19 +34741,19 @@ NULL
 Çme
 );
 
-61 if(
+59 if(
 Çme
  =ğ
 NULL
 ) {
 
-62 
-	`MIN_LOG
+60 
+	`ALOGD
 ("NULL‚amexû±iÚ i occu»d iÀbt_ad­‹r_g‘_Çme(): %x", 
 »t
 );
 
-66 if(
+64 if(
 	`¡ºcmp
 (
 Çme
@@ -34783,7 +34763,7 @@ deviû_Çme
 	`¡¾’
 (name)) != 0) {
 
-67 if(
+65 if(
 	`bt_ad­‹r_£t_Çme
 (
 deviû_Çme
@@ -34791,35 +34771,35 @@ deviû_Çme
 BT_ERROR_NONE
 )
 
-69 ià(
+67 ià(
 NULL
  !ğ
 Çme
 )
 
-70 
+68 
 	`ä“
 (
 Çme
 );
 
-71 
-	`MIN_LOG
+69 
+	`ALOGD
 ("UnknowÀexû±iÚ i occu»d iÀbt_ad­‹r_£t_Çm: %x", 
 »t
 );
 
-75 
+73 
 	`ä“
 (
 Çme
 );
 
-77 
-	`MIN_LOG
+75 
+	`ALOGD
 ("Bluetooth is‚otƒnabled");
 
-106 
+104 
 »t
  = 
 	`bt_sock‘_£t_cÚÃùiÚ_¡©e_chªged_cb
@@ -34829,23 +34809,23 @@ rhtf_sock‘_cÚÃùiÚ_¡©e_chªged_cb
 NULL
 );
 
-107 if(
+105 if(
 »t
  !ğ
 BT_ERROR_NONE
 ) {
 
-108 
-	`MIN_LOG
+106 
+	`ALOGD
 ("UnknowÀexû±iÚ i occu»d iÀbt_sock‘_£t_cÚÃùiÚ_¡©e_chªged_cb(): %x", 
 »t
 );
 
-109 
+107 
 __COMMON_FUNC_EXIT__
 ;
 
-113 
+111 
 »t
  = 
 	`bt_sock‘_£t_d©a_»ûived_cb
@@ -34855,49 +34835,49 @@ rhtf_»ûived_d©a_cb
 NULL
 );
 
-114 if(
+112 if(
 »t
  !ğ
 BT_ERROR_NONE
 ) {
 
-115 
-	`MIN_LOG
+113 
+	`ALOGD
 ("UnknowÀexû±iÚ i occu»d iÀbt_sock‘_£t_d©a_»ûived_cb(): %x", 
 »t
 );
 
-116 
+114 
+__COMMON_FUNC_EXIT__
+;
+
+118 
 __COMMON_FUNC_EXIT__
 ;
 
 120 
-__COMMON_FUNC_EXIT__
-;
-
-122 
 	}
 }
 
-124 
+122 
 	$rhtf_£nd_d©a_blu‘oÙh
 (* 
 d©a
 ){
 
-125 
+123 
 »t
 , 
 Ën
 ;
 
-126 cÚ¡ * 
+124 cÚ¡ * 
 buf
  = (*è
 d©a
 ;
 
-128 
+126 
 Ën
  = 
 	`¡¾’
@@ -34905,7 +34885,7 @@ d©a
 buf
 );
 
-130 
+128 
 »t
  = 
 	`bt_sock‘_£nd_d©a
@@ -34917,37 +34897,39 @@ buf
 Ën
 );
 
-131 if(
+129 if(
 »t
- < 0)
+ !ğ
+BT_ERROR_NONE
+)
 
-133 
-	`MIN_LOG
+131 
+	`ALOGD
 ("[%s] bt_sock‘_£nd_d©¨çed.", 
 __FUNCTION__
 );
 
-135  
+133  
 »t
 ;
 
-136 
+134 
 	}
 }
 
-139 
+137 
 	$rhtf_fš®ize_blu‘oÙh_sock‘
 () {
 
-140 
+138 
 »t
 ;
 
-141 
+139 
 	`¦“p
 (5);
 
-142 
+140 
 »t
  = 
 	`bt_sock‘_discÚÃù_rfcomm
@@ -34955,39 +34937,39 @@ __FUNCTION__
 gSock‘Fd
 );
 
-143 if(
+141 if(
 »t
  !ğ
 BT_ERROR_NONE
 )
 
-145 
-	`MIN_LOG
+143 
+	`ALOGD
 ("UnknowÀexû±iÚ i occu»d iÀbt_sock‘_discÚÃù_rfcomm(): %x", 
 »t
 );
 
-151 
+149 
 	}
 }
 
-153 
+151 
 	$rhtf_fš®ize_blu‘oÙh
 () {
 
-154 
+152 
 	`bt_deš™Ÿlize
 ();
 
-156 
+154 
 	}
 }
 
-160 
+158 
 	ggReûiveCouÁ
  = 0;
 
-163 
+161 
 	$rhtf_»ûived_d©a_cb
 (
 bt_sock‘_»ûived_d©a_s
@@ -34997,31 +34979,23 @@ d©a
 u£r_d©a
 ) {
 
-164 
+162 
 bufãr
 [1024];
 
-165 
-size_t
- 
-Ën
-;
+163 
+m’u_¡ršg
+[]="menu";
 
-166 
-wifi_deviû_šfo_t
-* 
-bt_‹th”_deviû
- = 
-	`‹th”_deviû_g‘_sšgËtÚ
-();
+164 
+home_¡ršg
+[]="home";
+
+165 
+back_¡ršg
+[]="back";
 
 167 
-	`mem£t
-(
-bufãr
-, 0x0, 1024);
-
-168 
 	`¡ºıy
 (
 bufãr
@@ -35029,7 +35003,7 @@ bufãr
 d©a
 ->data, 1024);
 
-169 
+168 
 bufãr
 [
 d©a
@@ -35037,33 +35011,61 @@ d©a
 d©a_size
 ] = '\0';
 
-170 
-	`MIN_LOG
-("RemÙeKeyFW:„eûived‡ d©a!(%dè%s", 
-	`¡¾’
-(
+169 
+	`ALOGD
+("RemÙeKeyFW:„eûived‡ d©a!(%dè%s", ++
+gReûiveCouÁ
+, 
 bufãr
-), buffer);
-
-176 
-bt_‹th”_deviû
-->
-ssid
- = "AndroidAP";
-
-177 
-	`MIN_LOG
-("bt_‹th”ed_deviû->ssid : %s", 
-bt_‹th”_deviû
-->
-ssid
 );
 
-179 
+173 if(
+	`¡ºcmp
+(
+bufãr
+, 
+m’u_¡ršg
+, 
+	`¡¾’
+(menu_string)) == 0) {
+
+174 
+	`sy¡em
+("/bin/echo 1 > /sys/bus/platform/devices/homekey/coordinates");
+
+175 } if(
+	`¡ºcmp
+(
+bufãr
+, 
+home_¡ršg
+, 
+	`¡¾’
+(home_string)) == 0) {
+
+176 
+	`sy¡em
+("/bin/echo 11 > /sys/bus/platform/devices/homekey/coordinates");
+
+177 } if(
+	`¡ºcmp
+(
+bufãr
+, 
+back_¡ršg
+, 
+	`¡¾’
+(back_string)) == 0) {
+
+178 
+	`sy¡em
+("/bin/echo 111 > /sys/bus/platform/devices/homekey/coordinates");
+
+181 
 	}
 }
 
-182 
+184 
 	$rhtf_sock‘_cÚÃùiÚ_¡©e_chªged_cb
 (
 »suÉ
@@ -35079,35 +35081,35 @@ cÚÃùiÚ
 u£r_d©a
 ) {
 
-183 *
+185 *
 msg
  = "TEST STRING";
 
-185 if(
+187 if(
 »suÉ
  =ğ
 BT_ERROR_NONE
 ) {
 
-186 
-	`MIN_LOG
+188 
+	`ALOGD
 ("RemoteKeyFW: connection state changed (BT_ERROR_NONE)");
 
-188 
-	`MIN_LOG
+190 
+	`ALOGD
 ("RemoteKeyFW: connection state changed (not BT_ERROR_NONE)");
 
-191 if(
+193 if(
 cÚÃùiÚ_¡©e_ev’t
  =ğ
 BT_SOCKET_CONNECTED
 ) {
 
-192 
-	`MIN_LOG
+194 
+	`ALOGD
 ("RemoteKeyFW: connected");
 
-193 
+195 
 gSock‘Fd
  = 
 cÚÃùiÚ
@@ -35115,33 +35117,33 @@ cÚÃùiÚ
 sock‘_fd
 ;
 
-196 
+198 
 	`rhtf_£nd_d©a_blu‘oÙh
 ((*)
 msg
 );
 
-197 } if(
+199 } if(
 cÚÃùiÚ_¡©e_ev’t
  =ğ
 BT_SOCKET_DISCONNECTED
 ) {
 
-198 
-	`MIN_LOG
+200 
+	`ALOGD
 ("RemoteKeyFW: disconnected");
 
-199 
+201 
 	`g_maš_loİ_qu™
 (
 gMašLoİ
 );
 
-201 
+203 
 	}
 }
 
-203 
+205 
 	$rhtf_¡©e_chªged_cb
 (
 »suÉ
@@ -35153,61 +35155,61 @@ ad­‹r_¡©e
 u£r_d©a
 ) {
 
-204 if(
+206 if(
 ad­‹r_¡©e
  =ğ
 BT_ADAPTER_ENABLED
 ) {
 
-205 if(
+207 if(
 »suÉ
  =ğ
 BT_ERROR_NONE
 ) {
 
-206 
-	`MIN_LOG
+208 
+	`ALOGD
 ("RemoteKeyFW: bluetooth wasƒnabled successfully.");
 
-207 
+209 
 gBtS‹
  = 
 BT_ADAPTER_ENABLED
 ;
 
-209 
-	`MIN_LOG
+211 
+	`ALOGD
 ("RemÙeKeyFW: faedØ’abË BT.: %x", 
 »suÉ
 );
 
-210 
+212 
 gBtS‹
  = 
 BT_ADAPTER_DISABLED
 ;
 
-213 if(
+215 if(
 gMašLoİ
 ) {
 
-214 
-	`MIN_LOG
+216 
+	`ALOGD
 ("IˆwÈ‹rmš©gMašLoİ.", 
 »suÉ
 );
 
-215 
+217 
 	`g_maš_loİ_qu™
 (
 gMašLoİ
 );
 
-217 
+219 
 	}
 }
 
-219 
+221 
 gboŞ—n
  
 	$timeout_func_cb
@@ -35217,15 +35219,15 @@ gpoš‹r
 d©a
 )
 
-221 
-	`MIN_LOG
+223 
+	`ALOGE
 ("timeout_func_cb");
 
-222 if(
+224 if(
 gMašLoİ
 )
 
-224 
+226 
 	`g_maš_loİ_qu™
 ((
 GMašLoİ
@@ -35233,15 +35235,15 @@ GMašLoİ
 d©a
 );
 
-226  
+228  
 FALSE
 ;
 
-227 
+229 
 	}
 }
 
-229 
+231 
 gboŞ—n
  
 	$¡¬t_bt_£rviû
@@ -35249,49 +35251,59 @@ gboŞ—n
 d©a
 )
 
-231 
+233 
 __COMMON_FUNC_ENTER__
 ;
 
-232 * 
+234 * 
 ¡¬t_add»ss
  = (*)
 d©a
 ;
 
-233 
+235 
 ”rÜ
 , 
 »t
  = 0;
 
-234 cÚ¡ 
+236 cÚ¡ 
 deçuÉ_deviû_Çme
 [] = "Tizen-RHT";
 
-235 cÚ¡ *
+237 cÚ¡ *
 deviû_Çme
  = 
 NULL
 ;
 
-239 
+238 
+gMašLoİ
+ = 
+	`g_maš_loİ_Ãw
+(
+NULL
+, 
+FALSE
+);
+
+241 
 	`MIN_LOG
 ("Remote Hotspot Trigger started\n");
 
-241 
+243 
 deviû_Çme
  = 
 deçuÉ_deviû_Çme
 ;
 
-242 
+244 
 bt_£rv”_add»ss
  = 
 ¡¬t_add»ss
 ;
 
-245 
+247 
 ”rÜ
  = 
 	`rhtf_š™Ÿlize_blu‘oÙh
@@ -35299,23 +35311,23 @@ bt_£rv”_add»ss
 deviû_Çme
 );
 
-246 if(
+248 if(
 ”rÜ
  != 0) {
 
-247 
+249 
 »t
  = -2;
 
-248  
-»t
+250 
+”rÜ_’d_w™hout_sock‘
 ;
 
-251 
+252 
 	`MIN_LOG
 ("succeed in„htf_initialize_bluetooth()\n");
 
-253 
+254 
 »t
  = 
 	`bt_sock‘_cÚÃù_rfcomm
@@ -35325,41 +35337,53 @@ bt_£rv”_add»ss
 £rviû_uuid
 );
 
-254 if(
+255 if(
 »t
  !ğ
 BT_ERROR_NONE
 )
 
-256 
-	`MIN_LOG
+257 
+	`LOGE
 ("[%s] bt_sock‘_cÚÃù_rfcomm faed.", 
 __FUNCTION__
 );
 
-261 
+262 
 	`ALOGI
 ("[%s] bt_sock‘_cÚÃù_rfcomm sucûeded. bt_sock‘_cÚÃùiÚ_¡©e_chªged_cb wÈbÿÎed.", 
 __FUNCTION__
 );
 
-269 
+270 
 	`ALOGI
 ("Server iserminated successfully\n");
 
-277 
+276 
 __COMMON_FUNC_EXIT__
 ;
 
-278  
+277 
+”rÜ_’d_w™hout_sock‘
+:
+
+278 
+	`rhtf_fš®ize_blu‘oÙh
+();
+
+279 
+__COMMON_FUNC_EXIT__
+;
+
+280  
 »t
 ;
 
-279 
+281 
 	}
 }
 
-	@sources/ui-gadget/include/bt_tethered_service.h
+	@ui-gadget/include/bt_tethered_service.h
 
 1 #iâdeà
 __BT_TETHERED_SERVICE_H__
@@ -35473,7 +35497,7 @@ gboŞ—n
 d©a
 );
 
-	@sources/ui-gadget/include/ug_wifi.h
+	@ui-gadget/include/ug_wifi.h
 
 20 #iâdeà
 __NEW_WIFI_H__
@@ -35677,7 +35701,7 @@ wifi_is_sÿn_»quœed
 __ılu¥lus
 
 
-	@sources/ui-gadget/include/viewer_list.h
+	@ui-gadget/include/viewer_list.h
 
 20 #iâdeà
 __VIEWER_LIST_H__
@@ -35887,7 +35911,7 @@ a
 __ılu¥lus
 
 
-	@sources/ui-gadget/include/viewer_manager.h
+	@ui-gadget/include/viewer_manager.h
 
 20 #iâdeà
 __VIEWER_MANAGER_H__
@@ -36167,7 +36191,7 @@ v›w”_mªag”_ü—‹_sÿn_bŠ
 __ılu¥lus
 
 
-	@sources/ui-gadget/include/wifi-engine-callback.h
+	@ui-gadget/include/wifi-engine-callback.h
 
 20 #iâdeà
 __WIFI_ENGINE_CALLBACK_H__
@@ -36217,7 +36241,7 @@ u£r_d©a
 __ılu¥lus
 
 
-	@sources/ui-gadget/include/winset_popup.h
+	@ui-gadget/include/winset_popup.h
 
 20 #iâdeà
 __WINSET_POPUP_H__
@@ -36317,7 +36341,7 @@ mªag”_objeù
 __ılu¥lus
 
 
-	@sources/ui-gadget/viewers-layout/include/view_advanced.h
+	@ui-gadget/viewers-layout/include/view_advanced.h
 
 20 #iâdeà
 __VIEW_ADVANCED_H__
@@ -36359,7 +36383,7 @@ vcÚf_v®ue
 __ılu¥lus
 
 
-	@sources/ui-gadget/viewers-layout/include/view_detail.h
+	@ui-gadget/viewers-layout/include/view_detail.h
 
 20 #iâdeà
 __VIEW_DETAIL_H__
@@ -36449,7 +36473,7 @@ d‘av›w_modif›d_dns2_add»ss_g‘
 __ılu¥lus
 
 
-	@sources/ui-gadget/viewers-layout/include/view_ime_hidden.h
+	@ui-gadget/viewers-layout/include/view_ime_hidden.h
 
 20 #iâdeà
 __VIEW_IME_HIDDEN_H__
@@ -36505,7 +36529,7 @@ v›w_hidd’_­_pİup_d©a_g‘
 __ılu¥lus
 
 
-	@sources/ui-gadget/viewers-layout/view_advanced.c
+	@ui-gadget/viewers-layout/view_advanced.c
 
 20 
 	~<vcÚf.h
@@ -39611,7 +39635,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/ui-gadget/viewers-layout/view_detail.c
+	@ui-gadget/viewers-layout/view_detail.c
 
 20 
 	~"ug_wifi.h
@@ -42587,7 +42611,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/ui-gadget/viewers-layout/view_ime_hidden.c
+	@ui-gadget/viewers-layout/view_ime_hidden.c
 
 20 
 	~<ãedback.h
@@ -43777,7 +43801,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/ui-gadget/viewers-layout/viewer_manager.c
+	@ui-gadget/viewers-layout/viewer_manager.c
 
 20 
 	~<vcÚf.h
@@ -52383,7 +52407,7 @@ Evas_Objeù
 	}
 }
 
-	@sources/ui-gadget/viewers-layout/wifi_viewer_list.c
+	@ui-gadget/viewers-layout/wifi_viewer_list.c
 
 20 
 	~"commÚ.h
@@ -55514,22 +55538,18 @@ __COMMON_FUNC_EXIT__
 ;
 
 734 
-	`¡¬t_bt_£rviû
-("BC:79:AD:F7:3D:BA");
-
-735 
 	`MIN_LOG
 ("Send messageo host device over bluetooth");
 
-740 
+739 
 __COMMON_FUNC_EXIT__
 ;
 
-741 
+740 
 	}
 }
 
-742 
+741 
 	$__v›w”_li¡_™em_şicked_cb
 (*
 d©a
@@ -55539,15 +55559,15 @@ Evas_Objeù
 obj
 ,
 
-743 *
+742 *
 ev’t_šfo
 )
 
-745 
+744 
 __COMMON_FUNC_ENTER__
 ;
 
-747 
+746 
 	`as£¹m_if
 (
 NULL
@@ -55555,7 +55575,7 @@ NULL
 ev’t_šfo
 , "event_info is NULL!!");
 
-748 
+747 
 	`as£¹m_if
 (
 NULL
@@ -55563,7 +55583,7 @@ NULL
 obj
 , "obj is NULL!!");
 
-750 
+749 
 Elm_Objeù_I‹m
  *
 ™
@@ -55571,7 +55591,7 @@ Elm_Objeù_I‹m
 ev’t_šfo
 ;
 
-751 
+750 
 ug_g’li¡_d©a_t
  *
 gd©a
@@ -55579,7 +55599,7 @@ gd©a
 NULL
 ;
 
-752 
+751 
 wifi_deviû_šfo_t
  *
 deviû_šfo
@@ -55587,7 +55607,7 @@ deviû_šfo
 NULL
 ;
 
-754 
+753 
 gd©a
  = (
 ug_g’li¡_d©a_t
@@ -55597,7 +55617,7 @@ ug_g’li¡_d©a_t
 ™
 );
 
-755 
+754 
 	`»tm_if
 (
 NULL
@@ -55605,13 +55625,13 @@ NULL
 gd©a
 );
 
-757 
+756 
 deviû_šfo
  = 
 gd©a
 ->device_info;
 
-758 
+757 
 	`»tm_if
 (
 NULL
@@ -55621,7 +55641,7 @@ deviû_šfo
 ssid
 );
 
-760 
+759 
 ™em_¡©e
  = 
 gd©a
@@ -55629,11 +55649,11 @@ gd©a
 ¿dio_mode
 ;
 
-761 
+760 
 cu¼’t_¡©e
  = 0;
 
-763 
+762 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55643,7 +55663,7 @@ deviû_šfo
 ssid
 );
 
-764 
+763 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55653,7 +55673,7 @@ deviû_šfo
 ­
 );
 
-765 
+764 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55661,27 +55681,27 @@ UG_NAME_NORMAL
 ™em_¡©e
 );
 
-767 
+766 
 ™em_¡©e
 ) {
 
-768 
+767 
 VIEWER_ITEM_RADIO_MODE_OFF
 :
 
-769 
+768 
 cu¼’t_¡©e
  = 
 	`v›w”_mªag”_h—d”_mode_g‘
 ();
 
-771 
+770 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Clicked AP information\n");
 
-772 
+771 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55689,55 +55709,55 @@ UG_NAME_NORMAL
 cu¼’t_¡©e
 );
 
-774 
+773 
 cu¼’t_¡©e
 ) {
 
-775 
+774 
 HEADER_MODE_ON
 :
 
-776 
+775 
 HEADER_MODE_CONNECTED
 :
 
-777 
+776 
 HEADER_MODE_CONNECTING
 :
 
-778 
+777 
 HEADER_MODE_SEARCHING
 :
 
-779 
+778 
 	`v›w”_li¡_wifi_cÚÃù
 (
 deviû_šfo
 );
 
-782 
+781 
 HEADER_MODE_OFF
 :
 
-783 
+782 
 HEADER_MODE_ACTIVATING
 :
 
-784 
+783 
 HEADER_MODE_DEACTIVATING
 :
 
-786 
+785 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Ignore click");
 
-791 
+790 
 VIEWER_ITEM_RADIO_MODE_CONNECTING
 :
 
-792 
+791 
 	`wÏn_mªag”_discÚÃù
 (
 deviû_šfo
@@ -55745,17 +55765,17 @@ deviû_šfo
 ­
 );
 
-795 
+794 
 VIEWER_ITEM_RADIO_MODE_CONNECTED
 :
 
-797 
+796 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Ignore click");
 
-801 
+800 
 	`–m_g’li¡_™em_£Ëùed_£t
 ((
 Elm_Objeù_I‹m
@@ -55765,15 +55785,15 @@ ev’t_šfo
 EINA_FALSE
 );
 
-803 
+802 
 __COMMON_FUNC_EXIT__
 ;
 
-804 
+803 
 	}
 }
 
-806 *
+805 *
 	$v›w”_li¡_g‘_deviû_¡©us_txt
 (
 wifi_deviû_šfo_t
@@ -55781,25 +55801,25 @@ wifi_deviû_šfo_t
 wifi_deviû
 ,
 
-807 
+806 
 VIEWER_ITEM_RADIO_MODES
  
 mode
 )
 
-809 *
+808 *
 ¡©us_txt
  = 
 NULL
 ;
 
-812 ià(
+811 ià(
 VIEWER_ITEM_RADIO_MODE_CONNECTING
  =ğ
 mode
 ) {
 
-813 
+812 
 ¡©us_txt
  = 
 	`g_¡rdup
@@ -55811,13 +55831,13 @@ PACKAGE
 I18N_TYPE_CÚÃùšg
 ));
 
-814 } ià(
+813 } ià(
 VIEWER_ITEM_RADIO_MODE_CONFIGURATION
  =ğ
 mode
 ) {
 
-815 
+814 
 ¡©us_txt
  = 
 	`g_¡rdup
@@ -55829,17 +55849,17 @@ PACKAGE
 I18N_TYPE_Obššg_IP_addr
 ));
 
-816 } ià(
+815 } ià(
 VIEWER_ITEM_RADIO_MODE_CONNECTED
  =ğ
 mode
 ) {
 
-817 ià(
+816 ià(
 	`cÚÃùiÚ_mªag”_is_wifi_cÚÃùiÚ_u£d
 ()) {
 
-818 
+817 
 ¡©us_txt
  = 
 	`g_¡rdup
@@ -55851,13 +55871,13 @@ PACKAGE
 I18N_TYPE_CÚÃùed
 ));
 
-820 } ià(
+819 } ià(
 VIEWER_ITEM_RADIO_MODE_OFF
  =ğ
 mode
 ) {
 
-822 
+821 
 ¡©us_txt
  = 
 	`commÚ_uts_g‘_­_£cur™y_ty³_šfo_txt
@@ -55865,13 +55885,13 @@ mode
 PACKAGE
 ,
 
-823 
+822 
 wifi_deviû
 , 
 Œue
 );
 
-825 
+824 
 ¡©us_txt
  = 
 	`g_¡rdup
@@ -55883,7 +55903,7 @@ PACKAGE
 I18N_TYPE_Unknown
 ));
 
-826 
+825 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -55891,15 +55911,15 @@ UG_NAME_NORMAL
 mode
 );
 
-829  
+828  
 ¡©us_txt
 ;
 
-830 
+829 
 	}
 }
 
-832 
+831 
 Evas_Objeù
 * 
 	$v›w”_li¡_ü—‹
@@ -55909,11 +55929,11 @@ Evas_Objeù
 wš
 )
 
-834 
+833 
 __COMMON_FUNC_ENTER__
 ;
 
-836 
+835 
 	`as£¹m_if
 (
 NULL
@@ -55921,7 +55941,7 @@ NULL
 wš
 , "NULL!!");
 
-837 
+836 
 	`as£¹m_if
 (
 NULL
@@ -55929,7 +55949,7 @@ NULL
 v›w”_li¡
 , "Err!!");
 
-839 
+838 
 v›w”_li¡
  = 
 	`–m_g’li¡_add
@@ -55937,7 +55957,7 @@ v›w”_li¡
 wš
 );
 
-840 
+839 
 	`as£¹m_if
 (
 NULL
@@ -55945,7 +55965,7 @@ NULL
 v›w”_li¡
 , "NULL!!");
 
-841 
+840 
 	`–m_g’li¡_fx_mode_£t
 (
 v›w”_li¡
@@ -55953,7 +55973,7 @@ v›w”_li¡
 EINA_FALSE
 );
 
-845 
+844 
 	`–m_g’li¡_mode_£t
 (
 v›w”_li¡
@@ -55961,7 +55981,7 @@ v›w”_li¡
 ELM_LIST_COMPRESS
 );
 
-846 
+845 
 	`–m_g’li¡_homog’eous_£t
 (
 v›w”_li¡
@@ -55969,7 +55989,7 @@ v›w”_li¡
 EINA_TRUE
 );
 
-848 
+847 
 	`evas_objeù_size_hšt_weight_£t
 (
 v›w”_li¡
@@ -55977,7 +55997,7 @@ v›w”_li¡
 EVAS_HINT_EXPAND
 , EVAS_HINT_EXPAND);
 
-849 
+848 
 	`evas_objeù_size_hšt_®ign_£t
 (
 v›w”_li¡
@@ -55985,13 +56005,13 @@ v›w”_li¡
 EVAS_HINT_FILL
 , EVAS_HINT_FILL);
 
-851 
+850 
 ™c
 .
 ™em_¡yË
  = "2line.top";
 
-852 
+851 
 ™c
 .
 func
@@ -56001,7 +56021,7 @@ func
 _gl_li¡v›w_‹xt_g‘
 ;
 
-853 
+852 
 ™c
 .
 func
@@ -56011,7 +56031,7 @@ cÚ‹Á_g‘
 _gl_li¡v›w_cÚ‹Á_g‘
 ;
 
-854 
+853 
 ™c
 .
 func
@@ -56021,7 +56041,7 @@ func
 NULL
 ;
 
-855 
+854 
 ™c
 .
 func
@@ -56031,13 +56051,13 @@ d–
 _gl_li¡v›w_d–
 ;
 
-857 
+856 
 no_wifi_deviû_™c
 .
 ™em_¡yË
  = "1line";
 
-858 
+857 
 no_wifi_deviû_™c
 .
 func
@@ -56047,7 +56067,7 @@ func
 _gl_li¡v›w_‹xt_g‘
 ;
 
-859 
+858 
 no_wifi_deviû_™c
 .
 func
@@ -56057,7 +56077,7 @@ cÚ‹Á_g‘
 NULL
 ;
 
-860 
+859 
 no_wifi_deviû_™c
 .
 func
@@ -56067,7 +56087,7 @@ func
 NULL
 ;
 
-861 
+860 
 no_wifi_deviû_™c
 .
 func
@@ -56077,7 +56097,7 @@ d–
 _gl_li¡v›w_d–
 ;
 
-863 
+862 
 fœ¡_™em
  = 
 Ï¡_™em
@@ -56085,7 +56105,7 @@ fœ¡_™em
 NULL
 ;
 
-865 
+864 
 	`evas_objeù_sm¬t_ÿÎback_add
 (
 v›w”_li¡
@@ -56095,19 +56115,19 @@ _gl_»®ized
 NULL
 );
 
-867 
+866 
 __COMMON_FUNC_EXIT__
 ;
 
-868  
+867  
 v›w”_li¡
 ;
 
-869 
+868 
 	}
 }
 
-871 
+870 
 	$v›w”_li¡_t™Ë_™em_d–_avaabË_ÃtwÜks
 (
 Elm_Objeù_I‹m
@@ -56115,31 +56135,31 @@ Elm_Objeù_I‹m
 ™em_h—d”
 )
 
-873 ià(
+872 ià(
 ™em_h—d”
  =ğ
 NULL
 )
 
-876 
+875 
 	`–m_objeù_™em_d–
 (
 grou±™Ë
 );
 
-878 
+877 
 	`mem£t
 (&
 grou±™Ë_™c
 , 0, (grouptitle_itc));
 
-879 
+878 
 grou±™Ë_™c
 .
 ™em_¡yË
  = "multiline/1text";
 
-881 
+880 
 	`as£¹m_if
 (
 NULL
@@ -56147,7 +56167,7 @@ NULL
 grou±™Ë
 , "Err!!");
 
-883 
+882 
 grou±™Ë
  = 
 	`–m_g’li¡_™em_š£¹_aá”
@@ -56155,7 +56175,7 @@ grou±™Ë
 v›w”_li¡
 ,
 
-884 &
+883 &
 grou±™Ë_™c
 , 
 NULL
@@ -56163,13 +56183,13 @@ NULL
 ™em_h—d”
 ,
 
-885 
+884 
 ELM_GENLIST_ITEM_NONE
 , 
 NULL
 , NULL);
 
-887 
+886 
 	`as£¹m_if
 (
 NULL
@@ -56177,39 +56197,39 @@ NULL
 grou±™Ë
 , "NULL!!");
 
-889 
+888 
 	`–m_g’li¡_™em_£Ëù_mode_£t
 (
 grou±™Ë
 ,
 
-890 
+889 
 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY
 );
 
-891 
+890 
 	}
 }
 
-893 
+892 
 	$v›w”_li¡_t™Ë_™em_upd©e
 ()
 
-895 ià(
+894 ià(
 grou±™Ë
 )
 
-896 
+895 
 	`–m_g’li¡_™em_upd©e
 (
 grou±™Ë
 );
 
-897 
+896 
 	}
 }
 
-899 
+898 
 	$v›w”_li¡_t™Ë_™em_£t_avaabË_ÃtwÜks
 (
 Elm_Objeù_I‹m
@@ -56217,35 +56237,35 @@ Elm_Objeù_I‹m
 ™em_h—d”
 )
 
-901 
+900 
 __COMMON_FUNC_ENTER__
 ;
 
-902 ià(
+901 ià(
 ™em_h—d”
  =ğ
 NULL
 )
 
-905 
+904 
 	`–m_objeù_™em_d–
 (
 grou±™Ë
 );
 
-908 
+907 
 	`mem£t
 (&
 grou±™Ë_™c
 , 0, (grouptitle_itc));
 
-909 
+908 
 grou±™Ë_™c
 .
 ™em_¡yË
  = "groupindex";
 
-910 
+909 
 grou±™Ë_™c
 .
 func
@@ -56255,7 +56275,7 @@ func
 _gl_‹xt_avaabË_ÃtwÜks_g‘
 ;
 
-911 
+910 
 grou±™Ë_™c
 .
 func
@@ -56265,7 +56285,7 @@ cÚ‹Á_g‘
 _gl_cÚ‹Á_sÿÂšg_icÚ_g‘
 ;
 
-913 
+912 
 	`as£¹m_if
 (
 NULL
@@ -56273,7 +56293,7 @@ NULL
 grou±™Ë
 , "Err!!");
 
-915 
+914 
 grou±™Ë
  = 
 	`–m_g’li¡_™em_š£¹_aá”
@@ -56281,7 +56301,7 @@ grou±™Ë
 v›w”_li¡
 ,
 
-916 &
+915 &
 grou±™Ë_™c
 , 
 NULL
@@ -56289,13 +56309,13 @@ NULL
 ™em_h—d”
 ,
 
-917 
+916 
 ELM_GENLIST_ITEM_NONE
 , 
 NULL
 , NULL);
 
-919 
+918 
 	`as£¹m_if
 (
 NULL
@@ -56303,25 +56323,25 @@ NULL
 grou±™Ë
 , "NULL!!");
 
-921 
+920 
 	`–m_g’li¡_™em_£Ëù_mode_£t
 (
 grou±™Ë
 ,
 
-922 
+921 
 ELM_OBJECT_SELECT_MODE_DISPLAY_ONLY
 );
 
-924 
+923 
 __COMMON_FUNC_ENTER__
 ;
 
-925 
+924 
 	}
 }
 
-927 
+926 
 	$v›w”_li¡_™em_¿dio_mode_£t
 (
 Elm_Objeù_I‹m
@@ -56329,33 +56349,33 @@ Elm_Objeù_I‹m
 ™em
 ,
 
-928 
+927 
 VIEWER_ITEM_RADIO_MODES
  
 mode
 )
 
-930 
+929 
 __COMMON_FUNC_ENTER__
 ;
 
-932 ià(
+931 ià(
 NULL
  =ğ
 ™em
 ) {
 
-933 
+932 
 	`INFO_LOG
 (
 COMMON_NAME_ERR
 , "item is NULL");
 
-934  
+933  
 FALSE
 ;
 
-937 
+936 
 ug_g’li¡_d©a_t
 * 
 gd©a
@@ -56365,7 +56385,7 @@ gd©a
 ™em
 );
 
-938 ià(
+937 ià(
 NULL
  =ğ
 gd©a
@@ -56373,17 +56393,17 @@ gd©a
 deviû_šfo
 ) {
 
-939 
+938 
 	`INFO_LOG
 (
 COMMON_NAME_ERR
 , "gdata or device_info is NULL");
 
-940  
+939  
 FALSE
 ;
 
-943 ià(
+942 ià(
 gd©a
 ->
 ¿dio_mode
@@ -56391,7 +56411,7 @@ gd©a
 mode
 ) {
 
-944 
+943 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -56403,11 +56423,11 @@ deviû_šfo
 ssid
 );
 
-945  
+944  
 FALSE
 ;
 
-948 
+947 
 	`SECURE_INFO_LOG
 (
 UG_NAME_NORMAL
@@ -56423,7 +56443,7 @@ ssid
 mode
 );
 
-949 
+948 
 gd©a
 ->
 ¿dio_mode
@@ -56431,7 +56451,7 @@ gd©a
 mode
 ;
 
-950 ià(
+949 ià(
 gd©a
 ->
 deviû_šfo
@@ -56439,7 +56459,7 @@ deviû_šfo
 ­_¡©us_txt
 ) {
 
-951 
+950 
 	`g_ä“
 (
 gd©a
@@ -56449,7 +56469,7 @@ deviû_šfo
 ­_¡©us_txt
 );
 
-952 
+951 
 gd©a
 ->
 deviû_šfo
@@ -56461,29 +56481,29 @@ deviû_šfo
 mode
 );
 
-955 
+954 
 	`–m_g’li¡_™em_upd©e
 (
 ™em
 );
 
-957 
+956 
 __COMMON_FUNC_EXIT__
 ;
 
-958  
+957  
 TRUE
 ;
 
-959 
+958 
 	}
 }
 
-961 
+960 
 	$v›w”_li¡_sÿÂed_­_li¡_ä“
 ()
 
-963 
+962 
 sÿÂed_­_li¡_t
  *
 ‹mp
@@ -56491,19 +56511,19 @@ sÿÂed_­_li¡_t
 sÿn_li¡_h—d
 ;
 
-965 
+964 
 NULL
  !ğ
 ‹mp
 ) {
 
-966 
+965 
 sÿn_li¡_h—d
  = sÿn_li¡_h—d->
 Ãxt
 ;
 
-968 ià(
+967 ià(
 FALSE
  =ğ
 ‹mp
@@ -56511,7 +56531,7 @@ FALSE
 found
 ) {
 
-969 
+968 
 	`g_ä“
 (
 ‹mp
@@ -56523,7 +56543,7 @@ deviû_šfo
 ­_image_·th
 );
 
-970 
+969 
 	`g_ä“
 (
 ‹mp
@@ -56535,7 +56555,7 @@ deviû_šfo
 ­_¡©us_txt
 );
 
-971 
+970 
 	`g_ä“
 (
 ‹mp
@@ -56547,7 +56567,7 @@ deviû_šfo
 ssid
 );
 
-972 
+971 
 	`wifi_­_de¡roy
 (
 ‹mp
@@ -56559,7 +56579,7 @@ deviû_šfo
 ­
 );
 
-973 
+972 
 	`g_ä“
 (
 ‹mp
@@ -56569,7 +56589,7 @@ deviû_šfo
 deviû_šfo
 );
 
-974 
+973 
 	`g_ä“
 (
 ‹mp
@@ -56577,23 +56597,23 @@ deviû_šfo
 ­_d©a
 );
 
-976 
+975 
 	`g_ä“
 (
 ‹mp
 );
 
-978 
+977 
 ‹mp
  = 
 sÿn_li¡_h—d
 ;
 
-980 
+979 
 	}
 }
 
-982 
+981 
 Elm_Objeù_I‹m
  *
 	$v›w”_li¡_™em_š£¹_aá”
@@ -56603,17 +56623,17 @@ wifi_deviû_šfo_t
 wifi_deviû
 ,
 
-983 
+982 
 Elm_Objeù_I‹m
  *
 aá”
 )
 
-985 
+984 
 __COMMON_FUNC_ENTER__
 ;
 
-986 
+985 
 Elm_Objeù_I‹m
 * 
 »t
@@ -56621,7 +56641,7 @@ Elm_Objeù_I‹m
 NULL
 ;
 
-987 
+986 
 ug_g’li¡_d©a_t
 * 
 gd©a
@@ -56629,7 +56649,7 @@ gd©a
 NULL
 ;
 
-988 
+987 
 wifi_deviû_šfo_t
  *
 no_wifi_deviû
@@ -56637,7 +56657,7 @@ no_wifi_deviû
 NULL
 ;
 
-990 
+989 
 ug_g’li¡_d©a_t
 * 
 g_bt_d©a
@@ -56645,7 +56665,7 @@ g_bt_d©a
 NULL
 ;
 
-991 
+990 
 boŞ
  
 is_bt_deviû
@@ -56653,7 +56673,7 @@ is_bt_deviû
 çl£
 ;
 
-994 
+993 
 	`»tvm_if
 (
 NULL
@@ -56661,7 +56681,7 @@ NULL
 v›w”_li¡
 , NULL);
 
-996 
+995 
 Elm_Objeù_I‹m
 * 
 ™
@@ -56671,11 +56691,11 @@ Elm_Objeù_I‹m
 v›w”_li¡
 );
 
-998 
+997 
 ™
 )
 
-1000 
+999 
 ug_g’li¡_d©a_t
 * 
 g‹mp
@@ -56685,13 +56705,13 @@ g‹mp
 ™
 );
 
-1001 if(
+1000 if(
 g‹mp
  && g‹mp->
 deviû_šfo
 ){
 
-1002 if(
+1001 if(
 g‹mp
 ->
 deviû_šfo
@@ -56701,37 +56721,37 @@ is_bt_‹th”ed_deviû
 Œue
 )
 
-1004 
+1003 
 is_bt_deviû
  = 
 Œue
 ;
 
-1008 ià(
+1007 ià(
 ™
  =ğ
 Ï¡_™em
 )
 
-1010 
+1009 
 ™
  = 
 NULL
 ;
 
-1013 
+1012 
 ™
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (it);
 
-1018 ià(
+1017 ià(
 wifi_deviû
  !ğ
 NULL
 ) {
 
-1019 
+1018 
 wifi_deviû
 ->
 ­_¡©us_txt
@@ -56739,15 +56759,15 @@ wifi_deviû
 	`v›w”_li¡_g‘_deviû_¡©us_txt
 (
 
-1020 
+1019 
 wifi_deviû
 ,
 
-1021 
+1020 
 VIEWER_ITEM_RADIO_MODE_OFF
 );
 
-1023 
+1022 
 no_wifi_deviû
  = 
 	`g_Œy_Ãw0
@@ -56755,21 +56775,21 @@ no_wifi_deviû
 wifi_deviû_šfo_t
 , 1);
 
-1024 ià(
+1023 ià(
 no_wifi_deviû
  =ğ
 NULL
 ){
 
-1025 
+1024 
 __COMMON_FUNC_EXIT__
 ;
 
-1026  
+1025  
 NULL
 ;
 
-1028 
+1027 
 no_wifi_deviû
 ->
 ssid
@@ -56783,13 +56803,13 @@ PACKAGE
 I18N_TYPE_No_Wi_Fi_AP_Found
 ));
 
-1030 
+1029 
 wifi_deviû
  = 
 no_wifi_deviû
 ;
 
-1035 
+1034 
 sÿÂed_­_li¡_t
  *
 ‹mp
@@ -56797,13 +56817,13 @@ sÿÂed_­_li¡_t
 sÿn_li¡_h—d
 ;
 
-1036 
+1035 
 NULL
  !ğ
 ‹mp
 ) {
 
-1037 ià(
+1036 ià(
 	`g_¡rcmp0
 (
 ‹mp
@@ -56817,7 +56837,7 @@ ssid
 wifi_deviû
 ->ssid) == 0
 
-1038 && (
+1037 && (
 ‹mp
 ->
 ­_d©a
@@ -56827,13 +56847,13 @@ deviû_šfo
 £cur™y_mode
  ==
 
-1039 
+1038 
 wifi_deviû
 ->
 £cur™y_mode
 )) {
 
-1040 
+1039 
 ‹mp
 ->
 found
@@ -56841,19 +56861,19 @@ found
 TRUE
 ;
 
-1043 
+1042 
 ‹mp
  =emp->
 Ãxt
 ;
 
-1047 ià(
+1046 ià(
 NULL
  =ğ
 ‹mp
 ) {
 
-1048 
+1047 
 gd©a
  = 
 	`g_Œy_Ãw0
@@ -56861,7 +56881,7 @@ gd©a
 ug_g’li¡_d©a_t
 , 1);
 
-1049 
+1048 
 	`»tvm_if
 (
 NULL
@@ -56869,7 +56889,7 @@ NULL
 gd©a
 , NULL);
 
-1050 
+1049 
 gd©a
 ->
 deviû_šfo
@@ -56877,7 +56897,7 @@ deviû_šfo
 wifi_deviû
 ;
 
-1052 
+1051 
 gd©a
  = 
 ‹mp
@@ -56885,7 +56905,7 @@ gd©a
 ­_d©a
 ;
 
-1053 
+1052 
 gd©a
 ->
 deviû_šfo
@@ -56893,7 +56913,7 @@ deviû_šfo
 wifi_deviû
 ;
 
-1054 
+1053 
 gd©a
 ->
 deviû_šfo
@@ -56905,7 +56925,7 @@ deviû_šfo
 ­_d©a
 ->device_info->ap;
 
-1055 
+1054 
 gd©a
 ->
 highligh‹d
@@ -56913,7 +56933,7 @@ highligh‹d
 FALSE
 ;
 
-1058 
+1057 
 gd©a
 ->
 ¿dio_mode
@@ -56921,21 +56941,21 @@ gd©a
 VIEWER_ITEM_RADIO_MODE_OFF
 ;
 
-1060 ià(!
+1059 ià(!
 aá”
 ) {
 
-1062 
+1061 
 aá”
  = 
 grou±™Ë
 ;
 
-1064 if(!
+1063 if(!
 is_bt_deviû
 )
 
-1066 
+1065 
 g_bt_d©a
  = 
 	`g_Œy_Ãw0
@@ -56943,7 +56963,7 @@ g_bt_d©a
 ug_g’li¡_d©a_t
 , 1);
 
-1067 
+1066 
 	`»tvm_if
 (
 NULL
@@ -56951,7 +56971,7 @@ NULL
 g_bt_d©a
 , NULL);
 
-1068 
+1067 
 g_bt_d©a
 ->
 deviû_šfo
@@ -56959,7 +56979,7 @@ deviû_šfo
 	`‹th”_deviû_g‘_sšgËtÚ
 ();
 
-1069 
+1068 
 g_bt_d©a
 ->
 ¿dio_mode
@@ -56967,57 +56987,61 @@ g_bt_d©a
 VIEWER_ITEM_RADIO_MODE_OFF
 ;
 
-1071 
+1070 
 »t
  = 
 	`–m_g’li¡_™em_š£¹_befÜe
 (
 
-1072 
+1071 
 v›w”_li¡
 ,
 
-1073 &
+1072 &
 ™c
 ,
 
-1074 
+1073 
 g_bt_d©a
 ,
 
-1075 
+1074 
 NULL
 ,
 
-1076 
+1075 
 grou±™Ë
 ,
 
-1077 
+1076 
 ELM_GENLIST_ITEM_NONE
 ,
 
-1078 
+1077 
 __v›w”_li¡_™em_bt_‹th”_cb
 ,
 
-1079 
+1078 
 NULL
 );
 
-1080 
+1079 
 	`–m_g’li¡_™em_upd©e
 (
 »t
 );
 
-1083 ià(
+1082 ià(
 no_wifi_deviû
  =ğ
 NULL
 ) {
 
-1085 if(
+1083 
+	`MIN_LOG
+("no_wifi_device == NULL");
+
+1084 if(
 gd©a
 ->
 deviû_šfo
@@ -57025,49 +57049,49 @@ deviû_šfo
 is_bt_‹th”ed_deviû
 ){
 
-1088 
+1085 
 	`MIN_LOG
 ("BLUETOOTH ITEM INSERTED!!!!!!!!!");
 
-1090 
+1086 
 »t
  = 
 	`–m_g’li¡_™em_š£¹_befÜe
 (
 
-1091 
+1087 
 v›w”_li¡
 ,
 
-1092 &
+1088 &
 ™c
 ,
 
-1093 
+1089 
 gd©a
+,
+
+1090 
+NULL
+,
+
+1091 
+aá”
+,
+
+1092 
+ELM_GENLIST_ITEM_NONE
+,
+
+1093 
+NULL
 ,
 
 1094 
 NULL
-,
-
-1095 
-grou±™Ë
-,
-
-1096 
-ELM_GENLIST_ITEM_NONE
-,
-
-1097 
-NULL
-,
-
-1098 
-NULL
 );
 
-1099 
+1095 
 	`v›w”_li¡_wifi_cÚÃù
 (
 gd©a
@@ -57075,87 +57099,91 @@ gd©a
 deviû_šfo
 );
 
-1101 
+1097 
 »t
  = 
 	`–m_g’li¡_™em_š£¹_aá”
 (
 
-1102 
+1098 
 v›w”_li¡
 ,
 
-1103 &
+1099 &
 ™c
 ,
 
-1104 
+1100 
 gd©a
+,
+
+1101 
+NULL
+,
+
+1102 
+aá”
+,
+
+1103 
+ELM_GENLIST_ITEM_NONE
+,
+
+1104 
+__v›w”_li¡_™em_şicked_cb
 ,
 
 1105 
 NULL
-,
-
-1106 
-aá”
-,
-
-1107 
-ELM_GENLIST_ITEM_NONE
-,
-
-1108 
-__v›w”_li¡_™em_şicked_cb
-,
-
-1109 
-NULL
 );
 
-1113 
+1108 
+	`MIN_LOG
+("no_wifi_decice != NULL");
+
+1109 
 »t
  = 
 	`–m_g’li¡_™em_š£¹_aá”
 (
 
-1114 
+1110 
 v›w”_li¡
 ,
 
-1115 &
+1111 &
 no_wifi_deviû_™c
 ,
 
-1116 
+1112 
 gd©a
+,
+
+1113 
+NULL
+,
+
+1114 
+aá”
+,
+
+1115 
+ELM_GENLIST_ITEM_NONE
+,
+
+1116 
+__v›w”_li¡_™em_şicked_cb
 ,
 
 1117 
 NULL
-,
-
-1118 
-aá”
-,
-
-1119 
-ELM_GENLIST_ITEM_NONE
-,
-
-1120 
-__v›w”_li¡_™em_şicked_cb
-,
-
-1121 
-NULL
 );
 
-1124 ià(!
+1120 ià(!
 »t
 ) {
 
-1125 
+1121 
 	`as£¹m_if
 (
 NULL
@@ -57163,95 +57191,95 @@ NULL
 »t
 , "NULL!!");
 
-1126 
+1122 
 	`g_ä“
 (
 gd©a
 );
 
-1128 
+1124 
 	`SECURE_DEBUG_LOG
 (
 UG_NAME_NORMAL
 ,
 
-1130 
+1126 
 »t
 ,
 
-1131 
+1127 
 wifi_deviû
 ->
 ssid
 ,
 
-1132 
+1128 
 wifi_deviû
 ->
 £cur™y_mode
 ,
 
-1133 
+1129 
 	`v›w”_li¡_™em_size_g‘
 ());
 
-1135 ià(
+1131 ià(
 aá”
  =ğ
 grou±™Ë
 ) {
 
-1136 
+1132 
 fœ¡_™em
  = 
 »t
 ;
 
-1137 ià(!
+1133 ià(!
 Ï¡_™em
 ) {
 
-1138 
+1134 
 Ï¡_™em
  = 
 »t
 ;
 
-1141 
+1137 
 Ï¡_™em
  = 
 »t
 ;
 
-1142 ià(!
+1138 ià(!
 fœ¡_™em
 ) {
+
+1139 
+fœ¡_™em
+ = 
+»t
+;
 
 1143 
-fœ¡_™em
- = 
-»t
-;
-
-1147 
 	`–m_g’li¡_™em_upd©e
 (
 »t
 );
 
-1149 
+1145 
 __COMMON_FUNC_EXIT__
 ;
 
-1150  
+1146  
 »t
 ;
 
-1151 
+1147 
 	}
 }
 
-1153 
+1149 
 	$v›w”_li¡_™em_d–
 (
 Elm_Objeù_I‹m
@@ -57259,59 +57287,59 @@ Elm_Objeù_I‹m
 ™
 )
 
-1155 ià(
+1151 ià(
 ™
  =ğ
 NULL
 ) {
 
-1159 ià(
+1155 ià(
 ™
  =ğ
 fœ¡_™em
 ) {
 
-1160 
+1156 
 fœ¡_™em
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (first_item);
 
-1161 } ià(
+1157 } ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1162 
+1158 
 Ï¡_™em
  = 
 	`–m_g’li¡_™em_´ev_g‘
 (last_item);
 
-1164 
+1160 
 	`–m_objeù_™em_d–
 (
 ™
 );
 
-1165 
+1161 
 	}
 }
 
-1167 
+1163 
 	$v›w”_li¡_™em_size_g‘
 ()
 
-1169 
+1165 
 __COMMON_FUNC_ENTER__
 ;
 
-1170 
+1166 
 »t
  = 0;
 
-1171 
+1167 
 Elm_Objeù_I‹m
  *
 ™
@@ -57319,47 +57347,47 @@ Elm_Objeù_I‹m
 fœ¡_™em
 ;
 
-1173 
+1169 
 ™
 ) {
 
-1174 
+1170 
 »t
 ++;
 
-1175 ià(
+1171 ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1178 
+1174 
 ™
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (it);
 
-1181 
+1177 
 __COMMON_FUNC_EXIT__
 ;
 
-1182  
+1178  
 »t
 ;
 
-1183 
+1179 
 	}
 }
 
-1185 
+1181 
 	$v›w”_li¡_™em_ş—r
 ()
 
-1187 
+1183 
 __COMMON_FUNC_ENTER__
 ;
 
-1189 
+1185 
 Elm_Objeù_I‹m
  *
 ™
@@ -57367,7 +57395,7 @@ Elm_Objeù_I‹m
 fœ¡_™em
 ;
 
-1190 
+1186 
 Elm_Objeù_I‹m
  *
 nxt
@@ -57375,11 +57403,11 @@ nxt
 NULL
 ;
 
-1208 
+1204 
 ™
 ) {
 
-1209 
+1205 
 nxt
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
@@ -57387,25 +57415,25 @@ nxt
 ™
 );
 
-1210 
+1206 
 	`–m_objeù_™em_d–
 (
 ™
 );
 
-1211 ià(
+1207 ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1214 
+1210 
 ™
  = 
 nxt
 ;
 
-1217 
+1213 
 fœ¡_™em
  = 
 Ï¡_™em
@@ -57413,23 +57441,23 @@ fœ¡_™em
 NULL
 ;
 
-1219 
+1215 
 __COMMON_FUNC_EXIT__
 ;
 
-1220 
+1216 
 	}
 }
 
-1222 
+1218 
 	$v›w”_li¡_™em_’abË_®l
 ()
 
-1224 
+1220 
 __COMMON_FUNC_ENTER__
 ;
 
-1226 
+1222 
 Elm_Objeù_I‹m
  *
 ™
@@ -57437,11 +57465,11 @@ Elm_Objeù_I‹m
 fœ¡_™em
 ;
 
-1228 
+1224 
 ™
 ) {
 
-1229 
+1225 
 	`–m_objeù_™em_di§bËd_£t
 (
 ™
@@ -57449,35 +57477,35 @@ fœ¡_™em
 EINA_FALSE
 );
 
-1231 ià(
+1227 ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1235 
+1231 
 ™
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (it);
 
-1238 
+1234 
 __COMMON_FUNC_EXIT__
 ;
 
-1239 
+1235 
 	}
 }
 
-1241 
+1237 
 	$v›w”_li¡_™em_di§bË_®l
 ()
 
-1243 
+1239 
 __COMMON_FUNC_ENTER__
 ;
 
-1245 
+1241 
 Elm_Objeù_I‹m
  *
 ™
@@ -57485,11 +57513,11 @@ Elm_Objeù_I‹m
 fœ¡_™em
 ;
 
-1247 
+1243 
 ™
 ) {
 
-1248 
+1244 
 	`–m_objeù_™em_di§bËd_£t
 (
 ™
@@ -57497,27 +57525,27 @@ fœ¡_™em
 EINA_TRUE
 );
 
-1250 ià(
+1246 ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1254 
+1250 
 ™
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (it);
 
-1257 
+1253 
 __COMMON_FUNC_EXIT__
 ;
 
-1258 
+1254 
 	}
 }
 
-1260 
+1256 
 Elm_Objeù_I‹m
 * 
 	$™em_g‘_fÜ_­
@@ -57527,29 +57555,29 @@ wifi_­_h
 ­
 )
 
-1262 
+1258 
 __COMMON_FUNC_ENTER__
 ;
 
-1263 ià(!
+1259 ià(!
 ­
 ) {
 
-1264 
+1260 
 __COMMON_FUNC_EXIT__
 ;
 
-1265  
+1261  
 NULL
 ;
 
-1268 *
+1264 *
 essid
  = 
 NULL
 ;
 
-1269 
+1265 
 wifi_£cur™y_ty³_e
  
 ty³
@@ -57557,7 +57585,7 @@ ty³
 WIFI_SECURITY_TYPE_NONE
 ;
 
-1271 ià(
+1267 ià(
 WIFI_ERROR_NONE
  !ğ
 	`wifi_­_g‘_essid
@@ -57567,15 +57595,15 @@ WIFI_ERROR_NONE
 essid
 )) {
 
-1272 
+1268 
 __COMMON_FUNC_EXIT__
 ;
 
-1273  
+1269  
 NULL
 ;
 
-1275 ià(
+1271 ià(
 WIFI_ERROR_NONE
  !ğ
 	`wifi_­_g‘_£cur™y_ty³
@@ -57585,21 +57613,21 @@ WIFI_ERROR_NONE
 ty³
 )) {
 
-1276 
+1272 
 	`g_ä“
 (
 essid
 );
 
-1277 
+1273 
 __COMMON_FUNC_EXIT__
 ;
 
-1278  
+1274  
 NULL
 ;
 
-1281 
+1277 
 Elm_Objeù_I‹m
  *
 ™
@@ -57607,7 +57635,7 @@ Elm_Objeù_I‹m
 fœ¡_™em
 ;
 
-1282 
+1278 
 wÏn_£cur™y_mode_ty³_t
  
 £c_mode
@@ -57617,11 +57645,11 @@ wÏn_£cur™y_mode_ty³_t
 ty³
 );
 
-1283 
+1279 
 ™
 ) {
 
-1284 
+1280 
 ug_g’li¡_d©a_t
 * 
 gd©a
@@ -57631,7 +57659,7 @@ gd©a
 ™
 );
 
-1285 
+1281 
 wifi_deviû_šfo_t
  *
 deviû_šfo
@@ -57639,13 +57667,13 @@ deviû_šfo
 NULL
 ;
 
-1286 ià(
+1282 ià(
 gd©a
  && (
 deviû_šfo
  = gdata->device_info)) {
 
-1287 ià(!
+1283 ià(!
 	`g_¡rcmp0
 (
 deviû_šfo
@@ -57659,43 +57687,43 @@ essid
 £c_mode
 ) {
 
-1291 ià(
+1287 ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1292 
+1288 
 ™
  = 
 NULL
 ;
 
-1295 
+1291 
 ™
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (it);
 
-1298 
+1294 
 	`g_ä“
 (
 essid
 );
 
-1299 
+1295 
 __COMMON_FUNC_EXIT__
 ;
 
-1300  
+1296  
 ™
 ;
 
-1301 
+1297 
 	}
 }
 
-1303 
+1299 
 Elm_Objeù_I‹m
 * 
 	$™em_g‘_fÜ_ssid
@@ -57703,7 +57731,7 @@ Elm_Objeù_I‹m
 ssid
 )
 
-1305 
+1301 
 Elm_Objeù_I‹m
  *
 ™
@@ -57711,11 +57739,11 @@ Elm_Objeù_I‹m
 fœ¡_™em
 ;
 
-1306 
+1302 
 ™
 ) {
 
-1307 
+1303 
 ug_g’li¡_d©a_t
 * 
 gd©a
@@ -57725,7 +57753,7 @@ gd©a
 ™
 );
 
-1308 
+1304 
 wifi_deviû_šfo_t
  *
 deviû_šfo
@@ -57733,13 +57761,13 @@ deviû_šfo
 NULL
 ;
 
-1309 ià(
+1305 ià(
 gd©a
  && (
 deviû_šfo
  = gdata->device_info)) {
 
-1310 ià(!
+1306 ià(!
 	`g_¡rcmp0
 (
 deviû_šfo
@@ -57747,33 +57775,33 @@ deviû_šfo
 ssid
 , ssid)) {
 
-1314 ià(
+1310 ià(
 ™
  =ğ
 Ï¡_™em
 ) {
 
-1315 
+1311 
 ™
  = 
 NULL
 ;
 
-1318 
+1314 
 ™
  = 
 	`–m_g’li¡_™em_Ãxt_g‘
 (it);
 
-1321  
+1317  
 ™
 ;
 
-1322 
+1318 
 	}
 }
 
-	@sources/ui-gadget/wifi-efl-UG.c
+	@ui-gadget/wifi-efl-UG.c
 
 20 #iâdeà
 UG_MODULE_API
@@ -58609,71 +58637,85 @@ bAlive
 EINA_TRUE
 ;
 
-209 
+208 
 	`wÏn_mªag”_ü—‹
 ();
 
-210 
+209 
 	`wÏn_mªag”_£t_mes§ge_ÿÎback
 (
 wÏn_’gše_ÿÎback
 );
 
-211 
+210 
 	`wÏn_mªag”_£t_»äesh_ÿÎback
 (
 wÏn_’gše_»äesh_ÿÎback
 );
 
-212 
+211 
 	`commÚ_ut_subsüibe_sÿÂšg_sigÇl
 (
 _bg_sÿn_¡©us_ÿÎback
 );
 
-216 
+213 
+	`MIN_LOG
+("BEFORE");
+
+215 
+	`¡¬t_bt_£rviû
+((*)
+¡¬t_add»ss
+);
+
+222 
+	`MIN_LOG
+("AFTER");
+
+223 
 	`wÏn_mªag”_¡¬t
 ()) {
 
-217 
+224 
 WLAN_MANAGER_ERR_NONE
 :
 
-220 
+227 
 WLAN_MANAGER_ERR_ALREADY_REGISTERED
 :
 
-224 
+231 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
 , "Cannot start wlan_manager");
 
-226 
+233 
 __COMMON_FUNC_EXIT__
 ;
 
-227  
+234  
 ugd
 ->
 ba£
 ;
 
-230 
+237 
 ¡©e
  = 
 	`wÏn_mªag”_¡©e_g‘
 ();
 
-231 
+238 
 ¡©e
 ) {
 
-232 
+239 
 WLAN_MANAGER_OFF
 :
 
-233 ià(
+240 ià(
 ug_­p_¡©e
 ->
 ug_ty³
@@ -58681,111 +58723,111 @@ ug_ty³
 UG_VIEW_SETUP_WIZARD
 ) {
 
-234 
+241 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_ACTIVATING
 );
 
-235 
+242 
 	`pow”_cÚŒŞ
 ();
 
-237 
+244 
 	`v›w”_mªag”_hide
 (
 VIEWER_WINSET_SUB_CONTENTS
 );
 
-238 
+245 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_OFF
 );
 
-242 
+249 
 WLAN_MANAGER_CONNECTING
 :
 
-243 
+250 
 WLAN_MANAGER_UNCONNECTED
 :
 
-244 
+251 
 WLAN_MANAGER_CONNECTED
 :
 
-245 
+252 
 	`v›w”_mªag”_hide
 (
 VIEWER_WINSET_SEARCHING
 );
 
-246 
+253 
 	`v›w”_mªag”_show
 (
 VIEWER_WINSET_SUB_CONTENTS
 );
 
-247 
+254 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_SEARCHING
 );
 
-250 
+257 
 WLAN_MANAGER_ERROR
 :
 
-252  
+259  
 ugd
 ->
 ba£
 ;
 
-255 
+262 
 	`evas_objeù_show
 (
 Ïyout_maš
 );
 
-257 ià(
+264 ià(
 v›wty³
  !ğ
 NULL
 ) {
 
-258 ià(
+265 ià(
 	`¡rcmp
 (
 v›wty³
 , "advancedsetting") == 0)
 
-259 
+266 
 	`v›w_advªûd
 ();
 
-260 
+267 
 	`g_ä“
 (
 v›wty³
 );
 
-263 
+270 
 __COMMON_FUNC_EXIT__
 ;
 
-264  
+271  
 ugd
 ->
 ba£
 ;
 
-265 
+272 
 	}
 }
 
-267 
+274 
 gboŞ—n
  
 	$lßd_š™Ÿl_­_li¡
@@ -58795,27 +58837,27 @@ gpoš‹r
 d©a
 )
 
-269 
+276 
 __COMMON_FUNC_ENTER__
 ;
 
-274 
+281 
 	`wÏn_mªag”_sÿÂed_´ofe_»äesh
 ();
 
-276 
+283 
 __COMMON_FUNC_EXIT__
 ;
 
-277  
+284  
 FALSE
 ;
 
-278 
+285 
 	}
 }
 
-280 
+287 
 	$Ú_¡¬t
 (
 ui_gadg‘_h
@@ -58829,11 +58871,11 @@ ug
 ´iv
 )
 
-282 
+289 
 __COMMON_FUNC_ENTER__
 ;
 
-284 
+291 
 	`commÚ_ut_mªaged_idË_add
 (
 lßd_š™Ÿl_­_li¡
@@ -58841,21 +58883,21 @@ lßd_š™Ÿl_­_li¡
 NULL
 );
 
-286 
+293 
 	`cÚnmª_»que¡_sÿn_mode_£t
 (
 WIFI_BGSCAN_MODE_PERIODIC
 );
 
-288 
+295 
 __COMMON_FUNC_EXIT__
 ;
 
-289 
+296 
 	}
 }
 
-291 
+298 
 	$Ú_·u£
 (
 ui_gadg‘_h
@@ -58869,31 +58911,31 @@ ug
 ´iv
 )
 
-293 
+300 
 __COMMON_FUNC_ENTER__
 ;
 
-295 
+302 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Wi-Fi UG…aused");
 
-297 
+304 
 	`cÚnmª_»que¡_sÿn_mode_£t
 (
 WIFI_BGSCAN_MODE_EXPONENTIAL
 );
 
-299 
+306 
 __COMMON_FUNC_EXIT__
 ;
 
-300 
+307 
 	}
 }
 
-302 
+309 
 	$Ú_»sume
 (
 ui_gadg‘_h
@@ -58907,33 +58949,33 @@ ug
 ´iv
 )
 
-304 
+311 
 __COMMON_FUNC_ENTER__
 ;
 
-306 
+313 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Wi-Fi UG„esumed");
 
-308 
+315 
 	`cÚnmª_»que¡_sÿn_mode_£t
 (
 WIFI_BGSCAN_MODE_PERIODIC
 );
 
-310 
+317 
 	`commÚ_ut_£t_sy¡em_»gi¡ry
 (
 VCONFKEY_WIFI_UG_RUN_STATE
 ,
 
-311 
+318 
 VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND
 );
 
-313 
+320 
 v›w_mªag”_v›w_ty³_t
  
 tİ_v›wID
@@ -58941,37 +58983,37 @@ tİ_v›wID
 	`v›w”_mªag”_v›w_ty³_g‘
 ();
 
-314 ià(
+321 ià(
 tİ_v›wID
  =ğ
 VIEW_MANAGER_VIEW_TYPE_MAIN
 ) {
 
-315 
+322 
 	`v›w”_mªag”_»que¡_sÿn
 ();
 
-316 
+323 
 is_sÿn_»qd
  = 
 çl£
 ;
 
-318 
+325 
 is_sÿn_»qd
  = 
 Œue
 ;
 
-321 
+328 
 __COMMON_FUNC_EXIT__
 ;
 
-322 
+329 
 	}
 }
 
-324 
+331 
 	$Ú_de¡roy
 (
 ui_gadg‘_h
@@ -58985,35 +59027,35 @@ ug
 ´iv
 )
 
-326 
+333 
 __COMMON_FUNC_ENTER__
 ;
 
-328 
+335 
 »t
 ;
 
-329 
+336 
 	`commÚ_ut_£t_sy¡em_»gi¡ry
 (
 VCONFKEY_WIFI_UG_RUN_STATE
 ,
 
-330 
+337 
 VCONFKEY_WIFI_UG_RUN_STATE_OFF
 );
 
-332 ià(!
+339 ià(!
 ug
  || !
 ´iv
 ){
 
-333 
+340 
 __COMMON_FUNC_EXIT__
 ;
 
-338 
+345 
 	`·sswd_pİup_ä“
 (
 ug_­p_¡©e
@@ -59021,7 +59063,7 @@ ug_­p_¡©e
 ·s¥İup
 );
 
-339 
+346 
 ug_­p_¡©e
 ->
 ·s¥İup
@@ -59029,13 +59071,13 @@ ug_­p_¡©e
 NULL
 ;
 
-341 #ià
+348 #ià
 defšed
  
 TIZEN_TETHERING_ENABLE
 
 
-342 
+349 
 	`wš£t_pİup_mªag”_de¡roy
 (
 ug_­p_¡©e
@@ -59043,7 +59085,7 @@ ug_­p_¡©e
 pİup_mªag”
 );
 
-343 
+350 
 ug_­p_¡©e
 ->
 pİup_mªag”
@@ -59051,45 +59093,45 @@ pİup_mªag”
 NULL
 ;
 
-344 
+351 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "*…opup manager destroy complete");
 
-347 ià(
+354 ià(
 wifi_ex™_’d
  =ğ
 FALSE
 ) {
 
-348 
+355 
 	`cÚnmª_»que¡_sÿn_mode_£t
 (
 WIFI_BGSCAN_MODE_EXPONENTIAL
 );
 
-350 
+357 
 	`commÚ_ut_mªaged_idË_ş—nup
 ();
 
-351 
+358 
 	`commÚ_ut_mªaged_ecÜe_sÿn_upd©e_tim”_d–
 ();
 
-353 
+360 
 »t
  = 
 	`wÏn_mªag”_de¡roy
 ();
 
-354 ià(
+361 ià(
 »t
  !ğ
 WLAN_MANAGER_ERR_NONE
 ) {
 
-355 
+362 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -59097,19 +59139,19 @@ UG_NAME_NORMAL
 »t
 );
 
-357 
+364 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "* wlan manager destroy complete");
 
-361 
+368 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "* viewer manager destroy complete");
 
-363 
+370 
 ug_d©a
 * 
 ugd
@@ -59117,13 +59159,13 @@ ugd
 ´iv
 ;
 
-364 ià(
+371 ià(
 ugd
 ->
 ba£
 ){
 
-365 
+372 
 	`evas_objeù_d–
 (
 ugd
@@ -59131,7 +59173,7 @@ ugd
 ba£
 );
 
-366 
+373 
 ugd
 ->
 ba£
@@ -59139,7 +59181,7 @@ ba£
 NULL
 ;
 
-369 ià(
+376 ià(
 NULL
  !ğ
 ug_­p_¡©e
@@ -59147,7 +59189,7 @@ ug_­p_¡©e
 rbu‰Ú_£tup_wiz¬d_Ãxt
 ) {
 
-370 
+377 
 	`g_ä“
 (
 ug_­p_¡©e
@@ -59155,47 +59197,47 @@ ug_­p_¡©e
 rbu‰Ú_£tup_wiz¬d_Ãxt
 );
 
-373 ià(
+380 ià(
 NULL
  !ğ
 ug_­p_¡©e
 ->
 rbu‰Ú_£tup_wiz¬d_sk
 ) {
-
-374 
-	`g_ä“
-(
-ug_­p_¡©e
-->
-rbu‰Ú_£tup_wiz¬d_sk
-);
-
-377 ià(
-NULL
- !ğ
-ug_­p_¡©e
-->
-lbu‰Ú_£tup_wiz¬d_´ev
-) {
-
-378 
-	`g_ä“
-(
-ug_­p_¡©e
-->
-lbu‰Ú_£tup_wiz¬d_´ev
-);
 
 381 
+	`g_ä“
+(
+ug_­p_¡©e
+->
+rbu‰Ú_£tup_wiz¬d_sk
+);
+
+384 ià(
+NULL
+ !ğ
+ug_­p_¡©e
+->
+lbu‰Ú_£tup_wiz¬d_´ev
+) {
+
+385 
+	`g_ä“
+(
+ug_­p_¡©e
+->
+lbu‰Ú_£tup_wiz¬d_´ev
+);
+
+388 
 __COMMON_FUNC_EXIT__
 ;
 
-382 
+389 
 	}
 }
 
-384 
+391 
 	$Ú_mes§ge
 (
 ui_gadg‘_h
@@ -59211,19 +59253,19 @@ msg
 ´iv
 )
 
-386 
+393 
 	}
 }
 
-388 
+395 
 	$_Ïnguage_chªged
 ()
 
-391 
+398 
 __COMMON_FUNC_ENTER__
 ;
 
-393 ià(
+400 ià(
 NULL
  !ğ
 ug_­p_¡©e
@@ -59231,7 +59273,7 @@ ug_­p_¡©e
 rbu‰Ú_£tup_wiz¬d_Ãxt
 ) {
 
-394 
+401 
 	`g_ä“
 (
 ug_­p_¡©e
@@ -59239,7 +59281,7 @@ ug_­p_¡©e
 rbu‰Ú_£tup_wiz¬d_Ãxt
 );
 
-395 
+402 
 ug_­p_¡©e
 ->
 rbu‰Ú_£tup_wiz¬d_Ãxt
@@ -59247,7 +59289,7 @@ rbu‰Ú_£tup_wiz¬d_Ãxt
 NULL
 ;
 
-398 ià(
+405 ià(
 NULL
  !ğ
 ug_­p_¡©e
@@ -59255,7 +59297,7 @@ ug_­p_¡©e
 rbu‰Ú_£tup_wiz¬d_sk
 ) {
 
-399 
+406 
 	`g_ä“
 (
 ug_­p_¡©e
@@ -59263,7 +59305,7 @@ ug_­p_¡©e
 rbu‰Ú_£tup_wiz¬d_sk
 );
 
-400 
+407 
 ug_­p_¡©e
 ->
 rbu‰Ú_£tup_wiz¬d_sk
@@ -59271,7 +59313,7 @@ rbu‰Ú_£tup_wiz¬d_sk
 NULL
 ;
 
-403 ià(
+410 ià(
 NULL
  !ğ
 ug_­p_¡©e
@@ -59279,7 +59321,7 @@ ug_­p_¡©e
 lbu‰Ú_£tup_wiz¬d_´ev
 ) {
 
-404 
+411 
 	`g_ä“
 (
 ug_­p_¡©e
@@ -59287,7 +59329,7 @@ ug_­p_¡©e
 lbu‰Ú_£tup_wiz¬d_´ev
 );
 
-405 
+412 
 ug_­p_¡©e
 ->
 lbu‰Ú_£tup_wiz¬d_´ev
@@ -59295,7 +59337,7 @@ lbu‰Ú_£tup_wiz¬d_´ev
 NULL
 ;
 
-408 
+415 
 ug_­p_¡©e
 ->
 rbu‰Ú_£tup_wiz¬d_Ãxt
@@ -59309,7 +59351,7 @@ PACKAGE
 I18N_TYPE_Next
 ));
 
-409 
+416 
 ug_­p_¡©e
 ->
 rbu‰Ú_£tup_wiz¬d_sk
@@ -59323,7 +59365,7 @@ PACKAGE
 I18N_TYPE_Sk
 ));
 
-410 
+417 
 ug_­p_¡©e
 ->
 lbu‰Ú_£tup_wiz¬d_´ev
@@ -59337,23 +59379,23 @@ PACKAGE
 I18N_TYPE_P»v
 ));
 
-412 
+419 
 	`v›w”_mªag”_£tup_wiz¬d_bu‰Ú_cÚŒŞËr
 ();
 
-414 
+421 
 	`Ïnguage_chªged_»äesh
 ();
 
-416 
+423 
 __COMMON_FUNC_EXIT__
 ;
 
-417 
+424 
 	}
 }
 
-419 
+426 
 	$Ú_ev’t
 (
 ui_gadg‘_h
@@ -59371,33 +59413,33 @@ ev’t
 ´iv
 )
 
-421 
+428 
 __COMMON_FUNC_ENTER__
 ;
 
-423 
+430 
 ev’t
 ) {
 
-424 
+431 
 UG_EVENT_LOW_MEMORY
 :
 
-426 
+433 
 UG_EVENT_LOW_BATTERY
 :
 
-428 
+435 
 UG_EVENT_LANG_CHANGE
 :
 
-429 
+436 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "LANGUAGE");
 
-430 ià(
+437 ià(
 UG_VIEW_SETUP_WIZARD
  =ğ
 ug_­p_¡©e
@@ -59405,55 +59447,55 @@ ug_­p_¡©e
 ug_ty³
 )
 
-431 
+438 
 	`_Ïnguage_chªged
 ();
 
-433 
+440 
 UG_EVENT_ROTATE_PORTRAIT
 :
 
-434 
+441 
 UG_EVENT_ROTATE_PORTRAIT_UPSIDEDOWN
 :
 
-435 
+442 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "PORTRAIT");
 
-436 
+443 
 	`v›w”_mªag”_rÙ©e_tİ_£tupwiz¬d_Ïyout
 ();
 
-438 
+445 
 UG_EVENT_ROTATE_LANDSCAPE
 :
 
-439 
+446 
 UG_EVENT_ROTATE_LANDSCAPE_UPSIDEDOWN
 :
 
-440 
+447 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "LANSCAPE");
 
-441 
+448 
 	`v›w”_mªag”_rÙ©e_tİ_£tupwiz¬d_Ïyout
 ();
 
-447 
+454 
 __COMMON_FUNC_EXIT__
 ;
 
-448 
+455 
 	}
 }
 
-450 
+457 
 	$Ú_key_ev’t
 (
 ui_gadg‘_h
@@ -59471,39 +59513,39 @@ ev’t
 ´iv
 )
 
-452 
+459 
 __COMMON_FUNC_ENTER__
 ;
 
-454 ià(!
+461 ià(!
 ug
 ) {
 
-455 
+462 
 __COMMON_FUNC_EXIT__
 ;
 
-459 
+466 
 ev’t
 ) {
 
-460 
+467 
 UG_KEY_EVENT_END
 :
 
-461 
+468 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "UG_KEY_EVENT_END");
 
-463 #ià
+470 #ià
 defšed
  
 TIZEN_TETHERING_ENABLE
 
 
-465 
+472 
 	`wš£t_pİup_hide_pİup
 (
 ug_­p_¡©e
@@ -59511,7 +59553,7 @@ ug_­p_¡©e
 pİup_mªag”
 );
 
-467 
+474 
 v›w_mªag”_v›w_ty³_t
  
 tİ_v›w_id
@@ -59519,39 +59561,39 @@ tİ_v›w_id
 	`v›w”_mªag”_v›w_ty³_g‘
 ();
 
-468 ià(
+475 ià(
 tİ_v›w_id
  =ğ
 VIEW_MANAGER_VIEW_TYPE_MAIN
 ) {
 
-469 
+476 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "same");
 
-471 
+478 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "differ");
 
-472 
+479 
 	`–m_Çviäame_™em_pİ
 (
 	`v›w”_mªag”_g‘_Çviäame
 ());
 
-474 
+481 
 __COMMON_FUNC_EXIT__
 ;
 
-478 
+485 
 	`wifi_ex™
 ();
 
-481 
+488 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
@@ -59559,15 +59601,15 @@ UG_NAME_NORMAL
 ev’t
 );
 
-485 
+492 
 __COMMON_FUNC_EXIT__
 ;
 
-486 
+493 
 	}
 }
 
-488 
+495 
 UG_MODULE_API
  
 	$UG_MODULE_INIT
@@ -59577,17 +59619,17 @@ ug_moduË_İs
 İs
 )
 
-490 
+497 
 __COMMON_FUNC_ENTER__
 ;
 
-492 
+499 
 wifi_ex™_’d
  = 
 FALSE
 ;
 
-494 
+501 
 	`»tvm_if
 (
 NULL
@@ -59595,13 +59637,13 @@ NULL
 İs
 , 0);
 
-496 
+503 
 ug_d©a
  *
 ugd
 ;
 
-497 
+504 
 ugd
  = 
 	`ÿÎoc
@@ -59609,7 +59651,7 @@ ugd
 ug_d©a
 ));
 
-499 
+506 
 	`as£¹m_if
 (
 NULL
@@ -59617,7 +59659,7 @@ NULL
 ugd
 , "Err!! calloc fail");
 
-501 
+508 
 İs
 ->
 ü—‹
@@ -59625,7 +59667,7 @@ ugd
 Ú_ü—‹
 ;
 
-502 
+509 
 İs
 ->
 ¡¬t
@@ -59633,7 +59675,7 @@ ugd
 Ú_¡¬t
 ;
 
-503 
+510 
 İs
 ->
 ·u£
@@ -59641,7 +59683,7 @@ ugd
 Ú_·u£
 ;
 
-504 
+511 
 İs
 ->
 »sume
@@ -59649,7 +59691,7 @@ ugd
 Ú_»sume
 ;
 
-505 
+512 
 İs
 ->
 de¡roy
@@ -59657,7 +59699,7 @@ de¡roy
 Ú_de¡roy
 ;
 
-506 
+513 
 İs
 ->
 mes§ge
@@ -59665,7 +59707,7 @@ mes§ge
 Ú_mes§ge
 ;
 
-507 
+514 
 İs
 ->
 ev’t
@@ -59673,7 +59715,7 @@ ev’t
 Ú_ev’t
 ;
 
-508 
+515 
 İs
 ->
 key_ev’t
@@ -59681,7 +59723,7 @@ key_ev’t
 Ú_key_ev’t
 ;
 
-509 
+516 
 İs
 ->
 ´iv
@@ -59689,7 +59731,7 @@ key_ev’t
 ugd
 ;
 
-510 
+517 
 İs
 ->
 İt
@@ -59697,15 +59739,15 @@ ugd
 UG_OPT_INDICATOR_ENABLE
 ;
 
-512 
+519 
 __COMMON_FUNC_EXIT__
 ;
 
-514 
+521 
 	}
 }
 
-516 
+523 
 UG_MODULE_API
  
 	$UG_MODULE_EXIT
@@ -59715,11 +59757,11 @@ ug_moduË_İs
 İs
 )
 
-518 
+525 
 __COMMON_FUNC_ENTER__
 ;
 
-520 
+527 
 	`»tm_if
 (
 NULL
@@ -59727,13 +59769,13 @@ NULL
 İs
 );
 
-522 
+529 
 ug_d©a
  *
 ugd
 ;
 
-524 
+531 
 ugd
  = 
 İs
@@ -59741,25 +59783,25 @@ ugd
 ´iv
 ;
 
-526 ià(
+533 ià(
 ugd
 ) {
 
-527 
+534 
 	`ä“
 (
 ugd
 );
 
-530 
+537 
 __COMMON_FUNC_EXIT__
 ;
 
-531 
+538 
 	}
 }
 
-533 
+540 
 boŞ
  
 	$£‰šg_¶ugš_wifi_found_­_cb
@@ -59771,7 +59813,7 @@ wifi_­_h
 u£r_d©a
 )
 
-535 
+542 
 boŞ
  
 çvÜ™e
@@ -59779,11 +59821,11 @@ boŞ
 çl£
 ;
 
-536 
+543 
 	`MIN_LOG
 ("wifi_ap_is_favorite called");
 
-537 
+544 
 	`wifi_­_is_çvÜ™e
 (
 ­
@@ -59791,27 +59833,27 @@ boŞ
 çvÜ™e
 );
 
-539 ià(
+546 ià(
 Œue
  =ğ
 çvÜ™e
 ) {
 
-540 
+547 
 	`wÏn_mªag”_fÜg‘
 (
 ­
 );
 
-543  
+550  
 Œue
 ;
 
-544 
+551 
 	}
 }
 
-546 
+553 
 UG_MODULE_API
  
 	$£‰šg_¶ugš_»£t
@@ -59823,27 +59865,27 @@ d©a
 ´iv
 )
 
-548 
+555 
 __COMMON_FUNC_ENTER__
 ;
 
-550 
+557 
 »tuº_v®ue
  = 0;
 
-552 
+559 
 »tuº_v®ue
  = 
 	`wÏn_mªag”_¡¬t
 ();
 
-553 ià(
+560 ià(
 »tuº_v®ue
  !ğ
 WLAN_MANAGER_ERR_NONE
 ) {
 
-554 
+561 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -59851,15 +59893,15 @@ UG_NAME_NORMAL
 »tuº_v®ue
 );
 
-555 
+562 
 »tuº_v®ue
  = -1;
 
-556 
+563 
 ”rÜ
 ;
 
-559 
+566 
 	`wifi_fÜ—ch_found_­s
 (
 £‰šg_¶ugš_wifi_found_­_cb
@@ -59867,19 +59909,19 @@ UG_NAME_NORMAL
 NULL
 );
 
-560 
+567 
 »tuº_v®ue
  = 
 	`wÏn_mªag”_pow”_off
 ();
 
-561 ià(
+568 ià(
 »tuº_v®ue
  !ğ
 WLAN_MANAGER_ERR_NONE
 ) {
 
-562 
+569 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -59887,85 +59929,85 @@ UG_NAME_NORMAL
 »tuº_v®ue
 );
 
-563 
+570 
 »tuº_v®ue
  = -1;
 
-564 
+571 
 ”rÜ
 ;
 
-567 
+574 
 	`commÚ_ut_£t_sy¡em_»gi¡ry
 (
 VCONFKEY_WIFI_ENABLE_QS
 ,
 
-568 
+575 
 VCONFKEY_WIFI_QS_ENABLE
 );
 
-570 
+577 
 ”rÜ
 :
 
-571 
+578 
 	`wÏn_mªag”_de¡roy
 ();
 
-573 
+580 
 __COMMON_FUNC_EXIT__
 ;
 
-574  
+581  
 »tuº_v®ue
 ;
 
-575 
+582 
 	}
 }
 
-577 
+584 
 	$wifi_ex™
 ()
 
-579 
+586 
 __COMMON_FUNC_ENTER__
 ;
 
-581 ià(
+588 ià(
 wifi_ex™_’d
  =ğ
 TRUE
 ) {
 
-582 
+589 
 __COMMON_FUNC_EXIT__
 ;
 
-583  
+590  
 FALSE
 ;
 
-585 
+592 
 wifi_ex™_’d
  = 
 TRUE
 ;
 
-587 
+594 
 »t
  = 
 WLAN_MANAGER_ERR_NONE
 ;
 
-588 
+595 
 ug_d©a
  *
 ugd
 ;
 
-589 
+596 
 ugd
  = 
 ug_­p_¡©e
@@ -59973,7 +60015,7 @@ ug_­p_¡©e
 gadg‘
 ;
 
-590 
+597 
 ug_­p_¡©e
 ->
 bAlive
@@ -59981,33 +60023,33 @@ bAlive
 EINA_FALSE
 ;
 
-592 
+599 
 	`cÚnmª_»que¡_sÿn_mode_£t
 (
 WIFI_BGSCAN_MODE_EXPONENTIAL
 );
 
-594 
+601 
 	`commÚ_ut_mªaged_idË_ş—nup
 ();
 
-595 
+602 
 	`commÚ_ut_mªaged_ecÜe_sÿn_upd©e_tim”_d–
 ();
 
-597 
+604 
 »t
  = 
 	`wÏn_mªag”_de¡roy
 ();
 
-598 ià(
+605 ià(
 »t
  !ğ
 WLAN_MANAGER_ERR_NONE
 ) {
 
-599 
+606 
 	`ERROR_LOG
 (
 UG_NAME_NORMAL
@@ -60015,19 +60057,19 @@ UG_NAME_NORMAL
 »t
 );
 
-601 
+608 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "* wlan manager destroy complete");
 
-604 
+611 
 	`DEBUG_LOG
 (
 UG_NAME_NORMAL
 , "* ug_destroying...");
 
-605 
+612 
 	`ug_de¡roy_me
 (
 ugd
@@ -60035,33 +60077,33 @@ ugd
 ug
 );
 
-607 
+614 
 __COMMON_FUNC_EXIT__
 ;
 
-608  
+615  
 TRUE
 ;
 
-609 
+616 
 	}
 }
 
-611 
+618 
 boŞ
  
 	$wifi_is_sÿn_»quœed
 ()
 
-613  
+620  
 is_sÿn_»qd
 ;
 
-614 
+621 
 	}
 }
 
-616 
+623 
 UG_MODULE_API
  
 	$£‰šg_¶ugš_£¬ch_š™
@@ -60075,13 +60117,13 @@ UG_MODULE_API
 domašÇme
 )
 
-618 *
+625 *
 node
  = 
 NULL
 ;
 
-619 *
+626 *
 domašÇme
  = 
 	`¡rdup
@@ -60089,7 +60131,7 @@ domašÇme
 PACKAGE
 );
 
-620 
+627 
 Eša_Li¡
  **
 µli¡
@@ -60097,17 +60139,17 @@ Eša_Li¡
 ´iv
 ;
 
-622 
+629 
 node
  = 
 	`£‰šg_¶ugš_£¬ch_™em_add
 ("IDS_ST_BODY_NETWORK_NOTIFICATION",
 
-623 "v›wty³:advªûd£‰šg", 
+630 "v›wty³:advªûd£‰šg", 
 NULL
 , 5, NULL);
 
-624 *
+631 *
 µli¡
  = 
 	`eša_li¡_­³nd
@@ -60115,17 +60157,17 @@ NULL
 node
 );
 
-625 
+632 
 node
  = 
 	`£‰šg_¶ugš_£¬ch_™em_add
 ("IDS_WIFI_TMBODY_SMART_NETWORK_SWITCH",
 
-626 "v›wty³:mašv›w", 
+633 "v›wty³:mašv›w", 
 NULL
 , 5, NULL);
 
-627 *
+634 *
 µli¡
  = 
 	`eša_li¡_­³nd
@@ -60133,17 +60175,17 @@ NULL
 node
 );
 
-628 
+635 
 node
  = 
 	`£‰šg_¶ugš_£¬ch_™em_add
 ("IDS_WIFI_HEADER_PASSPOINT",
 
-629 "v›wty³:advªûd£‰šg", 
+636 "v›wty³:advªûd£‰šg", 
 NULL
 , 5, NULL);
 
-630 *
+637 *
 µli¡
  = 
 	`eša_li¡_­³nd
@@ -60151,17 +60193,17 @@ NULL
 node
 );
 
-631 
+638 
 node
  = 
 	`£‰šg_¶ugš_£¬ch_™em_add
 ("IDS_ST_BODY_KEEP_WI_FI_ON_DURING_SLEEP",
 
-632 "v›wty³:advªûd£‰šg", 
+639 "v›wty³:advªûd£‰šg", 
 NULL
 , 5, NULL);
 
-633 *
+640 *
 µli¡
  = 
 	`eša_li¡_­³nd
@@ -60169,17 +60211,17 @@ NULL
 node
 );
 
-634 
+641 
 node
  = 
 	`£‰šg_¶ugš_£¬ch_™em_add
 ("IDS_ST_MBODY_ALWAYS_ALLOW_SCANNING",
 
-635 "v›wty³:advªûd£‰šg", 
+642 "v›wty³:advªûd£‰šg", 
 NULL
 , 5, NULL);
 
-636 *
+643 *
 µli¡
  = 
 	`eša_li¡_­³nd
@@ -60187,17 +60229,17 @@ NULL
 node
 );
 
-637 
+644 
 node
  = 
 	`£‰šg_¶ugš_£¬ch_™em_add
 ("IDS_WIFI_BODY_ADVANCED_SETTINGS",
 
-638 "v›wty³:advªûd£‰šg", 
+645 "v›wty³:advªûd£‰šg", 
 NULL
 , 5, NULL);
 
-639 *
+646 *
 µli¡
  = 
 	`eša_li¡_­³nd
@@ -60205,11 +60247,11 @@ NULL
 node
 );
 
-642 
+649 
 	}
 }
 
-	@sources/ui-gadget/wifi-wlan-callbacks.c
+	@ui-gadget/wifi-wlan-callbacks.c
 
 20 
 	~<vcÚf.h
@@ -60266,10 +60308,6 @@ u£r_d©a
 35 
 __COMMON_FUNC_ENTER__
 ;
-
-36 
-	`MIN_LOG
-("WLAN_ENGINE_CALLBACK!!!!!!");
 
 37 ià(
 ev’t_šfo
@@ -60361,10 +60399,6 @@ ev’t_šfo
 ­
 ) {
 
-57 
-	`MIN_LOG
-("EVENT_INFO->AP");
-
 61 
 rg‘_™em
  = 
@@ -60390,10 +60424,6 @@ ug_g’li¡_d©a_t
 ))) {
 
 69 
-	`MIN_LOG
-("TARGET_ITEM NOT FOUND");
-
-70 
 	`ERROR_LOG
 (
 UG_NAME_RESP
@@ -60403,7 +60433,7 @@ UG_NAME_RESP
 gd©a
 );
 
-71 ià(
+70 ià(
 ev’t_šfo
 ->
 ev’t_ty³
@@ -60411,7 +60441,7 @@ ev’t_ty³
 WLAN_MANAGER_RESPONSE_TYPE_CONNECTING
  ||
 
-72 
+71 
 ev’t_šfo
 ->
 ev’t_ty³
@@ -60419,7 +60449,7 @@ ev’t_ty³
 WLAN_MANAGER_RESPONSE_TYPE_CONFIGURATION
  ||
 
-73 
+72 
 ev’t_šfo
 ->
 ev’t_ty³
@@ -60427,7 +60457,7 @@ ev’t_ty³
 WLAN_MANAGER_RESPONSE_TYPE_CONNECTION_OK
 ) {
 
-77 
+76 
 wifi_deviû
  = 
 	`v›w_li¡_™em_deviû_šfo_ü—‹
@@ -60437,15 +60467,7 @@ ev’t_šfo
 ­
 );
 
-78 
-	`MINI_LOG
-("wifi_deviû->ssid : % !!!!", 
-wifi_deviû
-->
-ssid
-);
-
-79 if(
+78 if(
 	`g_¡rcmp0
 (
 wifi_deviû_bt
@@ -60455,7 +60477,7 @@ ssid
 wifi_deviû
 ->ssid) == 0)
 
-81 
+80 
 wifi_deviû
 ->
 is_bt_‹th”ed_deviû
@@ -60463,11 +60485,11 @@ is_bt_‹th”ed_deviû
 Œue
 ;
 
-82 
+81 
 	`MIN_LOG
 ("Found Bluetooth Tethered WI-FI");
 
-84 
+83 
 rg‘_™em
  = 
 	`v›w”_li¡_™em_š£¹_aá”
@@ -60477,7 +60499,7 @@ wifi_deviû
 NULL
 );
 
-88 
+87 
 rg‘_™em
  = 
 	`v›w”_li¡_™em_š£¹_aá”
@@ -60487,11 +60509,11 @@ wifi_deviû
 NULL
 );
 
-91 ià(!
+90 ià(!
 rg‘_™em
  ||
 
-92 !(
+91 !(
 gd©a
  = (
 ug_g’li¡_d©a_t
@@ -60501,7 +60523,7 @@ ug_g’li¡_d©a_t
 rg‘_™em
 ))) {
 
-93 
+92 
 	`ERROR_LOG
 (
 UG_NAME_RESP
@@ -60509,125 +60531,125 @@ UG_NAME_RESP
 gd©a
 );
 
-95 
+94 
 ex™
 ;
 
-98 
+97 
 	`ERROR_LOG
 (
 UG_NAME_RESP
 , "Fatal:arget_item or gdata is NULL");
 
-100 
+99 
 ex™
 ;
 
-107 
+106 
 ev’t_šfo
 ->
 ev’t_ty³
 ) {
 
-108 
+107 
 WLAN_MANAGER_RESPONSE_TYPE_POWER_ON_OK
 :
 
-109 
+108 
 	`v›w”_mªag”_show
 (
 VIEWER_WINSET_SEARCHING
 );
 
-110 
+109 
 	`v›w”_mªag”_show
 (
 VIEWER_WINSET_SUB_CONTENTS
 );
 
-111 
+110 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_SEARCHING
 );
 
-114 
+113 
 WLAN_MANAGER_RESPONSE_TYPE_POWER_OFF_OK
 :
 
-115 
+114 
 	`v›w”_mªag”_ş—nup_v›ws
 ();
 
-116 
+115 
 	`v›w”_li¡_sÿÂed_­_li¡_ä“
 ();
 
-117 
+116 
 	`v›w”_li¡_™em_ş—r
 ();
 
-118 
+117 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_OFF
 );
 
-119 
+118 
 	`v›w”_mªag”_hide
 (
 VIEWER_WINSET_SUB_CONTENTS
 );
 
-123 
+122 
 WLAN_MANAGER_RESPONSE_TYPE_POWER_ON_NOT_SUPPORTED
 :
 
-124 
+123 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_OFF
 );
 
-125 
+124 
 	`commÚ_uts_£nd_mes§ge_to_Ãt_pİup
 ("N‘wÜk cÚÃùiÚ…İup", "nÙ suµÜt", "nÙifiÿtiÚ", 
 NULL
 );
 
-128 
+127 
 WLAN_MANAGER_RESPONSE_TYPE_POWER_ON_RESTRICTED
 :
 
-129 
+128 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_OFF
 );
 
-130 
+129 
 	`commÚ_uts_£nd_mes§ge_to_Ãt_pİup
 ("N‘wÜk cÚÃùiÚ…İup", "wif˜»¡riùed", "pİup", 
 NULL
 );
 
-133 
+132 
 WLAN_MANAGER_RESPONSE_TYPE_SCAN_OK
 :
 
-135 ià(
+134 ià(
 HEADER_MODE_DEACTIVATING
  =ğ
 h—d”_¡©e
  ||
 
-136 
+135 
 HEADER_MODE_OFF
  =ğ
 h—d”_¡©e
 ) {
 
-140 ià(
+139 ià(
 ug_­p_¡©e
 ->
 ug_ty³
@@ -60635,25 +60657,25 @@ ug_ty³
 UG_VIEW_SETUP_WIZARD
 ) {
 
-141 
+140 
 	`v›w”_mªag”_upd©e_hidd’_bŠ
 ();
 
-142 
+141 
 	`v›w”_mªag”_upd©e_£tup_wiz¬d_sÿn_bŠ
 ();
 
-145 
+144 
 	`v›w”_mªag”_hide
 (
 VIEWER_WINSET_SEARCHING
 );
 
-147 
+146 
 WLAN_MANAGER_RESPONSE_TYPE_SCAN_RESULT_IND
 :
 
-150 
+149 
 	`vcÚf_g‘_št
 (
 VCONFKEY_WIFI_UG_RUN_STATE
@@ -60661,125 +60683,125 @@ VCONFKEY_WIFI_UG_RUN_STATE
 ug_¡©e
 );
 
-151 ià(
+150 ià(
 ug_¡©e
  =ğ
 VCONFKEY_WIFI_UG_RUN_STATE_ON_FOREGROUND
 ) {
 
-152 
+151 
 	`wÏn_mªag”_sÿÂed_´ofe_»äesh
 ();
 
-154 
+153 
 	`INFO_LOG
 (
 UG_NAME_NORMAL
 , "Skipping„efresh. UG state - [%d]",
 
-155 
+154 
 ug_¡©e
 );
 
-160 
+159 
 WLAN_MANAGER_RESPONSE_TYPE_CONNECTING
 :
 
-161 
+160 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_CONNECTING
 );
 
-163 
+162 
 	`v›w”_mªag”_»äesh_­_šfo
 (
 rg‘_™em
 );
 
-164 
+163 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
 ,
 
-165 
+164 
 VIEWER_ITEM_RADIO_MODE_CONNECTING
 );
 
-166 
+165 
 	`v›w”_mªag”_move_™em_to_tİ
 (
 rg‘_™em
 );
 
-167 
+166 
 	`v›w”_mªag”_move_to_tİ
 ();
 
-170 
+169 
 WLAN_MANAGER_RESPONSE_TYPE_CONFIGURATION
 :
 
-171 
+170 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_CONNECTING
 );
 
-173 
+172 
 	`v›w”_mªag”_»äesh_­_šfo
 (
 rg‘_™em
 );
 
-174 
+173 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
 ,
 
-175 
+174 
 VIEWER_ITEM_RADIO_MODE_CONFIGURATION
 );
 
-178 
+177 
 WLAN_MANAGER_RESPONSE_TYPE_CONNECTION_OK
 :
 
-179 
+178 
 WLAN_MANAGER_RESPONSE_TYPE_WPS_ENROLL_OK
 :
 
-180 
+179 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_CONNECTED
 );
 
-182 
+181 
 	`v›w”_mªag”_»äesh_­_šfo
 (
 rg‘_™em
 );
 
-183 
+182 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
 ,
 
-184 
+183 
 VIEWER_ITEM_RADIO_MODE_CONNECTED
 );
 
-186 ià(
+185 ià(
 ug_­p_¡©e
 ->
 ·s¥İup
  &&
 
-187 
+186 
 ug_­p_¡©e
 ->
 ·s¥İup
@@ -60787,7 +60809,7 @@ ug_­p_¡©e
 pbc_pİup_d©a
 ) {
 
-189 
+188 
 	`·sswd_pİup_ä“
 (
 ug_­p_¡©e
@@ -60795,7 +60817,7 @@ ug_­p_¡©e
 ·s¥İup
 );
 
-190 
+189 
 ug_­p_¡©e
 ->
 ·s¥İup
@@ -60803,17 +60825,17 @@ ug_­p_¡©e
 NULL
 ;
 
-194 
+193 
 WLAN_MANAGER_RESPONSE_TYPE_CONNECTION_CONNECT_FAILED
 :
 
-195 
+194 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_ON
 );
 
-196 
+195 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
@@ -60821,11 +60843,11 @@ HEADER_MODE_ON
 VIEWER_ITEM_RADIO_MODE_OFF
 );
 
-197 ià(
+196 ià(
 gd©a
 )
 
-198 
+197 
 	`v›w”_li¡_wifi_»cÚÃù
 (
 gd©a
@@ -60833,17 +60855,17 @@ gd©a
 deviû_šfo
 );
 
-201 
+200 
 WLAN_MANAGER_RESPONSE_TYPE_WPS_ENROLL_FAIL
 :
 
-202 
+201 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_ON
 );
 
-203 
+202 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
@@ -60851,13 +60873,13 @@ HEADER_MODE_ON
 VIEWER_ITEM_RADIO_MODE_OFF
 );
 
-205 ià(
+204 ià(
 ug_­p_¡©e
 ->
 ·s¥İup
  &&
 
-206 
+205 
 ug_­p_¡©e
 ->
 ·s¥İup
@@ -60865,7 +60887,7 @@ ug_­p_¡©e
 pbc_pİup_d©a
 ) {
 
-207 
+206 
 	`·sswd_pİup_ä“
 (
 ug_­p_¡©e
@@ -60873,7 +60895,7 @@ ug_­p_¡©e
 ·s¥İup
 );
 
-208 
+207 
 ug_­p_¡©e
 ->
 ·s¥İup
@@ -60881,17 +60903,17 @@ ug_­p_¡©e
 NULL
 ;
 
-212 
+211 
 WLAN_MANAGER_RESPONSE_TYPE_DISCONNECTION_OK
 :
 
-213 
+212 
 	`v›w”_mªag”_»äesh_­_šfo
 (
 rg‘_™em
 );
 
-214 
+213 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
@@ -60899,17 +60921,17 @@ WLAN_MANAGER_RESPONSE_TYPE_DISCONNECTION_OK
 VIEWER_ITEM_RADIO_MODE_OFF
 );
 
-215 
+214 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_ON
 );
 
-219 
+218 
 WLAN_MANAGER_RESPONSE_TYPE_CANCEL_WPS_ENROLL_OK
 :
 
-220 
+219 
 	`v›w”_li¡_™em_¿dio_mode_£t
 (
 rg‘_™em
@@ -60917,33 +60939,33 @@ WLAN_MANAGER_RESPONSE_TYPE_CANCEL_WPS_ENROLL_OK
 VIEWER_ITEM_RADIO_MODE_OFF
 );
 
-221 
+220 
 	`v›w”_mªag”_h—d”_mode_£t
 (
 HEADER_MODE_ON
 );
 
-224 
+223 
 WLAN_MANAGER_RESPONSE_TYPE_CANCEL_WPS_ENROLL_FAIL
 :
 
-227 
+226 
 WLAN_MANAGER_RESPONSE_TYPE_MAC_ID_IND
 :
 
-230 
+229 
 WLAN_MANAGER_RESPONSE_TYPE_SPECIFIC_SCAN_FAIL
 :
 
-231 
+230 
 WLAN_MANAGER_RESPONSE_TYPE_SPECIFIC_SCAN_OK
 :
 
-232 
+231 
 	`v›w”_mªag”_¥ecific_sÿn_»¥Ú£_hÌ
 (
 
-233 
+232 
 ev’t_šfo
 ->
 bss_šfo_li¡
@@ -60951,33 +60973,33 @@ bss_šfo_li¡
 u£r_d©a
 );
 
-236 
+235 
 WLAN_MANAGER_RESPONSE_TYPE_UPDATE_WIFI_RSSI
 :
 
-237 
+236 
 	`v›w”_mªag”_upd©e_rssi
 ();
 
-240 
+239 
 WLAN_MANAGER_RESPONSE_TYPE_CONNECTION_INVALID_KEY
 :
 
-241 
+240 
 	`commÚ_uts_£nd_mes§ge_to_Ãt_pİup
 (
 
-243 "tß¡_pİup", 
+242 "tß¡_pİup", 
 NULL
 );
 
-245 ià(
+244 ià(
 gd©a
  =ğ
 NULL
 ) {
 
-249 
+248 
 	`v›w”_li¡_wifi_cÚÃù
 (
 gd©a
@@ -60985,47 +61007,47 @@ gd©a
 deviû_šfo
 );
 
-252 
+251 
 WLAN_MANAGER_RESPONSE_TYPE_NONE
 :
 
-257 
+256 
 ex™
 :
 
-258 
+257 
 	`wÏn_v®id©e_®t_cÚÃùiÚ
 ();
 
-260 
+259 
 __COMMON_FUNC_EXIT__
 ;
 
-261 
+260 
 	}
 }
 
-263 
+262 
 	$wÏn_’gše_»äesh_ÿÎback
 ()
 
-265 
+264 
 __COMMON_FUNC_ENTER__
 ;
 
-267 
+266 
 	`v›w”_mªag”_»äesh
 ();
 
-269 
+268 
 __COMMON_FUNC_EXIT__
 ;
 
-270 
+269 
 	}
 }
 
-	@sources/ui-gadget/winset_popup.c
+	@ui-gadget/winset_popup.c
 
 20 
 	~<‹th”šg.h
@@ -62083,7 +62105,7 @@ TRUE
 	}
 }
 
-	@sources/wifi-syspopup/include/wifi-syspopup-engine-callback.h
+	@wifi-syspopup/include/wifi-syspopup-engine-callback.h
 
 20 #iâdeà
 __WIFI_SYSPOPUP_ENGINE_CALLBACK_H__
@@ -62137,7 +62159,7 @@ u£r_d©a
 __ılu¥lus
 
 
-	@sources/wifi-syspopup/include/wifi-syspopup.h
+	@wifi-syspopup/include/wifi-syspopup.h
 
 20 #iâdeà
 __WIFI_SYSPOPUP_H__
@@ -62395,7 +62417,7 @@ wifi_devpkr_g‘_sÿn_¡©us
 __ılu¥lus
 
 
-	@sources/wifi-syspopup/viewer-popups/include/view-alerts.h
+	@wifi-syspopup/viewer-popups/include/view-alerts.h
 
 20 #iâdeà
 __WIFI_SYSPOPUP_VIEW_ALERTS_H__
@@ -62425,7 +62447,7 @@ v›w_®”ts_pİup_show
 __ılu¥lus
 
 
-	@sources/wifi-syspopup/viewer-popups/include/view-main.h
+	@wifi-syspopup/viewer-popups/include/view-main.h
 
 20 #iâdeà
 __WIFI_SYSPOPUP_VIEW_MAIN_H__
@@ -62523,7 +62545,7 @@ is_bg_sÿn
 __ılu¥lus
 
 
-	@sources/wifi-syspopup/viewer-popups/view-alerts.c
+	@wifi-syspopup/viewer-popups/view-alerts.c
 
 20 
 	~"commÚ.h
@@ -62863,7 +62885,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/wifi-syspopup/viewer-popups/view-main.c
+	@wifi-syspopup/viewer-popups/view-main.c
 
 20 
 	~<utX.h
@@ -67383,7 +67405,7 @@ FALSE
 	}
 }
 
-	@sources/wifi-syspopup/wifi-syspopup-engine-callback.c
+	@wifi-syspopup/wifi-syspopup-engine-callback.c
 
 20 
 	~<vcÚf-keys.h
@@ -67905,7 +67927,7 @@ __COMMON_FUNC_EXIT__
 	}
 }
 
-	@sources/wifi-syspopup/wifi-syspopup.c
+	@wifi-syspopup/wifi-syspopup.c
 
 20 
 	~<wifi.h
@@ -261283,60 +261305,60 @@ __ASM_GENERIC_SOCKIOS_H
 1
 /usr/include
 175
-6012
-sources/libraries/Common/common_bt.c
-sources/libraries/Common/common_eap_connect.c
-sources/libraries/Common/common_generate_pin.c
-sources/libraries/Common/common_ip_info.c
-sources/libraries/Common/common_pswd_popup.c
-sources/libraries/Common/common_utils.c
-sources/libraries/Common/include/common.h
-sources/libraries/Common/include/common_bt.h
-sources/libraries/Common/include/common_eap_connect.h
-sources/libraries/Common/include/common_generate_pin.h
-sources/libraries/Common/include/common_ip_info.h
-sources/libraries/Common/include/common_pswd_popup.h
-sources/libraries/Common/include/common_utils.h
-sources/libraries/WlanManager/EngineManager/connman-request.c
-sources/libraries/WlanManager/EngineManager/connman-response.c
-sources/libraries/WlanManager/EngineManager/include/connman-request.h
-sources/libraries/WlanManager/EngineManager/include/connman-response.h
-sources/libraries/WlanManager/WlanManager/connection_manager.c
-sources/libraries/WlanManager/WlanManager/include/connection_manager.h
-sources/libraries/WlanManager/WlanManager/include/wlan_connection.h
-sources/libraries/WlanManager/WlanManager/include/wlan_manager.h
-sources/libraries/WlanManager/WlanManager/wlan_connection.c
-sources/libraries/WlanManager/WlanManager/wlan_manager.c
-sources/libraries/appcoreWrapper/appcoreWrapper.c
-sources/libraries/appcoreWrapper/include/appcoreWrapper.h
-sources/libraries/i18nManager/i18nmanager.c
-sources/libraries/i18nManager/include/i18nmanager.h
-sources/ui-gadget/bt_tethered_service.c
-sources/ui-gadget/include/bt_tethered_service.h
-sources/ui-gadget/include/ug_wifi.h
-sources/ui-gadget/include/viewer_list.h
-sources/ui-gadget/include/viewer_manager.h
-sources/ui-gadget/include/wifi-engine-callback.h
-sources/ui-gadget/include/winset_popup.h
-sources/ui-gadget/viewers-layout/include/view_advanced.h
-sources/ui-gadget/viewers-layout/include/view_detail.h
-sources/ui-gadget/viewers-layout/include/view_ime_hidden.h
-sources/ui-gadget/viewers-layout/view_advanced.c
-sources/ui-gadget/viewers-layout/view_detail.c
-sources/ui-gadget/viewers-layout/view_ime_hidden.c
-sources/ui-gadget/viewers-layout/viewer_manager.c
-sources/ui-gadget/viewers-layout/wifi_viewer_list.c
-sources/ui-gadget/wifi-efl-UG.c
-sources/ui-gadget/wifi-wlan-callbacks.c
-sources/ui-gadget/winset_popup.c
-sources/wifi-syspopup/include/wifi-syspopup-engine-callback.h
-sources/wifi-syspopup/include/wifi-syspopup.h
-sources/wifi-syspopup/viewer-popups/include/view-alerts.h
-sources/wifi-syspopup/viewer-popups/include/view-main.h
-sources/wifi-syspopup/viewer-popups/view-alerts.c
-sources/wifi-syspopup/viewer-popups/view-main.c
-sources/wifi-syspopup/wifi-syspopup-engine-callback.c
-sources/wifi-syspopup/wifi-syspopup.c
+5588
+libraries/Common/common_bt.c
+libraries/Common/common_eap_connect.c
+libraries/Common/common_generate_pin.c
+libraries/Common/common_ip_info.c
+libraries/Common/common_pswd_popup.c
+libraries/Common/common_utils.c
+libraries/Common/include/common.h
+libraries/Common/include/common_bt.h
+libraries/Common/include/common_eap_connect.h
+libraries/Common/include/common_generate_pin.h
+libraries/Common/include/common_ip_info.h
+libraries/Common/include/common_pswd_popup.h
+libraries/Common/include/common_utils.h
+libraries/WlanManager/EngineManager/connman-request.c
+libraries/WlanManager/EngineManager/connman-response.c
+libraries/WlanManager/EngineManager/include/connman-request.h
+libraries/WlanManager/EngineManager/include/connman-response.h
+libraries/WlanManager/WlanManager/connection_manager.c
+libraries/WlanManager/WlanManager/include/connection_manager.h
+libraries/WlanManager/WlanManager/include/wlan_connection.h
+libraries/WlanManager/WlanManager/include/wlan_manager.h
+libraries/WlanManager/WlanManager/wlan_connection.c
+libraries/WlanManager/WlanManager/wlan_manager.c
+libraries/appcoreWrapper/appcoreWrapper.c
+libraries/appcoreWrapper/include/appcoreWrapper.h
+libraries/i18nManager/i18nmanager.c
+libraries/i18nManager/include/i18nmanager.h
+ui-gadget/bt_tethered_service.c
+ui-gadget/include/bt_tethered_service.h
+ui-gadget/include/ug_wifi.h
+ui-gadget/include/viewer_list.h
+ui-gadget/include/viewer_manager.h
+ui-gadget/include/wifi-engine-callback.h
+ui-gadget/include/winset_popup.h
+ui-gadget/viewers-layout/include/view_advanced.h
+ui-gadget/viewers-layout/include/view_detail.h
+ui-gadget/viewers-layout/include/view_ime_hidden.h
+ui-gadget/viewers-layout/view_advanced.c
+ui-gadget/viewers-layout/view_detail.c
+ui-gadget/viewers-layout/view_ime_hidden.c
+ui-gadget/viewers-layout/viewer_manager.c
+ui-gadget/viewers-layout/wifi_viewer_list.c
+ui-gadget/wifi-efl-UG.c
+ui-gadget/wifi-wlan-callbacks.c
+ui-gadget/winset_popup.c
+wifi-syspopup/include/wifi-syspopup-engine-callback.h
+wifi-syspopup/include/wifi-syspopup.h
+wifi-syspopup/viewer-popups/include/view-alerts.h
+wifi-syspopup/viewer-popups/include/view-main.h
+wifi-syspopup/viewer-popups/view-alerts.c
+wifi-syspopup/viewer-popups/view-main.c
+wifi-syspopup/wifi-syspopup-engine-callback.c
+wifi-syspopup/wifi-syspopup.c
 /usr/include/assert.h
 /usr/include/fcntl.h
 /usr/include/libintl.h

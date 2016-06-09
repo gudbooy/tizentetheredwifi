@@ -25,12 +25,16 @@
 
 static void __appcore_win_del(void *data, Evas_Object *obj, void *event)
 {
+	__COMMON_FUNC_ENTER__;
 	INFO_LOG(UG_NAME_NORMAL, "win_del");
+	__COMMON_FUNC_EXIT__;
 	elm_exit();
+	
 }
 
 Evas_Object* appcore_create_win(const char *name)
 {
+	__COMMON_FUNC_ENTER__;
 	Evas_Object *eo;
 	int w, h;
 
@@ -44,12 +48,13 @@ Evas_Object* appcore_create_win(const char *name)
 				&w, &h);
 		evas_object_resize(eo, w, h);
 	}
-
+	__COMMON_FUNC_EXIT__;
 	return eo;
 }
 
 Evas_Object* appcore_load_edj(Evas_Object *parent, const char *file, const char *group)
 {
+	__COMMON_FUNC_ENTER__;
 	Evas_Object *eo;
 	int r;
 
@@ -64,6 +69,6 @@ Evas_Object* appcore_load_edj(Evas_Object *parent, const char *file, const char 
 		evas_object_size_hint_weight_set(eo,
 				EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	}
-
+	__COMMON_FUNC_EXIT__;
 	return eo;
 }

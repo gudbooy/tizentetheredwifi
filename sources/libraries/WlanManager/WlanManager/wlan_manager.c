@@ -61,7 +61,8 @@ wifi_device_info_t *tether_device_get_singleton(void)
 	if(NULL == tether_device){
 		tether_device = (wifi_device_info_t*)g_new0(wifi_device_info_t, 1);
 		tether_device->ap = NULL;
-		tether_device->ssid = "Blutooth";
+		tether_device->ssid = (char*)malloc(sizeof(char)*1024);
+		tether_device->ssid = "BT"; 
 		tether_device->ap_status_txt = NULL;
 		tether_device->ap_image_path = NULL;
 		tether_device->is_bt_tethered_device = true;
@@ -125,7 +126,6 @@ int wlan_manager_start(void)
 	__COMMON_FUNC_ENTER__;
 
 	int ret = WLAN_MANAGER_ERR_NONE;
-
 	switch (wifi_initialize()) {
 	case WIFI_ERROR_NONE:
 		/* Register the callbacks */
